@@ -1,0 +1,9 @@
+Find Most Frequent Letters in String
+Preconditions:
+  - Hash Map contains letter in key and letter count in value. 
+Main Success Scenario:
+  1. Read each letter in string
+  2. Add letter & 1 to Hash Map if letter new to Hash Map. 
+  3. Update value by 1 if letter already in Hash Map. 
+  4. done reading letters in string. 
+  5. Get Key with max Value. 
