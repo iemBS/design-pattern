@@ -1,0 +1,12 @@
+Find first unique integer in a stream
+Preconditions:
+  - Unique integers are stored in key of a hash map. 
+  - Integer's position in stream stored in value for that key. 
+  - All keys being inserted are integers. 
+Main Success Scenario:
+  1. Insert key (integer) and value (stream position) pairs into hash map. 
+  2. Get key & valu epair with the lowest value. 
+Alternatives:
+  1a. Duplicate key triggers error
+    1a1. Delete existing key in hash map with same integer. 
+    
