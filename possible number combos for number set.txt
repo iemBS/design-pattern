@@ -13,3 +13,33 @@ Main Success Scenario:
   1. Apply permutation formula
   2. 3! / (3 - 3)! = 6
   
+  
+  
+Possible Number Combos for Number Set
+Preconditions:
+  - Allowed to use 0, 1, and X.
+  - X is 0 or 1. 
+  - n = # of digits allowed to be used = 3
+  - r = # of digits allowed in each combination = 3
+  - numerator = n! 
+  - denominator = (n-r)!
+  - perumation formula = numerator / denominator
+  - 0! = 1
+Main Success Scenario:
+  1. Apply permutation formula (treat X as a #)
+  2. 3! / (3 - 3)! = 6
+  3. Generate string versions of the combos
+      01x
+      0x1
+      10x
+      1x0
+      x01
+      x10
+  4. Put string versions of the combos in array 1. 
+  5. With a copy of array 1 swap out X with 0 and insert into array 2. 
+  6. With a copy of array 1 swap out X with 1 and insert into array 2. 
+  7. Count entries in array 
+Alternatives:
+  5a. array 2 does not allow duplicate values
+    5a1. if error, try insert next combo. 
+  
