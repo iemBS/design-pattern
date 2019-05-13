@@ -1,0 +1,14 @@
+Find First Non-Repeating Word in a File
+Preconditions:
+  - File is 100 GB
+  - File can be traversed only once
+  - Each node keeps a repeated words list
+  - Each node keeps a non-repeated words list
+  - Each node notifies other nodes of repeated words
+  - Each node notifies other nodes of non-repeated words
+Main Success Scenario:
+  1. Split file across N nodes in a Hadoop environment. 
+  2. Each node skips words in repeated words list. 
+  3. Each node adds words to non-repeated words list. 
+  4. Each node removes from non-repeated words list if found in repeated words list. 
+  5. Each node removes from non-repeated words list if already found in another node. 
