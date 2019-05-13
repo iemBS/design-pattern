@@ -1,3 +1,5 @@
+-- Check results using wolframalpha.com
+
 Possible Number Combos for Number Set
 Preconditions:
   - Allowed to use 1, 2, and 3. 
