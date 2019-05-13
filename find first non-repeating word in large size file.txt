@@ -1,0 +1,31 @@
+Find First Non-Repeating Word in a File
+Preconditions:
+  - File is 100 GB.
+  - File can be traversed only once.
+  - Each node keeps a repeated words list.
+  - Each node keeps a non-repeated words hash map.
+  - Each node notifies other nodes of repeated words after processing file section.
+  - Each node notifies other nodes of non-repeated words after processing file section.
+  - Non-repeated words hash maps have word as key and word position as value.
+  - File loaded to HDFS and split across N nodes. 
+  - Data processed by Hadoop.
+Main Success Scenario:
+  1. Each node skips words in repeated words list
+  2. Each node adds words to non-repeated words hash map, if first seen in own node. 
+  3. Each node removes from non-repeated words hash map, if seen in own repeated words list. 
+  4. Each node removes from non-repeated words hash map, if seen again in own node. 
+  5. Processing of all nodes completes
+  6. Combine the repeated words lists from all nodes into a single distinct list. 
+  7. Combine the non-repeated words hash maps from all nodes into a single hash map.
+  8. Get the key with the lowest value (lowest file position). 
+Extensions:
+  7a. Same key (word) exists in more than one hash map
+    7a1. New duplicate key not added to combined non-repeated words hash map. 
+    7a2. Existing key removed from combined non-repeated words hash map. 
+    7a3. Key (word) added to combined repeated words list. 
+  7b. Any key (word) in combined non-repeated words hash map exists in combined repeated words list. 
+    7b1. Key removed from combined non-repeated words hash map. 
+    7b2. Key added to combined repeated words list. 
+  
+  
+
