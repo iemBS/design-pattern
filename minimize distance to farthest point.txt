@@ -1,1 +1,7 @@
 
+Minimuze Distance to Farthest Point
+Preconditions:
+  - Going to Movies, Pizza, Grocery, & School. 
+  - Ignoring frequency to any of the places. 
+Main Success Scenario: 
+  1. 
