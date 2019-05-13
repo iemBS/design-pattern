@@ -8,8 +8,11 @@ Define a Hash Table (Hash Map)
 Preconditions:
   - Hash Table in memory
   - Each key in hash table is unique 
+  - Duplicate key cannot be inserted.
   - Value for each key is stored in Hash Table 
 Main Success Scenario:
-  1. Key in hash table holds values we recognize. 
-  2. Hash function creates an index for each key. 
-  
+  1. Insert Key and Value pair into Hash table. 
+  2. Hash function creates an index for each key and value pair
+Alternatives:
+  2a. Index generated is dependent on when key & value pair was inserted. 
+    2a1. Use Linked Hash Table instead of just a Hash Table. 
