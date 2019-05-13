@@ -7,6 +7,7 @@ Preconditions:
   - Each node notifies other nodes of repeated words after processing file section.
   - Each node notifies other nodes of non-repeated words after processing file section.
   - Non-repeated words hash maps have word as key and word position as value.
+  - Hash Maps are in memory and not written to disk. 
   - File loaded to HDFS and split across N nodes. 
   - Data processed by Hadoop.
 Main Success Scenario:
