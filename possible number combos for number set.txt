@@ -1,0 +1,13 @@
+Possible Number Combos for Number Set
+Preconditions:
+  - Allowed to use 1, 2, and 3. 
+  - n = # of digits allowed to be used = 3
+  - r = # of digits allowed in each combination = 3
+  - numerator = n! 
+  - denominator = (n-r)!
+  - perumation formula = numerator / denominator
+  - 0! = 1
+Main Success Scenario:
+  1. Apply permutation formula
+  2. 3! / (3 - 3)! = 6
+  
