@@ -1,0 +1,8 @@
+where
+   m = slope/gradient = x & y relationship 
+   x = x-coordinate 
+   y = y-coordinate 
+   b = y intercept 
+   
+y = mx + b (line equation)
+
