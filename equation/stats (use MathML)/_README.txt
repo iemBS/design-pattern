@@ -1,0 +1,5 @@
+- The equations in this section are created with MathML. 
+- MathML was created using https://www.mathcha.io/editor
+- To view these equations thare are two ways:
+    - click on the file and prefix the URL with "htmlpreview.github.io/?"
+    - download the file and double click on it 
