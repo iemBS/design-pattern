@@ -1,0 +1,5 @@
+
+- gradient descent (how find cost function w lowest cost)
+   - each point on the @ & y plot of the cost function can have a tangent line
+   -The tangent line has a slope. The lowest part of the plot will have the smallest slope/gradient. That occurs at Jmin = global cost min
+    -partial derivative of J is taken for each @n.
