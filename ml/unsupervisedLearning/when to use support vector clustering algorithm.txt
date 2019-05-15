@@ -1,0 +1,5 @@
+When to use Support Vector Clustering Algorithm
+Preconditions: 
+  - This is a nonparametric clustering algorithm that does not make any assumption on the number or shape of the clusters in the data. 
+Main Success Scenario: 
+  1. Have low-dimensional data.
