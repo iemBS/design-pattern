@@ -1,0 +1,5 @@
+When to use Support Vector Matrix
+Main Success Scenario:
+  1. When having categorical data 
+       - like names where there are two values
+       - like city names
