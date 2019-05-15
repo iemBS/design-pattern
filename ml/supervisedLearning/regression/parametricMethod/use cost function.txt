@@ -1,0 +1,6 @@
+- cost function (general one)
+   J = sum((h(xn) - y)^2) * (1/2) * m = measures the average squared difference = mean squared error 
+   - cost function (w specific hypothesis)
+       -plug h(x) function in J
+      -An x & y plot of J looks like an x^2 plot, but you have @ instead of x
+      -plot centers on @ = 0, pos @ to the right, neg @ to the left
