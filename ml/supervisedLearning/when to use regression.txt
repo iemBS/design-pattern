@@ -1,0 +1,5 @@
+When to Use Supervised Learning and Regression
+Main Success Scenario: 
+  1. Machine is provided data that is known to have correct answers.
+  2. Machine will need to predict values outside the existing data set that it learned from. 
+  3. Choose regression method. 
