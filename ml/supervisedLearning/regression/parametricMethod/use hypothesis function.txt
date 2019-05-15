@@ -1,0 +1,19 @@
+Use Hypothesis Function 
+Preconditions:
+  - This function describes line that best fits plot of real data. 
+  - x0, x1, ... xn are features
+  - features ideally have measurement data
+  - @0, @1, ... @n like the slope in the line equation define the relationship between a feature and y.
+  - @n = slope/gradient of feature n
+  - @n is the xn & y relationship 
+  - h(x) = predicted y from a hypothesis
+  - n = # of features - 1
+  - xn is a xn-coordinate, not a x-coordinate
+  - x0 = 1
+Main Success Scenario:
+  1. Put line equation in ML terms
+       y = @1*x1 + @0
+  2. Extend line equation to allow more features
+       h(x) = @0 + @1*x1 + @n*xn 
+  3. Need to create a cost function for this hypothesis function. 
+  4. Cost function used to determine the @n values to use in hypothesis function. 
