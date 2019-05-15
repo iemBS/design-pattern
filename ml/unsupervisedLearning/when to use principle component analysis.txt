@@ -1,0 +1,6 @@
+When to use Principal Component Analysis
+Preconditions: 
+  - This is a statistical procedure that uses an orthogonal transformation to convert a set of observations of possibly correlated variables into a set of linearly uncorrelated variables called principal components. 
+  - This can be used in Supervised Learning as well. 
+Main Success Scenario: 
+  1. Use on high dimensional data before using Support Vector Clustering algorithm. 
