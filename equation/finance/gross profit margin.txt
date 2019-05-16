@@ -1,0 +1,27 @@
+Get Gross Profit Margin
+Preconditions: 
+  - gpm = gross profit margin
+  - r = revenue
+  - c = cost of goods sold
+  - r & c may be in 100s, 1000s, millions or billions to reduce the size of the numbers. 
+  - r and c exist for the same time units (day, week, month, quarter, year, etc)
+Main Success Scenario:
+  1. Calculate gpm = (r – c)/r
+  2. positive, non-zero value for gpm
+Alternatives: 
+  2a. gpm is negative
+    2a1. indicates that revenue has not yet exceeded cost
+    2a2. choose to show a negative or zero gpm
+  2b. gpm is zero
+    2b1. indicates that revenue equals cost
+  2c. r is zero
+    2c1. do not calculate gpm 
+    2c2. choose to show gpm as zero or -100
+  2d. r is null (data not provided)
+    2d1. do not calculate gpm
+    2d2. choose to show gpm as null
+  2e. c is null (not provided)
+    2e1. do not calculate gpm
+    2e2. choose to show gpm as null
+
+    
