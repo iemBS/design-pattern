@@ -1,0 +1,22 @@
+
+Get Year over Year Growth Rate
+Preconditions:
+  - yA = later year value
+  - yB = earlier year value
+  - YoY = YoY Growth Rate
+  - yA and yB have same time units (day, week, month, quarter, year, etc)
+Main Success Scenario: 
+  1. Calculate YoY = (yA - yB) / yB
+  2. positive, non-zero, non-null YoY
+Alternatives: 
+  2a. yA is much greater than yB
+    2a1. makes YoY very large 
+    2a2. choose max YoY value to show
+  2b. yA is null
+    2b1. show YoY as null
+  2c. yB is null
+    2c1. show YoY as null
+  2d. yA is negative and makes YoY very large
+    2d1. choose max -YoY value to show
+  2e. yB is negative and makes YoY very large
+    2e1. choose max YoY value to show
