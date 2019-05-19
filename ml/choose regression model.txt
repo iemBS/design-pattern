@@ -1,4 +1,4 @@
-When to use a Regression Type Model
+Choose Regression Model
 Preconditions:
   - [need to explain what Y is]
   - The type of the regression model depends on the type of the distribution of Y
