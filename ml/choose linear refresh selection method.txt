@@ -1,0 +1,22 @@
+Choose Linear Regression Selection Method
+  Note: borrowed from https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3049417/#!po=31.0000
+Preconditions:
+  - There are various selection methods for linear regression modeling in order to specify how independent variables are entered into the analysis
+  - By using different methods, a variety of regression models from the same set of variables could be constructed. 
+  - All variables must pass the tolerance criterion to be entered in the equation, regardless of the entry method specified.
+  - A variable is not entered if it would cause the tolerance of another variable already in the model to drop below the tolerance criterion.
+Main Success Scenario:
+  1. Forward variable selection
+Alternatives:
+  1a. Backward variable elimination
+  1b. Stepwise variable entry and removal
+  
+  
+Forward variable selection:
+enters the variables in the block one at a time based on entry criteria. 
+
+Backward variable elimination: 
+enters all of the variables in the block in a single step and then removes them one at a time based on removal criteria. 
+
+Stepwise variable entry and removal: 
+examines the variables in the block at each step for entry or removal.
