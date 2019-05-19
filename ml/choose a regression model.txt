@@ -1,0 +1,14 @@
+When to use a Regression Type Model
+Preconditions:
+  - [need to explain what Y is]
+  - The type of the regression model depends on the type of the distribution of Y
+  - Y is continuous and approximately normal
+Main Success Scenario
+  1. Use linear regression model
+Alternatives:
+  1a. Y is dichotomous
+    1a1. Use logistic regression
+  1b. Y is Poisson or multinomial
+     1b1. Use log-linear analysis
+  1c. Time-to-event data is in the presence of censored cases (survival-type)
+    1c1. Use Cox regression 
