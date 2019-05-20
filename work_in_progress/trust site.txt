@@ -2,6 +2,7 @@ Trust Web Site
 Preconditions: 
   - Guidance from
       https://developers.google.com/web/fundamentals/security/hacked/glossary_for_hacked_sites
+  - Trusted Web Browser helps to trust a Web site
 Main Success Scenario:
   1. Go to web page.
   2. URL starts with "https"
@@ -15,5 +16,6 @@ Main Success Scenario:
   10. Non-use of eval() in PHP and JavaScript code
   11. Site using older versions of software that may be missing security updates
   12. Site suggests use of MD5 checksum on downloaded files
-  13
+  13. Allow you to avoid being spammed via email
+  14. Allow you to unsubscribe your email. 
   
