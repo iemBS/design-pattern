@@ -21,10 +21,66 @@ Note:
             swap A[i] with A[hi]
             return i
 Preconditions:
-  - Collection of items in an array
+  - Large collection of items in array
+  - Does not assume array values are evently distributed
+  - pivot starts as the higest value
+  - performance is worse the more repeated items that are
+  - logic can be changed to exclude items equal to the pivot
 Main Success Scenario
   1. Pick an item, called a pivot, from the array.
   2. Partitioning
   3. Recursively apply steps 1 & 2 to sub-arrays
+  
+  
+Sort items w Hoare partition scheme
+Note: 
+  - Known as Quick Sort
+  - Guidance from https://en.wikipedia.org/wiki/Quicksort
+  - Partitioning defined as reorder array so all elements with values less than the pivot come before the pivot (low elements), 
+    while all elements with values greater than the pivot come after it (high elements) (equal values can go either way). 
+  - algorithm looks like this
+        algorithm quicksort(A, lo, hi) is
+            if lo < hi then
+                p := partition(A, lo, hi)
+                quicksort(A, lo, p)
+                quicksort(A, p + 1, hi)
+
+        algorithm partition(A, lo, hi) is
+            pivot := A[lo + (hi - lo) / 2]
+            i := lo - 1
+            j := hi + 1
+            loop forever
+                do
+                    i := i + 1
+                while A[i] < pivot
+
+                do
+                    j := j - 1
+                while A[j] > pivot
+
+                if i >= j then
+                    return j
+
+                swap A[i] with A[j]
+Preconditions:
+  - Large collection of items in array
+  - Pivot starts in middle if all array values were distinct and evenly distributed
+  - Does three times fewer swaps on average than the Lomuto partition scheme 
+  - Stops when lo iterator position and high iterator position equal or pass one another
+Main Success Scenario
+  1. Use hi & lo to get a head start on finding pivot
+  2. Partitioning
+  3. Recursively apply steps 1 & 2 to sub-arrays
+  
+ 
+ Quick Sort w Parallelism
+ Note: 
+   - Guidance from https://en.wikipedia.org/wiki/Prefix_sum
+   - Guidance from https://en.wikipedia.org/wiki/Radix_sort
+ Preconditions:
+   - 
+ Main Success Scenario: 
+   1. 
+  
   
   
