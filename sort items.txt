@@ -1,0 +1,30 @@
+Sort Items w Lomuto partition scheme
+Note: 
+  - Known as Quick Sort
+  - Guidance from https://en.wikipedia.org/wiki/Quicksort
+  - Partitioning defined as reorder array so all elements with values less than the pivot come before the pivot (low elements), 
+    while all elements with values greater than the pivot come after it (high elements) (equal values can go either way). 
+  - algorithm looks like this
+        algorithm quicksort(A, lo, hi) is
+            if lo < hi then
+                p := partition(A, lo, hi)
+                quicksort(A, lo, p - 1)
+                quicksort(A, p + 1, hi)
+
+        algorithm partition(A, lo, hi) is
+            pivot := A[hi]
+            i := lo
+            for j := lo to hi - 1 do
+                if A[j] < pivot then
+                    swap A[i] with A[j]
+                    i := i + 1
+            swap A[i] with A[hi]
+            return i
+Preconditions:
+  - Collection of items in an array
+Main Success Scenario
+  1. Pick an item, called a pivot, from the array.
+  2. Partitioning
+  3. Recursively apply steps 1 & 2 to sub-arrays
+  
+  
