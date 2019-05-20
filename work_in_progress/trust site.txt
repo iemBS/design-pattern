@@ -1,0 +1,6 @@
+Trust Web Site
+Main Success Scenario:
+  1. Go to web page.
+  2. URL starts with "https"
+  3. Page does not collect tracking info about me
+  4. 
