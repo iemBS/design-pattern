@@ -1,6 +1,19 @@
 Trust Web Site
+Preconditions: 
+  - Guidance from
+      https://developers.google.com/web/fundamentals/security/hacked/glossary_for_hacked_sites
 Main Success Scenario:
   1. Go to web page.
   2. URL starts with "https"
   3. Page does not collect tracking info about me
-  4. 
+  4. Max # of passwords attempted
+  5. No previous reports of site being hacked. 
+  6. See what URLs for a site can be found. 
+  7. Requires strong passwords
+  8. Site is verified in Google's Search Console
+  9. Ask for info that is needed
+  10. Non-use of eval() in PHP and JavaScript code
+  11. Site using older versions of software that may be missing security updates
+  12. Site suggests use of MD5 checksum on downloaded files
+  13
+  
