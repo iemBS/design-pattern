@@ -18,4 +18,5 @@ Main Success Scenario:
   12. Site suggests use of MD5 checksum on downloaded files
   13. Allow you to avoid being spammed via email
   14. Allow you to unsubscribe your email. 
+  15. Allow choice to hide info on website. 
   
