@@ -1,0 +1,8 @@
+Trust Computer
+Note: 
+  - 
+Preconditions: 
+  - 
+Main Success Scenario: 
+  1. Prevent DNS Cache Poisening
+  2. [need to fill in]
