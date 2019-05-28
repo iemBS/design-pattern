@@ -1,7 +1,7 @@
 Trust Web Site
 Preconditions: 
-  - Guidance from
-      https://developers.google.com/web/fundamentals/security/hacked/glossary_for_hacked_sites
+  - Guidance from https://developers.google.com/web/fundamentals/security/hacked/glossary_for_hacked_sites
+  - Use bbb.org to confirm website address for a company
   - Trusted Web Browser helps to trust a Web site
 Main Success Scenario:
   1. Go to web page.
