@@ -1,0 +1,123 @@
+Trust Web Site
+Note: 
+  - Guidance from https://developers.google.com/web/fundamentals/security/hacked/glossary_for_hacked_sites
+Preconditions: 
+  - passed "Trust Site URL" use case
+  - passed "Trust Browser" use case
+  - passed "Trust Site Owner" use case
+  - passed "Trust ISP" use case
+  - passed "Trust Connection Hardware" use case
+  - passed "Trust Software Site Built with" use case
+  - passed "Trust Code Site Built with" use case
+  - passed "Trust Site Display" use case
+  - passed "Trust Site Flow" use case
+  - passed "Trust Site Rule" use case
+  - passed "Trust Site Support" use case
+Main Success Scenario:
+  1. Go to site in browser
+  2. green padlock shown next to URL (done by most browsers)
+  3. Page does not collect tracking info about me
+  4. See what URLs for a site can be found 
+  5. Suggests use of MD5 checksum on downloaded files 
+  6. Allow choice to hide info on website
+
+
+Trust Site Rule
+Main Success Scenario:
+  1. Site only asks for needed info
+  2. Max # of password attempts
+  3. Strong password required
+Alternatives:
+  1a. Site changes to want more info
+    1a1. During next site login you are required to provide more info
+
+
+Trust Site Display
+Preconditions:
+  - passed "Trust Site Rule Change Notification" use case
+Main Success Scenario:
+  1. Site clear explains info that will be displayed to others
+Alternatives:
+  1a. Site says they will change what info is shown to other site users
+    1a1.Site changes what info is shown to other site users
+    
+    
+Trust Site Flow
+Main Success Scenario:
+  1. Default settings are not deceptive
+Alternatives:
+  1a. Setting defaults you to a greater cost
+  1b. Setting defaults you to be emailed
+  1c. Cannot unsubscribe email
+  1d. Cannot change password
+  1e. Cannot change user name
+  
+  
+Trust Site Support
+Main Success Scenario:
+  1. [need to fill in]
+
+
+Trust Software Site Built with
+Main Success Scenario:
+  1. Using software without security holes
+  2. No previous report of being hacked 
+Alternatives:
+  1a. Using old software with security holes
+  2a. Previously hacked
+  
+  
+Trust Code Site Built with
+Main Success Scenario:
+  1. Built without security holes
+  2. No previous report of being hacked 
+Alternatives:
+  1a. Built with security holes
+    1a1. Using eval() in PHP or JavaScript code
+  2a. Previously hacked
+
+
+Trust Browser
+Preconditions: 
+  - On non-mobile, use Google Chrome or Mozilla Firefox browser
+  - On mobile, use [need to fill in]
+Main Success Scenario:
+  1. Choose safe browser
+  2. Have latest browser updates
+  3. Avoid 3rd party browser add-ins
+Extension: 
+  1a. Browser uses Tor
+
+
+Trust Site URL
+Main Success Scenario: 
+  1. Confirm same URL comes up for company in bbb.org
+  2. URL starts with "https"
+
+
+Trust Site Owner
+Note:
+  - [need to see how Google Transparency Report helps: transparencyreport.google.com]
+Preconditions:
+  - [need to fill in]
+Main Success Scenario:
+  1. Owner not known to provide your info to a 3rd party
+  2. [need to fill in]
+
+
+Trust ISP
+Preconditions:
+  - [need to fill in]
+Main Success Scenario:
+  1. ISP does not force use of their DNS
+  2. ISP DNS config page holds settings
+  1. [need to fill in]
+  
+  
+Trust Connection Hardware
+Preconditions:
+  - [need to fill in]
+Main Success Scenario: 
+  1. [need to fill in]
+
+  
