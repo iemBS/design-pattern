@@ -93,6 +93,7 @@ Trust Site URL
 Main Success Scenario: 
   1. Confirm same URL comes up for company in bbb.org
   2. URL starts with "https"
+  3. URL does not have variables that collect unneeded info
 
 
 Trust Site Owner
