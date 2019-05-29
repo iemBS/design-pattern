@@ -13,13 +13,13 @@ Preconditions:
   - passed "Trust Site Flow" use case
   - passed "Trust Site Rule" use case
   - passed "Trust Site Support" use case
+  - passed "Trust Site Notification" use case
 Main Success Scenario:
   1. Go to site in browser
   2. green padlock shown next to URL (done by most browsers)
   3. Page does not collect tracking info about me
-  4. See what URLs for a site can be found 
-  5. Suggests use of MD5 checksum on downloaded files 
-  6. Allow choice to hide info on website
+  4. Suggests use of MD5 checksum on downloaded files 
+  5. Allow choice to hide info on website
 
 
 Trust Site Rule
@@ -36,7 +36,7 @@ Trust Site Display
 Preconditions:
   - passed "Trust Site Rule Change Notification" use case
 Main Success Scenario:
-  1. Site clear explains info that will be displayed to others
+  1. Site clearly explains info that will be displayed to others
 Alternatives:
   1a. Site says they will change what info is shown to other site users
     1a1.Site changes what info is shown to other site users
@@ -51,6 +51,11 @@ Alternatives:
   1c. Cannot unsubscribe email
   1d. Cannot change password
   1e. Cannot change user name
+  
+  
+Trust Site Notification
+Main Success Scenario:
+  1. Notifcation sent if rules, display, or flows change
   
   
 Trust Site Support
