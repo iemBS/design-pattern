@@ -55,7 +55,9 @@ Alternatives:
   
 Trust Site Support
 Main Success Scenario:
-  1. [need to fill in]
+  1. Chat, email, or phone contact details can be found on site
+  2. Support responds to you
+  3. Support provides an adequate response
 
 
 Trust Software Site Built with
@@ -80,7 +82,7 @@ Alternatives:
 Trust Browser
 Preconditions: 
   - On non-mobile, use Google Chrome or Mozilla Firefox browser
-  - On mobile, use [need to fill in]
+  - On mobile, use [xxx: need to fill in]
 Main Success Scenario:
   1. Choose safe browser
   2. Have latest browser updates
@@ -98,27 +100,27 @@ Main Success Scenario:
 
 Trust Site Owner
 Note:
-  - [need to see how Google Transparency Report helps: transparencyreport.google.com]
+  - [xxx: need to see how Google Transparency Report helps: transparencyreport.google.com]
 Preconditions:
-  - [need to fill in]
+  - [xxx: need to fill in]
 Main Success Scenario:
   1. Owner not known to provide your info to a 3rd party
-  2. [need to fill in]
+  2. [xxx: need to fill in]
 
 
 Trust ISP
 Preconditions:
-  - [need to fill in]
+  - [xxx: need to fill in]
 Main Success Scenario:
   1. ISP does not force use of their DNS
   2. ISP DNS config page holds settings
-  1. [need to fill in]
+  1. [xxx: need to fill in]
   
   
 Trust Connection Hardware
 Preconditions:
-  - [need to fill in]
+  - [xxx: need to fill in]
 Main Success Scenario: 
-  1. [need to fill in]
+  1. [xxx: need to fill in]
 
   
