@@ -153,14 +153,18 @@ Main Success Scenario:
 Trust ISP
 Note: 
   - Guidance to find a fast DNS from https://code.google.com/archive/p/namebench/
+  - Guidance on Transparent DNS Proxy from https://superuser.com/questions/250008/how-can-i-tell-if-my-isp-is-redirecting-my-dns-queries
 Preconditions:
   - ISP blocks unsafe sites
 Main Success Scenario:
   1. ISP does not force use of their DNS
   2. ISP DNS config page holds settings
+  3. ISP is not using transparent DNS proxy
 Alternatives:
   1a. ISP forces use of their DNS
     1a1. Specify another DNS to use in WIFI router or your device
+  3a. ISP is using transparent DNS proxy
+    3a1. [xxx: need to fill in]
   
   
 Trust Connection Hardware
