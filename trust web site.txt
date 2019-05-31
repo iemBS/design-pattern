@@ -173,10 +173,18 @@ Alternatives:
   11a. WIFI router's DNS cache has been poisened
     11a1. Refresh WIFI router's DNS cache
 
-  
+
+Trust DNS Provider
+Preconditions:
+  - Google and OpenDNS DNS providers are known to collect DNS queries
+Main Success Scenario:
+  1. DNS provider does not collect your DNS queries
+
+
 Trust Connection
 Preconditions:
   - passed "Trust Connection Hardware" use case
+  - passed "Trust DNS Provider" use case
   - Fastest DNS cache will be on your computer or router when using https://code.google.com/archive/p/namebench/
 Main Success Scenario:
   1. Use VPN to encrypt connection
