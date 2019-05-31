@@ -1,6 +1,7 @@
 Trust Web Site
 Note: 
   - Guidance from https://developers.google.com/web/fundamentals/security/hacked/glossary_for_hacked_sites
+  - DuckDuckGo.com search engine does not track you
 Preconditions: 
   - passed "Trust Site URL" use case
   - passed "Trust Browser" use case
@@ -32,6 +33,17 @@ Main Success Scenario:
 Alternatives:
   1a. Site changes to want more info
     1a1. During next site login you are required to provide more info
+
+
+Assists from Search Engine avoids having to click on web page results
+Preconditions: 
+  - focused on the info that search engines return
+  - focused on general, common, simple searches
+  - search engine does not track you
+Main Success Scenario:
+  1. Search Engine returns one of the following in the search results
+       - business phone number
+       - business address
 
 
 Trust Site Display
@@ -181,13 +193,17 @@ Preconditions:
   - Google and OpenDNS DNS providers are known to collect DNS queries
 Main Success Scenario:
   1. DNS provider does not collect your DNS queries
-
+       [xxx: need to fill in with DNS providers]
+       
 
 Trust Connection
 Preconditions:
   - passed "Trust Connection Hardware" use case
   - passed "Trust DNS Provider" use case
   - Fastest DNS cache will be on your computer or router when using https://code.google.com/archive/p/namebench/
+  - usually, primary DNS server is the DNS cache on your WIFI router or your computer
+  - usually, secondary DNS server is the ISP's DNS server
+  - after your DNS cache, represents your primary DNS server, is refreshed the secondary DNS server will be queried less and less
 Main Success Scenario:
   1. Use VPN to encrypt connection
   2. Computer's DNS cache has not been poisened
