@@ -156,6 +156,7 @@ Note:
   - Guidance on Transparent DNS Proxy from https://superuser.com/questions/250008/how-can-i-tell-if-my-isp-is-redirecting-my-dns-queries
 Preconditions:
   - ISP blocks unsafe sites
+  - Hijacking of a DNS server name occurs when an ISP's DNS server maps the same name to the IP address of their DNS server
 Main Success Scenario:
   1. ISP does not force use of their DNS
   2. ISP DNS config page holds settings
@@ -163,7 +164,7 @@ Main Success Scenario:
 Alternatives:
   1a. ISP forces use of their DNS
     1a1. Specify another DNS to use in WIFI router or your device
-  3a. ISP is using transparent DNS proxy
+  3a. ISP is using transparent DNS proxy (aka hijacking/redirecting)
     3a1. [xxx: need to fill in]
   
   
