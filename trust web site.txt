@@ -6,20 +6,22 @@ Preconditions:
   - passed "Trust Browser" use case
   - passed "Trust Site Owner" use case
   - passed "Trust ISP" use case
-  - passed "Trust Connection Hardware" use case
-  - passed "Trust Software Site Built with" use case
-  - passed "Trust Code Site Built with" use case
+  - passed "Trust Connection" use case
+  - passed "Trust Site Software" use case
   - passed "Trust Site Display" use case
   - passed "Trust Site Flow" use case
   - passed "Trust Site Rule" use case
   - passed "Trust Site Support" use case
   - passed "Trust Site Notification" use case
+  - passed "Trust Connection" use case
+  - passed "Trust Email" use case
 Main Success Scenario:
   1. Go to site in browser
   2. green padlock shown next to URL (done by most browsers)
   3. Page does not collect tracking info about me
   4. Suggests use of MD5 checksum on downloaded files 
   5. Allow choice to hide info on website
+  6. Does not identify your device on the internet
 
 
 Trust Site Rule
@@ -37,6 +39,7 @@ Preconditions:
   - passed "Trust Site Rule Change Notification" use case
 Main Success Scenario:
   1. Site clearly explains info that will be displayed to others
+  2. Site does not show your login user name to other users
 Alternatives:
   1a. Site says they will change what info is shown to other site users
     1a1.Site changes what info is shown to other site users
@@ -56,6 +59,8 @@ Alternatives:
 Trust Site Notification
 Main Success Scenario:
   1. Notifcation sent if rules, display, or flows change
+Alternatives: 
+  1a. Notifcation NOT sent if rules, display, or flows change
   
   
 Trust Site Support
@@ -82,6 +87,16 @@ Alternatives:
   1a. Built with security holes
     1a1. Using eval() in PHP or JavaScript code
   2a. Previously hacked
+  
+  
+Trust Site Software
+Note:
+  - Malware origin via https://transparencyreport.google.com/safe-browsing/malware
+Preconditions:
+  - passed "Trust Software Site Built with" use case
+  - passed "Trust Code Site Built with" use case
+Main Success Scenario:
+  1. Check if site safe via https://transparencyreport.google.com/safe-browsing/search
 
 
 Trust Browser
@@ -97,6 +112,8 @@ Extension:
 
 
 Trust Site URL
+Note:
+  - Guidance on "HTTPS" from https://transparencyreport.google.com/https/overview
 Main Success Scenario: 
   1. Confirm same URL comes up for company in bbb.org
   2. URL starts with "https"
@@ -105,21 +122,21 @@ Main Success Scenario:
 
 Trust Site Owner
 Note:
-  - [xxx: need to see how Google Transparency Report helps: transparencyreport.google.com]
+  - Guidance from transparencyreport.google.com/user-data/overview
 Preconditions:
-  - [xxx: need to fill in]
+  - See how Google identifies unsafe websites via transparencyreport.google.com/safe-browsing/overview
+  - Can see data that Google has on you via transparencyreport.google.com
+  - Can see data that Facebook has on you via Facebook.com/settings
 Main Success Scenario:
   1. Owner not known to provide your info to a 3rd party
-  2. [xxx: need to fill in]
+  2. Owner is not collecting info you do not want to them to
+  3. Owner allows you to see data they have on you
 
 
 Trust ISP
-Preconditions:
-  - [xxx: need to fill in]
 Main Success Scenario:
   1. ISP does not force use of their DNS
   2. ISP DNS config page holds settings
-  1. [xxx: need to fill in]
   
   
 Trust Connection Hardware
@@ -130,5 +147,23 @@ Main Success Scenario:
   2. WIFI device configured for specific MAC addresses
   3. WIFI signal range is kept to a minimum
   4. WIFI signal is shielded in the directions it does not need to go. 
+  5. WIFI router has strong admin password that is not the default admin password
+  6. admin password not printed on WIFI router
+  7. WIFI router powered On schedule
+  8. Log WIFI router connections
+  9. Disable WIFI router admin access web page
+  10. Choose to use network cable instead of WIFI connection. 
 
   
+Trust Connection
+Preconditions:
+  - passed "Trust Connection Hardware" use case
+Main Success Scenario:
+  1. Use VPN to encrypt connection
+  
+
+Trust Email
+Note:
+  - Guidance on Email encryption from https://transparencyreport.google.com/safer-email/overview
+Main Success Scenario:
+  1. Email encrypted during transit to & from your email box
