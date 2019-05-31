@@ -136,14 +136,21 @@ Main Success Scenario:
 
 
 Trust ISP
+Note: 
+  - Guidance to find a fast DNS from https://code.google.com/archive/p/namebench/
 Main Success Scenario:
   1. ISP does not force use of their DNS
   2. ISP DNS config page holds settings
+Alternatives:
+  1a. ISP forces use of their DNS
+    1a1. Specify another DNS to use in WIFI router or your device
   
   
 Trust Connection Hardware
 Note: 
   - Guidance from https://www.wi-fi.org/news-events/newsroom/wi-fi-alliance-introduces-wi-fi-certified-wpa3-security
+Preconditions: 
+  - Latest software is installed on WIFI router
 Main Success Scenario: 
   1. WIFI router implements WPA3
   2. WIFI device configured for specific MAC addresses
