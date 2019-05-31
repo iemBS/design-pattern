@@ -175,6 +175,8 @@ Alternatives:
 
 
 Trust DNS Provider
+Note:
+  - Running your own DNS server is safest
 Preconditions:
   - Google and OpenDNS DNS providers are known to collect DNS queries
 Main Success Scenario:
