@@ -157,7 +157,6 @@ Note:
 Preconditions: 
   - Latest software is installed on WIFI router
   - WIFI router configured to block unsafe sites
-  - WIFI router's DNS cache has not been poisened
 Main Success Scenario: 
   1. WIFI router implements WPA3
   2. WIFI device configured for specific MAC addresses
@@ -169,14 +168,23 @@ Main Success Scenario:
   8. Log WIFI router connections
   9. Disable WIFI router admin access web page
   10. Choose to use network cable instead of WIFI connection. 
+  11. WIFI router's DNS cache has not been poisened
+Alternatives:
+  11a. WIFI router's DNS cache has been poisened
+    11a1. Refresh WIFI router's DNS cache
 
   
 Trust Connection
 Preconditions:
   - passed "Trust Connection Hardware" use case
+  - Fastest DNS cache will be on your computer or router when using https://code.google.com/archive/p/namebench/
 Main Success Scenario:
   1. Use VPN to encrypt connection
   2. Computer's DNS cache has not been poisened
+  3. Google's namebench does not find website redirection
+Alternatives:
+  3a. Redirection is found 
+    3a1. Refresh DNS cache on your computer & WIFI router
   
 
 Trust Email
