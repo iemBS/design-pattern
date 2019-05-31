@@ -83,6 +83,7 @@ Trust Code Site Built with
 Main Success Scenario:
   1. Built without security holes
   2. No previous report of being hacked 
+  3. Does not pass info to third parties
 Alternatives:
   1a. Built with security holes
     1a1. Using eval() in PHP or JavaScript code
@@ -114,6 +115,7 @@ Extension:
 Trust Site URL
 Note:
   - Guidance on "HTTPS" from https://transparencyreport.google.com/https/overview
+  - URL with variables has "?" to start variables, "&" to seperate variables, and "=" to show variable & value pairs
 Main Success Scenario: 
   1. Confirm same URL comes up for company in bbb.org
   2. URL starts with "https"
@@ -165,5 +167,21 @@ Main Success Scenario:
 Trust Email
 Note:
   - Guidance on Email encryption from https://transparencyreport.google.com/safer-email/overview
+  - Guidance on Spam email from https://www.wikihow.com/Recognize-Spam
+Preconditions:
+  - passed "Trust Email Attachments" use case
 Main Success Scenario:
   1. Email encrypted during transit to & from your email box
+  2. Do not click on any links in email, copy them to a text file instead
+  3. Check if site safe via https://transparencyreport.google.com/safe-browsing/search
+  4. Use caution when opening attachments
+  5. Implement security to only let in certain email addresses
+  6. Look at the way the email is written
+  7. For suspected spam email, search for text online to see if it is related to known, widely used spam
+
+
+Trust Email Attachment
+Note:
+  - Guidance on file extensions that identify files that could contain malware from https://support.symantec.com/en_US/article.INFO3768.html
+Main Success Scenario:
+  1. Identify if file extension is used with files that install malware when opened
