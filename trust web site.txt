@@ -157,6 +157,7 @@ Note:
 Preconditions: 
   - Latest software is installed on WIFI router
   - WIFI router configured to block unsafe sites
+  - WIFI router's DNS cache has not been poisened
 Main Success Scenario: 
   1. WIFI router implements WPA3
   2. WIFI device configured for specific MAC addresses
@@ -175,6 +176,7 @@ Preconditions:
   - passed "Trust Connection Hardware" use case
 Main Success Scenario:
   1. Use VPN to encrypt connection
+  2. Computer's DNS cache has not been poisened
   
 
 Trust Email
