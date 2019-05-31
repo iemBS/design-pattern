@@ -115,11 +115,14 @@ Extension:
 Trust Site URL
 Note:
   - Guidance on "HTTPS" from https://transparencyreport.google.com/https/overview
+  - Guidance from https://whois.net/
   - URL with variables has "?" to start variables, "&" to seperate variables, and "=" to show variable & value pairs
 Main Success Scenario: 
   1. Confirm same URL comes up for company in bbb.org
   2. URL starts with "https"
   3. URL does not have variables that collect unneeded info
+  4. See domain company that leased URL to current owner
+  5. See how long URL has been leased by current owner
 
 
 Trust Site Owner
@@ -138,6 +141,8 @@ Main Success Scenario:
 Trust ISP
 Note: 
   - Guidance to find a fast DNS from https://code.google.com/archive/p/namebench/
+Preconditions:
+  - ISP blocks unsafe sites
 Main Success Scenario:
   1. ISP does not force use of their DNS
   2. ISP DNS config page holds settings
@@ -151,6 +156,7 @@ Note:
   - Guidance from https://www.wi-fi.org/news-events/newsroom/wi-fi-alliance-introduces-wi-fi-certified-wpa3-security
 Preconditions: 
   - Latest software is installed on WIFI router
+  - WIFI router configured to block unsafe sites
 Main Success Scenario: 
   1. WIFI router implements WPA3
   2. WIFI device configured for specific MAC addresses
