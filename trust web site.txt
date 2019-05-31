@@ -123,9 +123,12 @@ Main Success Scenario:
   
   
 Trust Connection Hardware
-Preconditions:
-  - [xxx: need to fill in]
+Note: 
+  - Guidance from https://www.wi-fi.org/news-events/newsroom/wi-fi-alliance-introduces-wi-fi-certified-wpa3-security
 Main Success Scenario: 
-  1. [xxx: need to fill in]
+  1. WIFI router implements WPA3
+  2. WIFI device configured for specific MAC addresses
+  3. WIFI signal range is kept to a minimum
+  4. WIFI signal is shielded in the directions it does not need to go. 
 
   
