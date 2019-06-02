@@ -1,0 +1,79 @@
+Parallel Processing on 2 or more Cores on a Processor
+Note:
+  - Guidance from https://en.wikipedia.org/wiki/Multi-core_processor
+Preconditions: 
+  - May be limited by shared RAM
+Main Success Scenario:
+  1. [xxx: need to fill in]
+
+
+Parallel Processing on 2 or more Processors on a machine
+Note:
+  - Guidance from https://en.wikipedia.org/wiki/Distributed_algorithm
+Preconditions: 
+  - May be limited by shared RAM
+Main Success Scenario: 
+  1. [xxx: need to fill in]
+
+
+Parallel Processing on 2 or more machines
+Note: 
+  - Guidance from https://en.wikipedia.org/wiki/Computer_cluster
+Main Success Scenario:
+  1. [xxx: need to fill in]
+
+
+Parallel Processing
+Note:
+  - Guidance from https://en.wikipedia.org/wiki/Parallel_computing
+  - Guidance from https://en.wikipedia.org/wiki/Massively_parallel
+  - Guidance from https://www.mcs.anl.gov/~itf/dbpp/text/node10.html
+  - Guidance from https://computing.llnl.gov/tutorials/parallel_comp/
+Main Success Scenario:
+  1. Decompose problem of size "n" into smaller problems; solve subproblems independently; combine subproblem results into final answer 
+       T(n) = Td(n) + Ts + Tc(n)
+ 
+
+"Finite Differences" parallel algorithm
+Note: 
+  - Guidance from https://www.mcs.anl.gov/~itf/dbpp/text/node10.html
+Main Success Scenario:
+  1. [xxx: need to fill in]
+
+
+"Pairwise Interactions" parallel algorithm
+Note: 
+  - Guidance from https://www.mcs.anl.gov/~itf/dbpp/text/node10.html
+Main Success Scenario:
+  1. [xxx: need to fill in]
+
+
+"Search" parallel algorithm
+Note: 
+  - Guidance from https://www.mcs.anl.gov/~itf/dbpp/text/node10.html
+Main Success Scenario:
+  1. [xxx: need to fill in]
+
+
+"Parameter Study" parallel algorithm
+Note: 
+  - Guidance from https://www.mcs.anl.gov/~itf/dbpp/text/node10.html
+Main Success Scenario:
+  1. [xxx: need to fill in]
+
+
+"Quicksort" parallel algorithm
+Note:
+  - Guidance from https://www.cs.cmu.edu/~scandal/nesl/algorithms.html
+Main Success Scenario:
+  1. [xxx: need to fill in]
+
+
+parallel processing used for
+- summation of vector elements
+- sort
+- solve partial differential equations
+- matrix transposition
+- solve linear algebra equations
+- modeling
+- simulating and understanding complex, real world phenomena
