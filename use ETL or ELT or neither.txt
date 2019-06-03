@@ -11,6 +11,7 @@ Alternatives:
     1b1. Use ELT instead of ETL
   1c. Reqs to be applied by analysts and/or data scientists later (ELT)
     1c1. Go to step 4
+  1d. No time is saved when 
   3a. Data small enough to be processed without parallelization (maybe ETL)
     3a1. Perform serial processing on data
 Extension:
@@ -22,4 +23,5 @@ Extension:
     1c1. Apply filters then updates to reduce cost of compute (ETL)
   1d. Filter reqs applied on real-time data stream to drasticly reduce data size (ETL)
   1e. Apply only obvious filter requirements early in data cycle 
+  1f. Percent of time saved in data refresh due to early filters, is valuable (ETL)
   
