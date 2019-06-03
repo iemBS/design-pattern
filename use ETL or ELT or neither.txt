@@ -9,6 +9,10 @@ Alternatives:
     1a1. Use ELT instead of ETL
   1b. Virtual data reporting level points to data in storage, which greatly reduces transformations or movement between dat layers
     1b1. Use ELT instead of ETL
+  1c. Reqs to be applied by analysts and/or data scientists later (ELT)
+    1c1. Go to step 4
+  3a. Data small enough to be processed without parallelization (maybe ETL)
+    3a1. Perform serial processing on data
 Extension:
   1a. Data is too dirty to use
     1a1. Apply reqs that update the data (ETL)
@@ -16,6 +20,6 @@ Extension:
     1b1. Apply filters, updates, and aggregations to reduce cost of storage (ETL)
   1c. Compute is expensive
     1c1. Apply filters then updates to reduce cost of compute (ETL)
-  
-    
+  1d. Filter reqs applied on real-time data stream to drasticly reduce data size (ETL)
+  1e. Apply only obvious filter requirements early in data cycle 
   
