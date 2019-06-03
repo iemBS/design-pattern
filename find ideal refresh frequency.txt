@@ -4,6 +4,7 @@ Preconditions:
   - If data from more than one source, client specified the above for all sources
   - Data is copied from another location or streamed in
   - Know history of updates to one or more datasets within each data source. 
+  - Backup or Replication is not taking place after each refresh
 Main Success Scenario: 
   1. [xxx: need to fill in]
   
