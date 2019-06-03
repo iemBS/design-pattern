@@ -16,6 +16,7 @@ Preconditions:
   - passed "Trust Site Notification" use case
   - passed "Trust Connection" use case
   - passed "Trust Email" use case
+  - passed "Trust 3rd Party Company Services" use case
 Main Success Scenario:
   1. Go to site in browser
   2. green padlock shown next to URL (done by most browsers)
@@ -23,6 +24,16 @@ Main Success Scenario:
   4. Suggests use of MD5 checksum on downloaded files 
   5. Allow choice to hide info on website
   6. Does not identify your device on the internet
+  
+  
+Trust 3rd Party Company Services
+Note:
+  - Guidance from https://www.symantec.com/blogs/threat-intelligence/formjacking-attacks-retailers
+Preconditions: 
+  - These are web services used by the website you are using
+Main Success Scenario: 
+  1. Understand 3rd party companies the site is using
+  2. Understand what is being exchanged with these 3rd parties
 
 
 Trust Site Rule
