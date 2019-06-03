@@ -1,9 +1,18 @@
 Use ETL or ELT or neither
 Main Success Scenario:
-  1. Put reqs on data early in the data life cycle
-  2. [xxx: need to fill in]
+  1. Apply reqs early in data life cycle to filter out uneeded data (ETL)
+  2. Apply reqs to connect to other data (ELT)
+  3. Perform parallel processing on data (ELT) 
+  4. Apply reqs to data that will be consumed by reports or downstream systems (ELT)
 Alternatives:
-  1a. Put reqs on data later in the data life cycle
-    1a1. Use ELT
-  1b. Data is quite dirty
-    1b1. Use ETL
+  1a. Data pulled in has already been cleaned and sufficient transforms applied
+    1a1. Use ELT instead of ETL
+Extension:
+  1a. Data is too dirty to use
+    1a1. Apply reqs that update the data (ETL)
+  1b. Data Storage is expensive
+    1b1. Apply filters, updates, and aggregations to reduce cost of storage (ETL)
+  1c. Compute is expensive
+    1c1. Apply filters then updates to reduce cost of compute (ETL)
+    
+  
