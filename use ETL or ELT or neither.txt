@@ -1,3 +1,9 @@
 Use ETL or ELT or neither
 Main Success Scenario:
-  1. [xxx: need to fill in]
+  1. Put reqs on data early in the data life cycle
+  2. [xxx: need to fill in]
+Alternatives:
+  1a. Put reqs on data later in the data life cycle
+    1a1. Use ELT
+  1b. Data is quite dirty
+    1b1. Use ETL
