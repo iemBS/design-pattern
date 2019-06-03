@@ -7,6 +7,8 @@ Main Success Scenario:
 Alternatives:
   1a. Data pulled in has already been cleaned and sufficient transforms applied
     1a1. Use ELT instead of ETL
+  1b. Virtual data reporting level points to data in storage, which greatly reduces transformations or movement between dat layers
+    1b1. Use ELT instead of ETL
 Extension:
   1a. Data is too dirty to use
     1a1. Apply reqs that update the data (ETL)
@@ -14,5 +16,6 @@ Extension:
     1b1. Apply filters, updates, and aggregations to reduce cost of storage (ETL)
   1c. Compute is expensive
     1c1. Apply filters then updates to reduce cost of compute (ETL)
+  
     
   
