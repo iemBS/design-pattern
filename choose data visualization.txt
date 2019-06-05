@@ -1,6 +1,7 @@
 Choose Data Visualization
 Note:
   - Guidance from https://guides.library.georgetown.edu/datavisualization
+  - Guidance from visual-literacy.org
 Preconditions: 
   - Have access to all the data
   - Can view all the data
