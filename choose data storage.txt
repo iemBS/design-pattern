@@ -1,0 +1,133 @@
+Choose Data Storage
+Note:
+  - [xxx: need to sharpen this]
+Main Success Scenario:
+  1. Understand Data to choose from
+  2. Choose data to go into the new data storage
+  3. "Define Audiences" use case
+  4. "Define Data Attributes" use case
+  5. "Define Host Attributes" use case
+  6. "conn" use case
+  7. "Purpose" use case
+  8. "Stages" use case
+  9. "query" use case
+  10. "log" use case
+
+
+Define Audiences
+Main Success Scenario:
+  1. Who wants to interact w data and why
+  2. mngmt OKs user add to Audience
+  3. users put into audiences
+  4. "Define Security" use case
+
+
+Define Security
+Main Success Scenario
+  1. Assign permissions to each audience
+
+
+Define Data Attributes
+Main Success Scenario:
+  1. "Define Data Size" use case
+  2. "chg time" use case
+  3. "chg freq" use case
+  4. "in time" use case
+  5. "in freq" use case
+  6. "out time" use case
+  7. "out freq" use case
+
+
+Define Host attributes
+  - Have a list of potential data storage hosts
+Main Success Scenario:
+  1. "compression" use case
+  2. "redundancy" use case
+  3. "up time" use case
+  4. "data structure" use case
+  5. "data storage type" use case
+  6. "env" use case
+  7. "cost" use case
+  8. Host and Host connection security
+
+
+Define Data Size
+Preconditions: 
+  - Have a list of potential data storage hosts
+Main Success Scenario:
+  1. Get Current data size
+  2. Est data growth
+  3. Get min data size host handles
+  4. Get max data size host handles
+
+
+chg freq
+  -chg freq in the past
+  -est chg freq in future
+chg time
+  -max time it took to change data in past
+  -est max time it will take to chg data in future
+in time
+  -max time it took to insert data in past
+  -est max time it will take to insert data in future
+in freq
+  -insert freq in the past
+  -est insert freq in future
+out time
+  -max time it took to extract data in past
+  -est max time it will take to extract data in future
+out freq
+  -extract freq in the past
+  -est extract freq in future
+compression
+  -% of compression achieved within data storage
+  -is data compressed during insert and uncompressed during extract
+redundancy
+  -is redundancy needed
+     -does host provide redundancy
+        -how many redundanct copies exist
+        -how old are copies
+        -where to copies exist (same physical disk, same server, same server farm, same building, same country)
+up time
+  -when we need storage to be up
+  -host reliability
+conn 
+  -rate
+     -min conn rate from each geo that will insert, update, & extract data
+     -max conn rate from each geo that will insert, update, & extract data
+  -simulataneous users
+     -max # simulataneous users host allows
+     -max # simulataneous users reached
+     -how often "max # simulataneous users host allows" is reached
+     -max # simulataneous users reached per geo
+query
+  -quality of queries run against data storage (lower quality leads to lower performance & higher cost)
+  -language intuitive for devs to use
+  -canned, optimized queries available for users and devs
+  -max wait time before query starts executing
+  -avg wait time before query starts executing
+purpose
+  -Purposes define if data needs to be broken up or matured into more than one data storage
+data structure
+  -data using most sensible structure for it's purpose and usage
+data storage type
+  -data using most sensible storage type for it's purpose and usage
+env
+  -Prod env exists 
+     -only queries already optimized, tested, and have clear purpose in Prep env run here
+  -Prep env exists
+     -devs optimize, test, and define purpose for queries
+  -env based on geo
+stages
+  -stages that data needs to go through
+  -data moved during stage chg or are stages applied to non-moving data
+cost
+  -cost to store data in in host
+  -cost to query (update, insert, extract) host
+  -cost of redundancy
+  -cost to backup
+  -cost to monitor
+  -cost up conn rate upgrade
+log
+  -can log query runs
+  -log used to make better data storage choices
