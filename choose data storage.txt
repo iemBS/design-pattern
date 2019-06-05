@@ -49,6 +49,7 @@ Main Success Scenario:
   6. "env" use case
   7. "cost" use case
   8. Host and Host connection security
+  9. CPU usage
 
 
 Define Data Size
@@ -73,6 +74,7 @@ in time
 in freq
   -insert freq in the past
   -est insert freq in future
+  -insert static vs live/streaming
 out time
   -max time it took to extract data in past
   -est max time it will take to extract data in future
@@ -106,6 +108,7 @@ query
   -canned, optimized queries available for users and devs
   -max wait time before query starts executing
   -avg wait time before query starts executing
+  -calc done on the fly by users via prepped calcs before data is accessible to users
 purpose
   -Purposes define if data needs to be broken up or matured into more than one data storage
 data structure
