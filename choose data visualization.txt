@@ -1,0 +1,100 @@
+Choose Data Visualization
+Note:
+  - Guidance from https://guides.library.georgetown.edu/datavisualization
+Preconditions: 
+  - Have access to all the data
+  - Can view all the data
+  - Can run queries against the data
+Main Success Scenario:
+  1. Look at data
+  2. "Understand data" use case
+  3. "Define Story to tell" or "Define Question to Answer" use case
+  4. "Use Chart Decision Tree" to find chart to use 
+  5. Apply preferences on chart (coloring, data point icons, shading, labeling, etc)
+  6. Show multiple instances of chart based on changing one or more variables
+  7. Static vs Live chart
+  8. Ability to share and save copy of chart
+Alternatives:
+  4a. Chosen chart cannot be shown or shown well with tech you are limited to
+    4a1. Try another chart type
+
+
+Understand Data
+Preconditions:
+  - Know data owner
+  - Know data users
+Main Success Scenario:
+  1. Find Actual Data change frequency
+  2. Find Actual Data relationships
+  3. Find Actual Data patterns
+  4. Find data issues
+  5. Find potential data issues
+  6. "Discuss Data with Data Owner" use case
+  7. "Discuss Data with Data Users" use case
+
+
+Discuss Data with Data Owner
+Main Success Scenario:
+  1. Find Targeted Data change frequency
+  2. Find Targeted Data relationships
+  3. Find Targeted Data patterns
+  4. Find data issues
+  5. Find potential data issues
+
+
+Discuss Data with Data Users
+Main Success Scenario:
+  1. Find Expected Data change frequency
+  2. Find Expected Data relationships
+  3. Find Expected Data patterns
+  4. Find Expected issues
+  5. Find potential data issues
+  6. Find Desired Data change frequency
+  7. Find Desired Data relationships
+  8. Find Desired Data patterns
+
+
+Define Story to tell
+Preconditions:
+  - Data is new to you
+  - Need to translate this new data to visuals that can be understood by less technical people
+Main Success Scenario:
+  1. [xxx: need to fill in]
+
+
+Define Question to Answer
+Preconditions:
+  - Data is not new to you
+  - This question is new to you
+Main Success Scenario:
+  1. [xxx: need to fill in]
+
+
+Use Chart Decision Tree
+Note
+  - Chart decision trees to use
+      https://www.quora.com/How-do-you-pick-the-right-chart-type-or-graph-for-your-data
+      https://medium.com/activewizards-machine-learning-company/how-to-choose-the-right-chart-type-infographic-86ca7c7fdf70
+Preconditions: 
+  - passed "Define Story to Tell" or "Define Question to Answer" use case
+  - passed "Understand Data" use case
+Main Success Scenario:
+  1. Derive these chart decision tree attributes from what you have learned:
+       -Present distribution (yes, no)
+       -Visualize composition (yes, no)
+       -Show relationship (yes, no)
+       -Indicate Trend (yes, no)
+       -Compare (yes, no) > if yes, Compare items or Through time
+       -# of variables to have in chart
+          -if 1, is variable ordered (yes, no)
+          -if >1, are variable similiar (yes, no)
+             -if no, are variables ordered (yes, no)
+             -if yes, do variables have hierarchy (yes, no)
+               -if no, are variables ordered (yes, no)
+  2. Look at a chart decision tree to determine best possible charts to use    
+
+
+  
+
+
+
