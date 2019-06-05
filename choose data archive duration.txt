@@ -1,0 +1,34 @@
+Choose Data Archive Duration
+Note: 
+  - [xxx: need to sharpen this]
+Main Success Scenario:
+  1. Understand Data to choose from
+  2. "Cost" use case
+  3. "Define Unusable Data" use case
+
+Define Unusable Data
+Preconditions:
+  -Unusuable data will not be archived
+Main Success Scenario:
+  1. Cannot be compared to current data
+  2. Cannot be used to show a trend that leads to today
+  3. Can be stored on a disk or drive that is not actively plugged into a computer
+  4. Logs indicate data has not been accessed by anyone for a while
+
+Cost
+Main Success Scenario:
+  1. cost to store data in host
+  2. cost to query (update, insert, extract) host
+  3. cost of redundancy
+  4. cost to backup
+  5. cost to monitor
+  6. cost upgrade conn rate
+
+
+Define Audiences
+Main Success Scenario:
+  1. Who wants to interact w data and why
+  2. mngmt OKs user add to Audience
+  3. users put into audiences
+  4. Do this use case on a regular basis to confirm data access need
+  5. Remove users who do not confirm they still need access
