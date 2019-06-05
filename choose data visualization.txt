@@ -6,6 +6,7 @@ Preconditions:
   - Have access to all the data
   - Can view all the data
   - Can run queries against the data
+  - Developer resources have knowledge of software used to create charts
 Main Success Scenario:
   1. Look at data
   2. "Understand data" use case
