@@ -106,6 +106,7 @@ Main Success Scenario:
 Define Deployment Process
 Note:
   - Guidance from https://en.wikipedia.org/wiki/Continuous_integration
+  - Guidance from https://en.wikipedia.org/wiki/Continuous_integration
   - Ex of CI and/or CD software: Jenkins, Travis
   - CI & CD benefits
     - easier to test smaller code chg
