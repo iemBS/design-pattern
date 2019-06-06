@@ -39,13 +39,14 @@ Main Success Scenario:
 
 
 Define Host attributes
+Preconditions:
   - Have a list of potential data storage hosts
 Main Success Scenario:
   1. "compression" use case
   2. "redundancy" use case
   3. "up time" use case
   4. "data structure" use case
-  5. "data storage type" use case
+  5. "Choose Data Storage Type" use case
   6. "env" use case
   7. "cost" use case
   8. Host and Host connection security
@@ -60,6 +61,15 @@ Main Success Scenario:
   2. Est data growth
   3. Get min data size host handles
   4. Get max data size host handles
+  
+  
+Choose Data Storage Type
+Preconditions:
+  - Use Database Storage Type Decision Tree
+  - Use DB Type Decision Tree
+Main Success Scenario:
+  1. Find most sensible storage type for the data's purpose and usage
+  2. If using a DB, find the most sensible DB type for the data's purpose and usage
 
 
 chg freq
@@ -113,8 +123,6 @@ purpose
   -Purposes define if data needs to be broken up or matured into more than one data storage
 data structure
   -data using most sensible structure for it's purpose and usage
-data storage type
-  -data using most sensible storage type for it's purpose and usage
 env
   -Prod env exists 
      -only queries already optimized, tested, and have clear purpose in Prep env run here
@@ -134,3 +142,50 @@ cost
 log
   -can log query runs
   -log used to make better data storage choices
+
+
+DB Types
+  Note: Guidance from 
+          https://en.wikipedia.org/wiki/NoSQL
+          https://en.wikipedia.org/wiki/Wide_column_store
+  - SQL
+      Relational
+  - NoSQL
+    - Key-Value
+      - Key-Value Cache
+      - Key-Value Store
+          def: 
+            - use associative array / map / dictionary
+            - simple data model
+      - Key-Value Store (eventually-consistent)
+      - Key-Value Store (Ordered)
+    - Data-Structures Server
+    - Tuple Store
+    - Object
+        def: 
+          - data stored as objects like in object oriented programming
+    - Object-Relational
+        def: 
+          - hybrid of relational and object DB approaches
+    - Document Store
+        def: 
+          - use XML, YAML, JSON, or BSON encoding in doc
+          - each doc has unique key
+          - each doc can have it's own unique structure
+    - Wide Column Store
+        def: 
+          - 2-D key-value store
+          - Unlike a relational DB, column names and formats can vary from row to row in same table
+    - Wide Column Store (w column families) / Column Family DB
+        def: 
+          - Has column families that are stored together
+    - Native Multi-Model DB
+    - Graph
+        def: 
+          - relationships also have properties
+          - connection heavy
+    - Column
+        def: 
+          - Each column is stored separately on disk
+          - has column families
+          - column families stored seperately
