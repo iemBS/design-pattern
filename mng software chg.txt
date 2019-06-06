@@ -1,9 +1,9 @@
 Mng Software Chg
 Main Success Scenario:
-  x. "Mng Chg" use case
-  x. Understand Chg
-  x. "Determine Chg Schedule" use case
-  x. "Apply Chg" use case
+  1. "Mng Chg" use case
+  2. Understand Chg
+  3. "Determine Chg Schedule" use case
+  4. "Apply Chg" use case
 
 
 Mng Chg
@@ -46,12 +46,18 @@ Main Success Scenario:
 Mng Code Chg
 Preconditions:
   - Code chg saved in versioning software before or after chg to an env
+  - Use feature flags to provide more control over when code will be used
+  - Schedule refactoring of code when it gets too confusing
 Main Success Scenario:
   1. Store code changes in versioning software
   2. "Branch Code" use case
 
 
 Branch Code
+Preconditions:
+  - Branching may cause more than one dev to work on same code
+  - Branches need to merge at some point, that can be complex
+  - Allows for clearly different paths when not clear on direction to take
 Main Success Scenario:
   1. [xxx: need to fill in]
 
@@ -79,6 +85,7 @@ Apply Urgent Chg
 Preconditions:
   -Chg fixes issue that needs quick resolution
   -Short time window may increase risk
+  - Use feature flags to provide more control over when code will be used
 Main Success Scenario:
   1. Notify impacted audiences of chg ahead of chg period
   2. Apply during agreed period
@@ -87,8 +94,9 @@ Main Success Scenario:
 
 Apply Non-Urgent Chg
 Preconditions:
-  -Chg fixes issues that does not need a quick resolution
-  -Chg applied to prod
+  - Chg fixes issues that does not need a quick resolution
+  - Chg applied to prod
+  - Use feature flags to provide more control over when code will be used
 Main Success Scenario:
   1. Notify impacted audiences of chg ahead of chg period
   2. Apply during regularly scheduled chg period
@@ -98,10 +106,18 @@ Main Success Scenario:
 Define Deployment Process
 Note:
   - Guidance from https://en.wikipedia.org/wiki/Continuous_integration
+  - Ex of CI and/or CD software: Jenkins, Travis
+  - CI & CD benefits
+    - easier to test smaller code chg
+    - shorter and more frequent deployments
+    - less likely to have 2 or more devs working on same code
+    - chg deployed to prod sooner
+    - smaller changes with feature flags can step a larger change in over multiple deployments
 Preconditions:
   - Process defined for all chg types
   - Process documented
-  - Focused on softare, software config, and code. Not focused on data. 
+  - Focused on software, software config, and code chg. Not focused on data chg. 
+  - Use feature flags to provide more control over when code will be used
 Main Success Scenario:
   1. Define steps
   2. Define automated steps 
@@ -112,4 +128,8 @@ Main Success Scenario:
   7. define access to code, software, and env
   8. Define software flow
   9. Define software down periods
+ 
+  
+  
+
 
