@@ -65,7 +65,7 @@ Main Success Scenario:
   
 Choose Data Storage Type
 Preconditions:
-  - Use Database Storage Type Decision Tree
+  - Use Data Storage Type Decision Tree
   - Use DB Type Decision Tree
 Main Success Scenario:
   1. Find most sensible storage type for the data's purpose and usage
