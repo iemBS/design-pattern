@@ -219,14 +219,19 @@ DB Features
      https://en.wikipedia.org/wiki/Database#Transactions_and_concurrency
      https://www.mssqltips.com/sqlservertip/5980/sql-and-nosql-database-features-and-differences/
 - transaction
+  - [xxx: need to fill in]
 - architecture
   - memory structure
   - process structure
   - storage structure
 - move data
+  - [xxx: need to fill in]
 - concurrency
+  - [xxx: need to fill in]
 - migrate
+  - [xxx: need to fill in]
 - log
+  - [xxx: need to fill in]
 - software enhancement
   - update
   - add-on
@@ -237,6 +242,7 @@ DB Features
   - auto or manual
   - mngmt
 - restore
+  - [xxx: need to fill in]
 - schema
   - NoSQL is schemaless, which contributes to fast writes
 - read/write perf mngmt (RDB read & write optimized, NoSQL optimized for write)
@@ -252,6 +258,7 @@ DB Features
 - record
 - collection of records
 - security
+  - [xxx: need to fill in]
 - computer language
   - supports common DB computer languages
     - ANSI SQL is a widely accepted language for DBs
