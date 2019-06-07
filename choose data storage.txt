@@ -237,29 +237,83 @@ DB Features
   - auto or manual
   - mngmt
 - restore
-- perf mngmt
+- schema
+  - NoSQL is schemaless, which contributes to fast writes
+- read/write perf mngmt (RDB read & write optimized, NoSQL optimized for write)
   - query tune
   - db tune
+    - normalization
+    - indices
+      - used by RDG & NoSQL to make reads faster
+    - partitioning
   - server software tune
   - server hardware tune
 - field
 - record
 - collection of records
 - security
-- query language
+- computer language
+  - supports common DB computer languages
+    - ANSI SQL is a widely accepted language for DBs
   - acceptance in dev community
   - ease of use
-- ACID (atomicity, consistency, isolation, durability) support
+- ACID (atomicity, consistency, isolation, durability) support 
+  - Atomicity: 
+    - Every transaction in a SQL DB is a unit of work
+    - Trancompletes completes in its entirety or it does not
+  - Consistency: 
+    - Ensures a DB always remains in a valid state following a transaction
+    - Valid state means the data will not breach any primary key, foreign key, constraint, trigger, cascade or other business rules when a transaction completes
+  - Isolation: 
+    - A relational DB can run multiple transactions on the same piece of data from diff connections      
+    - Dictates that when these concurrent transactions finish, the data will be in such a state as if the transactions were played sequentially. 
+    - Determines the transaction isolation level run time setting in database engine
+  - Durability: 
+    - Makes sure data is permanently persisted when a transaction completes 
+    - Even if there is a power or hardware failure before the actual data is written to disk, the DB engine will be able to recover the transaction and bring the DB to a consistent state. 
+    - Basis of how the SQL Server transaction log works
+- CAP theorem support for NoSQL DBs
+    - Consistency: 
+      - After a write operation, all copies of a data element will be exactly the same in all nodes
+      - Similarly, with a read query, all nodes responding to the request will have the same data
+    - Availability: 
+      - Req number of nodes in the cluster needs to be present during data read or write operation    
+      - If there is no response from the required number of nodes ...
+        - Transaction fails
+           or
+        - Read request returns an error
+    - Partition Tolerance: 
+      - System remains online and functioning even if one or more nodes are unavailable
+      - Data element is sufficiently replicated between multiple nodes so any outage (network or hardware) does not affect the system
+- BASE principle
+    - When a NoSQL DB gives up consistency for availability & partition tolerance
+    - Basically Available: It means the system is available even if some parts of it are unreachable.
+    - Soft state: It means parts of the distributed database can contain different versions of the same data. This can happen when certain nodes have not synched up with the latest copy of the data.
 - join support
+    - Eventual Consistency: 
+      - At some point in time, the inconsistent nodes will catch up with the latest copy of data and the system will become "eventually consistent".  
+      - "Eventually consistent" is not guarantee to happen
 - one query or multiple queries for extract
 - caching
 - normalized vs non-normalized
+    - Normalization streamlines storage and eliminates duplication. Some reads will need joins. 
+    - Denormalization increases data size by allowing duplication. Reads less likely to need joins.
 - nesting data
 - scalability
+  - vertical: 
+      - Add more CPU and RAM resources
+      - Seperate read & write workload using load balancing, clustering, or replication
+  - horizontal
+      - Server is a node and DB cluster made up of multiple nodes
+      - Each node in DB cluster work as reader & writeer and data distributed to all nodes
+      - New nodes easily added to cluster and existing data auto-redistributes among nodes 
+      - Usually used by NoSQL DB 
 - task scheduling
 - min storage size
 - max storage size
 - relationship
 - API
 - connectors for other software or computer languages
-- [xxx: need to fill in more]
+- platform availability
+  - Server & Client software available for mulitple OSes
+
