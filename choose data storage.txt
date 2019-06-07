@@ -148,6 +148,9 @@ DB Types
   Note: Guidance from 
           https://en.wikipedia.org/wiki/NoSQL
           https://en.wikipedia.org/wiki/Wide_column_store
+          https://en.wikipedia.org/wiki/Triplestore
+          https://en.wikipedia.org/wiki/Network_model
+          https://en.wikipedia.org/wiki/Tuple_space
   - SQL
       Relational
   - NoSQL
@@ -160,7 +163,9 @@ DB Types
       - Key-Value Store (eventually-consistent)
       - Key-Value Store (Ordered)
     - Data-Structures Server
+        ex: Redis
     - Tuple Store
+        ex: Apache > River
     - Object
         def: 
           - data stored as objects like in object oriented programming
@@ -172,20 +177,82 @@ DB Types
           - use XML, YAML, JSON, or BSON encoding in doc
           - each doc has unique key
           - each doc can have it's own unique structure
+        ex: MongoDB, Couchbase, CouchDB, Elasticsearch, DocumentDB
     - Wide Column Store
         def: 
           - 2-D key-value store
           - Unlike a relational DB, column names and formats can vary from row to row in same table
+        ex: AWS > DynamoDB, GCP > BigTable, Apache > Cassandra, Apache > HBase
     - Wide Column Store (w column families) / Column Family DB
         def: 
           - Has column families that are stored together
     - Native Multi-Model DB
+        ex: MS > Cosmos DB
     - Graph
         def: 
           - relationships also have properties
           - connection heavy
+        ex: Neo4j, AWS > Neptune
+        
+      - Triplestore / RDF Store
+          def: 
+            - Purpose-built DB for storage & retrieval of triples
+            - Triple = subject-predicate-object
+      - Quadstore / Named Graph
+          def: 
+            - Purpose-built DB for storage & retrieval of quads
+            - Quad = name-subject-predicate-object
+      - Network
+          def: 
+            - Each record having one parent record and many children
+            - Hierarchical database model structures data as a tree of records
     - Column
         def: 
           - Each column is stored separately on disk
           - has column families
           - column families stored seperately
+        ex: Cassandra, Hbase
+        
+        
+DB Concepts
+   guidance from https://en.wikipedia.org/wiki/Database#Transactions_and_concurrency
+- transaction
+- architecture
+  - memory structure
+  - process structure
+  - storage structure
+- move data
+- concurrency
+- migrate
+- log
+- software enhancement
+  - update
+  - add-on
+    - from DB software maker
+    - from 3rd party
+- backup 
+  - full or incremental
+  - auto or manual
+  - mngmt
+- restore
+- perf mngmt
+  - query tune
+  - db tune
+  - server tune
+- field
+- record
+- collection of records
+- security
+- query language
+  - acceptance in dev community
+  - ease of use
+- ACID (atomicity, consistency, isolation, durability) support
+- join support
+- one query or multiple queries for extract
+- caching
+- normalized vs non-normalized
+- nesting data
+- scalability
+- max storage size
+- relationship
+- [xxx: need to fill in more]
