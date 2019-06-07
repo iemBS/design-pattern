@@ -5,4 +5,4 @@ Preconditions:
   - [xxx: need to fill in]
 Main Success Scenario: 
   1. Prevent DNS Cache Poisening
-  2. [xxx: need to fill in]
+  2. Do no copy files from another drive without checking them first
