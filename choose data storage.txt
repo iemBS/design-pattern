@@ -215,7 +215,9 @@ DB Types
         
         
 DB Features
-   guidance from https://en.wikipedia.org/wiki/Database#Transactions_and_concurrency
+   guidance from
+     https://en.wikipedia.org/wiki/Database#Transactions_and_concurrency
+     https://www.mssqltips.com/sqlservertip/5980/sql-and-nosql-database-features-and-differences/
 - transaction
 - architecture
   - memory structure
