@@ -1,0 +1,46 @@
+Get SQL DB Benchmarks
+Note: 
+  - Guidance from http://www.tpc.org/
+Preconditions:
+  - Transaction Processing Performance Council = TPC
+  - TPC-H benchmark used for SQL DBs
+  - TPC-H called a decision support system benchmark
+  - TPC-H is good OLAP test
+  - TPC-C assumes little RAM and relies heavily on disk IO
+  - TPC-C benchmark is obsolete
+  - TPC-E assumes large amount of RAM & CPU and not rely as much on disk IO
+  - TPC-E is a modern OLTP application that models a stock brokerage and uses a much more sophisticated simulated world driven by fluctuating stock prices and emulates a chaotic 'outside world' of customers placing market orders, limit orders and stop-limit orders
+  - TPC-E is good OLTP test
+Main Success Scenario:
+  1. [xxx: need to fill in]
+
+
+Get NoSQL DB Benchmarks
+Note: 
+  - Guidance from https://en.wikipedia.org/wiki/YCSB
+  - Guidance from https://www.mongodb.com/blog/post/performance-testing-mongodb-30-part-1-throughput-improvements-measured-ycsb
+Preconditions:
+  - Yahoo! Cloud Serving Benchmark = YCSB
+  - YCSB is an open-source spec and program suite for evaluating retrieval and maintenance capabilities of computer programs
+  - YCSB often used to compare relative performance of NoSQL DB Mngmt Systems 
+  - YCSB called a Big Data Benchmark
+  - For "Throughput", larger is better
+  - For "Latency", lower is better
+  - For "Providing Sufficient Client Capacity", larger or unchanging is better
+Main Success Scenario:
+  1. Test Throughput (operations/second) for workload w 100% writes
+  2. Test Throughput (operations/second) for workload w 95% reads, 5% writes
+  3. Test Throughput (operations/second) for workload w 50% reads, 50% writes
+  4. Latency (milliseconds) for workload w 95% reads, 5% writes
+  5. Latency (milliseconds) for workload w 50% reads, 50% writes
+  6. Providing Sufficient Client Capacity (operations/second) for workload w 1 thread,50% reads, 50% writes
+  7. Providing Sufficient Client Capacity (operations/second) for workload w 5 threads,50% reads, 50% writes
+  8. Providing Sufficient Client Capacity (operations/second) for workload w 10 threads,50% reads, 50% writes
+  9. Providing Sufficient Client Capacity (operations/second) for workload w 50 threads,50% reads, 50% writes
+  10. Providing Sufficient Client Capacity (operations/second) for workload w 100 thread,50% reads, 50% writes
+ 
+
+
+
+Letters on the Spiritual Life
+by Henri Nowmen
