@@ -214,7 +214,7 @@ DB Types
         ex: Cassandra, Hbase
         
         
-DB Concepts
+DB Features
    guidance from https://en.wikipedia.org/wiki/Database#Transactions_and_concurrency
 - transaction
 - architecture
@@ -238,7 +238,8 @@ DB Concepts
 - perf mngmt
   - query tune
   - db tune
-  - server tune
+  - server software tune
+  - server hardware tune
 - field
 - record
 - collection of records
@@ -253,6 +254,10 @@ DB Concepts
 - normalized vs non-normalized
 - nesting data
 - scalability
+- task scheduling
+- min storage size
 - max storage size
 - relationship
+- API
+- connectors for other software or computer languages
 - [xxx: need to fill in more]
