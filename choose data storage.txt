@@ -295,6 +295,7 @@ DB Features
       - "Eventually consistent" is not guarantee to happen
 - one query or multiple queries for extract
 - caching
+  - storing copy of query results to reduce queries running against DB
 - normalized vs non-normalized
     - Normalization streamlines storage and eliminates duplication. Some reads will need joins. 
     - Denormalization increases data size by allowing duplication. Reads less likely to need joins.
@@ -312,6 +313,7 @@ DB Features
 - min storage size
 - max storage size
 - relationship
+  - define relationships that can be joined on
 - API
 - connectors for other software or computer languages
 - platform availability
