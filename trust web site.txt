@@ -182,6 +182,7 @@ Alternatives:
 Trust Connection Hardware
 Note: 
   - Guidance from https://www.wi-fi.org/news-events/newsroom/wi-fi-alliance-introduces-wi-fi-certified-wpa3-security
+  -[xxx: note how mac address can be spoofed https://www.lifewire.com/enabling-mac-address-filtering-wireless-router-816571]
 Preconditions: 
   - Latest software is installed on WIFI router
   - WIFI router configured to block unsafe sites
