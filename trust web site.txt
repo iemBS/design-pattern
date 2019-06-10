@@ -185,18 +185,23 @@ Note:
 Preconditions: 
   - Latest software is installed on WIFI router
   - WIFI router configured to block unsafe sites
+  - MAC Authenticatin = WIFI device configured for specific MAC addresses (unique machine IDs)
+  - Remote access to router admin console is not done via WIFI, but over internet 
+  - Identify MAC addresses for all devices that need to access WIFI
+  - Identify schedule for when WIFI will be used
 Main Success Scenario: 
   1. WIFI router implements WPA3
-  2. WIFI device configured for specific MAC addresses
+  2. Enable MAC Authentication
   3. WIFI signal range is kept to a minimum
-  4. WIFI signal is shielded in the directions it does not need to go. 
+  4. WIFI signal is shielded in the directions it does not need to go
   5. WIFI router has strong admin password that is not the default admin password
   6. admin password not printed on WIFI router
   7. WIFI router powered On schedule
   8. Log WIFI router connections
-  9. Disable WIFI router admin access web page
+  9. Disable Remote WIFI router admin console (console or web UI)
   10. Choose to use network cable instead of WIFI connection. 
   11. WIFI router's DNS cache has not been poisened
+  12. Enable Access Scheduler
 Alternatives:
   11a. WIFI router's DNS cache has been poisened
     11a1. Refresh WIFI router's DNS cache
