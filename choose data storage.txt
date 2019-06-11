@@ -152,7 +152,8 @@ DB Types
           https://en.wikipedia.org/wiki/Network_model
           https://en.wikipedia.org/wiki/Tuple_space
   - SQL
-      Relational
+    - Relational
+        ex: MySQL, MS > SQL Server
   - NoSQL
     - Key-Value
       - Key-Value Cache
