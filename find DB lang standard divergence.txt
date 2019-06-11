@@ -1,0 +1,24 @@
+Find DB Language Standard Divergence
+Precondition:
+  - Use "DB Language Standard Divergence table" below
+Main Success Scenario: 
+  1. Use "DB Language Standard Divergence table" below to find your DB
+
+
+Language Standard table
+- ANSI-SQL, search for "SQL" @ https://standards.iso.org/ittf/PubliclyAvailableStandards/index.html
+- C#, search for "ISO/IEC 23270:2018" or "C#" @ https://standards.iso.org/ittf/PubliclyAvailableStandards/index.html
+- [xxx: need to fill in]
+
+DB Language Standard Divergence table
+-MySQL
+  - standard derived from: ANSI-SQL
+    - language in DB: SQL/PSM
+    - how ANSI-SQL is extended to create SQL/PSM: https://dev.mysql.com/doc/refman/8.0/en/extensions-to-ansi.html
+- MS > SQL Server
+  - standard derived from: C#
+    - [xxx: need to fill in]
+- Oracle
+  - [xxx: need to fill in]
+
+
