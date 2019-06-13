@@ -1,0 +1,11 @@
+Trust Doc
+Preconditions:
+  - This is limited to only the most common docs that are used. 
+Main Success Scenario:
+ 1. "Trust PDF Doc" use case
+ 2. [xxx: need to fill in]
+ 
+ 
+ Trust PDF Doc
+ Main Success Scenario:
+   1. [xxx: need to fill in]
