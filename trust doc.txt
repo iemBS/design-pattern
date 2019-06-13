@@ -7,5 +7,7 @@ Main Success Scenario:
  
  
  Trust PDF Doc
+ Note:
+   - Guidance on file extensions that identify files that could contain malware from https://support.symantec.com/en_US/article.INFO3768.html
  Main Success Scenario:
    1. [xxx: need to fill in]
