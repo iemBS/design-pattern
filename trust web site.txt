@@ -175,10 +175,26 @@ Main Success Scenario:
 Alternatives:
   1a. ISP forces use of their DNS
     1a1. Specify another DNS to use in WIFI router or your device
-  3a. ISP is using transparent DNS proxy (aka hijacking/redirecting)
-    3a1. [xxx: need to fill in]
+  3a. ISP is using transparent DNS proxy (aka DNS hijacking/DNS redirecting/DNS leak)
+    3a1. Use "Ways to Confirm DNS Redirecting" table
   
   
+Ways to Confirm DNS Redirecting
+table start: ---------------------------------
+- Method A
+  - Change computer or router to use Google public DNS or OpenDNS
+  - Use https://www.dnsleaktest.com/ site
+  - See if different DNS providers are showing in results
+- Method B
+  - guidance from https://support.rackspace.com/how-to/nslookup-checking-dns-records-on-windows/
+  - use nslookup shell cmd
+  - run nslookup a.ns.facebook.com fb.me 
+    - 1st parameter is the authoritative name server for fb.me
+    - 2nd parameter is a facebook website
+  - if ISP redirects to their DNS, then the results will not have an authoritative reply  
+table end: -----------------------------------
+ 
+ 
 Trust Connection Hardware
 Note: 
   - Guidance from https://www.wi-fi.org/news-events/newsroom/wi-fi-alliance-introduces-wi-fi-certified-wpa3-security
