@@ -186,6 +186,7 @@ table start: ---------------------------------
     - guidance from https://developers.google.com/speed/public-dns/
   - Use https://www.dnsleaktest.com/ site
   - See if different DNS providers are showing in results
+  - If different DNS providers show in the results, then the DNS is being redirected by your ISP. 
 - Method B
   - guidance from https://support.rackspace.com/how-to/nslookup-checking-dns-records-on-windows/
   - use nslookup shell cmd
