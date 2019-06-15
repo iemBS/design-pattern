@@ -182,7 +182,8 @@ Alternatives:
 Ways to Confirm DNS Redirecting
 table start: ---------------------------------
 - Method A
-  - Change computer or router to use Google public DNS or OpenDNS
+  - Change computer or router to use Google public DNS (8.8.8.8) or OpenDNS
+    - guidance from https://developers.google.com/speed/public-dns/
   - Use https://www.dnsleaktest.com/ site
   - See if different DNS providers are showing in results
 - Method B
