@@ -10,4 +10,8 @@ Main Success Scenario:
  Note:
    - Guidance on file extensions that identify files that could contain malware from https://support.symantec.com/en_US/article.INFO3768.html
  Main Success Scenario:
-   1. [xxx: need to fill in]
+   1. Understand security w PDF files
+    https://security.stackexchange.com/questions/64052/can-a-pdf-file-contain-a-virus#64081
+   2. xxx
+
+
