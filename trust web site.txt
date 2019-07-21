@@ -124,6 +124,10 @@ Main Success Scenario:
 
 
 Trust Browser
+Note: 
+  -Firefox Browser identifies & blocks trackers 
+  -Firefox blocks cookies
+  -Identifying trackers in web pages may let you know some of the 3rd parties a web page is passing your info to
 Preconditions: 
   - On non-mobile, use Google Chrome or Mozilla Firefox browser
   - On mobile, use [xxx: need to fill in]
@@ -131,6 +135,8 @@ Main Success Scenario:
   1. Choose safe browser
   2. Have latest browser updates
   3. Avoid 3rd party browser add-ins
+  4. Browser identifies & blocks Trackers in web pages
+  5. Browser blocks cookies
 Extension: 
   1a. Browser uses Tor
 
