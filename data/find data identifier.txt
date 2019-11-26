@@ -14,6 +14,7 @@ Main Success Scenario:
 Find US Government ID
 Notes:
   -Guidance @ https://www.irs.gov/businesses/small-businesses-self-employed/employer-id-numbers
+  -Guidance @ https://www.uscis.gov/forms/immigrant-fee-payment-tips-finding-your-a-number-and-dos-case-id
   -Tax Number is an EIN or SSN
 Main Success Scenario:
   1. Find SSN
@@ -21,6 +22,7 @@ Main Success Scenario:
   3. Find Passport Card Number
   4. Find Dept of Defense ID
   5. Find EIN 
+  6. Find A-Number
   
 Find Industry ID
 Note:
