@@ -1,17 +1,27 @@
 Find Data Identifier
 Main Success Scenario:
-  1."Find Government IDs"
+  1."Find Government ID"
+  2."Find Industry ID"
   
-Find Government IDs
+Find Government ID
 Notes:
   -Guidance @ https://en.wikipedia.org/wiki/Identity_documents_in_the_United_States
 Main Success Scenario:
-  1."Find US Government IDs"
+  1."Find US Government ID"
   
-Find US Government IDs
+Find US Government ID
+Notes:
+  -Guidance @ https://www.irs.gov/businesses/small-businesses-self-employed/employer-id-numbers
 Main Success Scenario:
   1. Find SSN
   2. Find Tax Number
   3. Find Driver's License
   4. Find Passport Card Number
   5. Find Dept of Defense ID
+  6. Find EIN 
+  
+Find Industry ID
+Note:
+  -Guidance @ https://en.wikipedia.org/wiki/Standard_Industrial_Classification
+Main Success Scenario:
+  1. Standard Industrial Classification (SIC) Code
