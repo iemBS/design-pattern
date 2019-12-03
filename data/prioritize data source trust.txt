@@ -1,0 +1,5 @@
+Prioritize Data Source Trust
+Notes:
+ -Beneficial if the same type of data, like customer, exists in more than one data source.
+Main Success Scenario:
+  1.xxx:fill in
