@@ -30,3 +30,9 @@ Note:
 Main Success Scenario:
   1. Standard Industrial Classification (SIC) Code
   2.xxx:fill in
+
+
+
+
+Other links that may help
+-Guidance @ https://www.w3.org/TR/did-core/
