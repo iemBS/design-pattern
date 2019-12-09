@@ -36,3 +36,4 @@ Main Success Scenario:
 
 Other links that may help
 -Guidance @ https://www.w3.org/TR/did-core/
+-Guidance @ https://www.w3.org/TR/vc-data-model/
