@@ -1,6 +1,9 @@
 Trust Phone App
 Note:
+  -"Profiles & Device Management" section only exists in settings if you have installed an untrusted app
   -Access outside of phone app
     -What an app can see about other apps on a phone
 Main Success Scenario:
-  1.xxx:fill in
+  1.Apps downloaded from the App Store are automatically trusted.
+  2.See if the "Profiles & Device Management" section exists in settings
+  3.
