@@ -1,9 +1,17 @@
 Trust Phone App
+Main Success Scenario:
+  1."Trust iPhone App"
+
+Trust iPhone App
 Note:
   -"Profiles & Device Management" section only exists in settings if you have installed an untrusted app
+  -apps can add a URL scheme to the system to allow the app to launch when certain URLs are encountered.
   -Access outside of phone app
     -What an app can see about other apps on a phone
 Main Success Scenario:
   1.Apps downloaded from the App Store are automatically trusted.
-  2.See if the "Profiles & Device Management" section exists in settings
-  3.
+  2.See if the "Profiles & Device Management" section exists in "Settings" app > "General" section
+  3.Apple does not provide a legal API to see other apps on iPhone 
+  4.An app may be able to determine another installed app by looking for installed URL schemes.
+  5.An illegal API that is installed on jail broken devices, but rejected by the AppStore can be used to determine other apps installed. 
+  6.
