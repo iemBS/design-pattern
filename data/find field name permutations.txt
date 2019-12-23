@@ -1,11 +1,18 @@
 Find field name permutations
+Note:
+  -Abbreviatons or synonyms may be used
+  -Abbreviations in data may be shorter than used in writing
 Main Success Scenario:
-  1."Get Phone Field Name Permutations"
-  2.xxx:fill in
-
-Get Phone Field Name Permutations
-Main Success Scenario:
-  1.xxx:fill in
+  1.See map below
+  
+-Marital Status: married,relation, marriage
+-Role: role, Relation
+-Phone Number: phone, contact, call
+-fax:fax
+-Email not valid: bounce, valid
+-Employed: company, employ, job, profession, co
+-First Name: name, first
+-Last Name: name, last
   
   
  
