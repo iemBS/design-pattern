@@ -23,6 +23,7 @@ Notes:
   -Guidance @ https://www.irs.gov/businesses/small-businesses-self-employed/employer-id-numbers
   -Guidance @ https://www.uscis.gov/forms/immigrant-fee-payment-tips-finding-your-a-number-and-dos-case-id
   -Tax Number is an EIN or SSN
+  -Guidance @ https://www.investopedia.com/terms/t/taxpayer-identification-number.asp
 Main Success Scenario:
   1. Find SSN
   2. Find Driver's License
