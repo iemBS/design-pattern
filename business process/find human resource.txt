@@ -7,4 +7,5 @@ Main Success Scenario:
   1.How long has the company been a partner?
   2.What accolades has the Company bestowed on the partner?
   3.What projects has the partner worked on for the Company?
-  4.xxx:fill in
+  4.Request links to supporting evidence not owned by them
+  5.xxx:fill in
