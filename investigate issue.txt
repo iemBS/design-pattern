@@ -1,0 +1,4 @@
+Investigate Issue
+Main Success Scenario:
+  1.What are all the attributes of the issue?
+  2.xxx:fill in
