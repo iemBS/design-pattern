@@ -4,10 +4,10 @@ Note:
   -alpha 3 codes can be more intuitive to humans than alpha 2 codes
   -alpha 2 codes @ https://www.iso.org/obp/ui/#iso:pub:PUB500001:en
   -numeric 3 codes @ https://en.m.wikipedia.org/wiki/ISO_3166-1_numeric
-  -alpha 3, alpha 2, numeric 3 @ 
   -guidance @ https://www.iso.org/glossary-for-iso-3166.html
+  -The ISO 3166 standard does not change often. 
 Main Success Scenario:
-  1.xxx:fill in
+  1.Pull alpha 3 codes from a web service, config file, or data storage.
 Alternatives:
   1a.Get alpha 2 code standard 
     Xxx:fill in
