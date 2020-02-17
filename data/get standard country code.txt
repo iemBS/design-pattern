@@ -1,0 +1,13 @@
+Get Standard Country Name
+Note:
+  -alpha 3 codes @ https://en.m.wikipedia.org/wiki/ISO_3166-1_alpha-3
+  -alpha 3 codes can be more intuitive to humans than alpha 2 codes
+  -alpha 2 codes @ https://en.m.wikipedia.org/wiki/ISO_3166-1_alpha-2
+  -numeric 3 codes @ https://en.m.wikipedia.org/wiki/ISO_3166-1_numeric
+Main Success Scenario:
+  1.xxx:fill in
+Alternatives:
+  1a.Get alpha 2 code standard 
+    Xxx:fill in
+  1b.Get numeric 3 code standard 
+    Xxx:fill in
