@@ -11,34 +11,7 @@ Note:
 Main Success Scenario:
   1.xxx:fill in
   
-Find Government ID
-Notes:
-  -Guidance @ https://en.wikipedia.org/wiki/Identity_documents_in_the_United_States
-Main Success Scenario:
-  1."Find US Government ID"
-  2.xxx:fill in
-  
-Find US Government ID
-Notes:
-  -Guidance @ https://www.irs.gov/businesses/small-businesses-self-employed/employer-id-numbers
-  -Guidance @ https://www.uscis.gov/forms/immigrant-fee-payment-tips-finding-your-a-number-and-dos-case-id
-  -Tax Number is an EIN or SSN
-  -Guidance @ https://www.investopedia.com/terms/t/taxpayer-identification-number.asp
-  -Guidance @ https://www.irs.gov/individuals/international-taxpayers/taxpayer-identification-numbers-tin
-Main Success Scenario:
-  1. Find SSN
-  2. Find Driver's License
-  3. Find Passport Card Number
-  4. Find Dept of Defense ID
-  5. Find EIN 
-  6. Find A-Number
-  
-Find Industry ID
-Note:
-  -Guidance @ https://en.wikipedia.org/wiki/Standard_Industrial_Classification
-Main Success Scenario:
-  1. Standard Industrial Classification (SIC) Code
-  2.xxx:fill in
+
 
 Find Person ID
 Note:
