@@ -24,6 +24,7 @@ Notes:
   -Guidance @ https://www.uscis.gov/forms/immigrant-fee-payment-tips-finding-your-a-number-and-dos-case-id
   -Tax Number is an EIN or SSN
   -Guidance @ https://www.investopedia.com/terms/t/taxpayer-identification-number.asp
+  -Guidance @ https://www.irs.gov/individuals/international-taxpayers/taxpayer-identification-numbers-tin
 Main Success Scenario:
   1. Find SSN
   2. Find Driver's License
