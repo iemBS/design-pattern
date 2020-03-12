@@ -2,6 +2,7 @@ Trust Web Site
 Note: 
   - Guidance from https://developers.google.com/web/fundamentals/security/hacked/glossary_for_hacked_sites
   - DuckDuckGo.com search engine does not track you
+  -xxx: can you see if oAuth 2.0 is used in a web site?
 Preconditions: 
   - passed "Trust Site URL" use case
   - passed "Trust Browser" use case
