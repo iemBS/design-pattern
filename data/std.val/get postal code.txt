@@ -1,0 +1,12 @@
+Get Postal Code
+Notes
+  -List of postal code formats
+    -https://en.wikipedia.org/wiki/List_of_postal_codes
+    -http://www.fedex.com/be/shippingguide/postalcodeformat.html
+  -list of postal code values
+    -US: https://postalpro.usps.com/storages/2020-05/AREA_DIST_ZIP_0.TXT (from https://postalpro.usps.com/ais-viewer/area_dist_zip)
+  -knowing postal codes with preceding zeros important because they can be lost if changed to an integer
+  -other possible source of info
+    -http://www.columbia.edu/~fdc/postal/
+Main Success Scenario:
+  1. xxx:fill in
