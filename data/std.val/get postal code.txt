@@ -8,5 +8,9 @@ Notes
   -knowing postal codes with preceding zeros important because they can be lost if changed to an integer
   -other possible source of info
     -http://www.columbia.edu/~fdc/postal/
+  -meaning of US postal code positions
+    -position 1: national area
+    -position 2 & 3: sectional center or large city post office
+    -position 4 & 5: associate post office or delivery area
 Main Success Scenario:
   1. xxx:fill in
