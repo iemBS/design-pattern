@@ -1,3 +1,61 @@
 Define Tech Spec
+Notes:
+  -guidance @ https://stackoverflow.blog/2020/04/06/a-practical-guide-to-writing-technical-specs/
 Main Success Scenario:
-  1.xxx:fill in
+  1. "Define Header"
+  x. "Define Intro"
+  3. "Define Solutions"
+  x. "Define Time"
+
+  
+Define Header
+Main Success Scenario: 
+  1. Note Title
+  2. Note Author
+  3. Note Team
+  4. Note Reviewers
+  5. Note Created On
+  6. Last Updated
+  7. Note ID and link for task tracker tool
+  
+Define Intro
+Main Success Scenario: 
+  1. "Define Overview"
+  2. "Define Terms"
+  3. "Define Scope"
+  x. "Define Assumptions"
+  x. "Define Open Questions"
+  
+Define Scope
+Main Success Scenario: 
+  1. Define In Scope
+  2. Define Out of Scope
+  3. Define Out of Scope till a future time
+  
+Define Solutions
+Main Success Scenario: 
+  1. "Define Existing Solution"
+  2. "Define Proposed Solution"
+  
+Define Existing Solution
+Main Success Scenario:
+  1. "Define Existing Solution Description"
+  2. "Define Pros and Cons of Existing Solution"
+  
+Define Proposed Solution
+Main Success Scenario:
+  1. "Define Pros and Cons of Proposed Solution"
+  2. 
+  
+Define Time
+Main Success Scenario:
+  1. xxx:fill in
+  
+Define Assumptions
+Main Success Scenario:
+  1. xxx:fill in
+
+Define Open Questions
+Main Success Scenario:
+  1. xxx:fill in
+
