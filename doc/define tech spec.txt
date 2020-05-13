@@ -39,13 +39,24 @@ Main Success Scenario:
   
 Define Existing Solution
 Main Success Scenario:
-  1. "Define Existing Solution Description"
-  2. "Define Pros and Cons of Existing Solution"
+  x. "Define Existing Solution Description"
+  x. "Define Dependencies of Existing Solution"
+  x. "Define Pros and Cons of Existing Solution"
+  x. 
   
 Define Proposed Solution
 Main Success Scenario:
-  1. "Define Pros and Cons of Proposed Solution"
-  2. 
+  1. "Define Proposed Solution Description"
+  2. "Define Dependencies of Proposed Solution"
+  3. "Define Pros and Cons of Proposed Solution"
+  4. "Define Adaptability of Proposed Solution"
+  
+Define Adaptability of Proposed Solution
+Main Success Scenario:
+  1. "Scalability"
+  2. "Limitations"
+  3. "Recover from failure"
+  4. "Adding Future Requirements"
   
 Define Time
 Main Success Scenario:
