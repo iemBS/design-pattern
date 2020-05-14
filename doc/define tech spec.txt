@@ -1,6 +1,10 @@
 Define Tech Spec
 Notes:
   -guidance @ https://stackoverflow.blog/2020/04/06/a-practical-guide-to-writing-technical-specs/
+  -guidance @ https://eng.lyft.com/awesome-tech-specs-86eea8e45bb9
+  -guidance @ https://developers.google.com/tech-writing
+  -guidance @ https://medium.com/machine-words/writing-technical-design-docs-71f446e42f2e
+  -Level of detail in the doc will depend on the purpose of the doc
 Main Success Scenario:
   1. "Define Header"
   x. "Define Intro"
@@ -23,11 +27,12 @@ Main Success Scenario:
   
 Define Intro
 Main Success Scenario: 
-  1. "Define Overview"
-  2. "Define Terms"
-  3. "Define Scope"
-  x. "Define Assumptions"
-  x. "Define Open Questions"
+  1. "Define Purpose of this Doc"
+  2. "Define Overview"
+  3. "Define Terms"
+  4. "Define Scope"
+  5. "Define Assumptions"
+  6. "Define Open Questions"
   
 Define Scope
 Main Success Scenario: 
@@ -40,20 +45,27 @@ Main Success Scenario:
   1. "Define Existing Solution"
   2. "Define Proposed Solution"
   x. "Define Proposed Alt Solution"
-  x. "Define Test Plan"
-  x. "Define Monitering and Alerting Plan"
-  x. "Define Release and Deployment Plan"
-  x. "Define Rollback Plan"
+  x. "Define Plans"
   x. "Define Impact on Other Teams"
   x. "Define 3rd Party Services and Platforms Considerations"
   x. "Define Cost Analysis"
-  x. "Define Security"
+  x. "Define Security Threats"
   x. "Define Privacy"
   x. "Define Regional"
   x. "Define Accessibility"
   x. "Define Operational"
   x. "Define Risks"
   x. "Define Support"
+  
+Define Plans
+Note:
+  -Section may just contain a link to another doc
+Main Success Scenario:
+  x. "Define Test Plan"
+  x. "Define Monitering and Alerting Plan"
+  x. "Define Release and Deployment Plan"
+  x. "Define Rollback Plan"
+  x. "Define Security Plan"
   
 Define Existing Solution
 Main Success Scenario:
@@ -69,6 +81,59 @@ Main Success Scenario:
   3. "Define Pros and Cons of Proposed Solution"
   4. "Define Adaptability of Proposed Solution"
   x. "Define Data Model"
+  x. xxx:fill in
+  
+Define Proposed Alt Solution
+Desc: This may answer questions about design choices before others pose them.
+Note: 
+  -Do this for each proposed alt solution that you expect to be suggested
+Main Success Scenario:
+  x. Define Proposed Alt Solution Description
+  x. Define Pros and Cons
+  x. Define why alt solution would not work
+  x. Define ways in which the alt solution is inferior to the proposed solution
+  x. Define mitigation plan to next best alt in case proposed solution falls through
+  
+Define Security Threats
+Main Success Scenario:
+  1. "Define Potential Threats"
+  2. "Define Potential Threat Mitigation"
+  3. "Define Solution's Security Impact on other components it is interfacing with"
+  
+Define Regional
+Main Success Scenario:
+  1. "Define Internationalization and Localization"
+  2. "Define Latency Issues"
+  3. "Define Legal Concerns" 
+  4. "Define Service Availability"
+  5. "Define Data Transfer across regions"
+  
+Define Accessibility
+Main Success Scenario:
+  1. "Define Accessiblity Methods"
+  2. "Define Evaluate Accessibility"
+  
+Define Operations
+Main Success Scenario:
+  1. xxx:fill in
+  
+Define Risks
+Main Success Scenario:
+  1. Note Risks taken with this solution
+  2. Note Risks taken that cannot be rolled back
+  3. Note Cost-Benefit Analysis of risks taken
+  
+Define Support
+Main Success Scenario:
+  x. Define Communication Path from Support Team to Users
+  x. Define Self Help
+  x. Define Support Team Responsible for Solution Maintenance
+  
+Define Privacy
+Main Success Scenario:
+  1. "Define Adherence to Data Privacy"
+  2. "Define Way of protecting users' data privacy"
+  3. "Define Personalization and Privacy Tradeoffs"
   
 Define External Components that will be interacted with
 Main Success Scenario:
@@ -89,6 +154,25 @@ Main Success Scenario:
   x. "Define New Data Models"
   x. "Define Data Validation"
   
+Define Impact on Other Teams
+Main Success Scenario:
+  1. Define More Work for Other Teams
+  2. Define Less Work for Other Teams
+  
+Define Cost Analysis
+Main Success Scenario:
+  1. "Define Cost to Release and Deploy Solution"
+  2. "Define Cost of the Solution per Day"
+  
+Define Success Evalulation
+Main Success Scenario:
+  1. Define Security Impact
+  2. Define Performance Impact
+  3. Define Cost Impact
+  4. Define Impact on Other Components and Services
+  5. Define List of metrics to capture
+  6. Define Tools to capture and measure metrics 
+  
 Define Work
 Main Success Scenario:
   x. "Define Work Timeline"
@@ -100,7 +184,7 @@ Define Work Timeline
 Main Success Scenario:
   x. "Define List of specific, measureable, and time-bound tasks"
   x. "Define Resources need to finish each task"
-  x. "Define Time estimates for how long each task needs to to be completed"
+  x. "Define Time estimates for how long each task needs to be completed"
   
 Define Priority
 Main Success Scenario:
