@@ -5,9 +5,12 @@ Main Success Scenario:
   1. "Define Header"
   x. "Define Intro"
   3. "Define Solutions"
+  x. "Define Success Evalulation"
+  x. "Define Work"
   x. "Define Time"
+  x. "Define Deliberation"
+  x. "Define End Notes"
 
-  
 Define Header
 Main Success Scenario: 
   1. Note Title
@@ -36,31 +39,101 @@ Define Solutions
 Main Success Scenario: 
   1. "Define Existing Solution"
   2. "Define Proposed Solution"
+  x. "Define Proposed Alt Solution"
+  x. "Define Test Plan"
+  x. "Define Monitering and Alerting Plan"
+  x. "Define Release and Deployment Plan"
+  x. "Define Rollback Plan"
+  x. "Define Impact on Other Teams"
+  x. "Define 3rd Party Services and Platforms Considerations"
+  x. "Define Cost Analysis"
+  x. "Define Security"
+  x. "Define Privacy"
+  x. "Define Regional"
+  x. "Define Accessibility"
+  x. "Define Operational"
+  x. "Define Risks"
+  x. "Define Support"
   
 Define Existing Solution
 Main Success Scenario:
   x. "Define Existing Solution Description"
   x. "Define Dependencies of Existing Solution"
   x. "Define Pros and Cons of Existing Solution"
-  x. 
   
 Define Proposed Solution
 Main Success Scenario:
+  x. "Define External Components that will be interacted with"
   1. "Define Proposed Solution Description"
   2. "Define Dependencies of Proposed Solution"
   3. "Define Pros and Cons of Proposed Solution"
   4. "Define Adaptability of Proposed Solution"
+  x. "Define Data Model"
+  
+Define External Components that will be interacted with
+Main Success Scenario:
+  x. "Define [External Component A] Description"
+  x. "Define [External Component B] Description"
   
 Define Adaptability of Proposed Solution
 Main Success Scenario:
-  1. "Scalability"
-  2. "Limitations"
-  3. "Recover from failure"
-  4. "Adding Future Requirements"
+  1. "Define Scalability"
+  2. "Define Limitations"
+  3. "Define Recover from failure"
+  4. "Define Adding Future Requirements"
   
-Define Time
+Define Data Model
 Main Success Scenario:
-  1. xxx:fill in
+  1. "Define Schema Definitions"
+  2. "Define Modified Data Models"
+  x. "Define New Data Models"
+  x. "Define Data Validation"
+  
+Define Work
+Main Success Scenario:
+  x. "Define Work Timeline"
+  x. "Define Priority"'
+  x. "Define Milestones"
+  x. "Define Future Work"
+  
+Define Work Timeline
+Main Success Scenario:
+  x. "Define List of specific, measureable, and time-bound tasks"
+  x. "Define Resources need to finish each task"
+  x. "Define Time estimates for how long each task needs to to be completed"
+  
+Define Priority
+Main Success Scenario:
+  x. "Categorize tasks by urgency and impact"
+  
+Define Milestones
+Main Success Scenario:
+  x. "Define checkpoints when significant chunks of work will have been completed"
+  x. "Define metrics to indicate the passing of the milestone"
+  
+Define Future Work
+Main Success Scenario:
+  x. List of tasks that will be completed in the future
+  
+Define Deliberation
+Main Success Scenario:
+  1. "Define Discussion"
+  x. "Define Open Questions"
+  
+Define End Notes
+Main Success Scenario:
+  x. "Define Related Work"
+  x. "Define References"
+  x. "Define Acknowledgements"
+  
+Define References
+Main Success Scenario:
+  x. Links to relevant docs
+  x. Links to relevant sites
+  
+Define Acknowledgements
+Main Success Scenario:
+  1. Credit people who have contributed to the design
   
 Define Assumptions
 Main Success Scenario:
