@@ -3,4 +3,5 @@ Main Success Scenario:
   1. "Match by Exact Value"
   2. "Match with Fuzzy Logic"
   4. "Match by Soundex"
+  5. "Proximity Match"
   5. xxx:fill in
