@@ -1,4 +1,6 @@
 Match Data
+Note:
+  -Need to understand match tokens in MDM sofware
 Main Success Scenario:
   1. "Match by Exact Value"
   2. "Match with Fuzzy Logic"
