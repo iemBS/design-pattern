@@ -1,0 +1,22 @@
+Master Data
+Main Success Scenario:
+  1. "Profile data"
+  2. "Standardize Data"
+  3. "Enrich Data"
+
+Profile Data
+Main Success Scenario:
+  1. Identify noise words in values
+  2. Count Unique Values
+  3. Get Value Max, Min, and Avg length
+  4. Get Value Type and Format
+  5. Get Value Frequency
+
+Standardize Data
+Main Success Scenario:
+  1. Standardize Terms
+  2. Standardize Values
+
+Enrich Data
+Main Success Scenario:
+  1.Get Values based on other valid values
