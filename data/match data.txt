@@ -2,6 +2,7 @@ Match Data
 Note:
   -Need to understand match tokens in MDM sofware
   -In MDM, When you define a match rule, you can specify a match token class for each attribute. A match token is a string generated for an attribute value. Match tokens are used to select entities that are candidates for matching. An example of a match token can be a concatenated first name and last name of a person.
+  -Use of match tokens can improve performance
 Main Success Scenario:
   1. "Match by Exact Value"
   2. "Match with Fuzzy Logic"
