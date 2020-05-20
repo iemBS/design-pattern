@@ -10,7 +10,7 @@ Main Success Scenario:
   2. Count Unique Values
   3. Get Value Max, Min, and Avg length
   4. Get Value Type and Format
-  5. Get Value Frequency
+  5. "Get Value Frequency"
   6. Count NULL/blank values
 
 Standardize Data
@@ -21,3 +21,12 @@ Main Success Scenario:
 Enrich Data
 Main Success Scenario:
   1.Get Values based on other valid values
+  
+Get Value Frequency
+Main Success Scenario:
+  1. "Get Phone/Fax Value Frequency"
+  
+Get Phone/Fax Value Frequency
+Main Success Scenario:
+  1. Is high frequency of phone/fax indicating the phone/fax is not specific enough?
+  2. Would a different phone or phone extension provide a more specific phone?
