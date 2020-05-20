@@ -6,12 +6,31 @@ Main Success Scenario:
 
 Profile Data
 Main Success Scenario:
-  1. Identify noise words in values
+  1. "Identify Noise Words"
   2. Count Unique Values
   3. Get Value Max, Min, and Avg length
   4. Get Value Type and Format
   5. "Get Value Frequency"
   6. Count NULL/blank values
+  7. "Profile Org Data"
+  8. "Profile Individual Data"
+  
+Identify Noise Words
+Note:
+  -Guidance @ https://docs.informatica.com/master-data-management/identity-resolution/10-1/service-group-definition-and-customization-guide/edit-list-definition/edit-list-definition/tips-on-building-an-edit-list.html
+Main Success Scenario:
+  1. List noise words that are found in your data
+  2. Establish a standard for each noise word
+  3. xxx:fill in
+  
+Profile Individual Data
+Main Success Scenario:
+  1. "Identify Prefixes"
+  2. "Identify Suffixes"
+
+Profile Org Data
+Main Success Scenario:
+  1. xxx:fill in
 
 Standardize Data
 Main Success Scenario:
