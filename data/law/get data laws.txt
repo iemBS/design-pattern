@@ -3,4 +3,5 @@ Main Success Scenario:
   1. Go to the following locations to get laws
     Do Not Call Registry: https://www.ftc.gov/news-events/media-resources/do-not-call-registry/enforcement
     Can Spam: https://www.ftc.gov/enforcement/rules/rulemaking-regulatory-reform-proceedings/can-spam-rule
+    Hippa: https://www.hhs.gov/hipaa/index.html
     xxx:fill in more
