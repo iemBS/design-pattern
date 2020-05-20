@@ -11,6 +11,7 @@ Main Success Scenario:
   3. Get Value Max, Min, and Avg length
   4. Get Value Type and Format
   5. Get Value Frequency
+  6. Count NULL/blank values
 
 Standardize Data
 Main Success Scenario:
