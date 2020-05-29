@@ -1,0 +1,9 @@
+Get Lat and Long Accuracy
+Note:
+  -Guidance @ https://en.wikipedia.org/wiki/Decimal_degrees
+Main Success Scenario:
+  1. Get country or large region (0 decimal places)
+  2. Get large city or district (1st decimal place)
+  3. Get town or village (2nd decimal place)
+  4. Get neighborhood, street (3rd decimal place)
+  5. Get individual street, land parcel (4th decimal place)
