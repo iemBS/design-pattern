@@ -1,3 +1,4 @@
 Enrich Business Info
 Main Success Scenario:
-  1. dnb.com
+  1. Use a Dunn & Bradstreet service (dnb.com)
+  2. Xxx:fill in
