@@ -1,0 +1,24 @@
+Get Phone Format
+Main Success Scenario:
+  1. "Get Phone Number format"
+  2. "Get Country Code"
+  3. "Get Area Code"
+  
+Get Area Code
+Main Success Scenario:
+  1. "Get Canadian Area Code"
+  2. "Get US Area Code"
+  3. xxx:fill in
+  
+Get Canadian Area Code
+Main Success Scenario:
+  1. Go to http://www.cnac.ca/area_code_maps/canadian_area_codes.htm
+  
+Get US Area Code
+Main Success Scenario:
+  1. Go to https://www.worldatlas.com/na/us/area-codes.html
+  
+Get Country Code
+Main Success Scenario:
+  1. xxx:fill in
+  
