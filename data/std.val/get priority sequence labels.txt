@@ -1,0 +1,5 @@
+
+
+1st = primary
+2nd = secondary, 3rd = tertiary, 4th = quaternary, 5th = quinary, 6th = senary, 
+7th = septenary, 8th = octonary, 9th = nonary, 10th = denary, 12th = duodenary and 20th = vigenary. These come from the Latin root
