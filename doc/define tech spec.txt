@@ -9,7 +9,7 @@ Main Success Scenario:
   1. "Define Header"
   x. "Define Intro"
   3. "Define Solutions"
-  x. "Define Success Evalulation"
+  x. "Define Success Evalualation"
   x. "Define Work"
   x. "Define Time"
   x. "Define Deliberation"
@@ -24,6 +24,10 @@ Main Success Scenario:
   5. Note Created On
   6. Last Updated
   7. Note ID and link for task tracker tool
+  
+Define Time
+Main Success Scenario:
+  1. xxx:fill in
   
 Define Intro
 Main Success Scenario: 
@@ -56,16 +60,22 @@ Main Success Scenario:
   x. "Define Operational"
   x. "Define Risks"
   x. "Define Support"
+Alternatives:
+  1a. Existing Solution does not exist 
+    1a1. State what components of an existing solution exists
+  1b. Existing Solution is not known
+    1b1. Note what is known about the existing solution
+    1b2. Note who would know about the existing solution
   
 Define Plans
 Note:
   -Section may just contain a link to another doc
 Main Success Scenario:
-  x. "Define Test Plan"
-  x. "Define Monitering and Alerting Plan"
-  x. "Define Release and Deployment Plan"
-  x. "Define Rollback Plan"
-  x. "Define Security Plan"
+  1. "Define Test Plan"
+  2. "Define Monitering and Alerting Plan"
+  3. "Define Release and Deployment Plan"
+  4. "Define Rollback Plan"
+  5. "Define Security Plan"
   
 Define Existing Solution
 Main Success Scenario:
@@ -88,11 +98,11 @@ Desc: This may answer questions about design choices before others pose them.
 Note: 
   -Do this for each proposed alt solution that you expect to be suggested
 Main Success Scenario:
-  x. Define Proposed Alt Solution Description
-  x. Define Pros and Cons
-  x. Define why alt solution would not work
-  x. Define ways in which the alt solution is inferior to the proposed solution
-  x. Define mitigation plan to next best alt in case proposed solution falls through
+  1. Define Proposed Alt Solution Description
+  2. Define Pros and Cons
+  3. Define why alt solution would not work
+  4. Define ways in which the alt solution is inferior to the proposed solution
+  5. Define mitigation plan to next best alt in case proposed solution falls through
   
 Define Security Threats
 Main Success Scenario:
@@ -164,7 +174,7 @@ Main Success Scenario:
   1. "Define Cost to Release and Deploy Solution"
   2. "Define Cost of the Solution per Day"
   
-Define Success Evalulation
+Define Success Evalualation
 Main Success Scenario:
   1. Define Security Impact
   2. Define Performance Impact
