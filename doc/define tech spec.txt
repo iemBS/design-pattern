@@ -40,6 +40,10 @@ Main Success Scenario:
   5. "Define Assumptions"
   6. "Define Open Questions"
   
+Define Overview
+Main Success Scenario:
+  1. xxx:fill in
+  
 Define Scope
 Main Success Scenario: 
   1. Define In Scope
