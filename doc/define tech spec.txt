@@ -33,14 +33,25 @@ Main Success Scenario:
   
 Define Intro
 Main Success Scenario: 
-  1. "Define Purpose of this Doc"
+  1. "Define Purpose"
   2. "Define Overview"
   3. "Define Terms"
   4. "Define Scope"
   5. "Define Assumptions"
   6. "Define Open Questions"
   
+Define Purpose
+Note: 
+  -This is a summary of the Overview section of the doc
+  -This tells me quickly what this doc is for. 
+  -Limit to one sentence. 
+Main Success Scenario:
+  1.xxx:fill in
+  
 Define Overview
+Note: 
+  -More details than the doc Purpose. 
+  -More lines than the single one for the Purpose. 
 Main Success Scenario:
   1. xxx:fill in
   
@@ -49,10 +60,31 @@ Main Success Scenario:
   1. xxx:fill in
   
 Define Scope
+Note:
+  -The "Define Future Work" use case looks at work details and steps here look at features
 Main Success Scenario: 
   1. Define In Scope
   2. Define Out of Scope
-  3. Define Out of Scope till a future time
+  3. "Define Out of Scope till a future time"
+  
+Define Out of Scope
+Note:
+  -Do this for each feature that is out of scope
+Main Success Scenario
+  1. Define why it is out of scope
+Extension:
+  1a. Another project is working on the feature
+    1a1. Provide links to that other project
+  1b. An impediments is blocking that feature
+    1b1. Define the impediment
+  1c. xxx:fill in
+  
+Define Out of Scope till a future time
+Note:
+  -Do this for each feature that is out of scope till a future time
+  -Is future time a calendar time or an event?
+Main Succes Scenario:
+  1. Define Future Time
   
 Define Solutions
 Main Success Scenario: 
@@ -67,7 +99,7 @@ Main Success Scenario:
   x. "Define Privacy"
   x. "Define Regional"
   x. "Define Accessibility"
-  x. "Define Operational"
+  x. "Define Operations"
   x. "Define Risks"
   x. "Define Support"
 Alternatives:
@@ -130,7 +162,7 @@ Main Success Scenario:
   
 Define Accessibility
 Main Success Scenario:
-  1. "Define Accessiblity Methods"
+  1. "Define Accessibility Methods"
   2. "Define Evaluate Accessibility"
   
 Define Operations
@@ -138,6 +170,8 @@ Main Success Scenario:
   1. xxx:fill in
   
 Define Risks
+Note:
+  -Cost-Benefit Analysis guide @ https://en.wikipedia.org/wiki/Cost%E2%80%93benefit_analysis
 Main Success Scenario:
   1. Note Risks taken with this solution
   2. Note Risks taken that cannot be rolled back
@@ -161,6 +195,8 @@ Main Success Scenario:
   x. "Define [External Component B] Description"
   
 Define Adaptability of Proposed Solution
+Note:
+  -"Define Adding Future Requirements" differs from "Out of Scope till a future time" because requirements are more detailed than features. 
 Main Success Scenario:
   1. "Define Scalability"
   2. "Define Limitations"
