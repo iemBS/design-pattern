@@ -44,6 +44,10 @@ Define Overview
 Main Success Scenario:
   1. xxx:fill in
   
+Define Terms
+Main Success Scenario:
+  1. xxx:fill in
+  
 Define Scope
 Main Success Scenario: 
   1. Define In Scope
