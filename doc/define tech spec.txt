@@ -16,6 +16,8 @@ Main Success Scenario:
   x. "Define End Notes"
 
 Define Header
+Note: 
+  -Only Title may be needed here because the rest of the steps may be captured in version control history.
 Main Success Scenario: 
   1. Note Title
   2. Note Author
@@ -230,6 +232,71 @@ Main Success Scenario:
   1. Credit people who have contributed to the design
   
 Define Assumptions
+Note: 
+  -Project assumptions are those things you assume to be true for your project to be successful. They're called assumptions because you assume that for your project to move forward successfully as planned, these things will be in place.
+  -Guidance @ https://projectbliss.net/project-assumptions-list/
+Main Success Scenario:
+  1. "Define Resource Assumptions"
+  2. "Define Delivery Assumptions"
+  3. "Define Budget Assumptions"
+  4. "Define Finance Assumptions"
+  5. "Define Scope Assumptions"
+  6. "Define Schedule Assumptions"
+  7. "Define Methodoly Assumptions"
+  8. "Define Technology Assumptions"
+  9. "Define Architecture and Design Assumptions"
+
+Define Resource Assumptions
+Note:
+  -These are people, materials, and facilities
+Main Success Scenario:
+  1. xxx:fill in
+
+Define Delivery Assumptions
+Note:
+  -This is what is intended to be delivered.
+Main Success Scenario:
+  1. xxx:fill in
+
+Define Budget Assumptions
+Note:
+  -This is estimated Cost of Project
+Main Success Scenario:
+  1. xxx:fill in
+
+Define Finance Assumptions
+Note:
+  -funding to complete the project
+Main Success Scenario:
+  1. xxx:fill in
+  
+Define Scope Assumptions
+Note:
+  -the scope of the what’s to be delivered
+Main Success Scenario:
+  1. xxx:fill in
+  
+Define Schedule Assumptions
+Note:
+  -tasks, durations, and dependencies needed to complete the project
+Main Success Scenario:
+  1. xxx:fill in
+  
+Define Methodoly Assumptions
+Note:
+  -the approach you’ll take to completing the project.
+Main Success Scenario:
+  1. xxx:fill in
+  
+Define Technology Assumptions
+Note:
+  -this could cover software development, platforms, environments, and infrastructure
+Main Success Scenario:
+  1. xxx:fill in
+  
+Define Architecture and Design Assumptions
+Note:
+  -
 Main Success Scenario:
   1. xxx:fill in
 
