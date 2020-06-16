@@ -28,6 +28,8 @@ Main Success Scenario:
   7. Note ID and link for task tracker tool
   
 Define Time
+Note:
+  -This defines times for any cycles or events
 Main Success Scenario:
   1. xxx:fill in
   
