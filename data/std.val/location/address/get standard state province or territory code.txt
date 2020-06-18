@@ -1,0 +1,14 @@
+Get Standard State, Province, or Territory Code
+Note:
+  -Main division names for a country are "State" for the US and "Province" for Canada are examples
+  -Secondary division names for a country are "Territory" or "Common Wealth" for the US and "Territory" for Canada
+  -Guidance @ https://www.50states.com/abbreviations.htm
+Main Success Scenario:
+  1. "Get Main Division Names for a Country"
+  2. "Get secondary division names for a country"
+  3. "Get foreign military basses for a country"
+  
+  
+Get Main Division Names for a Country
+Main Success Scenario:
+  1.xxx:fill in
