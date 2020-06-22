@@ -218,9 +218,12 @@ Main Success Scenario:
   2.xxx:fill in
   
 Define Data Change Probability 
+Note:
+  -Change probability for a field will give a probablity that a field will change on a particular day. 
 Main Success Scenario:
-  1. Define Field Data Change Probability
-  2. xxx:fillin
+  1. Define Rate of change for each field
+  2. Define events for each field that cause them to change
+  3. Define change probability for each field
   
 Define Impact on Other Teams
 Main Success Scenario:
