@@ -1,0 +1,5 @@
+Get Administrative Divisions by Country
+Note:
+  -Guidance @ https://en.wikipedia.org/wiki/List_of_administrative_divisions_by_country
+Main Success Scenario:
+  1. xxx:fill in
