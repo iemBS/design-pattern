@@ -2,6 +2,17 @@ Get Person Name Suffixes
 Note:
   -Also known as Post-nominal/Postnominal Letters
   -Post-nominal/Postnominal Letters guidance @ https://en.wikipedia.org/wiki/Post-nominal_letters
+  -General categories of postnominal letters
+      -Religious Order
+      -Fellowship/Fraternal Order
+      -Academic (Scholastic and Honorary) Degree
+      -Medical Qualification
+      -Society
+        -principal learned society
+      -Military
+      -Government
+        -Crown Honor
+      -Professional Institution or Association
 Main Success Scenario:
   1. "Get Full Suffix"
   2. "Get Suffix Abbreviation"
@@ -18,10 +29,14 @@ Main Success Scenario:
   
 Get US Suffix Abbrevation
 Main Success Scenario:
-  1. Get US gov abbrev for religous orders @ https://www.govinfo.gov/content/pkg/GPO-STYLEMANUAL-2008/pdf/GPO-STYLEMANUAL-2008-11.pdf on page 11
+  1. "Get US Religious Order Suffix Abbrevation"
   2. Get US gov abbrev for fellowships/fraternal orders @ https://www.govinfo.gov/content/pkg/GPO-STYLEMANUAL-2008/pdf/GPO-STYLEMANUAL-2008-11.pdf on pages 10-11
   3. Get US gov abbrev for academic (scholastic and honorary) degrees @ https://www.govinfo.gov/content/pkg/GPO-STYLEMANUAL-2008/pdf/GPO-STYLEMANUAL-2008-11.pdf on page pages 10-11
-
+  
+Get US Religious Order Suffix Abbrevation
+Main Success Scenario:
+  1. Get US gov abbrev for religous orders @ https://www.govinfo.gov/content/pkg/GPO-STYLEMANUAL-2008/pdf/GPO-STYLEMANUAL-2008-11.pdf on page 11
+  2. xxx:fill in
   
 Get UK Suffix Abbrevation
 Main Success Scenario:
@@ -30,7 +45,7 @@ Main Success Scenario:
   3. Get UK crown honors abbrev for @ https://www.debretts.com/expertise/forms-of-address/letters-after-the-name/
   4. Get UK common wealth orders abbrev for @ https://www.debretts.com/expertise/forms-of-address/letters-after-the-name/
   5. Get UK other appt abbrev for @ https://www.debretts.com/expertise/forms-of-address/letters-after-the-name/
-  6. Get UK university degrees abbrev for @ https://www.debretts.com/expertise/forms-of-address/letters-after-the-name/
+  6. Get UK academic (scholastic and honorary) degrees abbrev for @ https://www.debretts.com/expertise/forms-of-address/letters-after-the-name/
   7. Get UK religous orders abbrev for @ https://www.debretts.com/expertise/forms-of-address/letters-after-the-name/
   8. Get UK medical qualifications abbrev for @ https://www.debretts.com/expertise/forms-of-address/letters-after-the-name/
   9. Get UK fellowships abbrev for @ https://www.debretts.com/expertise/forms-of-address/letters-after-the-name/
