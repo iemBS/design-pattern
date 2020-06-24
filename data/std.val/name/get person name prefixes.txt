@@ -1,4 +1,9 @@
 Get Person Name Prefixes
+Note:
+  -Also known as Pre-nominal/Prenominal Letters
+  -Pre-nominal/Prenominal Letters guidance @ https://en.wikipedia.org/wiki/Pre-nominal_letters
 Main Success Scenario:
-  1. Get US gov abbreviations @ https://www.govinfo.gov/content/pkg/GPO-STYLEMANUAL-2008/pdf/GPO-STYLEMANUAL-2008-11.pdf
-  2. xxx:fill in
+  1. Get US military abbrev @ https://www.govinfo.gov/content/pkg/GPO-STYLEMANUAL-2008/pdf/GPO-STYLEMANUAL-2008-11.pdf on pages 7 - 10
+  2. Get US gov legal abbrev @ https://www.govinfo.gov/content/pkg/GPO-STYLEMANUAL-2008/pdf/GPO-STYLEMANUAL-2008-11.pdf on page 10 
+  3. Get US gov religous abbrev @ https://www.govinfo.gov/content/pkg/GPO-STYLEMANUAL-2008/pdf/GPO-STYLEMANUAL-2008-11.pdf on page 10 
+  
