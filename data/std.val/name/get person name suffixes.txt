@@ -3,8 +3,53 @@ Note:
   -Also known as Post-nominal/Postnominal Letters
   -Post-nominal/Postnominal Letters guidance @ https://en.wikipedia.org/wiki/Post-nominal_letters
 Main Success Scenario:
+  1. "Get Full Suffix"
+  2. "Get Suffix Abbreviation"
+
+Get Full Suffix
+Main Success Scenario:
+  1. "Get US Full Suffix"
+  2. "Get UK Full Suffix"
+  
+Get Suffix Abbrevation
+Main Success Scenario:
+  1. "Get US Suffix Abbrevation"
+  2. "Get UK Suffix Abbrevation"
+  
+Get US Suffix Abbrevation
+Main Success Scenario:
   1. Get US gov abbrev for religous orders @ https://www.govinfo.gov/content/pkg/GPO-STYLEMANUAL-2008/pdf/GPO-STYLEMANUAL-2008-11.pdf on page 11
   2. Get US gov abbrev for fellowships/fraternal orders @ https://www.govinfo.gov/content/pkg/GPO-STYLEMANUAL-2008/pdf/GPO-STYLEMANUAL-2008-11.pdf on pages 10-11
   3. Get US gov abbrev for academic (scholastic and honorary) degrees @ https://www.govinfo.gov/content/pkg/GPO-STYLEMANUAL-2008/pdf/GPO-STYLEMANUAL-2008-11.pdf on page pages 10-11
-  4. Get UK abbrev for academic (scholastic and honorary) degrees @ https://www.ox.ac.uk/sites/files/oxford/media_wysiwyg/University%20of%20Oxford%20Style%20Guide.pdf on page 22
-  5.xxx:fill in
+
+  
+Get UK Suffix Abbrevation
+Main Success Scenario:
+  1. Get UK abbrev for academic (scholastic and honorary) degrees @ https://www.ox.ac.uk/sites/files/oxford/media_wysiwyg/University%20of%20Oxford%20Style%20Guide.pdf on page 22
+  2. Get UK abbrev @ https://en.wikipedia.org/wiki/List_of_post-nominal_letters_(United_Kingdom)
+  3. Get UK crown honors abbrev for @ https://www.debretts.com/expertise/forms-of-address/letters-after-the-name/
+  4. Get UK common wealth orders abbrev for @ https://www.debretts.com/expertise/forms-of-address/letters-after-the-name/
+  5. Get UK other appt abbrev for @ https://www.debretts.com/expertise/forms-of-address/letters-after-the-name/
+  6. Get UK university degrees abbrev for @ https://www.debretts.com/expertise/forms-of-address/letters-after-the-name/
+  7. Get UK religous orders abbrev for @ https://www.debretts.com/expertise/forms-of-address/letters-after-the-name/
+  8. Get UK medical qualifications abbrev for @ https://www.debretts.com/expertise/forms-of-address/letters-after-the-name/
+  9. Get UK fellowships abbrev for @ https://www.debretts.com/expertise/forms-of-address/letters-after-the-name/
+  10. Get UK principal learned societies abbrev for @ https://www.debretts.com/expertise/forms-of-address/letters-after-the-name/
+  x. Get UK royal academies abbrev for @ https://www.debretts.com/expertise/forms-of-address/letters-after-the-name/
+  x. Get UK professional institutions and associations abbrev for @ https://www.debretts.com/expertise/forms-of-address/letters-after-the-name/
+  x. Get UK writers to the signet abbrev for @ https://www.debretts.com/expertise/forms-of-address/letters-after-the-name/
+  x. Get UK parliament members abbrev for @ https://www.debretts.com/expertise/forms-of-address/letters-after-the-name/
+  x. Get UK royal navy abbrev for @ https://www.debretts.com/expertise/forms-of-address/letters-after-the-name/
+  x. Get UK army abbrev for @ https://www.debretts.com/expertise/forms-of-address/letters-after-the-name/
+  x. Get UK royal air force abbrev for @ https://www.debretts.com/expertise/forms-of-address/letters-after-the-name/
+  x. Get UK address the royal family @ xxx:fill in
+  x. Get UK profesions @ https://www.debretts.com/expertise/forms-of-address/professions/
+
+
+Get US Full Suffix
+Main Success Scenario:
+  1.xxx:fill in
+  
+Get UK Full Suffix
+Main Success Scenario:
+  1.xxx:fill in
