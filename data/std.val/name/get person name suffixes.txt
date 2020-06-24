@@ -21,6 +21,7 @@ Get Full Suffix
 Main Success Scenario:
   1. "Get US Full Suffix"
   2. "Get UK Full Suffix"
+  3. xxx:fill in
   
 Get Suffix Abbrevation
 Main Success Scenario:
@@ -30,17 +31,26 @@ Main Success Scenario:
 Get US Suffix Abbrevation
 Main Success Scenario:
   1. "Get US Religious Order Suffix Abbrevation"
-  2. Get US gov abbrev for fellowships/fraternal orders @ https://www.govinfo.gov/content/pkg/GPO-STYLEMANUAL-2008/pdf/GPO-STYLEMANUAL-2008-11.pdf on pages 10-11
-  3. Get US gov abbrev for academic (scholastic and honorary) degrees @ https://www.govinfo.gov/content/pkg/GPO-STYLEMANUAL-2008/pdf/GPO-STYLEMANUAL-2008-11.pdf on page pages 10-11
+  2. "Get US Fellowship/Fraternal Order Suffix Abbreviation"
+  3. "Get US Academic (Scholastic and Honorary) Degree Suffix Abbreviation"
+  4. xxx:fill in
   
 Get US Religious Order Suffix Abbrevation
 Main Success Scenario:
   1. Get US gov abbrev for religous orders @ https://www.govinfo.gov/content/pkg/GPO-STYLEMANUAL-2008/pdf/GPO-STYLEMANUAL-2008-11.pdf on page 11
   2. xxx:fill in
   
+Get US Fellowship/Fraternal Order Suffix Abbreviation
+Main Success Scenario:
+  1. Get US gov abbrev for Fellowship/Fraternal Order @ https://www.govinfo.gov/content/pkg/GPO-STYLEMANUAL-2008/pdf/GPO-STYLEMANUAL-2008-11.pdf on pages 10-11
+  2. xxx:fill in
+  
+Get US Academic (Scholastic and Honorary) Degree Suffix Abbreviation
+Main Success Scenario:
+  1. Get US gov abbrev for Academic (Scholastic and Honorary) Degree @ https://www.govinfo.gov/content/pkg/GPO-STYLEMANUAL-2008/pdf/GPO-STYLEMANUAL-2008-11.pdf on page pages 10-11
+  
 Get UK Suffix Abbrevation
 Main Success Scenario:
-  1. Get UK abbrev for academic (scholastic and honorary) degrees @ https://www.ox.ac.uk/sites/files/oxford/media_wysiwyg/University%20of%20Oxford%20Style%20Guide.pdf on page 22
   2. Get UK abbrev @ https://en.wikipedia.org/wiki/List_of_post-nominal_letters_(United_Kingdom)
   3. Get UK crown honors abbrev for @ https://www.debretts.com/expertise/forms-of-address/letters-after-the-name/
   4. Get UK common wealth orders abbrev for @ https://www.debretts.com/expertise/forms-of-address/letters-after-the-name/
@@ -59,7 +69,15 @@ Main Success Scenario:
   x. Get UK royal air force abbrev for @ https://www.debretts.com/expertise/forms-of-address/letters-after-the-name/
   x. Get UK address the royal family @ xxx:fill in
   x. Get UK profesions @ https://www.debretts.com/expertise/forms-of-address/professions/
+  
+Get UK Fellowship/Fraternal Order Suffix Abbreviation
+Main Success Scenario:
+  1. xxx:fill in
+  2. xxx:fill in
 
+Get UK Academic (Scholastic and Honorary) Degree Suffix Abbreviation
+Main Success Scenario:
+  1. Get Oxford Style Guide abbrev for Academic (Scholastic and Honorary) Degree @ https://www.ox.ac.uk/sites/files/oxford/media_wysiwyg/University%20of%20Oxford%20Style%20Guide.pdf on page 22
 
 Get US Full Suffix
 Main Success Scenario:
