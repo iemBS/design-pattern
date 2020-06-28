@@ -36,7 +36,13 @@ Main Success Scenario:
   3. "Get US Academic (Scholastic and Honorary) Degree Prefix Abbreviation"
   4. "Get US Military Prefix Abbrevation"
   5. "Get US Government Prefix Abbreviation"
+  6. "Get US Medical Qualification Abbreviation"
   6. xxx:fill in
+  
+Get US Medical Qualification Abbreviation
+Main Success Scenario:
+  1. Florida Health Medical Abbrevations @ http://www.floridahealth.gov/licensing-and-regulation/_documents/info-prefixes.pdf
+  2. xxx:fill in
   
 Get US Government Prefix Abbreviation
 Main Success Scenario:
@@ -57,6 +63,9 @@ Main Success Scenario:
   2. Get Wikipedia religous abbrev @ https://en.wikipedia.org/wiki/Title
   
 Get US Fellowship/Fraternal Order Prefix Abbreviation
+Note:
+  -North American ethnic and religious fraternal orders @ https://en.wikipedia.org/wiki/List_of_North_American_ethnic_and_religious_fraternal_orders
+  -List of Fraternities @ https://en.wikipedia.org/wiki/List_of_general_fraternities
 Main Success Scenario:
   1. xxx:fill in
   
@@ -83,3 +92,8 @@ Main Success Scenario:
 Get UK Full Prefix
 Main Success Scenario:
   1.xxx:fill in
+  
+  
+  
+  
+medical prefix and suffix cheat sheet @ https://www.rasmussen.edu/degrees/health-sciences/blog/medical-terminology-infographic/
