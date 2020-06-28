@@ -2,10 +2,84 @@ Get Person Name Prefixes
 Note:
   -Also known as Pre-nominal/Prenominal Letters
   -Pre-nominal/Prenominal Letters guidance @ https://en.wikipedia.org/wiki/Pre-nominal_letters
+  -General categories of prenomial letters
+      -Religious Order
+      -Fellowship/Fraternal Order
+      -Academic (Scholastic and Honorary) Degree
+      -Medical Qualification
+      -Society
+        -principal learned society
+      -Military
+      -Government
+        -Crown Honor
+        -Legal
+      -Professional Institution or Association
 Main Success Scenario:
-  1. Get US military abbrev @ https://www.govinfo.gov/content/pkg/GPO-STYLEMANUAL-2008/pdf/GPO-STYLEMANUAL-2008-11.pdf on pages 7-10
-  2. Get US gov legal abbrev @ https://www.govinfo.gov/content/pkg/GPO-STYLEMANUAL-2008/pdf/GPO-STYLEMANUAL-2008-11.pdf on page 10 
-  3. Get US gov religous abbrev @ https://www.govinfo.gov/content/pkg/GPO-STYLEMANUAL-2008/pdf/GPO-STYLEMANUAL-2008-11.pdf on page 10 
-  4. Get Wikipedia religous abbrev @ https://en.wikipedia.org/wiki/Title
-  4. xxx:fill in
+  1. "Get Full Prefix"
+  2. "Get Prefix Abbreviation"
   
+Get Full Prefix
+Main Success Scenario:
+  1. "Get US Full Prefix"
+  2. "Get UK Full Prefix"
+  3. xxx:fill in
+  
+Get Prefix Abbrevation
+Main Success Scenario:
+  1. "Get US Prefix Abbrevation"
+  2. "Get UK Prefix Abbrevation"
+  
+Get US Prefix Abbrevation
+Main Success Scenario:
+  1. "Get US Religious Order Prefix Abbrevation"
+  2. "Get US Fellowship/Fraternal Order Prefix Abbreviation"
+  3. "Get US Academic (Scholastic and Honorary) Degree Prefix Abbreviation"
+  4. "Get US Military Prefix Abbrevation"
+  5. "Get US Government Prefix Abbreviation"
+  6. xxx:fill in
+  
+Get US Government Prefix Abbreviation
+Main Success Scenario:
+  1. "Get US Legal Prefix Abbreviation"
+  2. xxx:fill in
+ 
+Get US Legal Prefix Abbreviation
+Main Success Scenario:
+  1. Get US gov legal abbrev @ https://www.govinfo.gov/content/pkg/GPO-STYLEMANUAL-2008/pdf/GPO-STYLEMANUAL-2008-11.pdf on page 10 
+
+Get US Military Prefix Abbrevation
+Main Sucdess Scenario:
+  1.Get US military abbrev @ https://www.govinfo.gov/content/pkg/GPO-STYLEMANUAL-2008/pdf/GPO-STYLEMANUAL-2008-11.pdf on pages 7-10
+  
+Get US Religious Order Prefix Abbrevation
+Main Success Scenario:
+  1. Get US gov religous abbrev @ https://www.govinfo.gov/content/pkg/GPO-STYLEMANUAL-2008/pdf/GPO-STYLEMANUAL-2008-11.pdf on page 10 
+  2. Get Wikipedia religous abbrev @ https://en.wikipedia.org/wiki/Title
+  
+Get US Fellowship/Fraternal Order Prefix Abbreviation
+Main Success Scenario:
+  1. xxx:fill in
+  
+Get US Academic (Scholastic and Honorary) Degree Prefix Abbreviation
+Main Success Scenario:
+  1.xxx:fill in
+  
+Get UK Prefix Abbrevation
+Main Success Scenario:
+  1.xxx:fill in
+  
+Get UK Fellowship/Fraternal Order Prefix Abbreviation
+Main Success Scenario:
+  1. xxx:fill in
+  
+Get UK Academic (Scholastic and Honorary) Degree Prefix Abbreviation
+Main Success Scenario:
+  1.xxx:fill in
+
+Get US Full Prefix
+Main Success Scenario:
+  1.xxx:fill in
+  
+Get UK Full Prefix
+Main Success Scenario:
+  1.xxx:fill in
