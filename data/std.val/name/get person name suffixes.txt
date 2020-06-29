@@ -28,6 +28,7 @@ Note:
   -More than one suffix can be used. 
   -There is an accepted order to the suffixes. It is called the Order of Letters. 
   -Guidance for Order of Letters @ https://www.debretts.com/expertise/forms-of-address/letters-after-the-name/
+  -Use of periods clearly indicates the end of a work in an abbreviation.
 Main Success Scenario:
   1. "Get US Suffix Abbrevation"
   2. "Get UK Suffix Abbrevation"
