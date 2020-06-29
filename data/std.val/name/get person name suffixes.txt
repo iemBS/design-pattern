@@ -50,6 +50,8 @@ Main Success Scenario:
   2. xxx:fill in
   
 Get US Academic (Scholastic and Honorary) Degree Suffix Abbreviation
+Note: 
+  -Abbreviations shown depends on the person's profession and culture. Guidance @ https://en.wikipedia.org/wiki/Post-nominal_letters
 Main Success Scenario:
   1. Get US gov abbrev for Academic (Scholastic and Honorary) Degree @ https://www.govinfo.gov/content/pkg/GPO-STYLEMANUAL-2008/pdf/GPO-STYLEMANUAL-2008-11.pdf on page pages 10-11
   
