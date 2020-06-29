@@ -86,7 +86,10 @@ Note:
   -Do this for each feature that is out of scope till a future time
   -Is future time a calendar time or an event?
 Main Succes Scenario:
-  1. Define Future Time
+  1. Till [specific time]
+  2. Till [time window]
+  3. Till Unknown Time
+  4. Till [a time conditional on another event]
   
 Define Solutions
 Main Success Scenario: 
