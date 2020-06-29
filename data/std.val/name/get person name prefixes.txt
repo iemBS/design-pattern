@@ -25,6 +25,8 @@ Main Success Scenario:
   3. xxx:fill in
   
 Get Prefix Abbrevation
+Note:
+  -Use of a period in abbreviations allows the ends of words in abbreviations to be identified programatically
 Main Success Scenario:
   1. "Get US Prefix Abbrevation"
   2. "Get UK Prefix Abbrevation"
