@@ -1,0 +1,26 @@
+Get Postal Code Format
+Note:
+  -Format guidance @ http://www.fedex.com/be/shippingguide/postalcodeformat.html
+  -Format guidance @ http://www.dhl.com.tw.origin.dhl.com/en/express/shipping/shipping_advice/find_postcode_telephone.html
+Main Success Scenario:
+  1. See formats below where "#" is a number and "A" is a letter
+  
+  
+United States, #####, #####-####
+Canada, A#A N#N
+Australia, ####
+France, #####
+Germany, #####
+Hong Kong
+Hungary
+India, ######
+Japan, #######
+Mexico, #####
+Netherlands, ####
+New Zealand
+Paraguay
+Peru
+Philippines, ####
+Thailand, #####
+United Kingdom, AA##AA, AA#A#AA, AA###AA, A##AA, A#A#AA, A###AA
+Venezuela
