@@ -1,0 +1,27 @@
+Choose ID Data Type
+Note: 
+  -GUID uses 16 bytes (=128 bits)
+  -Integer uses 4 bytes (=32 bits)
+  -Guidance @ https://blog.codinghorror.com/primary-keys-ids-versus-guids/
+Main Success Scenario:
+  1. See GUID pros and cons below
+  2. Where is the ID going to be used?
+  3. There size limits on the ID?
+  
+  
+GUID Pros
+-Unique across every table, every database, every server
+-Allows easy merging of records from different databases
+-Allows easy distribution of databases across multiple servers
+-You can generate IDs anywhere, instead of having to roundtrip to the database
+-Most replication scenarios require GUID columns anyway
+-Increasing security of URLs by using GUIDs instead of integers in URL variables. 
+
+  
+GUID Cons
+-It is a whopping 4 times larger than the traditional 4-byte index value; this can have serious performance and storage implications if you're not careful
+-Cumbersome to debug where userid='{BAE7DF4-DDF-3RG-5TY3E3RF456AS10}'
+-The generated GUIDs should be partially sequential for best performance (eg, newsequentialid() on SQL 2005) and to enable use of clustered indexes
+-Integers make friendlier URLs if ID is used in a URL
+  -Friendly URL may mean easier to scrape data from URL
+-Do not index well
