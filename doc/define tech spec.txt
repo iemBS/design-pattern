@@ -202,11 +202,13 @@ Main Success Scenario:
 Define Adaptability of Proposed Solution
 Note:
   -"Define Adding Future Requirements" differs from "Out of Scope till a future time" because requirements are more detailed than features. 
+  -Longevity is checking to see if it will age well independent of size growth
 Main Success Scenario:
-  1. "Define Scalability"
-  2. "Define Limitations"
-  3. "Define Recover from failure"
-  4. "Define Adding Future Requirements"
+  1. "Define Longevity"
+  2. "Define Scalability"
+  3. "Define Limitations"
+  4. "Define Recover from failure"
+  5. "Define Adding Future Requirements"
   
 Define Data Model
 Main Success Scenario:
