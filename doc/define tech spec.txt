@@ -5,6 +5,10 @@ Notes:
   -guidance @ https://developers.google.com/tech-writing
   -guidance @ https://medium.com/machine-words/writing-technical-design-docs-71f446e42f2e
   -Level of detail in the doc will depend on the purpose of the doc
+  -Factor in the goals for each component.
+    -Meet resource usage?
+    -Meet run time?
+    -Meet style?
 Main Success Scenario:
   1. "Define Header"
   x. "Define Intro"
