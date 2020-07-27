@@ -263,7 +263,7 @@ Main Success Scenario:
 Define Work Timeline
 Main Success Scenario:
   x. "Define List of specific, measureable, and time-bound tasks"
-  x. "Define Resources need to finish each task"
+  x. "Define Resources needed to finish each task"
   x. "Define Time estimates for how long each task needs to be completed"
   
 Define Priority
@@ -291,9 +291,13 @@ Main Success Scenario:
   x. "Define Acknowledgements"
   
 Define References
+Note:
+  -Relevant docs are other docs in the current project, for software used, software languages used, styles used, other projects, meeting notes, meeting recordings, etc.
+  -Sites are anything that is not docs. 
+  -Do not have an index with links to docs and sites because you have this sectino. 
 Main Success Scenario:
-  x. Links to relevant docs
-  x. Links to relevant sites
+  1. Links to relevant docs
+  2. Links to relevant sites
   
 Define Acknowledgements
 Main Success Scenario:
@@ -350,7 +354,7 @@ Note:
 Main Success Scenario:
   1. xxx:fill in
   
-Define Methodoly Assumptions
+Define Methodology Assumptions
 Note:
   -the approach you’ll take to completing the project.
 Main Success Scenario:
