@@ -35,6 +35,7 @@ Main Success Scenario:
 Define Time
 Note:
   -This defines times for any cycles or events
+  -Used to make sure multiple and dependencies can work
 Main Success Scenario:
   1. xxx:fill in
   
