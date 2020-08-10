@@ -204,6 +204,15 @@ Main Success Scenario:
   x. "Define [External Component A] Description"
   x. "Define [External Component B] Description"
   
+Define Proposed Solution Description
+Note: 
+  -Having a summary at the top and componnent details at the bottom, allows for component details to be in one place and referenced. 
+  -Have as many links to software manufacturer docs as possible instead of restating what can easily be found. 
+Main Success Scenario:
+  1. Show flow diagram for solution
+  2. Define in in words how the components will be used and interact. 
+  3. Define each component and reference these sections from step 2.  
+  
 Define Adaptability of Proposed Solution
 Note:
   -"Define Adding Future Requirements" differs from "Out of Scope till a future time" because requirements are more detailed than features. 
