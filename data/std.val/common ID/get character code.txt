@@ -1,0 +1,21 @@
+Get Character Code
+Note:
+  -Guidance @ https://en.wikipedia.org/wiki/C0_and_C1_control_codes
+  -Guidance @ https://www.aivosto.com/articles/control-characters.html#ST
+Main Success Scenario:
+  1. Get Ascii Code
+  2. Get Unicode Code
+  
+Get Ascii Code
+Note:
+  -xxx:fill indicate category of code
+Main Success Scenario:
+  1. See https://www.ascii-code.com/
+  
+Get Unicode Code
+Note:
+  -xxx:fill clarify unicode or non-unicode based human language
+Main Success Scenario:
+  1. xxx:fill
+  
+ 
