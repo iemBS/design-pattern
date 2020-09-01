@@ -18,4 +18,15 @@ Note:
 Main Success Scenario:
   1. xxx:fill
   
- 
+Get Common Characters
+Main Success Scenario:
+  1. xxx:fill
+  
+Get Control Characters
+Main Success Scenario:
+  1. xxx:fill
+  
+Get Non-Printable Characters
+Main Success Scenario:
+  1. xxx:fill
+  
