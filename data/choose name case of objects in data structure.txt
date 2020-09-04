@@ -1,0 +1,6 @@
+Choose name case of objects in data structure
+Note:
+  -Pascal Case guidance @ http://wiki.c2.com/?PascalCase
+  -xxx:fill
+Main Success Scenario:
+  1. xxx:fill
