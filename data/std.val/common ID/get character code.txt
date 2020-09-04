@@ -2,6 +2,8 @@ Get Character Code
 Note:
   -Guidance @ https://en.wikipedia.org/wiki/C0_and_C1_control_codes
   -Guidance @ https://www.aivosto.com/articles/control-characters.html#ST
+  -Your computer translates the numeric values into visible (some are not visible but needed for formatting) characters. It does this is by using an encoding standard. An encoding standard is a numbering scheme that assigns each text character in a character set to a numeric value. A character set can include alphabetical characters, numbers, and other symbols.
+  -What is codecs? xxx:fill
 Main Success Scenario:
   1. Get Ascii Code
   2. Get Unicode Code
