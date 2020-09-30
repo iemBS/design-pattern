@@ -68,6 +68,7 @@ Put these in "Check SQL Object Quality"
   -"Check Table Quality"
     -"Check for two or more columns with same data in same table"
     -"Check Name Standard is Followed"
+      -"Check Table & Column Names Human understandable"
     -"Check for not expected characters in SQL object name"
     -"Check column nullability"
       -"Check current expections"
@@ -83,6 +84,8 @@ Put these in "Check SQL Object Quality"
       -"Define SQL Objects"
     -"Check Temp table used appropriately"
       -Check temp table data not needed for debugging
+      -"Check Temp table created and dropped at good times"
+      -"Check Temp table exists in RAM instead of on disk"
   -"Check Trigger Quality
     -xxx:fill
   -"Check View Quality"
