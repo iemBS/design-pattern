@@ -1,0 +1,77 @@
+Check Data Quality
+Pre-Conditions
+  -Run "Check SQL Object Quality" use case before this one
+  -Not checking how well data was migrated or comparing upstream data to downstream data
+Main Success Scenario:
+  1. "Check UniqueId"
+  2. "Check for two or more columns with same data in same table"
+  3. "Check for unexpected characters in column values"
+  4. "Check for Dupes"
+  5. "Check for Value Length = Column Specified Length"
+  6. "Check for unexpected phrases in column values"
+  7. "Check if same column in different table has different values"
+  8. "Check time is tracked appropriately"
+  9. "Check Only Needed Data Exists in DB"
+  10. "Check Data Retention Rules"
+
+  
+Check UniqueId
+Note:
+  -Invisible characters (due to not printable to screen or have no length) are not good in a Unique ID because you do not know what character they are, a human looking at them cannot understand what they are, and a human may not manually copy them correctly when pasting them somewhere else.
+Main Success Scenario:
+  1. "Check all parts of composite Unique ID exist"
+  2. "Confirm appropriate delimiters in composite Unique ID"
+  3. xxx:fill
+  
+Check for unexpected characters in column values
+Main Success Scenario:
+  1. Check for NULL values
+  2. Check for just space value
+  3. Check for empty string values
+  4. Check for values with spaces
+  5. Check for values other than 0-9 and A-Z
+
+Check time is tracked appropriately
+Main Success Scenario:
+  1. "Confirm table row update time can be understood"
+  2. "Confirm table row & column (cell) update time can be understood"
+  3. "Confirm common update event time can be understood"
+  
+Put these in "Check Data Migration"
+-Compare table/view row count
+-Compare table/view column count
+-Compare max and min column value length
+-Compare column defined data type
+  -Check for data type change string to number 
+    -Check for leading 0 loss
+-Compare column defined data type and length
+-Compare column defined data type, length, and coallation
+
+
+Put these in "Check SQL Object Quality"
+  -"Check Table Quality"
+    -"Check Name Standard is Followed"
+    -"Check for not expected characters in SQL object name"
+    -"Check column nullability"
+      -"Check current expections"
+      -"Check future expections"
+    -"Check appropriate column data type specified"
+      -"Check current expections"
+      -"Check future expections"
+    -"Check appropriate column length specified"
+      -"Check current expections"
+      -"Check future expections"
+    -"Define Soft and Hard Delete"
+      -"Define Logic"
+      -"Define SQL Objects"
+  -"Check View Quality"
+    -"Check Name Standard is Followed" 
+  -"Check Index Quality"
+  -"Check Partitioning Quality"
+  -"Check Routine Quality"
+    -"Check Procedure Quality"
+      -"Check Name Standard is Followed"
+    -"Check Function Quality"
+    -"Check Procedure Quality"
+      -"Check Name Standard is Followed"
+   
