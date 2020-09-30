@@ -108,6 +108,7 @@ Put these in "Check SQL Object Quality"
         -"Check Routine Name Standard followed"
         -"Check Routine Parameter Name Standard followed"
       -"Check Logic Quality"
+        -"Check JOIN Quality"
     -"Check Function Quality"
       -xxx:fill
    
