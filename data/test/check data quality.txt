@@ -21,7 +21,9 @@ Note:
 Main Success Scenario:
   1. "Check all parts of composite Unique ID exist"
   2. "Confirm appropriate delimiters in composite Unique ID"
-  3. xxx:fill
+  3. Check Unique Id is unique
+  4. Check Unique ID definition is reliable for the life of the system
+  5. xxx:fill
   
 Check for unexpected characters in column values
 Main Success Scenario:
