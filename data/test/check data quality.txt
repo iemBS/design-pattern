@@ -4,7 +4,6 @@ Pre-Conditions
   -Not checking how well data was migrated or comparing upstream data to downstream data
 Main Success Scenario:
   1. "Check UniqueId"
-  2. "Check for two or more columns with same data in same table"
   3. "Check for unexpected characters in column values"
   4. "Check for Dupes"
   5. "Check for Value Length = Column Specified Length"
@@ -13,6 +12,7 @@ Main Success Scenario:
   8. "Check time is tracked appropriately"
   9. "Check Only Needed Data Exists in DB"
   10. "Check Data Retention Rules"
+  11. "Check for appropriate number precision & scale"
 
   
 Check UniqueId
@@ -39,6 +39,20 @@ Main Success Scenario:
   2. "Confirm table row & column (cell) update time can be understood"
   3. "Confirm common update event time can be understood"
   
+Check for appropriate number precision & scale
+Note:
+  -Precision is the total count of digits allowed in the number
+  -Scale is how small the units go. 
+  -For Numeric and Decimal data types Precision - Scale is the count of digits to the left of the decimal point. 
+Main Success Scenario:
+  1. "Check for appropriate Time Precision"
+  2. "Check for appropriate Money Precision"
+  -. "Check for appropriate Money Scale"
+  3. "Check for appropriate Integer Precision"
+  4. "Check for appropriate Decimal Precision"
+  5. "Check for appropriate Decimal Scale"
+  -. xxx:fill
+  
 Put these in "Check Data Migration"
 -Compare table/view row count
 -Compare table/view column count
@@ -52,6 +66,7 @@ Put these in "Check Data Migration"
 
 Put these in "Check SQL Object Quality"
   -"Check Table Quality"
+    -"Check for two or more columns with same data in same table"
     -"Check Name Standard is Followed"
     -"Check for not expected characters in SQL object name"
     -"Check column nullability"
@@ -66,16 +81,24 @@ Put these in "Check SQL Object Quality"
     -"Define Soft and Hard Delete"
       -"Define Logic"
       -"Define SQL Objects"
+    -"Check Temp table used appropriately"
+      -Check temp table data not needed for debugging
+  -"Check Trigger Quality
+    -xxx:fill
   -"Check View Quality"
     -"Check Name Standard is Followed" 
+    -"Check number of view nestings"
   -"Check Index Quality"
     -Confirm clear explanation exists for all indexes
     -Confirm clustered index not used on table that will have several inserts, updates, or deletes
   -"Check Partitioning Quality"
+    -xxx:fill
   -"Check Routine Quality"
     -"Check Procedure Quality"
       -"Check Name Standard is Followed"
+        -"Check Routine Name Standard followed"
+        -"Check Routine Parameter Name Standard followed"
+      -"Check Logic Quality"
     -"Check Function Quality"
-    -"Check Procedure Quality"
-      -"Check Name Standard is Followed"
+      -xxx:fill
    
