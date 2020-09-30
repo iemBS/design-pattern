@@ -28,10 +28,10 @@ Main Success Scenario:
 Check for unexpected characters in column values
 Main Success Scenario:
   1. Check for NULL values
-  2. Check for just space value
+  2. "Check for spaces"
   3. Check for empty string values
-  4. Check for values with spaces
-  5. Check for values other than 0-9 and A-Z
+  4. Check for string NULL values
+  5. "Check for values other than 0-9 and A-Z"
 
 Check time is tracked appropriately
 Main Success Scenario:
@@ -52,6 +52,12 @@ Main Success Scenario:
   4. "Check for appropriate Decimal Precision"
   5. "Check for appropriate Decimal Scale"
   -. xxx:fill
+  
+Check for spaces
+Main Success Scenario:
+  1. Check for values with leading or trailing spaces
+  2. Check for values with spaces in the middle of non-spaces
+  3. Check for values with only spaces
   
 Put these in "Check Data Migration"
 -Compare table/view row count
