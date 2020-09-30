@@ -92,6 +92,7 @@ Put these in "Check SQL Object Quality"
       -Check temp table data not needed for debugging
       -"Check Temp table created and dropped at good times"
       -"Check Temp table exists in RAM instead of on disk"
+    -"Confirm Normalized or De-Normalized table and why"
   -"Check Trigger Quality
     -xxx:fill
   -"Check View Quality"
@@ -107,8 +108,15 @@ Put these in "Check SQL Object Quality"
       -"Check Name Standard is Followed"
         -"Check Routine Name Standard followed"
         -"Check Routine Parameter Name Standard followed"
+      -"Check Query Format"
+        -"Check Query Format follows standard"
+          -"Check text case"
       -"Check Logic Quality"
         -"Check JOIN Quality"
+        -"Check confirm DISTINCT & UNION Needed"
+        -"Confirm centralized logic for common column"
+        -"Confirm Code is self-documenting"
+        -"Confirm unneeded data removed as soon as possible"
     -"Check Function Quality"
       -xxx:fill
    
