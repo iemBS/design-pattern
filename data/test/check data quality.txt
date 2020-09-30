@@ -69,6 +69,8 @@ Put these in "Check SQL Object Quality"
   -"Check View Quality"
     -"Check Name Standard is Followed" 
   -"Check Index Quality"
+    -Confirm clear explanation exists for all indexes
+    -Confirm clustered index not used on table that will have several inserts, updates, or deletes
   -"Check Partitioning Quality"
   -"Check Routine Quality"
     -"Check Procedure Quality"
