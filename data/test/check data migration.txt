@@ -1,0 +1,14 @@
+Check Data Migration
+Main Success Scenario:
+  1. "Compare table/view row count"
+  2. "Compare table/view column count"
+  3. "Compare max and min column value length"
+  4. "Compare column defined data type"
+  6. "Compare column defined data type and length"
+  7. "Compare column defined data type, length, and coallation"
+  8. "Check auto incrementing number starting number"
+  
+Compare column defined data type
+Main Success Scenario:
+  1. "Check for data type change string to number"
+  2. "Check for leading 0 loss"
