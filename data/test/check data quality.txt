@@ -58,17 +58,6 @@ Main Success Scenario:
   1. Check for values with leading or trailing spaces
   2. Check for values with spaces in the middle of non-spaces
   3. Check for values with only spaces
-  
-Put these in "Check Data Migration"
--Compare table/view row count
--Compare table/view column count
--Compare max and min column value length
--Compare column defined data type
-  -Check for data type change string to number 
-    -Check for leading 0 loss
--Compare column defined data type and length
--Compare column defined data type, length, and coallation
-
 
 Put these in "Check SQL Object Quality"
   -"Check Table Quality"
