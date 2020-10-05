@@ -31,6 +31,16 @@ Main Success Scenario:
   4. Find Dept of Defense ID
   5. Find EIN 
   
+Veryify SSN
+Note:
+  -Guidance @ https://www.ssa.gov/employer/verifySSN.htm
+Main Success Scenario:
+  1. xxx:fill
+  
+Verify TIN
+Main Success Scenario:
+  1.xxx:fill
+  
 Find Industry ID
 Note:
   -SIC Guidance @ https://en.wikipedia.org/wiki/Standard_Industrial_Classification
