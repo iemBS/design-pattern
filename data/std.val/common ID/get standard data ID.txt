@@ -33,9 +33,29 @@ Main Success Scenario:
   
 Veryify SSN
 Note:
+  -
+Main Success Scenario:
+  1. "Verify SSN using SSA Service"
+  2. "Verify SSN yourself"
+  3. "Verify SSN with another department in this company"
+  4. "Verify SSN with another service"
+  
+Verify SSN using SSA Servic
+Note:
   -Guidance @ https://www.ssa.gov/employer/verifySSN.htm
 Main Success Scenario:
-  1. xxx:fill
+  1.xxx:fill
+  
+Verify SSN yourself
+Note:
+  -Guidance @ https://www.ssa.gov/employer/stateweb.htm
+Main Success Scenario:
+  1. Confirm number is an SSN
+  2. Confirm 9 digits exist in number (no letters)
+  3. Get issue date if available (determines how number generated)
+  4. Confirm 1st three numbers are used according to https://www.ssa.gov/employer/stateweb.htm
+  5. Confirm the middle 2 are ok
+  6. Confirm the last 4 are ok
   
 Verify TIN
 Main Success Scenario:
