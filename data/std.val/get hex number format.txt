@@ -1,0 +1,6 @@
+Get Hex Number Format
+Note:
+  -Guidance @ https://stackoverflow.com/questions/2670639/why-are-hexadecimal-numbers-prefixed-with-0x
+  -Hex numbers may be prefixed with "0x". The "x" will force the value to appear as text and the "x" is not in the first position because some systems will not allow a letter to be in a first position. 
+Main Success Scenario:
+  1.xxx:fill in
