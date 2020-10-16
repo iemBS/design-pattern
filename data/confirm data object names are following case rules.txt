@@ -1,0 +1,7 @@
+Confirm Data Object Name Case
+Note:
+  -Factor in case type being used to reduce the case violaters in the results
+Main Success Scenario:
+  1. Compare name case between tables/view/frame with same name spelling but in two data collections/databases 
+  2. Compare name case between columns/fields with same spelled tables/view/frame
+  3. xxx:fill in
