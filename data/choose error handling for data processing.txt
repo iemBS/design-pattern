@@ -1,0 +1,8 @@
+Choose Error Handling for Data Processing
+Main Success Scenario:
+  1. Understand the state data will be left in at each possible error point
+  2. Understand the what auto handling can be done at each possible error point
+  3. Understand where error messages go
+  4. Understand content of error message
+  5. Understand the performance impact of sending error messages
+  6. Understand the time window in which errors, that need human help, should be handled
