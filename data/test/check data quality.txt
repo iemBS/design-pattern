@@ -13,10 +13,20 @@ Main Success Scenario:
   
 Check Data Relations
 Main Success Scenario:
-  1. "Check UniqueId"
-  2. "Check if same column name in different table has different values"
-  3. "Check if different column name in different table has same values"
-  4. "Check indexing"
+  x. "Understand relationship between columns within same table/frame/etc"
+  x. "Understand relationship between columns within different table/frame/etc"
+  x. "Check if same column name in different table has different values"
+  x. "Check if different column name in different table has same values"
+  x. "Check UniqueId"
+  x. "Check indexing"
+  
+Understand relationship between columns within same table/frame/etc
+Main Success Scenario:
+  1. What data hierarchies exist 
+  
+Understand relationship between columns within different table/frame/etc
+Main Success Scenario:
+  1. What data hierarchies exist 
 
 Check numeric data scale
 Note:
