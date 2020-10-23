@@ -1,4 +1,108 @@
-Put these in "Check Data Object Quality"
+Check Data Object Quality
+Main Success Scenario:
+  1. "Check Table Quality"
+  2. "Check View Quality"
+  3. "Check Executable"
+  x. "Check Index Quality"
+  x. "Check Partitioning Quality"
+
+Check Table Quality
+Main Success Scenario:
+  x. "Check Table Column Quality"
+  x. "Check Temp table use"
+  x. "Check Table Normalization"
+  x. "Check Table Name Standard"
+  x. "Check Table Definition"
+  x. "Check Hard & Soft Delete"
+  
+Check Table Column Quality
+Main Success Scenario:
+  1. "Check Table Column Name Standard"
+  2. "Check Table Column Definition"
+  
+Check Temp table use
+Main Success Scenario:
+  1. Check temp table data not needed for debugging
+  2. "Check Temp table created and dropped at good times"
+  3. "Check Temp table exists in RAM instead of on disk"
+  4. "Check Temp Table Max Size"
+  
+Check Table Normalization
+Main Success Scenario:
+  1. xxx:fill in
+  
+Check Table Name Standard
+Main Success Scenario:
+  1. Check case used by table names (Camel, Pascal, other)
+  2. xxx:fill in
+  
+Check Hard & Soft Delete
+Main Success Scenario:
+  1. Check logic
+  2. Check indication of soft delete
+  
+Check View Quality
+Main Success Scenario:
+  x. "Check View Column Quality"
+  x. "Check View Normalization"
+  x. "Check View Name Standard"
+  x. "Check View Definition"
+  x. "Check Hard & Soft Delete"
+  x. "Check View Nesting"
+  
+Check Executable
+Main Success Scenario:
+  x. "Check Routine Quality"
+  x. "Check Non-Routine Query Quality"
+  x. "Check Trigger Quality"
+    
+Check Routine Quality
+Main Success Scenario:
+  x. "Check Procedure Quality"
+  x. "Check Function Quality"
+  
+Check Non-Routine Query Quality
+Main Success Scenario:
+  x. "Check Query Quality"
+  x. Check Run Time
+
+Check Procedure Quality
+Main Success Scenario:
+  x. "Check Parameter Quality"
+  x. "Check Query Quality"
+  x. Check Run Time'
+  x. "Check Proceddure Name Standard"
+
+Check Function Quality
+Main Success Scenario:
+  x. "Check Parameter Quality"
+  x. "Check Query Quality"
+  x. Check Run Time
+  x. "Check Function Name Standard"
+
+Check Trigger Quality
+Main Success Scenario:  
+  x. "Check Parameter Quality"
+  x. Check Query Quality
+  x. Check Run Time
+  x. "Check Trigger Name Standard"
+  
+Check Index Quality
+Main Success Scenario:
+  x. "Check Uniqueness"
+  x. "Check Index Column Order"
+  x. "Check Index Name Standard"
+  x. "Check Index Stats Update Frequency"
+  
+Check Query Quality
+Main Success Scenario:
+  x. "Check JOIN Quality"
+  x. "Check DISTINCT & UNION use"
+  x. "Confirm centralized logic for common column"
+  x. "Check Self-Documenting Code"
+  x. "Confirm unneeded data removed as soon as possible"
+  x. Check Run Time
+  
   -"Check Table Quality"
     -"Check for two or more columns with same data in same table"
     -"Check Name Standard is Followed"
@@ -16,12 +120,12 @@ Put these in "Check Data Object Quality"
     -"Define Soft and Hard Delete"
       -"Define Logic"
       -"Define SQL Objects"
-    -"Check Temp table used appropriately"
+    -"Check Temp table use"
       -Check temp table data not needed for debugging
       -"Check Temp table created and dropped at good times"
       -"Check Temp table exists in RAM instead of on disk"
     -"Confirm Normalized or De-Normalized table and why"
-  -"Check Trigger Quality
+  -"Check Trigger Quality"
     -xxx:fill
   -"Check View Quality"
     -"Check Name Standard is Followed" 
