@@ -13,17 +13,19 @@ Main Success Scenario:
 Check Data Relations
 Main Success Scenario:
   1. "Check UniqueId"
-  2. "Check if same column in different table has different values"
+  2. "Check if same column name in different table has different values"
+  3. "Check if different column name in different table has same values"
+  4. "Check indexing"
 
 Check numeric data scale
 Note:
   -Precision is the total count of digits allowed in the number
   -Scale is how small the units go. 
 Main Success Scenario:
-  1. Time is down to the appropriate time unit
-  2. Numbers with digits to the right of the decimal point are down to the right unit
-  3. Numbers with digits to the left of the decimal point are up to the right unit
-  4. What rounding is appropriate
+  1. Time is down to the appropriate time unit now and for the future
+  2. Numbers with digits to the right of the decimal point are down to the right unit now and for the future
+  3. Numbers with digits to the left of the decimal point are up to the right unit now and for the future
+  4. What rounding is appropriate now and for the future
 
 Check data is minimized
 Main Success Scenario:
