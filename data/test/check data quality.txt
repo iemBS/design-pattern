@@ -9,6 +9,7 @@ Main Success Scenario:
   4. "Check time is tracked appropriately"
   5. "Check numeric data scale"
   6. "Check data is minimized"
+  7. "Check data hidden appropriately"
   
 Check Data Relations
 Main Success Scenario:
@@ -42,15 +43,28 @@ Main Success Scenario:
   4. Check Unique ID definition is reliable for the life of the system
   5. xxx:fill
   
+Check indexing
+Main Success Scenario:
+  1. Are all columns joined, filtered, distincted, grouped, ordered, and aggregated on (like Max, Min) included in one or more indexes
+  2. Are columns in the index ordered by most used first
+  3. Are columns in the index ordered by least number of values first and most values last
+  4. Do the column collations provide the best sort
+  
 Check for unexpected content in values 
 Main Success Scenario:
   1. "Understand characters allowed in values"
-  2. Check for NULL values
-  3. "Check for spaces"
-  4. Check for empty string values
-  5. Check for string NULL values
-  6. "Check for values other than 0-9 and A-Z"
-  7. "Check for unexpected phrases in column values"
+  2. "Understand values allowed"
+  3. Check for NULL values
+  4. "Check for spaces"
+  5. Check for empty string values
+  6. Check for string NULL values
+  7. "Check for values other than 0-9 and A-Z"
+  8. "Check for unexpected phrases in column values"
+  9. "Apply knowledge of character set conversion"
+  
+Apply knowledge of character set conversion
+Main Success Scenario:
+  1. Apply map of characters with a larger character identifier in character set A to smaller character identifier in character set B (like UTF-8 to CP1252)
   
 Understand characters allowed in values
 Main Success Scenario:
