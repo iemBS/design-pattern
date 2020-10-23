@@ -2,19 +2,34 @@ Check Data Quality
 Pre-Conditions
   -Run "Check SQL Object Quality" use case before this one
   -Not checking how well data was migrated or comparing upstream data to downstream data
+Main Success Scenario:  
+  1. "Check Data Relations"
+  2. "Check for Dupes"
+  3. "Check for unexpected content in values"
+  4. "Check time is tracked appropriately"
+  5. "Check numeric data scale"
+  6. "Check data is minimized"
+  
+Check Data Relations
 Main Success Scenario:
   1. "Check UniqueId"
-  3. "Check for unexpected characters in column values"
-  4. "Check for Dupes"
-  5. "Check for Value Length = Column Specified Length"
-  6. "Check for unexpected phrases in column values"
-  7. "Check if same column in different table has different values"
-  8. "Check time is tracked appropriately"
-  9. "Check Only Needed Data Exists in DB"
-  10. "Check Data Retention Rules"
-  11. "Check for appropriate number precision & scale"
+  2. "Check if same column in different table has different values"
 
-  
+Check numeric data scale
+Note:
+  -Precision is the total count of digits allowed in the number
+  -Scale is how small the units go. 
+Main Success Scenario:
+  1. Time is down to the appropriate time unit
+  2. Numbers with digits to the right of the decimal point are down to the right unit
+  3. Numbers with digits to the left of the decimal point are up to the right unit
+  4. What rounding is appropriate
+
+Check data is minimized
+Main Success Scenario:
+  1. "Check Only Needed Data Exists in DB"
+  2. "Check Data Retention Rules"
+
 Check UniqueId
 Note:
   -Invisible characters (due to not printable to screen or have no length) are not good in a Unique ID because you do not know what character they are, a human looking at them cannot understand what they are, and a human may not manually copy them correctly when pasting them somewhere else.
@@ -25,34 +40,28 @@ Main Success Scenario:
   4. Check Unique ID definition is reliable for the life of the system
   5. xxx:fill
   
-Check for unexpected characters in column values
+Check for unexpected content in values 
 Main Success Scenario:
-  1. Check for NULL values
-  2. "Check for spaces"
-  3. Check for empty string values
-  4. Check for string NULL values
-  5. "Check for values other than 0-9 and A-Z"
+  1. "Understand characters allowed in values"
+  2. Check for NULL values
+  3. "Check for spaces"
+  4. Check for empty string values
+  5. Check for string NULL values
+  6. "Check for values other than 0-9 and A-Z"
+  7. "Check for unexpected phrases in column values"
+  
+Understand characters allowed in values
+Main Success Scenario:
+  1. Understand character set used in each step of the data sytem
+  2. Understand what characters are possible from the source system
+  3. Understand what characters may cause issues 
 
 Check time is tracked appropriately
 Main Success Scenario:
   1. "Confirm table row update time can be understood"
   2. "Confirm table row & column (cell) update time can be understood"
   3. "Confirm common update event time can be understood"
-  
-Check for appropriate number precision & scale
-Note:
-  -Precision is the total count of digits allowed in the number
-  -Scale is how small the units go. 
-  -For Numeric and Decimal data types Precision - Scale is the count of digits to the left of the decimal point. 
-Main Success Scenario:
-  1. "Check for appropriate Time Precision"
-  2. "Check for appropriate Money Precision"
-  -. "Check for appropriate Money Scale"
-  3. "Check for appropriate Integer Precision"
-  4. "Check for appropriate Decimal Precision"
-  5. "Check for appropriate Decimal Scale"
-  -. xxx:fill
-  
+    
 Check for spaces
 Main Success Scenario:
   1. Check for values with leading or trailing spaces
