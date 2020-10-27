@@ -102,6 +102,25 @@ Main Success Scenario:
   x. "Check Self-Documenting Code"
   x. "Confirm unneeded data removed as soon as possible"
   x. Check Run Time
+
+Check DISTINCT & UNION use
+Main Success Scenario:
+  x. "Check Distinct Use"
+  x. "Check Union Use"
+  x. Confirm both Distinct and Union (meaning "Union" instead of "Union All") are not being used at the same time
+
+Check Distinct Use
+Main Success Scenario:
+  x. Why is Distinct being used
+  x. Can a join be improved to remove the use of distinct
+  x. Can one or more of the tables be updated to avoid the use of distinct
+  x. Can a filter be added to avoid the use of distinct 
+  
+Check Union Use 
+Main Success Scenario:
+  x. Why is Union used
+  x. Can Union All be used instead
+  
   
   -"Check Table Quality"
     -"Check for two or more columns with same data in same table"
