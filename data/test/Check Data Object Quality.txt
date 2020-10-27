@@ -6,6 +6,7 @@ Main Success Scenario:
   x. "Check Table Data Update Quality"
   x. "Check Column Use"
   x. "Check Index Quality"
+  x. "Check Index Update Quality"
   x. "Check Partitioning Quality"
   
 Check Table Data Update Quality
@@ -113,7 +114,12 @@ Main Success Scenario:
   x. "Check Uniqueness"
   x. "Check Index Column Order"
   x. "Check Index Name Standard"
-  x. "Check Index Stats Update Frequency"
+  x. "Check Index Stats Update Frequency" 
+  
+Check Index Update Quality
+Main Success Scenario:
+  x. Check time impact of inserts, deletes, & updates on primary index 
+  x. Check time impact of inserts, deletes, & updates on non-primary index
   
 Check Query Quality
 Main Success Scenario:
