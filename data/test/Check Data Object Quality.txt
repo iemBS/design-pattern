@@ -3,8 +3,29 @@ Main Success Scenario:
   1. "Check Table Quality"
   2. "Check View Quality"
   3. "Check Executable"
+  x. "Check Table Data Update Quality"
+  x. "Check Column Use"
   x. "Check Index Quality"
   x. "Check Partitioning Quality"
+  
+Check Table Data Update Quality
+Main Success Scenario:
+  x. Check data insert order aligns with index order
+  x. Check insert frequency
+  x. Check min, max, & avg number of rows inserted
+  x. Check delete frequency
+  x. Check min, max, & avg number of rows deleted
+  x. Check update frequency
+  x. Check if columns in primary key are updated
+  x. Check if columns in a secondary key are updated
+  x. Check update frequency of each column
+  
+Check Column Use
+Note: 
+  -Columns that are not used may be able to be dropped. 
+Main Success Scenario:
+  x. Check column use frequency
+  x. xxx:fill in
 
 Check Table Quality
 Main Success Scenario:
