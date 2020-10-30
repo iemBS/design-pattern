@@ -111,10 +111,18 @@ Main Success Scenario:
   
 Check Index Quality
 Main Success Scenario:
+  x. "Check Column Use and Index Definition Alignment"
   x. "Check Uniqueness"
   x. "Check Index Column Order"
   x. "Check Index Name Standard"
   x. "Check Index Stats Update Frequency" 
+  
+Check Column Use and Index Definition Alignment
+Main Success Scenario:
+  1. Note what columns are joined, grouped, ordered, filtered, distincted, & aggregated on
+  2. Ignore the columns that are in tables with few rows
+  3. What columns from step 2 do not exist in an index
+  4. "Check Composite Index"
   
 Check Index Update Quality
 Main Success Scenario:
