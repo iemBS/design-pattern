@@ -113,16 +113,24 @@ Check Index Quality
 Main Success Scenario:
   x. "Check Column Use and Index Definition Alignment"
   x. "Check Uniqueness"
-  x. "Check Index Column Order"
+  x. "Check Composite Index Quality"
   x. "Check Index Name Standard"
   x. "Check Index Stats Update Frequency" 
+  x. Does a variable length column in an index cause empty space to be left in a data file when deleted
+  x. Does the index save query run time if all the needed columns are in the index
   
 Check Column Use and Index Definition Alignment
 Main Success Scenario:
   1. Note what columns are joined, grouped, ordered, filtered, distincted, & aggregated on
   2. Ignore the columns that are in tables with few rows
   3. What columns from step 2 do not exist in an index
-  4. "Check Composite Index"
+  
+Check Composite Index Quality
+Main Success Scenario:
+  x. Is the column most accessed or wtih the least values, the first in the definition
+  x. Can a unique index be defined
+  x. Can a join on the unique index prevent the use of distinct
+  x. Does the unique constraint that comes with a unique index help with catching data errors or slow down table inserts
   
 Check Index Update Quality
 Main Success Scenario:
