@@ -72,6 +72,7 @@ Main Success Scenario:
   8. "Check for unexpected phrases in column values"
   9. "Apply knowledge of character set conversion"
   
+
 Apply knowledge of character set conversion
 Main Success Scenario:
   1. Apply map of characters with a larger character identifier in character set A to smaller character identifier in character set B (like UTF-8 to CP1252)
