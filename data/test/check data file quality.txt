@@ -18,8 +18,7 @@ Main Success Scenario:
 Check Attributes Outside the File
 Main Success Scenario:
   x. File Missing in folder where it is expected
-  x. File is not open
-  x. File is not currently being written to the folder 
+  x. File is not open (could just be open or could be open and being written to)
   x. File name is as expected
   x. File extension is as expected 
   
