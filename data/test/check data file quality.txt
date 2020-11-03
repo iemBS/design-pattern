@@ -1,0 +1,48 @@
+Check Data File Quality
+Note:
+  -Guidance @ https://en.wikipedia.org/wiki/File_attribute
+  -Guidance @ https://en.wikipedia.org/wiki/File_format
+Main Success Scenario:
+  1. "Checks that Stop File Consumption" 
+  2. "Checks that do NOT Stop File Consumption"
+  3. "Checks that Stop File Consumption and send no error notification"
+
+  
+Checks that Stop File Consumption
+Pre-Conditions:
+  -File expected even if there is no data in the file
+Main Success Scenario:
+  x. "Check Attributes Outside the File"
+  x. "Check Attributes Inside the File"
+
+Check Attributes Outside the File
+Main Success Scenario:
+  x. File Missing in folder where it is expected
+  x. File is not open
+  x. File is not currently being written to the folder 
+  x. File name is as expected
+  x. File extension is as expected 
+  
+Check Attributes Inside the File
+Main Success Scenario:
+  x. File type (not determined by file extension) is as expected
+  x. ile size (in KB or MB) is in the expected range
+  x. File Modified Time precedes last consumption time 
+  x. File permissions do not allow automation account to read the file
+  x. File uses character set CP1252
+  x. "Format of the data in the file is as expected"
+  
+Format of the data in the file is as expected
+Main Success Scenario:
+  1. Has column title row as expected
+  2. Column count as expected
+  3. Columns names in the file are as expected
+  4. Uses expected column and row delimiters 
+  
+Checks that do NOT Stop File Consumption
+Main Success Scenario:
+  1. File exists in folder where it is not expected
+  
+Checks that Stop File Consumption and send no error notification
+Main Success Scenario:
+  1. File has no data
