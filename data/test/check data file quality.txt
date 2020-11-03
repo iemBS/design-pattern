@@ -41,7 +41,7 @@ Main Success Scenario:
   
 Checks that do NOT Stop File Consumption
 Main Success Scenario:
-  1. File exists in folder where it is not expected
+  1. Expected file exists in the folder, but another file also exists there that is not expected. 
   
 Checks that Stop File Consumption and send no error notification
 Main Success Scenario:
