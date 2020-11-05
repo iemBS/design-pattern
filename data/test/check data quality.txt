@@ -51,7 +51,8 @@ Main Success Scenario:
   2. "Confirm appropriate delimiters in composite Unique ID"
   3. Check Unique Id is unique
   4. Check Unique ID definition is reliable for the life of the system
-  5. xxx:fill
+  5. Understand the Unique ID value patterns
+  6. Remove Unique ID values with patterns that are known to not be needed 
   
 Check indexing
 Main Success Scenario:
