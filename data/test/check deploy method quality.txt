@@ -1,0 +1,33 @@
+Check Deploy Method Quality
+Note:
+  -Altering a definition of an existing object may maintain the object create date. If that is possible, keeping the initial create date is ideal for tracking changes. 
+  -In development, new objects can be changed many times. If that object is new to the next enviroment to deploy to, that object needs to be created and not altered there. 
+Main Success Scenario:
+  1. Are existing object definitions alterted instead of re-created
+  2. Are new objects created instead of altered
+  x. "Check Time Attriutes"
+  x. Is deploy being automated as much as possible
+  x. Are any deploy tasks duplicated
+  x. "Check Code Versioning"
+  x. Is there a fast track deploy process
+  x. "Check Deploy Method Usage"
+  x. xxx:fill in
+  
+Check Time Attriutes
+Main Success Scenario:
+  x. Are the create and modification times for all objects easily accessible 
+  x. Are the deploy times easily accessible
+  x. Are all times mentioned above down to the minute
+  x. Are all times mentioned above using the same time zone
+  x. Are all times mentioned above using a time zone suitable for all people looking at those times
+  
+Check Code Versioning
+Main Success Scenario:
+  x. Is code file hierarchy following the org standard
+  x. Is code file hierarchy clearly separating component types
+  x. Does the code file hierarchy have a place for static data changes
+  x. xxx:fill in
+  
+Check Deploy Method Usage
+Main Success Scenario:
+  1. xxx:fill in
