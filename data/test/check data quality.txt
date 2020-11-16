@@ -50,9 +50,18 @@ Main Success Scenario:
   1. "Check all parts of composite Unique ID exist"
   2. "Confirm appropriate delimiters in composite Unique ID"
   3. Check Unique Id is unique
-  4. Check Unique ID definition is reliable for the life of the system
+  4. "Check Unique ID definition is reliable for the life of the system"
   5. Understand the Unique ID value patterns
   6. Remove Unique ID values with patterns that are known to not be needed 
+
+Check Unique ID definition is reliable for the life of the system"
+Main Success Scenario:
+  1. "Check the range of possible Unique ID values is large enough"
+  2. xxx:fill in
+  
+Check the range of possible Unique ID values is large enoug
+Main Success Scenario:
+  1. xxx:fill in
   
 Check indexing
 Main Success Scenario:
