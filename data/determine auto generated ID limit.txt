@@ -1,0 +1,9 @@
+Determine Auto Generated ID Limit
+Main Success Scenario:
+  1. Choose auto incrementing integer
+  2. xxx:fill in
+Alternatives:
+  1a. Choose auto generated GUID
+    1a1. xxx:fill in
+  1b. Choose custom definition based off existing fields
+    1b1. xxx:fill in
