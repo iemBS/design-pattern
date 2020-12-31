@@ -1,4 +1,105 @@
 Get Data Laws
+Note:
+  -Acronyms that need to be clarified:
+    -PI: Personal Information
+    -PII: Personal Identifiable Information, Personal Identity Information
+    -PD: Personal Data
+    -PHI: Protected Health Info
+    -CUI: Controlled Unclassified Information
+      -Defined by Dept of Defense DOD regulations
+      -Applies to any state, local, tribal, or foreign partner that uses DOD info
+      -Need to recognize diff between classified and controlled-unclassified info
+        -Classified info is any info that could harm national security
+          -Nuclear launch codes
+          -Weapon schematics
+          -troop locations
+        -Controlled unclassified is a step below classified. Not harm national security but can harm people. 
+          -PI
+          -fin info
+          -IT sec info
+          -law and court record
+          -patent records
+          -other
+    -Proprietary Info: 
+      -Info an org wants to keep private and away from the general public
+      -ex
+        -non-public org info
+        -trade secrets
+        -production methods & processes
+          -upcoming product schematics
+        -user IDs and passwords
+        -internal network info
+        -board decision
+        -confidential fin data
+        -any info that could hurt the org or a customer of the org
+          -internal strategic plan
+          -employee salaries
+       -controlled via confidentiality contracts (like NDA)
+         -legal action possible with contract breach
+   -PI laws can be domestic and international
+     -for US State and Federal
+       -Define PI
+       -NIST (National Institute of Standards and Technology)
+         -Special Publiciation (800-122)
+     -for Mexico
+       -Protects PI via Article 6 of the Mexican constitution 
+       -There are also federal laws
+     -for Canada
+       -Defined at federal and Provincial level
+         -for federal level
+           -PI Protection and Electronic Docs Act (PIPEDA)
+         -for provincial level
+           -only for British Columbia, Alberta, & Quebec
+           -very similar to PIPEDA
+      -for Europe
+        -PI is PD in Europe
+        -General Data Protection Regulation (GDPR)
+        -Any info related to an identified or identifiable natural person
+  -One type of PI alone may not have rules around it, but two or more peices of PI together could have rules around it and be known as PII. 
+  -Types of PI that can become sensitive with other PI
+    -DOB
+    -Mother's Maiden Name
+    -Job
+    -Responsibilities 
+    -Union #
+    -Political Party
+  -Sources of PHI
+    -health care history
+    -provider records 
+    -payment method for health care
+  -Types of PHI
+    -SSN
+    -Biometric identifiers (finger print, voice print, DNA, face pics)
+    -Med record
+    -health plan beneficiary #
+    -NIN (national identity #)
+    -private info about patient (DOB, Birth Month)
+    -Rx info
+    -Referred Provider
+  -PHI defined by
+    -for US
+      -by HIPAA
+      -by HITECH
+    -for Canada, Mexico, & EU
+      -include their med related guidelines within their larger privacy docs
+  -combos of info that are sensitive
+    -xxx:fill in
+  -Payment info
+    -Use PCI Std
+      -https://www.investopedia.com/terms/p/pci-compliance.asp
+        -Card Holder Name
+        -Card Number
+        -Card Verify #
+        -Expire Date
+        -PIN (Personal Identification Number)
+        -Card verify # (CAV2/CID/CVC2/CVV2)
+        -Data from Magnetic Strip
+  -Types of CUI
+    -xxx:fill in
+  -Best practices for handling sensitive info
+    -Access
+    -Use
+    -Disposal
 Main Success Scenario:
   1. Go to the following locations to get laws
     Do Not Call Registry: https://www.ftc.gov/news-events/media-resources/do-not-call-registry/enforcement
