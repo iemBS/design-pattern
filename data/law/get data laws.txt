@@ -84,7 +84,7 @@ Note:
       -include their med related guidelines within their larger privacy docs
   -combos of info that are sensitive
     -xxx:fill in
-  -Payment info
+  -Payment Card Info (PCI)
     -Use PCI Std
       -https://www.investopedia.com/terms/p/pci-compliance.asp
         -Card Holder Name
