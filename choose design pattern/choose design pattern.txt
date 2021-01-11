@@ -1,0 +1,6 @@
+Choose Software Design Pattern
+Note:
+  -Guidance @ 
+    -https://docs.microsoft.com/en-us/azure/architecture/patterns/publisher-subscriber
+Main Success Scenario:
+  1. xxx:fill in
