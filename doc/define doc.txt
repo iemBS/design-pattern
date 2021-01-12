@@ -1,0 +1,62 @@
+Define Doc
+Main Success Scenario:
+  1. "Define Doc Goal"
+  2. "Define Doc Info Consumption"
+  3. "Define Doc Info Publishing"
+  4. "Confirm Digital or Non-Digital Doc"
+  5. "Confirm Info Format in Doc"
+  6. Define doc ownership
+  7. xxx:fill in
+  
+Define Doc Goal
+Main Success Scenario:
+  1. What info is in the doc?
+  2. How does the doc help?
+  3. xxx:fill in
+  
+Define Doc Info Consumption
+Main Success Scenario:
+  1. Where are the doc consumers?
+  2. "Define Doc Consumers"
+  3. xxx:fill in
+  
+Define Doc Info Publishing
+Main Success Scenario:
+  1. Where are the doc publishers?
+  2. "Define Doc Publishers"
+  3. At what point does the doc publish effort not make sense for the amount of help the doc provides?
+  4. Can the doc be kept up to date to provide the help it is intended to do?
+  5. Should the doc be one or more files?
+  6. Should the doc have more than one publisher? (possibly more than one voice)
+  7.xxx:fill in
+  
+Define Doc Consumers
+Main Success Scenario:
+  1. Assume consumers use digital docs
+  2. How are docs viewed?
+  3. "Define Software Used for Digital Docs"
+  4. xxx:fill in
+Alternatives:
+  1a. Assume consumers work with non-digital docs
+    1a1. xxx:fill in
+  
+Define Doc Publishers
+Main Success Scenario:
+  1. Assume publishers use digital docs
+  2. How are docs edited?
+  3. "Define Software Used for Digital Docs"
+  4. "Define Digital Doc Update Frequency"
+  5. xxx:fill in
+Alternatives:
+  1a. Assume publishers work with non-digital docs
+    1a1. xxx:fill in
+  
+Define Software Used for Digital Docs
+Main Success Scenario:
+  1. xxx:fill in
+  
+Define Digital Doc Format
+Note:
+  -Need to note doc type from this list: .docx, .txt. .json, .csv, xxx:Fill in
+Main Success Scenario:
+  1. xxx:fill in
