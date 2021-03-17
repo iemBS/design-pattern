@@ -1,0 +1,22 @@
+﻿referenceDesc,referenceLink
+,http://www.asciitable.com/
+,https://en.wikipedia.org/wiki/Character_encoding
+,https://www.codetable.net/
+,https://en.wikipedia.org/wiki/Unicode_character_property
+,https://grammar.yourdictionary.com/punctuation/what/fourteen-punctuation-marks.html
+,http://book.realworldhaskell.org/read/characters-strings-and-escaping-rules.html
+,"https://theasciicode.com.ar/extended-ascii-code/letter-u-with-umlaut-diaeresis-lowercase-u-umlaut-ascii-code-129.html#:~:text=1)%20Press%20the%20%22Alt%22,%22%C3%BC%22%20in%20ASCII%20table."
+,https://www.fileformat.info/info/unicode/char/2310/index.htm
+,https://unicode.org/charts/PDF/U0000.pdf
+,https://developer.apple.com/documentation/coreservices/1400434-ms-dos_and_windows_text_encodings
+,https://www.w3.org/International/questions/qa-what-is-encoding
+,https://www.utf8-chartable.de/unicode-utf8-table.pl
+,https://cs.stanford.edu/people/miles/iso8859.html
+,http://www.ltg.ed.ac.uk/~richard/utf-8.cgi?input=%C3%BB&mode=char
+,https://www.w3.org/International/questions/qa-what-is-encoding
+,http://unicode.scarfboy.com/
+,https://www.w3schools.com/charsets/ref_html_utf8.asp
+"Use ""0xA2 site:fileformat.info"" in earch engine to find single byte in unicode UTF-8 byte characters that have 2 to 4 bytes in them",
+,https://www.compart.com/en/unicode/
+cp1252 characters that are pawned off as 8859-1 characters,http://effbot.org/zone/unicode-gremlins.htm
+CP1252 to Unicode character map,ftp://ftp.unicode.org/Public/MAPPINGS/VENDORS/MICSFT/WINDOWS/CP1252.TXT

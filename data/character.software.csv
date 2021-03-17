@@ -1,0 +1,8 @@
+﻿softwareMakerName,softwareName,softwareVersionName,softwareVersionNumber,defaultCharacterSetId,otherCharacterSetId,charToUnicodeDecimalNumerConvert,UnicodeDecimalNumberToCharConvert,charToCP1252DecimalNumerConvert,CP1252DecimalNumberToCharConvert
+MS,Excel,Micorosft Office 365 ProPlus,2002,CP1252,,,,,
+Oracle,MySQL Workbench,,8.0.21,,,,,,
+MS,SQL Server,,,,,,,,
+AWS,Aurora,,,CP1252,,,,,
+AWS,Glue,,,,,,,,
+Reltio,Reltio,,,,,,,,
+,MySQL,,,,,,,,

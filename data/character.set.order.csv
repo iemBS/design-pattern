@@ -1,0 +1,7 @@
+﻿characterSetId,orderName,orderDesc,orderDescLink
+ASCII,ASCII-code order; ASCIIbetical order,All uppercase come before lowercase letters; digits and many punctuation marks come before letters,https://en.wikipedia.org/wiki/ASCII#Character_order;https://www.pcmag.com/encyclopedia/term/asciibetical
+ASCII,,,
+CP1252,,Case insensitive means upper and lower case letters will have the same value during ordering,
+CP1252,,Accent insentive means that letters with and without accents will have the same value during ordering,
+CP1252,,Case and Accent insensitive means case and accents will be ignored during ordering,
+CP1252,,Width sensitive means full width and half width versions of characters will be seen as the same,

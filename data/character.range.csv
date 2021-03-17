@@ -1,0 +1,21 @@
+﻿orgShortName,characterSetId,parentRangeLongName,rangeLongName,rangeShortName,rangeDesc,rangeUse,characterCountInRange,byteCountPerCharacterInRange,hasNotAssigned,UTF8Start,UTF8End,UTF-8NumberFormat,UTF-16NumberFormatInRange,rangeLink
+MS;ISO,,,CP1252 and ISO 8859-1 character set differences (dec numbers 128 to 159 in both sets),,,,33,3,,E282AC,"C5B8	",,,https://www.i18nqa.com/debug/table-iso8859-1-vs-windows-1252.html
+ANSI;Unicode Consortium,,,"Ascii and Unicode character sets have same dec, hex, & oct number (dec numbers 0 to 127 in both sets)",,,,128,1,,,,,,
+,,,Ascii extension (dec numbers 128 to 255),,,,127,,,,,,,https://www.ascii-code.com/
+MS;ANSI,,,CP1252 and Ascii character set differences,,,,,,,,,,,
+Unicode Consortium,UTF-8,,Basic Multilingual Plane,BMP,Has 163 Unicode blocks,,55444,2,,0000,FFFF,,,https://www.compart.com/en/unicode/plane/U+0000
+Unicode Consortium,UTF-8,Basic Multilingual Plane,Basic Latin Block,Basic Latin,,,128,1,0,0000,007F,,,https://www.compart.com/en/unicode/block/U+0000
+Unicode Consortium,UTF-8,Basic Multilingual Plane,Latin-1 Supplement Block,Latin-1 Supplement,,,128,2,0,0080,00FF,,,https://www.compart.com/en/unicode/block/U+0080
+Unicode Consortium,UTF-8,Basic Multilingual Plane,Latin Extended-A Block,Latin Extended-A,,,128,2,0,0100,017F,,,https://www.compart.com/en/unicode/block/U+0100
+Unicode Consortium,UTF-8,Basic Multilingual Plane,Latin Extended-B Block,Latin Extended-B,,,208,2,0,0180,024F,,,https://www.compart.com/en/unicode/block/U+0180
+Unicode Consortium,UTF-8,Basic Multilingual Plane,IPA Extensions Block,IPA Extensions,,,96,2,0,0250,02AF,,,https://www.compart.com/en/unicode/block/U+0250
+Unicode Consortium,UTF-8,,Supplementary Multilingual Plane,SMP,Has 127 Unicode blocks,,21353,4,0,10000,1FFFF,,,https://www.compart.com/en/unicode/plane/U+10000
+Unicode Consortium,UTF-8,Supplementary Multilingual Plane,Emoticons Block,Emoticons,,,80,,0,1F600,1F64F,,,https://www.compart.com/en/unicode/block/U+1F600
+Unicode Consortium,UTF-8,Basic Multilingual Plane,Mathematical Operators Block,Mathematical Operators,,,256,,0,2200,22FF,,,https://www.compart.com/en/unicode/block/U+2200
+Unicode Consortium,UTF-8,Basic Multilingual Plane,Currency Symbols Block,Currency Symbols,,,32,,0,20A0,20CF,,,https://www.compart.com/en/unicode/block/U+20A0
+Unicode Consortium,UTF-8,Basic Multilingual Plane,Superscripts and Subscripts Block,Superscripts and Subscripts,,,42,,0,2070,209F,,,https://www.compart.com/en/unicode/block/U+2070
+Unicode Consortium,UTF-8,Basic Multilingual Plane,Leterlike Symbols Block,Leterlike Symbols,,,80,,0,2100,214F,,,https://www.compart.com/en/unicode/block/U+2100
+Unicode Consortium,UTF-8,Basic Multilingual Plane,General Punctuation Block,General Punctuation,,,111,,0,2000,206F,,,https://www.compart.com/en/unicode/block/U+2000
+Unicode Consortium,UTF-8,Basic Multilingual Plane,Combining Diacritical Marks Block,Combining Diacritical Marks,,,112,,0,0300,036F,,,https://www.compart.com/en/unicode/block/U+0300
+Unicode Consortium,UTF-8,Basic Multilingual Plane,Enclosed Alphanumerics Block,Enclosed Alphanumerics,,,160,,0,2460,24FF,,,https://www.compart.com/en/unicode/block/U+2460
+Unicode Consortium,UTF-8,Basic Multilingual Plane,Supplemental Mathematical Operators Block,Supplemental Mathematical Operators,,,256,,0,2A00,2AFF,,,https://www.compart.com/en/unicode/block/U+2A00

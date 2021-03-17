@@ -1,0 +1,3 @@
+﻿sourceCharacterSetId,destinationCharacterSetid,convertBySoftwareName,convertPerspective,sourceCharacterIdentifierType,destinationCharacterIdentifierType,sourceCharacterIdentifierValue,sourceCharacterIdentifierValuePart1,sourceCharacterIdentifierValuePart2,sourceCharacterIdentifierValuePart3,sourceCharacterIdentifierValuePart4,destinationCharacterIdentifierValue,destinationCharacterIdentifierValuePart1,destinationCharacterIdentifierValuePart2,destinationCharacterIdentifierValuePart3,destinationCharacterIdentifierValuePart4,convertDesc
+Unicode,CP1252,Excel,sort & filter only; not function; not visual,unicodeIndex,cp1252Index,65123,65123,,,,45,45,,,,
+Unicode,CP1252,MySQL,,,cp1252Index,,,,,,,,,,,
