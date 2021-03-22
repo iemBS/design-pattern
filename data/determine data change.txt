@@ -1,0 +1,6 @@
+Determine Data Change
+Main Success Scenario:
+  1. Be provided only the changes (new, updates to existing data)
+Alternatives:
+  1a. Compare provided data to what we already have
+    1a1. xxx:fill in
