@@ -1,3 +1,5 @@
+Pull info from here & add to below https://knowledge.wharton.upenn.edu/article/data-shared-sold-whats-done/
+
 Get Data Laws
 Note:
   -Acronyms that need to be clarified:
