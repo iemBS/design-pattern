@@ -3,5 +3,6 @@ Note:
   -Guidance @ https://www.otis.edu/sites/default/files/Standard-Abbreviations.pdf
   -Guidance @ https://acronyms.thefreedictionary.com/
   -Guidance @ https://aac.asm.org/content/abbreviations-and-conventions
+  -timezone @ https://en.m.wikipedia.org/wiki/List_of_time_zone_abbreviations
 Main Success Scenario:
   1.xxx:fill in
