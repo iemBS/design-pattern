@@ -1,0 +1,30 @@
+fieldNameId,fieldNameDesc,fieldName,isDescOrName
+1,marital status of a person,,d
+1,,married,n
+1,,relation,n
+1,,marriage,n
+2,role of node in a relationship,,d
+2,,role,n
+3,type of relation between nodes,,d
+3,,relation,n
+4,phone number,,d
+4,,phone,n
+4,,fax,n
+5,email address,,d
+5,,email,n
+6,email validity,,d
+6,,bounce,n
+6,,valid,n
+6,,isValid,n
+7,employed,,d
+7,,company,n
+7,,employ,n
+7,,job,n
+7,,profession,n
+7,,co,n
+8,first name of a person,,d
+8,,name,n
+8,,first,n
+9,last name of a person,,d
+9,,name,n
+9,,last,n
