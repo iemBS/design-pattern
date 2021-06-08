@@ -10,6 +10,8 @@ fieldNameId,fieldNameDesc,fieldName,isDescOrName
 4,phone number,,d
 4,,phone,n
 4,,fax,n
+4,,contact,n
+4,,call,n
 5,email address,,d
 5,,email,n
 6,email validity,,d
