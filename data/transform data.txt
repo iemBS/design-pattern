@@ -1,1 +1,20 @@
-placeholder
+Transform Data
+Main Success Scenario:
+  1. "Define Data Volume Impact on Transformation"
+  2. "Define Data Velocity Impact on Transformation"
+  3. "Define Data Variety Impact on Transformation"
+
+
+Define Data Volume Impact on Transformation
+Main Success Scenario:
+  1. xxx:fill in
+  
+  
+Define Data Velocity Impact on Transformation
+Main Success Scenario:
+  1. xxx:fill in
+  
+  
+Define Data Variety Impact on Transformation
+Main Success Scenario:
+  1. xxx:fill in
