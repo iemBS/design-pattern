@@ -1,0 +1,29 @@
+Diagram Data Flow
+Pre-Conditions:
+  -"Define Intuitive Icons"
+  -"Define Flow Direction"
+Note:
+  -Using a single color keeps the focus on the flow and not on any particular part of the flow
+  -A start and end does not need to be stated unless complexity requires it
+Main Success Scenario:
+  1. Use a single color (green, blue), like a blue print does
+  2. xxx:fill in
+  
+  
+Define Intuitive Icons
+Main Success Scenario:
+  1. See list below
+    -Data Lake: cylinder with water
+    -general database: cylinder
+    -cube database: rubik's cube
+    -persona/role: person that does not indicate a color or gender
+    -transformation: gear
+    -spread sheet: excel file icon with .XLSX extension label
+    -text file: text file icon with .TXT extension label
+    -CSV file: text file icon with .CSV extension label
+    -xxx:fill in
+    
+    
+Define Flow Direction
+Main Success Scenario:
+  1. xxx:fill in
