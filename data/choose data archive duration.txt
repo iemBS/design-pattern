@@ -26,9 +26,15 @@ Main Success Scenario:
 
 
 Define Audiences
+Pre-Conditions:
+  1. "Define Audience Update Frequency" use case 
 Main Success Scenario:
   1. Who wants to interact w data and why
   2. mngmt OKs user add to Audience
   3. users put into audiences
-  4. Do this use case on a regular basis to confirm data access need
+  4. update audience using the defined frequency
   5. Remove users who do not confirm they still need access
+  
+Define Audience Update Frequency
+Main Success Scenario:
+  1. xxx:fill in
