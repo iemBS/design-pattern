@@ -1,9 +1,12 @@
 Transform Data
+Pre-Conditions
+  -"Define Data Volume Impact on Transformation"
+  -"Define Data Velocity Impact on Transformation"
+  -"Define Data Variety Impact on Transformation"
+  -"Define Hardware Impact on Transformation"
 Main Success Scenario:
-  1. "Define Data Volume Impact on Transformation"
-  2. "Define Data Velocity Impact on Transformation"
-  3. "Define Data Variety Impact on Transformation"
-  4. xxx:fill in
+  1. "Check if Movement Required for Transformation"
+  2. xxx:fill in
 
 
 Define Data Volume Impact on Transformation
@@ -17,5 +20,15 @@ Main Success Scenario:
   
   
 Define Data Variety Impact on Transformation
+Main Success Scenario:
+  1. xxx:fill in
+
+
+Define Hardware Impact on Transformatio
+Main Success Scenario:
+  1. xxx:fill in
+  
+
+Check if Movement Required for Transformation
 Main Success Scenario:
   1. xxx:fill in
