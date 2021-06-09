@@ -6,9 +6,17 @@ Pre-Conditions
   -"Define Hardware Impact on Transformation"
   -"Define Software Impact on Transformation"
 Main Success Scenario:
-  1. "Check if Movement Required for Transformation"
-  2. xxx:fill in
+  1. Understand why transformation is needed
+  2. "Check if transformation can be done upstream"
+  3. "Check if Movement Required for Transformation"
+  4. xxx:fill in
 
+
+Check if transformation can be done upstream
+Main Success Scenario:
+  1. Check if the transformation is done to adhere to a standard
+  2. xxx:fill in
+  
 
 Define Data Volume Impact on Transformation
 Main Success Scenario:
