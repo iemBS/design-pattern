@@ -9,13 +9,19 @@ Main Success Scenario:
   1. Understand why transformation is needed
   2. "Check if transformation can be done upstream"
   3. "Check if Movement Required for Transformation"
-  4. xxx:fill in
+  4. "Check if the transformation can be done on a subset"
+  5. xxx:fill in
 
 
 Check if transformation can be done upstream
 Main Success Scenario:
   1. Check if the transformation is done to adhere to a standard
   2. xxx:fill in
+  
+  
+Check if the transformation can be done on a subset
+Main Success Scenario:
+  1. xxx:fill in
   
 
 Define Data Volume Impact on Transformation
