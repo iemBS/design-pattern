@@ -1,0 +1,132 @@
+Define Report
+Main Success Scenario:
+  1. "Define Summary Report"
+  2. "Define Detail Report"
+  3. "Define Summary to Detail Report Relation"
+  
+  
+Define Summary Report
+Main Success Scenario:
+  1. "Define Metric Summary Attributes Exposed"
+  2. "Define Metric"
+  3. xxx:fill in
+
+
+Define Detail Report
+Main Success Scenario:
+  1. "Define Metric Detail Attributes Exposed"
+  2. xxx:fill in
+  3. xxx:fill in
+  
+  
+Define Summary to Detail Report Relation
+Note:
+  -Detail report should support metrics in the summary report 
+Main Success Scenario:
+  1. Define navigation from summary to detail
+  2. Define navigation from detail to summary
+  x. xxx:fill in
+
+
+Define Metric Summary Attributes Exposed
+Main Success Scenario:
+  1. xxx:fill in
+
+
+Define Metric Detail Attributes Exposed
+Main Success Scenario:
+  1. xxx:fill in
+  
+  
+Define Metric
+Main Success Scenario:
+  x. "Define Metric Business Owner"
+  x. "Define Metric Business Definition"
+  x. "Define Metric Data Source"
+  x. "Define Metric Technical Owner"
+  x. "Define Metric Technical Definition"
+  x. "Define Metric Filter Exposed in Report"
+  x. "Define Metric Update Frequency"
+  x. "Define Metric Audience"
+  x. "Define Metric SLA"
+  x. "Define Metric Publish Location"
+
+
+Define Metric Business Owner
+Note:
+  -Will provide the business definition
+Main Success Scenario:
+  1. xxx:fill in
+
+
+Define Metric Business Definition
+Note:
+  -Includes summary metric and supporting detail
+Main Success Scenario:
+  x. Confirm summary and detail attributes to expose
+  x. xxx:fill in
+ 
+ 
+Define Metric Data Source
+Note:
+  -Includes summary metric and supporting detail
+Main Success Scenario:
+  1. Define Metric Summary Data Source
+  2. Define Metric Detail Data Source
+  3. Summary is Aggregated from the Detail
+Alternatives:
+  3a. Summary and Detail provided seperately
+
+
+Define Metric Technical Owner
+Note:
+  -Will provide the technical definition
+Main Success Scenario:
+  1. xxx:fill in
+
+
+Define Metric Technical Definition
+Note:
+  -Includes summary metric and supporting detail
+Main Success Scenario:
+  1. Translates Business Definition to Technical Definition
+  2. Confirm summary and detail attributes to expose
+
+
+Define Metric Filter Exposed in Report
+Note:
+  -Includes summary metric and supporting detail
+Main Success Scenario:
+  1. xxx:fill in
+  
+  
+Define Metric Update Frequency
+Note:
+  -Includes summary metric and supporting detail
+Main Success Scenario:
+  1. xxx:fill in
+
+
+Define Metric Audience
+Note:
+  -Includes summary metric and supporting detail
+Main Success Scenario:
+  1. xxx:fill in
+  
+  
+Define Metric SLA
+Note:
+  -Includes summary metric and supporting detail
+Main Success Scenario:
+  1. xxx:fill in
+  
+  
+Define Metric Publish Location
+Note:
+  -Includes summary metric and supporting detail
+  -Business and Technical Metric definitions need to be published to a location accessible by report users
+  -Important because publish location needs to align with the report audience
+Main Success Scenario:
+  1. xxx:fill in
+  
+  
