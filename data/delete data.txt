@@ -1,0 +1,58 @@
+Delete Data
+Main Success Scenario:
+  x. "Define Data to be Deleted"
+  x. "Define Delete Method"
+  x. "Define Delete Action"
+  x. "Define Data Backup"
+  x. "Define Data Recovery"
+  x. "Perfom Data Delete"
+  
+  
+Define Data to be Deleted
+Main Success Scenario:
+  1. xxx:fill in
+
+
+Define Delete Method
+Main Success Scenario:
+  1. "Define Hard Delete Method"
+  2. xxx:fill in
+Alternatives:
+  1a. "Define Soft Delete Method"
+  
+  
+Define Hard Delete Method
+Main Success Scenario:
+  1. xxx:fill in
+  
+  
+Define Soft Delete Method
+Main Success Scenario:
+  1. xxx:fill in
+
+
+Define Delete Action
+Main Success Scenario:
+  1. Delete parent node because it will auto delete the child nodes
+  2. xxx:fill in
+Alternatives:
+  1a. Deletion of parent node will not delete the child node
+    1a1. Look at it as a tree. Delete the leaves first and delete more nodes as you move from the leaves to the trunk.
+
+
+Define Data Backup
+Main Success Scenario:
+  1. xxx:fill in
+
+
+Define Data Recovery
+Main Success Scenario:
+  1. xxx:fill in
+
+
+Perfom Data Delete
+Main Success Scenario:
+  1. xxx:fill in
+
+
+  
