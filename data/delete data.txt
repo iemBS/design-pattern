@@ -10,7 +10,8 @@ Main Success Scenario:
   
 Define Data to be Deleted
 Main Success Scenario:
-  1. xxx:fill in
+  1. "Define Data History to to be deleted"
+  2. xxx:fill in
 
 
 Define Delete Method
