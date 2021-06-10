@@ -1,23 +1,34 @@
 Delete Data
+Note:
+  -The ability or difficulty to recover the deleted data needs to be understood before defining the deletion method, because the defined delete method may not allow for recovery of the data.
 Main Success Scenario:
-  x. "Define Data to be Deleted"
+  x. "Define Bedeleted Data"
+  x. "Define Data Recovery"
   x. "Define Delete Method"
   x. "Define Delete Action"
   x. "Define Data Backup"
-  x. "Define Data Recovery"
+  x. "Define Delete Time"
   x. "Perfom Data Delete"
   
   
-Define Data to be Deleted
+Define Bedeleted Data
 Main Success Scenario:
-  1. "Define Data History to to be deleted"
-  2. xxx:fill in
+  x. "Define BeDeleted Data Filter"
+  x. "Define Bedeleted Data History"
+  x. xxx:fill in
+  
+  
+Define BeDeleted Data Filter
+
+
+Define Bedeleted Data History
 
 
 Define Delete Method
 Main Success Scenario:
   1. "Define Hard Delete Method"
-  2. xxx:fill in
+  2. "Define Delete Order"
+  3. xxx:fill in
 Alternatives:
   1a. "Define Soft Delete Method"
   
@@ -30,6 +41,13 @@ Main Success Scenario:
 Define Soft Delete Method
 Main Success Scenario:
   1. xxx:fill in
+  
+  
+Define Delete Order
+Main Success Scenario:
+  1. "Define Delete Location Order"
+  2. "Define Delete Location Record Order"
+  3. xxx:fill in
 
 
 Define Delete Action
@@ -55,5 +73,9 @@ Perfom Data Delete
 Main Success Scenario:
   1. xxx:fill in
 
+
+Define Delete Time
+Main Success Scenario:
+  1. xxx:fill in
 
   
