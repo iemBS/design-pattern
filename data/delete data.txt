@@ -57,6 +57,8 @@ Main Success Scenario:
 Alternatives:
   1a. Deletion of parent node will not delete the child node
     1a1. Look at it as a tree. Delete the leaves first and delete more nodes as you move from the leaves to the trunk.
+  1b. All parent records are deleted 
+    1c. Use a truncate command if available
 
 
 Define Data Backup
@@ -76,6 +78,16 @@ Main Success Scenario:
 
 Define Delete Time
 Main Success Scenario:
-  1. xxx:fill in
+  1. "Check Query Run Time"
+  x. xxx:fill in
+Alternatives:
+  1a. Query run time is not good
+    1a1. See if batching queries helps
+    1a2. See if temp indexes can be added to speed up the queries
+  
+  
+Check Query Run Time
+Main Success Scenario:
+  1. Run select versions of delete queries that do not return several rows of results to the screen
 
   
