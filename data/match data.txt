@@ -8,6 +8,7 @@ Main Success Scenario:
   2. "Match with Fuzzy Logic"
   4. "Match by Soundex"
   5. "Proximity Match"
+  6. "Regex Match"
   5. xxx:fill in
   
   
@@ -22,6 +23,14 @@ Main Success Scenario:
   
   
 Proximity Match
+Main Success Scenario:
+  1. xxx:fill in
+  
+  
+Regex Match
+Note: 
+  -guidance @
+    -https://www.princeton.edu/~mlovett/reference/Regular-Expressions.pdf
 Main Success Scenario:
   1. xxx:fill in
 
