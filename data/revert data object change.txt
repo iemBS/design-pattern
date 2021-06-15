@@ -1,0 +1,9 @@
+Revert Data Object Change
+Note:
+  -Updating the objects to revert to the way they were may not be possible by updating the objects in the same order
+  -Reasons why the object updates and the revert of those updates can change the order that objects are updated when reverted
+    -dependency
+    -how the update occurs
+    -how the revert occurs
+Main Success Scenario:
+  1. xxx:fill in
