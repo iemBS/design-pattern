@@ -9,3 +9,20 @@ Main Success Scenario:
   4. "Match by Soundex"
   5. "Proximity Match"
   5. xxx:fill in
+  
+  
+Match with Fuzzy Logic
+Main Success Scenario:
+  1. xxx:fill in
+  
+  
+Match by Soundex
+Main Success Scenario:
+  1. xxx:fill in
+  
+  
+Proximity Match
+Main Success Scenario:
+  1. xxx:fill in
+
+
