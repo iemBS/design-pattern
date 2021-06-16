@@ -1,0 +1,84 @@
+Improve Performance
+Note:
+  -Do the steps in this order
+Main Success Scenario:
+  1. "Tune Query"
+  2. "Tune Database Object"
+  3. "Scale Resource"
+  4. "Throttle Resource"
+  5. "Charge User for Resource Use"
+Alternatives:
+  2a. Tuning is not enough and the database object needs to be redesigned
+    2a1. "Redesign Database Object"
+  2b. Tuning is not enough, database object redesign is not enough
+    2b1. "Database becomes Multiple Databases"
+  2c. Tuning and database object redsign are not enough, using multiple database instead is not solution
+    2c1. Go to step 4
+  4a. Throttling is not an option
+    3a1. Go to step 5
+    
+    
+Tune Query
+Main Success Scenario:
+  1. xxx:fill in
+
+
+Tune Database Object
+Main Success Scenario:
+  1. "Tune Table"
+Alternatives:
+  1a. View is used in a query
+    1a1. "Tune View"
+  1b. Defined relations between tables/views could be better
+    1b1. "Tune Relation"
+  1c. Tune not needed at table/view level
+    1c1. "Tune Database"
+    
+    
+Tune Table
+Note:
+  -A Table is an object in a relational database. So, this could also be a another type of object that holds records and each records has one or more fields/attributes in it.
+Main Success Scenario:
+  1. xxx:fill in
+
+
+Tune View
+Note:
+  -A view is an object in a relational database. This could be a view type object for non-relational databases as well. 
+Main Success Scenario:
+  1. xxx:fill in
+
+
+Tune Relation
+Main Success Scenario:
+  1. xxx:fill in
+
+
+Tune Database
+Main Success Scenario:
+  1. xxx:fill in
+
+       
+Scale Resource
+Main Success Scenario:
+  1. "Scale RAM"
+Alternatives:
+  1a. CPU needs to be scaled
+    1a2. "Scale CPU"
+  1b. Disk space neesd to be scaled
+    1b1. "Scale Disk Space"
+  1c. Disk IO needs to be scaled
+    1c1. "Scale Disk IO"
+
+
+Throttle Resource
+Main Success Scenario:
+  1. xxx:fill in
+
+
+Charge User for Resource Use
+Main Success Scenario:
+  1. xxx:fill in
+
+
+  
