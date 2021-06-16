@@ -1,7 +1,66 @@
 Define Data Security
 Main Success Scenario:
-  1. "Define Data Location Security"
-  2. xxx:fill in
+  x. "Define Grand Map"
+  x. "Define Business Group"
+  x. "Define Functional Role"
+  x. "Define Access Role"
+  x. "Define Data Location Security"
+  x. "Define Network User to Access Role Relation"
+  x. xxx:fill in
+  
+  
+Define Grand Map
+Note:
+  -Has the following columns:
+    -network user attributes
+      -full name
+      -email alias
+      -network alias
+    -Is Human: Defines if this is a human or a machine/service
+    -Business Group
+    -Functional Role
+    -Access Role: Role in data software
+Main Success Scenario:
+  1. xxx:fill in
+  2. "Define Business Group List"
+  
+  
+Define Business Group List
+Main Success Scenario:
+  1. For each Business Group, note the name
+  2. For each Business Group, describe it
+
+
+Define Functional Role List
+Main Success Scenario:
+  1. For each Functional Role, note the name
+  2. For each Functional Role, describe the tasks it performs
+
+
+Define Access Role List
+Main Success Scenario:
+  1. For each Access Role, note the name
+  2. For each Access Role, auto pull the privileges from the data software
+  
+
+Define Business Group
+Main Success Scenario:
+  1. xxx:fill in
+
+
+Define Functional Role
+Main Success Scenario:
+  1. xxx:fill in
+
+
+Define Access Role
+Main Success Scenario:
+  1. xxx:fill in
+  
+  
+Define Network User to Access Role Relation
+Main Success Scenario:
+  1. xxx:fill in
 
 
 Define Data Location Security
