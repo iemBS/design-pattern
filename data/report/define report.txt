@@ -1,4 +1,7 @@
 Define Report
+Pre-Conditions:
+  -Do not get into
+    -data transformation
 Main Success Scenario:
   1. "Define Summary Report"
   2. "Define Detail Report"
