@@ -2,9 +2,10 @@ Check PRD Data Functionality in DEV
 Pre-Conditions:
   -For the sake of focusing on the functionality, security issues with having PRD data in DEV or TST, is being ignored here
 Note:
-  -PRD data or data formatted like PRD data may need to be placed in DEV or TST environments to properly test functionality
+  -PRD data or data formatted like PRD data may need to be placed in DEV or TST environments to properly test functionality before it is deployed to TST or PRD environments 
 Main Success Scenario:
   1. Check if ID does not align
   2. Check if transform does not work as expected
   3. Check run time (take into account different hardware resources)
-  4. xxx:fill in
+  4. Check software config
+  X. xxx:fill in
