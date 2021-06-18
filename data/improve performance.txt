@@ -33,6 +33,9 @@ Alternatives:
     1b1. "Tune Relation"
   1c. Tune not needed at table/view level
     1c1. "Tune Database"
+  1d. Data Can be Removed
+    1d1. "Understand Data Usage"
+    1d2. "Delete Data"
     
     
 Tune Table
