@@ -53,14 +53,31 @@ Main Success Scenario:
 Define Delete Action
 Main Success Scenario:
   1. Delete parent node because it will auto delete the child nodes
-  2. xxx:fill in
+  2. "Save Frequently Used Delete Query"
+  x. xxx:fill in
 Alternatives:
   1a. Deletion of parent node will not delete the child node
     1a1. Look at it as a tree. Delete the leaves first and delete more nodes as you move from the leaves to the trunk.
+    1a2. Go to step 2
   1b. All parent records are deleted 
-    1c. Use a truncate command if available
-
-
+    1b1. Use a truncate command if available
+    1b2. Go to step 2
+    
+    
+Save Frequently Used Delete Query
+Note:
+  -Saving a delete query that is used frequently, complex, needs to be constructed just right, or mistakes are painful; is beneficial to all
+Main Success Scenario:
+  1. "Choose Saved Query Format"
+  
+  
+Choose Saved Delete Query Format
+Main Success Scenario:
+  1. Save in SQL file
+Alternatives:
+  1a. xxx:fill in
+  
+  
 Define Data Backup
 Main Success Scenario:
   1. xxx:fill in
