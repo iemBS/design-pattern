@@ -23,45 +23,184 @@ Note:
 Main Success Scenario:
   1. xxx:fill in
   2. "Define Business Group List"
+  3. "Define Functional Role List" 
+  4. "Define Access Role List"
   
   
 Define Business Group List
 Main Success Scenario:
-  1. For each Business Group, note the name
-  2. For each Business Group, describe it
+  1. "Define Business Group" for each Business Group
+  2. "Define Business Group Member Tasks" for each Business Group
 
+
+Define Business Group
+Note:
+  -Business Group member attributes
+    -full name
+    -email alias
+    -network alias
+    -Is Human: Defines if this is a human or a machine/service
+Main Success Scenario:
+  1. Define Business Group Name
+  2. Describe Business Group
+  3. Define the members of the Business Group that need data access
+  
+  
+Define Business Group Member Tasks
+Note:
+  -These are the data tasks performed by the members of the Business Group
+Main Success Scenario:
+  1. Define the tasks performed by the Business Group member
+  2. Define the Data objects accessed by the Business Group member
+  
 
 Define Functional Role List
+Note: 
+  -There can be one or more levels of Functional Roles, if that helps translate the Functional Role tasks to Access Role privileges, where Access Roles may use a hierarchy.
+  -There can be one or more levels of Access Roles 
+Main Success Scenario:
+  1. Collect the list of tasks performed by all members of the Business Groups
+  2. "Associate Tasks to Common Functional Roles"
+  3. "Define Functional Role" for each Functional Role
+Alternatives:
+  2a. Use uncommon Functional Roles
+    2a1. xxx:fill in
+  
+  
+Associate Tasks to Common Functional Roles
+Main Success Scenario:
+  1. xxx:fill in
+  
+  
+Define Functional Role
+Note:
+  -If easier, you can think of functional roles as containing, one or more other Functional Roles. 
+  -When listing the tasks, write them in a way that are business friendly but yet can be translated to privileges for Access Roles
 Main Success Scenario:
   1. For each Functional Role, note the name
   2. For each Functional Role, describe the tasks it performs
-
-
-Define Access Role List
-Main Success Scenario:
-  1. For each Access Role, note the name
-  2. For each Access Role, auto pull the privileges from the data software
+  3. Define the members of the Functional Role
   
+  
+Define Access Role List
+Note:
+  -This use case does not implement. It only designs the Access Roles.
+  -Each network user will be mapped to a generic user inside of an Access Role.
+  -Each Access Role is a role object in the data software
+  -Each Access Role has a single user object that uses the same name
+  -There can be one or more levels of Access Roles. This allows for inheritance of privileges, which reduces the number of Access Roles that need to be created
+Question:
+  -How will the data objects accessed in the Data software, contribute to the design of the Access Role hierarchy?
+Main Success Scenario:
+  1. "Translate Functional Role tasks to Access Role privileges"
+  2. Define a hierarchy of Access Roles that minimizes Access Role count  
+  3. "Define Access Role to Data Object Relation"
+  4. "Define Access Role" for each Access Role
+  5. "Define Administrative Access Role" for each administrative Access Role
 
-Define Business Group
+  
+Translate Functional Role tasks to Access Role privileges
 Main Success Scenario:
   1. xxx:fill in
-
-
-Define Functional Role
+  
+  
+Define Access Role to Data Object Relation
+Question:
+  -Should a custom Access Role focus on one schema?
+  -Should all custom Access Roles focus on one schema?
 Main Success Scenario:
-  1. xxx:fill in
-
-
+  1. Access Role privileges granted at schema level 
+  2. Higher Access Roles in the Access Role hierarchy will be limited to a schema or not, depending on the security model that best fits the Data software users and management.
+Alternatives:
+  1a. Network User needs to access data from more than one schema
+    1a1. Network User associated to more than one Access Role
+  
+ 
 Define Access Role
 Main Success Scenario:
-  1. xxx:fill in
+  1. Note the Access Role name
+  2. Define privileges on the Access Role
+  3. Define an Access User object that goes into the Access Role
   
   
-Define Network User to Access Role Relation
+Define Administrative Access Role
+Note:
+  -These roles are used for the management of the Data software and not born from a Functional Role
+  -These are not built-in Access Role, but they do pass on privieges to built-in Access Roles
+Main Success Scenario:
+  1. Note the Access Role name
+  2. Define privileges on the Access Role
+  3. Define a hierarchy of administrative Access Roles that inherites from the other custom roles and pass on privileges to built-in Access Roles
+
+
+Create Objects
+Pre-Conditions:
+  -These are done manually
+Main Success Scenario:
+  1. "Create Network Security Group" for each Access Role
+  2. "Create Access User" for each Access Role
+  3. "Create Access Role" for each Access Role
+  
+  
+Create Network Security Group
 Main Success Scenario:
   1. xxx:fill in
+  
+  
+Create Access User
+Main Success Scenario:
+  1. xxx:fill in
+  
+  
+Create Access Role
+Main Success Scenario:
+  1. xxx:fill in
+ 
+  
+Create Network User to Access Role Relation
+Pre-Conditions:
+  -These steps should be automated to reduce mistakes. 
+  -You should be able to associate a Network User with a Network Security Group and that association triggers the cascade of actions that associates a Network User with an Access Role in the Data software
+Note:
+  -Network Security Group, Access User, and Access Role names need to match for each Access Role
+Main Success Scenario:
+  1. "Create Network User to Network Security Group Relation"
+  2. "Create Network Security Group to Access Role Relation"
+  
+  
+Create Network User to Network Security Group Relation
+Main Success Scenario:
+  1. Network User is associated to a Network Security Group within the network security
 
+
+Create Network Security Group to Access Role Relation
+Pre-Conditions:
+  -Access Users and Access Roles will be manually created in the Data software
+  -Data software has the ability to use the network authentication and credentials
+Main Success Scenario:
+  1. "Create Network Security Group to Access User Relation"
+  2. "Create Access User to Access Role Relation"
+
+
+Create Network Security Group to Access User Relation
+Pre-Conditions:
+  -Data software provides an API that allows for the following to be done from outside the Data Software:
+    -Associate a Network Security Group to an Access User
+    -Dis-associate a Network Security Group from an Access User
+Note:
+  -An Access User is just a user object within the Data software
+Main Success Scenario:
+  1. Network Security Group is associated to an Access User within the Data software
+  
+  
+Create Access User to Access Role Relation
+Pre-Conditions:
+  -Data software provides an API that allows for the following to be done from outside the Data Software:
+    -Associate an Access User to an Access Role
+    -Dis-Associate an Access User to an Access Role
+Main Success Scenario:
+  1. Access User is associated to Access Role within the Data software
+  
 
 Define Data Location Security
 Note:
