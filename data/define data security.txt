@@ -6,6 +6,8 @@ Main Success Scenario:
   x. "Define Access Role"
   x. "Define Data Location Security"
   x. "Define Network User to Access Role Relation"
+  x. "Understand Searchability of Grand Map"
+  x. "Understand Network User Security Changeability"
   x. xxx:fill in
   
   
@@ -225,6 +227,16 @@ Pre-Conditions:
     -Dis-Associate an Access User to an Access Role
 Main Success Scenario:
   1. Access User is associated to Access Role within the Data software
+  
+  
+Understand Searchability of Grand Map
+Main Success Scenario:
+  1. xxx:fill in
+
+
+Understand Network User Security Changeability
+Main Success Scenario:
+  1. xxx:fill in
   
 
 Define Data Location Security
