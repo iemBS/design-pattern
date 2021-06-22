@@ -83,20 +83,42 @@ Main Success Scenario:
   
   
 Define Access Role List
+Pre-Conditions:
+  -"Understand Privilege Inheritence in an Access Role Hierarchy"
 Note:
   -This use case does not implement. It only designs the Access Roles.
   -Each network user will be mapped to a generic user inside of an Access Role.
   -Each Access Role is a role object in the data software
   -Each Access Role has a single user object that uses the same name
   -There can be one or more levels of Access Roles. This allows for inheritance of privileges, which reduces the number of Access Roles that need to be created
+  -Review RBAC
+    -https://en.wikipedia.org/wiki/Role-based_access_control
+    -https://docs.microsoft.com/en-us/sql/relational-databases/security/authentication-access/database-level-roles?view=sql-server-ver15
+    -https://docs.snowflake.com/en/user-guide/security-access-control-overview.html
 Question:
   -How will the data objects accessed in the Data software, contribute to the design of the Access Role hierarchy?
 Main Success Scenario:
   1. "Translate Functional Role tasks to Access Role privileges"
-  2. Define a hierarchy of Access Roles that minimizes Access Role count  
-  3. "Define Access Role to Data Object Relation"
-  4. "Define Access Role" for each Access Role
-  5. "Define Administrative Access Role" for each administrative Access Role
+  2. "Review Common Access Role Hierarchies"
+  3. Define a hierarchy of Access Roles that minimizes Access Role count  
+  4. "Define Access Role to Data Object Relation"
+  5. "Define Access Role" for each Access Role
+  6. "Define Administrative Access Role" for each administrative Access Role
+
+
+Understand Privilege Inheritence in an Access Role Hierarchy
+Note:
+  -Privilege inheritance in 
+    -PostGres @ https://medium.com/swlh/postgres-role-inheritance-and-policies-for-beginners-4ae13f973bb1
+    -MySQL @ xxx
+    -MS SQL Server @ xxx
+    -SnowFlake @ xxx
+    -Neo4j @ xxx
+    -Hadoop @ xxx
+    -Cassandra @ xxx
+    -Azure Data Lake @ xxx
+Main Success Scenario:
+  1. xxx:fill in
 
   
 Translate Functional Role tasks to Access Role privileges
@@ -105,12 +127,15 @@ Main Success Scenario:
   
   
 Define Access Role to Data Object Relation
+Note:
+  -Access Role privileges granted at schema level 
+  -Higher Access Roles in the Access Role hierarchy will be limited to a schema or not, depending on the security model that best fits the Data software users and management.
+  -When estimating the number of Access Role, Schema Level Privilege, and Data Object combinations; factor in that a parent Access Role will inherit the privileges of one or more child Access Roles. 
 Question:
   -Should a custom Access Role focus on one schema?
   -Should all custom Access Roles focus on one schema?
 Main Success Scenario:
-  1. Access Role privileges granted at schema level 
-  2. Higher Access Roles in the Access Role hierarchy will be limited to a schema or not, depending on the security model that best fits the Data software users and management.
+  1. Estimate the number of Access Role, Schema Level Privilege, and Data Object combinations
 Alternatives:
   1a. Network User needs to access data from more than one schema
     1a1. Network User associated to more than one Access Role
