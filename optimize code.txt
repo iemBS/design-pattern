@@ -1,0 +1,32 @@
+Optimize Code
+Main Success Scenario:
+  1. "Import Only Needed Library"
+  2. xxx:fill in
+  
+  
+Import Only Needed Library
+Main Success Scenario:
+  1. "Understand Imported Library"
+  2. Are the same objects and methods/functions available in more than one of the imported libraries?
+  3. Can we use the objects and methods/functions in few libraries?
+  4. xxx:fill in
+  
+  
+Understand Imported Library
+Main Success Scenario:
+  1. "Understand Object Categorization"
+  2. "Understand Method/Function Categorization"
+  
+  
+Understand Object Categorization
+Main Success Scenario:
+  1. "Understand Object Inheritance"
+  2. xxx:fill in
+  
+
+Understand Method/Function Categorization
+Main Success Scenario:
+  1. "Understand Method/Function Inheritance"
+  2. xxx:fill in
+
+  
