@@ -6,3 +6,21 @@ Main Success Scenario:
   4. Understand content of error message
   5. Understand the performance impact of sending error messages
   6. Understand the time window in which errors, that need human help, should be handled
+  7. "Understand How Error Messages Help"
+  
+  
+Understand How Error Messages Help
+Main Success Scenario:
+  1. "Understand How Error Messages Help Software User"
+  2. "Understand How Error Messages Help Software Owner"
+  
+  
+Understand How Error Messages Help Software User
+Main Success Scenario:
+  1.xxx:fill in
+
+
+Understand How Error Messages Help Software Owner
+Main Success Scenario:
+  1.xxx:fill in
+
