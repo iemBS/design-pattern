@@ -1,4 +1,9 @@
 Define Data Security
+Pre-Conditions:
+  -Users only have access to Data software via the association of their network user with the Data software
+  -Final security design must allow for network users to be identifiable from within the Data software to:
+    -determine who is running a query that is using too many resources, runnning too long, or performing unwanted actions
+  -See "Identify Network User when using RBAC" for making the network user identifiable within the Data software 
 Main Success Scenario:
   x. "Define Grand Map"
   x. "Define Business Group"
@@ -9,7 +14,39 @@ Main Success Scenario:
   x. "Understand Searchability of Grand Map"
   x. "Understand Network User Security Changeability"
   x. xxx:fill in
+
+
+Identify Network User when using RBAC
+Pre-Conditions:
+  -TableB is just a table with structure like below. The same idea should work for non-relational DBs
   
+    Create Table TableB
+    (
+      networkUserAlias varchar(20)
+    )
+Note:
+  -TableA in the SQL code below represents one or more tables/frames/node types/etc that is the location of the actual data for the query. While TableB represents the network users that have access to the Data software. 
+  -Filtering of TableB does not impact the one or more tables/frames/node types/etc that are represented by TableA
+  -Logs for the data software note the queries that have run and the network user filter that is used. 
+  -If someone notes a different alias than their own, we cannot police that. 
+Main Success Scenario:
+  1. Network functionality allows for the Network User to be identified on enty to the Data software and passes that info to the Data software where it is associated to any actions within the Data software
+  2. The Network User Alias is associted to all of the users activities in the Data software.
+Alternatives:
+  1a. Data software access goes through an interface before reaching the data software that catches the Network User and passes it onto the Data software where it is associated with actions in the Data software
+  1b. All queries written in the data software are run through a process within the Data softwere where Network User Alias specified with the query is associated to the query in the Data software
+  1c. All queries must be written in a certain way in the Data software so that the Network User Alias is associated to the query within the Data software
+  1d. All queries must have a table/frame/node type/etc that is filtered on a single Network User Alias
+    1. See code below
+      # TableA represents one or more tables/frames/node types/etc and TableB represents a single table/frame/node type/etc with a single networkUserAlias column/field that contains all Network Users that have been granted access to the Data software. 
+      Select
+        a.*
+      From
+        TableA a,TableB b
+      Where
+        b.networkUserAlias = 'ckent'
+    
+
   
 Define Grand Map
 Note:
