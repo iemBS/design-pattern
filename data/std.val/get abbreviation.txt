@@ -5,4 +5,9 @@ Note:
   -Guidance @ https://aac.asm.org/content/abbreviations-and-conventions
   -timezone @ https://en.m.wikipedia.org/wiki/List_of_time_zone_abbreviations
 Main Success Scenario:
-  1.xxx:fill in
+  1. Pull from the existing environment
+  2. Pull from the existing company
+  3. Pull from your own list built from your experiences
+  4. Pull from the industry
+  5. Pull from the sources noted in the Notes section above
+
