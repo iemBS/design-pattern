@@ -5,6 +5,8 @@ Note:
     -procedure 
     -object action 
     -object behavior 
+  -guidance @
+    -https://www.tutorialspoint.com/system_analysis_and_design/system_analysis_and_design_object_oriented_approach.htm
 Main Success Scenario:
   1. Use Object Oriented approach 
   2. "Define Action Logic"
@@ -21,6 +23,7 @@ Main Success Scenario:
   1. "Define Desired Result"
   2. Define actions to achieve result 
   3. Define inputs needed
+  4. "Define Error Flow"
 
 
 Define Desired Result
@@ -74,10 +77,31 @@ Alternatives:
 
 
 Translate Logical Result to Code
+Note:
+  -If result should be shared, what scope to share at?
+    -With child functions?
+    -with sibling functions?
+    -With class?
+    -With child class?
+    -With object?
+    -With another object?
 Main Success Scenario
   1. Translate result format to code
   2. Translate result location to code
 
+
 Specify Function Name
+Note: 
+  -example names
+    -CleanHouse
+    -VacuumRug
+    -WashHand
 Main Success Scenario
-  1. 
+  1. Start with a present tense verb
+  2. Follow verb with a noun
+
+
+Define Error Flow
+
+
+Translate Logical Error Flow to Code
