@@ -3,9 +3,13 @@ Note:
   -This is also known as a ...
     -method 
     -procedure 
-    -class action 
-    -class behavior 
+    -object action 
+    -object behavior 
 Main Success Scenario:
+  1. Use Object Oriented approach 
+  2. "Define Action Logic"
+  3. "Translate Logic to Code"
+
   1. Provide parameters? 
   2. Immediate or later Return
   3. Return result 
@@ -15,3 +19,23 @@ Main Success Scenario:
   7. Interface, static, instance 
   8. Name it 
   9. Use function, class, or static scope variables 
+Alternatives:
+  1a.Use Procedural approach 
+    1a1. xxx:fill in
+  2a. 
+
+
+Define Action Logic
+Main Success Scenario:
+  1. Define Desired Result
+  2. Define actions to achieve result 
+  3. Define inputs needed
+
+
+Translate Logic to Code
+Main Success Scenario:
+  1. Translate logical inputs to input parameters
+  2. Translate logical actions to code inside method
+  3. Translate logical result to xxx
+Alternatives:
+  1a. Translate logical inputs to class
