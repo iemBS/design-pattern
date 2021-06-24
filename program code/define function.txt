@@ -1,0 +1,17 @@
+Define Function
+Note: 
+  -This is also known as a ...
+    -method 
+    -procedure 
+    -class action 
+    -class behavior 
+Main Success Scenario:
+  1. Provide parameters? 
+  2. Immediate or later Return
+  3. Return result 
+  4. Max lines of code 
+  5. Clear task performed 
+  6. Set variable 
+  7. Interface, static, instance 
+  8. Name it 
+  9. Use function, class, or static scope variables 
