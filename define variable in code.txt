@@ -1,0 +1,123 @@
+Define Variable in Code
+Note:
+  -Guidance @
+    -https://en.wikipedia.org/wiki/Variable_(computer_science)
+Main Success Scenario:
+  1. "Define Variable Value Count"
+  2. "Define Variable Size" 
+  3. "Define Variable Set Logic"
+  4. "Define Variable Read Logic"
+  5. "Define Variable Data Type"
+  6. "Define Variable Inheritance"
+  7. "Define Variable Accessibility"
+  8. "Define Variable Data Availability" 
+  9. "Define Variable Name"
+  10. "Understand Variable Data Storage"
+  
+  
+Define Variable Value Count
+Main Success Scenario:
+  1. Only single value needed
+Alternatives:
+  1a. Only two values needed
+    1a1. "Define Two Value Variable"
+  1b. More than two values needed
+    1b1. "Define Multie Value Variable"
+
+
+Define Two Value Variable
+Main Success Scenario:
+  1. Neeed to use boolean scenario (on or off, enabled or disabled, etc)
+Extensions:
+  1a. Need to have values of 0 and 1
+  1b. Need to have values of true and false
+Alternatives:
+  1a. Boolean cannot be used
+    1a. xxx:fill in
+  
+  
+Define Multiple Value Variable
+Main Success Scenario:
+  1. xxx:fill in
+  
+    
+Define Variable Size 
+Main Success Scenario:
+  1. "Understand Current Variable Values"
+  2. "Understand Future Variable Values"
+  
+  
+Understand Current Variable Values
+
+
+Understand Future Variable Values
+    
+    
+Define Variable Set Logic
+Main Success Scenario:
+1. xxx:fill in
+
+
+Define Variable Read Logic
+Main Success Scenario:
+  1. xxx:fill in
+
+
+Define Variable Data Type
+Main Success Scenario:
+  1. xxx:fill in
+
+
+Define Variable Inheritance
+Main Success Scenario:
+  1. xxx:fill in
+
+
+Define Variable Accessibility
+Main Success Scenario:
+  1. xxx:fill in
+
+
+Define Variable Data Availability 
+Main Success Scenario:
+  1. "Define Variable Data Initialization"
+  2. Data is not duplicated elsewhere
+  3. Data is cannot be derived from elsewhere
+Alternatives:
+  2a. Data is duplicated in other variables
+    2a1. "Choose Value Duplication or Not"
+  3a. Data can be derived from elsewhere
+    3a1. "Choose Value Derivation or Not"
+  
+  
+Define Variable Data Initialization
+Main Success Scenario:
+  1. xxx:fill in
+  
+  
+Choose Value Duplication or Not
+Main Success Scenario:
+  1. xxx:fill in
+  
+  
+Choose Value Derivation or Not
+Main Success Scenario:
+  1. xxx:fill in
+  
+
+Define Variable Name
+Main Success Scenario:
+  1. Factor in the name format of existing variables
+  2. Factor in if developers will use it in their code
+  3. Make it concise
+  4. Make it intuitive
+Extensions:
+  1a. If boolean type, label from perspective it will be used. "IsEnabled" of you want to know if the related object is enabled.
+  
+  
+Understand Variable Data Storage
+Main Success Scenario:
+  1. Are there data storage limits?
+  2. Are there performance limits?
+  3. xxx:fill in
+
