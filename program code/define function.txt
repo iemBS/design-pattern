@@ -8,34 +8,76 @@ Note:
 Main Success Scenario:
   1. Use Object Oriented approach 
   2. "Define Action Logic"
-  3. "Translate Logic to Code"
-
-  1. Provide parameters? 
-  2. Immediate or later Return
-  3. Return result 
-  4. Max lines of code 
-  5. Clear task performed 
-  6. Set variable 
-  7. Interface, static, instance 
-  8. Name it 
-  9. Use function, class, or static scope variables 
+  3. "Translate Logic to Code" 
+  4. "Specify Function Name"
 Alternatives:
   1a.Use Procedural approach 
     1a1. xxx:fill in
-  2a. 
+  
 
 
 Define Action Logic
 Main Success Scenario:
-  1. Define Desired Result
+  1. "Define Desired Result"
   2. Define actions to achieve result 
   3. Define inputs needed
 
 
+Define Desired Result
+Main Success Scenario:
+  1. Define Output Value
+  2. Define Output Format
+  3. Define Output Location
+  4. Expect immediate result
+Alternatives:
+  1a.Define more than one output value with a collection 
+    1a1. Define Collection Output Value
+  1b.Define more than one output value with child actions
+    1b1. Use "Define Action Logic" for each action
+  4a.Can wait for result
+    4a1. Make method asynchronous 
+    
+
+
 Translate Logic to Code
 Main Success Scenario:
-  1. Translate logical inputs to input parameters
-  2. Translate logical actions to code inside method
-  3. Translate logical result to xxx
+  1. "Translate Logical Inputs to Code"
+  2. "Translate Logical Actions to Code"
+  3. "Translate Logical Result to Code"
 Alternatives:
   1a. Translate logical inputs to class
+
+
+Translate Logical Inputs to Code
+Main Success Scenario:
+  1. Inputs do not already exist 
+    Define Inputs as function params
+Alternatives:
+  1a.Inputs already available within class
+    1a1. Define Logical Inputs as class scope variables
+  1b.Inputs already available within object (other class)
+    1b1. Define Logical Inputs as global scope variables
+  1c.Define Logical Inputs as static variables 
+    1c1.xxx:fill in
+
+
+Translate Logical Actions to Code
+Main Success Scenario
+  1. Translate one action to code
+Alternatives:
+  1a. There are two or more serial actions 
+    1a1.See "Define Action Logic" for each action
+    1a2.Determine how the functions relate
+  1b. There are two or more hierarchical actions 
+    1b1.See "Define Action Logic" for each action
+    1b2.Determine how the functions relate
+
+
+Translate Logical Result to Code
+Main Success Scenario
+  1. Translate result format to code
+  2. Translate result location to code
+
+Specify Function Name
+Main Success Scenario
+  1. 
