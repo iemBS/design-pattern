@@ -1,0 +1,17 @@
+Define Logical Object
+Main Success Scenario:
+  1. "Define Logical Object Behaviors"
+  2. "Define Logical Object Data"
+  3. "Define Categories in Object"
+Extensions:
+  3a. "Define Category Template"
+    3a1. Define Interface or Abstract class.
+
+
+Define Categories in Object
+Note
+  -Categories are classes
+Main Success Scenario:
+  1. Category can inherit data & actions from a parent category 
+  2. Category provides scope 
+  3. Category can be a shared calculation tool 
