@@ -5,6 +5,7 @@ Pre-Conditions
   -"Define Data Variety Impact on Transformation"
   -"Define Hardware Impact on Transformation"
   -"Define Software Impact on Transformation"
+  -"Define Tracability"
 Main Success Scenario:
   1. Understand why transformation is needed
   2. "Check if transformation can be done upstream"
@@ -52,3 +53,11 @@ Main Success Scenario:
 Check if Movement Required for Transformation
 Main Success Scenario:
   1. xxx:fill in
+  
+  
+Define Tracability
+Note:
+  -
+Main Success Scenario:
+  1. Do results of any step need to stick around?
+  2. Can the results of any step be dropped because it is easily derived?
