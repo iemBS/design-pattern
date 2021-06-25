@@ -1,0 +1,15 @@
+Design Data Movement
+Pre-Conditions:
+  -Do not go deep into transformations here. 
+Note:
+  -Data movement is the movement of data into, within, and out of a system. Movement can have transformation. Movement can be a change in memory location within the same physical location, movement to another physical location with the same system, movement to another physical system, could be projection (like views in a relational DB), or another type of movement not already mentioned.
+  -Factors in data movement
+    -cost
+    -security
+    -time
+    -performance
+    -tracability
+    -transformation
+    -xxx:fill in
+Main Success Scenario:
+  1. xxx:fill in
