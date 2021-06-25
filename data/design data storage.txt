@@ -1,4 +1,4 @@
-Choose Data Storage
+Design Data Storage
 Note:
   - [xxx: need to sharpen this]
 Main Success Scenario:
