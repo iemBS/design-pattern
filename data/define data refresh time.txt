@@ -1,0 +1,13 @@
+Define Data Refresh Time
+Pre-Conditions
+  -Change time is the time data is new or updated
+Note
+  -A change time field may not have the same name in a downstream system, because fields are labeled from the perspective of the downstream system.
+    -A source system could have UpdatedDateTime and a downstream system could rename to SourceUpdatedDateTime.
+  -If source is "SystemA" and downstream source is "SystemB". That change time field in SystemB could be, SystemAchgTime and SystemBchgTime.
+Main Success Scenario:
+  1. Note data change time in source 
+  2. Carry change time to down stream 
+  3. Rename source field to identify it as coming from that source. 
+  4. Note data change time in current system
+  5. Add a change time to a report that is pulling data from SourceB.
