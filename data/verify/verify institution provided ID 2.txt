@@ -8,7 +8,20 @@ Note:
   -Use flags to indicate verification status with the known rules and with unknown rules as well
   -Since we need to indicate not checked, verified to be bad, and verified to be good; there needs to be three values for known rule verification and three values for a an unknown rule verification.
     -The lack of a check may be best indicated with a null value
-    -IsOurValid, IsThereValid
+    -options for field names
+      -if you only need to know current validation status and assuming that unknown rules only checked if known rules are passed 
+        -IsValid, where 
+          -"1" = valid with known rules
+          -"2" = valid with unknown rules
+          -"-1" = invalid with known rules
+          -"-2" = invalid with unknown rules 
+      -if need to know if known and unknown rules are passed and unknown rules are checked even if known rules indicates invalid
+        -IsValidWithKnownRules
+          -1
+          -0
+        -IsValidWithUnknownRules
+          -1
+          -0
 Main Success Scenario:
   1. xxx:fill in
   x. Institution Provided ID is Valid (IsValidWithKnownRules)
