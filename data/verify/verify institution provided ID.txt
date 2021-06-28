@@ -1,0 +1,19 @@
+Verify Institution Provided ID
+Main Success Scenario:
+  1. xxx:fill in
+  
+  
+Apply Known Rules on ID
+Note:
+  -Use flags to indicate verification status with the known rules and with unknown rules as well
+  -Since we need to indicate not checked, verified to be bad, and verified to be good; there needs to be three values for known rule verification and three values for a an unknown rule verification.
+    -The lack of a check may be best indicated with a null value
+    -IsOurValid, IsThereValid
+Main Success Scenario:
+  1. xxx:fill in
+  x. Institution Provided ID is Valid (IsValidWithKnownRules)
+Alternatives:
+  xa. Apply Unknown Rules on ID
+    xa1. Send to the institution or an alt-institution that can verify the ID
+    xa2. Go to step x
+
