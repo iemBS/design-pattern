@@ -23,6 +23,24 @@ Note:
 Main Success Scenario:
   1. xxx:fill in
   
+  
+Identify Network User when using PBAC
+Note:
+  -Guidance @ 
+    -https://en.wikipedia.org/wiki/Attribute-based_access_control
+  -PBAC = Policy Based Access Control
+Main Success Scenario:
+  1. xxx:fill in
+  
+  
+Identify Network User when using CBAC
+Note:
+  -Guidance @
+    -https://en.wikipedia.org/wiki/Attribute-based_access_control
+  -CBAC = Claims Based Access Control
+Main Success Scenario:
+  1. xxx:fill in
+  
 
 Identify Network User when using RBAC
 Pre-Conditions:
