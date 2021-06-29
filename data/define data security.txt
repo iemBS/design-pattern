@@ -16,6 +16,14 @@ Main Success Scenario:
   x. xxx:fill in
 
 
+Identify Network User when using ABAC
+Note:
+  -Guidance @
+    -https://en.wikipedia.org/wiki/Attribute-based_access_control
+Main Success Scenario:
+  1. xxx:fill in
+  
+
 Identify Network User when using RBAC
 Pre-Conditions:
   -TableB is just a table with structure like below. The same idea should work for non-relational DBs
