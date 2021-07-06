@@ -1,0 +1,74 @@
+Abbreviations
+-YoY = Year over Year = Compare number on a date to the number on the same date a year ago 
+-MoM = Month over Month = Compare number on a date to the number on the same date a month ago
+-WoW = Week over Week = Compare number on a day to the number on the same day a week ago
+
+
+Define Metric
+Main Success Scenario:
+  1. "Define Reporting Goal"
+  2. "Define Metric Role in Reporting Goal"
+  3. "Define Metric Audience"
+  4. "Define Min Data Quality for Metric"
+  5. "Define Metric Business Logic"
+  6. "Define Metric Technical Logic" 
+  7. "Define Supporting Detail for Metric"
+  
+  
+Define Reporting Goal
+Main Success Scenario:
+  1. xxx:fill in
+  
+  
+Define Metric Role in Reporting Goal
+Define Reporting Goal
+Main Success Scenario:
+  1. xxx:fill in
+  
+  
+Define Metric Audience
+Main Success Scenario:
+  1. What motivates the audience to use the metric?
+  2. Does the audiance understand how to make the metric value better?
+  
+  
+Define Min Data Quality for Metric
+Main Success Scenario:
+  1. xxx:fill in
+  
+  
+Define Metric Business Logic
+Main Success Scenario:
+  1. "Define Metric Time Attribute"
+  2. xxx:fill in
+  
+
+Define Metric Technical Logic
+Main Success Scenario:
+  1. xxx:fill in
+
+  
+Define Metric Time Attribute
+Main Success Scenario:
+  1. xxx:fill in
+  
+  
+Define Supporting Detail for Metric
+Main Success Scenario:
+  1. xxx:fill in
+  
+
+Define Finance Metric
+Note:
+  -guidance @ 
+    -https://www.investopedia.com/financial-edge/0910/6-basic-financial-ratios-and-what-they-tell-you.aspx
+Main Success Scenario:
+  1. xxx:fill in
+  
+  
+Define Index 
+Note
+ -Most commonly used simple index numbers are price, quantity, and value.
+ -An index can incorporate several factors into a single metric 
+Main Success Scenario:
+  1. xxx:fill in
