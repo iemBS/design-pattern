@@ -1,0 +1,8 @@
+Understand File Type
+Note:
+  -Guidance @ 
+    -file extension:
+      -RST @ https://en.wikipedia.org/wiki/ReStructuredText#:~:text=reStructuredText%20(RST%2C%20ReST%2C%20or,language%20community%20for%20technical%20documentation.
+Main Success Scenario:
+  1. Look at file extension
+  2. xxx:fill in
