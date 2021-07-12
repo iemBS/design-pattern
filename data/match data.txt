@@ -8,7 +8,7 @@ Main Success Scenario:
   2. "Match with Fuzzy Logic"
   4. "Match by Soundex"
   5. "Proximity Match"
-  6. "Regex Match"
+  6. "Match with Regex"
   5. xxx:fill in
   
   
@@ -27,11 +27,36 @@ Main Success Scenario:
   1. xxx:fill in
   
   
-Regex Match
+Match with Regex
 Note: 
   -guidance @
     -https://www.princeton.edu/~mlovett/reference/Regular-Expressions.pdf
 Main Success Scenario:
   1. xxx:fill in
+ 
+
+Literalize Regex Special Character
+Note:
+  -Guidance @ 
+    -https://www.princeton.edu/~mlovett/reference/Regular-Expressions.pdf
+  -special character list
+    [
+    \
+    ^
+    $
+    .
+    |
+    ?
+    *
+    +
+    (
+    )
+  -special characters also called metacharacters
+  -special because they have special meanings 
+Main Success Scenario:
+  1. xxx:fill in 
+  
+  
+
 
 
