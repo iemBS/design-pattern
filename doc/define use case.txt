@@ -10,8 +10,8 @@ Main Success Scenario:
   
 Choose Verb
 Main Success Scenario:
-  1. xxx:Fill in
+  1. Choose a verb that can precede the noun
 Alternatives:
   1a. I know a noun that I need a verb version of 
-    1a1. Add "-ize" suffix to the noun
+    1a1. Add "-ize" or "-ed" suffix to the noun
     1a2. Do you care if the verb exists?
