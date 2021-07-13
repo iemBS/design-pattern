@@ -1,0 +1,17 @@
+Define Use Case
+Main Success Scenario:
+  1. "Name Use Case"
+  2. xxx:fill in
+  
+Name Use Case
+Main Success Scenario:
+  1. "Choose Verb"
+  2. "Choose Noun"
+  
+Choose Verb
+Main Success Scenario:
+  1. xxx:Fill in
+Alternatives:
+  1a. I know a noun that I need a verb version of 
+    1a1. Add "-ize" suffix to the noun
+    1a2. Do you care if the verb exists?
