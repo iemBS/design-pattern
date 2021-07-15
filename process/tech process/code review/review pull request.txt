@@ -1,5 +1,0 @@
-Review Pull Request
-Note:
-  -Guidance @ https://www.atlassian.com/blog/git/written-unwritten-guide-pull-requests
-Main Success Scenario:
-  1. xxx:fill in
