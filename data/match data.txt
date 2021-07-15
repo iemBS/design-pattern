@@ -55,6 +55,8 @@ Note:
     )
   -special characters also called metacharacters
   -special because they have special meanings 
+  -in some cases the following may also be special characters:
+    /
 Main Success Scenario:
   1. xxx:fill in 
   
