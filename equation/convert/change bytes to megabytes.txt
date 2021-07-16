@@ -1,0 +1,5 @@
+Change bytes to Megabytes
+Note:
+  -https://stackoverflow.com/questions/2365100/converting-bytes-to-megabytes
+Main Success Scenario:
+  1. (bytes / 1024) / 1024 = MB
