@@ -64,13 +64,25 @@ Main Success Scenario:
 
 Determine Chg Schedule
 Preconditions:
-  - Chg for prod env
+  - "Understand 3rd Party Software Change"
+  - Chg for prod env that is from us or from the 3rd party software provider
 Main Success Scenario:
   1. Determine importance
   2. Determine impact
   3. time to understand chg
   4. time to develop & test chg
   5. time to apply chg
+  
+  
+Understand 3rd Party Software Change
+Main Success Scenario:
+  1. Get notified of updates on a fixed schedule
+  2. Integrate that 3rd parrty software update schedule with our schedule 
+  3. Read about updates and understand how they will impact our software
+Alternatives:
+  3a. Can use updates in preview mode before they are officially released
+    3a1. Read and test updates to understand how they will impact our software
+    3a2. go to step 4
 
 
 Apply Chg
