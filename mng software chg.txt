@@ -1,9 +1,9 @@
 Mng Software Chg
 Main Success Scenario:
-  1. "Mng Chg" use case
+  1. "Mng Chg" 
   2. Understand Chg
-  3. "Determine Chg Schedule" use case
-  4. "Apply Chg" use case
+  3. "Determine Chg Schedule" 
+  4. "Apply Chg"
 
 
 Mng Chg
