@@ -33,9 +33,15 @@ Match with Regex
 Note: 
   -guidance @
     -https://www.princeton.edu/~mlovett/reference/Regular-Expressions.pdf
+    -https://stackoverflow.com/questions/5516119/regular-expression-to-match-characters-at-beginning-of-line-only/22670370
   -Test regex @ https://regex101.com/
 Main Success Scenario:
-  1. xxx:fill in
+  1. Find literal text ("MyText") at beginning of string
+    /^MyText.*$/
+Alternatives:
+  1a. Find literal text ("MyText") at beginning of a line of a string 
+    1a1. /^MyText.*$/m
+  1b. xxx:fill in
  
 
 Literalize Regex Special Character
@@ -59,7 +65,7 @@ Note:
   -in some cases the following may also be special characters:
     /
 Main Success Scenario:
-  1. xxx:fill in 
+  1. xxx:fill in
   
   
 Understand Data Software Config
