@@ -1,9 +1,10 @@
-Define Data Security
+Secure Data
 Pre-Conditions:
   -Users only have access to Data software via the association of their network user with the Data software
   -Final security design must allow for network users to be identifiable from within the Data software to:
     -determine who is running a query that is using too many resources, runnning too long, or performing unwanted actions
   -See "Identify Network User when using RBAC" for making the network user identifiable within the Data software 
+  -https://en.wikipedia.org/wiki/Access-control_list
 Main Success Scenario:
   x. "Define Grand Map"
   x. "Define Business Group"
