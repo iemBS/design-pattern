@@ -1,0 +1,194 @@
+Send Message
+Note:
+  -Message content should properly convey urgency
+  -Message content should be enough for the audience to make a proper first step
+  -Message should be put in front of the right people 
+  -Message should not create white noise 
+  -Message publish can be enabled or disabled 
+  -Retention of messages will not be described in this file
+Main Success Scenario:
+  1. "Send Error Message"
+Alternatives:
+  1a. "Send Warning Message"
+  1b. "Send Note Message"
+  
+  
+Send Error Message
+Pre-Condition:
+  -Message indicating an issue that 
+Main Success Scenario:
+  1. "Set Message Attributes"
+  2. "Format Message"
+  3. "Send Message with X"
+Alternatives:
+  3a. Received send error from message consumer
+    3a1. xxx:fill in
+  
+  
+Send Warning Message
+Pre-Condition:
+  -xxx
+Main Success Scenario:
+  1. "Set Message Attributes"
+  2. "Format Message"
+  3. "Send Message with X"
+Alternatives:
+  3a. Received send error from message consumer
+    3a1. xxx:fill in
+  
+  
+Send Note Message
+Pre-Condition:
+  -Usually informational, but messages should be auto-watched for warnings, errors, and alternate software paths. 
+Main Success Scenario:
+  1. Enable or disable message
+  2. "Set Message Attributes"
+  3. "Format Message"
+  4. "Send Message with X"
+Alternatives:
+  4a. Received send error from message consumer
+    4a1. Ignore, since these are not usually important messages 
+  
+  
+Define Standard Publisher Name
+Main Success Scenario:
+  1. Collect list of all apps that are generating messages
+  2. Define a concise and unique name for that publisher
+  3. Store standard publisher name list in a central location
+  
+  
+Agree on Timezone Use
+Note:
+  -Having all message times using the same timezone avoids confusion when relating messages from two or more publishers
+Main Success Scenario:
+  1. xxx:fill in
+  
+
+Set Message Attributes
+Pre-Conditions:
+  -"Define Standard Publisher Name"
+  -"Agree on Timezone Use"
+Note:
+  -Message Time is the time the message is generated and not the time it is published. This is because the time needs to align with what triggered the message. 
+  -A Run ID is a unique identifier that defines a specific activity within a publisher.
+Main Success Scenario
+  1. Set Message Type to ERROR, WARN, or NOTE
+  2. Set Publisher to an app name from a standard list of app names 
+  3. Set Message Time
+  4. "Set Message Attribute" 
+  5. Set Run ID
+  
+  
+Set Message Attribute
+Main Success Scenario:
+  1. "Collect data for Message attribute"
+  
+  
+Set Consumer to Message Map
+Pre-Conditions:
+  -Email limits: xxx:fill in
+  -Phone Text limits: xxx:fill in
+  -Phone Message limits: xxx:fill in
+  -File limits: xxx:fill in
+  -3rd Party Software limits: xxx:fill in
+Main Success Scenario:
+  1. xxx:fill in
+  
+
+Format Message
+Pre-Conditions:
+  -"Set Consumer to Message Map"
+Main Success Scenario:
+  1. "Format Email Message"
+Alternatives:
+  1a. "Format Phone Text Message"
+  1b. "Format File Message"
+  1c. "Format 3rd Party Software Message"
+  1d. "Format Phone Message"
+  
+  
+Format Email Message
+Main Success Scenario:
+  1. Set FROM
+  2. Set TO
+  3. Set CC
+  4. Set BCC
+  5. "Format Message as Text"
+
+
+Format Phone Text Message
+Pre-Conditions:
+  -Consumer ok with phone text charges
+  -Consumer ok with message length
+Main Success Scenario:
+  1. Set TO
+  2. "Format Message as Text"
+
+  
+Format Message as Text
+Pre-Condition:
+  -Use delimiter between message attributes that will not conflict or confuse with attribute values
+Main Success Scenario:
+  1. Message Type::Publisher::Time::Message
+Alternatives:
+  1a. Use | delimiter
+  1b. Use || delimiter
+  1c. Use , delimiter
+  1d. use ; delimiter
+  
+  
+Format Message as Sound
+Main Success Scenario:
+  1. xxx:fill in
+  
+  
+Send Message with X
+Main Success Scenario:
+  1. Send Message with Email
+  2. "Consume Message"
+Alternatives:
+  1a. Send Message with Phone Text
+  1b. Send Message with 3rd Party
+  1c. Send Message with File Writer
+  1d. Send Message with Phone
+
+
+Consume Message
+Pre-Conditions:
+  -For consumers accepting text
+    -Delimiter used to format message is accepted by consumer 
+Main Success Scenario:
+  1. "Consumed by Email"
+Alternatives:
+  1a. "Consumed by Phone Text"
+  1b. "Consumed by File"
+  1c. "Consumed by 3rd Party Software"
+  1d. "Consumed by Phone"
+  
+
+Consumed by Email
+Main Success Scenario:
+  1. xxx:fill in
+  
+  
+Consumed by Phone Text
+Main Success Scenario:
+  1. xxx:fill in
+  
+  
+Consumed by File
+Main Success Scenario:
+  1. xxx:fill in
+  
+  
+Consumed by 3rd Party Software
+Main Success Scenario:
+  1. xxx:fill in
+  
+  
+Consumed by Phone
+Main Success Scenario:
+  1. xxx:fill in
+  
+
+ 
