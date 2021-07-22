@@ -6,6 +6,8 @@ Note:
   -Message should not create white noise 
   -Message publish can be enabled or disabled 
   -Retention of messages will not be described in this file
+Pre-Conditions:
+  -"Impact of Message Send on Publisher"
 Main Success Scenario:
   1. "Send Error Message"
 Alternatives:
@@ -76,12 +78,23 @@ Main Success Scenario
   2. Set Publisher to an app name from a standard list of app names 
   3. Set Message Time
   4. "Set Message Attribute" 
-  5. Set Run ID
+  5. Set Run ID 
+  6. "Set Environment Attribute"
+  
+  
+Set Environment Attribute
+Pre-Conditons:
+  -Use a set list of environment values. Like DEV, TST, and PRD. 
+Main Success Scenario:
+  1. Set to a standard value from an established list
   
   
 Set Message Attribute
+Note:
+  -Do not include PII/PCI data
 Main Success Scenario:
   1. "Collect data for Message attribute"
+  2. "Map Message Attribute to Purpose"
   
   
 Set Consumer to Message Map
@@ -187,6 +200,18 @@ Main Success Scenario:
   
   
 Consumed by Phone
+Main Success Scenario:
+  1. xxx:fill in
+  
+  
+Map Message Attribute to Purpose
+Main Success Scenario:
+  1. How does message support SLA?
+  2. How does message support maintenance?
+  3. How does message support performance awareness?
+  
+  
+Impact of Message Send on Publisher
 Main Success Scenario:
   1. xxx:fill in
   
