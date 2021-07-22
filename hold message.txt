@@ -1,0 +1,6 @@
+Hold Message
+Note:
+  -Related to the "Send Message" in this folder
+  -This use case will define how long a message should be held, before being removed. Usually refered to as retention. 
+Main Success Scenario:
+  1. xxx:fill 
