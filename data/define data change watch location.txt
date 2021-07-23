@@ -5,15 +5,21 @@ Note:
     -If any changes are to be ignored at the lower levels, be sure to carry that up to the higher level change flags
 Main Success Scenario:
   1. "Define Data Change Status Use"
-  2. Specify Flags Based On Change Status Use
+  2. "Understand Data Change Watch Performance"
+  2. Specify data change watch based on change status use and data change watch performance
   
   
 Define Data Change Status Use
 Main Success Scenario:
   1. Limit data movement to changes
   2. Know what changeable values that must have an associated unchangeable unique ID, so they can be updated via the unique ID rather than providing the old and new values
-  3. Data consumers want to be know of value changes 
+  3. Data consumers want to know of value changes 
   4. Changes to one value impact another value
   2. xxx:fill in
+  
+  
+Understand Data Change Watch Performance
+Main Success Scenario:
+  1. xxx:fill in
   
   
