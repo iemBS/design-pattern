@@ -1,3 +1,91 @@
 Data Change Flag Type
 Main Success Scenario:
+  1. "Define Change Flag Purpose"
+  2. "Define Change Frequency"
+  3. "Use Time Change Flag"
+Alternatives:
+  3a. "Use Boolean Change Flag"
+  3b. "Use ID Change Flag"
+  
+  
+Define Change Flag Purpose
+Note:
+  -If just looking for the existence of a change, then a boolean flag will do
+  -If comparing change time to a bar time and just the existence of a change after the bar time needs to be known, then a boolean flag will do
+  -If the time of the change is needed, then use a time flag
+Main Success Scenario:
+  1. See when a change occurred in the lifetime of the data collection?
+  2. See that a change was made in the lifetime of the data collection?
+  3. See that a change was made since a specific time?
+  4. Use change time to remove data after the retention period has passed?
+  5. Use change time to only move changed data?
+  6. Use change time to only update changed data?
+  7. Does change flag need to always have meaning in the data collection? 
+  8. Does change flag need to capture more than a time or a simple flag?
+Extensions:
+  7a. "Define Change Flag Expiration"
+
+
+Define Change Frequency
+Note:
+  -A time change flag that has time units lower than the frequency of change checks cannot be used to indicate the change time. The units below the frequency of change checks, only serves as the time that the change was found. So, if data is checked every hour (and on the hour) for changes, all times units below hours only indicate when then change was found. 
+Main Success Scenario:
+  1. xxx:fill in
+  
+
+Use Time Change Flag
+Main Success Scenario:
+  1. Use a value format of YYYY-MM-DD HH:MM:SS.XXX
+  2. Go down to the time units needed
+Alternatives:
+  1a. Need smaller time units, use microseconds
+    1a1. Use a value format of YYYY-MM-DD HH:MM:SS.XXXXXX
+    1a2. Go to step 2
+  1b. Need larger time units
+    1b1. Use YYYY-MM-DD HH:MM:SS.XXX format and use 0 for all units smaller than the change check frequency
+  1c. Need to use timestamp format
+    1c1. xxx:fill in
+
+
+Use Boolean Change Flag
+Note:
+  -If more than two values are needed, then they will not be a boolean type
+  -If values other than 1 or 0 are used, then they will not be a boolean type 
+  -A Boolean change flag will work if a max of one change is possible for a value
+  -A Boolean change flag will work if more than one change is possible for a value and you only care to know if at least one change occurred for the value
+  -A Boolean change flag will NOT work if you need to discern between changes in time, on the same value, for the same data collection
+Main Success Scenario:
+  1. Use a value of 1 for a change and a value of 0 for no change
+Alternatives:
+  1a. Use values to indicate recent, old, and no change
+    1a1. xxx:fill in
+  1b. Use values to indicate change, no change, and change not checked 
+    1b1. Use 1, 0, and -1 values
+    
+    
+ Use ID Change Flag
+ Pre-Conditions:
+   -Used when a time flag or simple flag is not sufficient to track a change
+ Main Success Scenario:
+   1. "Define Change Attribute"
+   2. "Define Change Attribute Value"
+   
+   
+ Define Change Attribute
+ Note:
+   -Define attributes to associate with the ID Change Flag
+ Main Success Scenario:
+   1. What attributes support the purposes of change tracking?
+   
+   
+ Define Change Attribute Value
+ Note:
+   -Define possible values to have in the attributes 
+ Main Success Scenario:
+   1. Are the attribute values a standard list that will not change?
+   2. Are the attribute values more loose and have some limits?
+ 
+   
+Define Change Flag Expiration
+Main Success Scenario:
   1. xxx:fill in
