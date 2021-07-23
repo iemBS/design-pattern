@@ -1,0 +1,5 @@
+Define Data Change Flag Location
+Note:
+  -Data change watch location will be equal to or less than the data change flag location. For example, if I want to know there is a row change, I can watch for changes at the column level and flag a change at the row level. 
+Main Success Scenario:
+  1. xxx:fill in
