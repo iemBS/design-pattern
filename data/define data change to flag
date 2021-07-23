@@ -1,3 +1,19 @@
 Define Data Change to Flag
+Note:
+  -Change can be flagged at any level
+  -Using the levels in the data system, if any data change at the lower level is rolled up, then the higher level uses the latest change at the lower level to flag a change at the upper level.
+    -If any changes are to be ignored at the lower levels, be sure to carry that up to the higher level change flags
 Main Success Scenario:
-  1. xxx:fill in
+  1. "Define Data Change Status Use"
+  2. Specify Flags Based On Change Status Use
+  
+  
+Define Data Change Status Use
+Main Success Scenario:
+  1. Limit data movement to changes
+  2. Know what changeable values that must have an associated unchangeable unique ID, so they can be updated via the unique ID rather than providing the old and new values
+  3. Data consumers want to be know of value changes 
+  4. Changes to one value impact another value
+  2. xxx:fill in
+  
+  
