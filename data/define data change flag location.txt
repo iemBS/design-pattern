@@ -2,10 +2,23 @@ Define Data Change Flag Location
 Note:
   -Data change watch location will be equal to or less than the data change flag location. For example, if I want to know there is a row change, I can watch for changes at the column level and flag a change at the row level. 
   -This indicates not only what level the data change is flagged at, but it also notes where the data change flag is stored. 
+Pre-Conditions:
+  -See "Define Data Change Status Use" in "Define Data Change Watch Location".
 Main Success Scenario:
-  1. "Define Change Change Flag Use"
+  1. "Define Data Change Flag Use"
   
   
-Define Change Change Flag Use
+Define Data Change Flag Use
+Note:
+  -If changes tracked at column/field level, there could be more than one change per row/record
+  -Having a change table like the following allows column/field changes to be tracked per row/record, but for all those changes to be recorded in a single row/record. This would mean a 1 to 1 mapping for each row/record in the original table. There could be no row/record addedd to the change table during a refresh if there are no changes to the row. The RowChgFlg here could be a flag or a time. This could provide the option to filter for changes at the column/field or the row/record level. 
+    Col1ChgFlag | Col2ChgFlag | Col3ChgFlag | RowChgFlag
+  -xxx:fill in
 Main Success Scenario:
-  1. xxx:fill in
+  1. Filter to see only column/field level changes?
+  2. Filter to see only row/record level changes?
+  3. xxx:fill in
+Extensions:
+  1a. How would this filter work and how would the query work?
+  2a. How would this filter work and how would the query work?
+  
