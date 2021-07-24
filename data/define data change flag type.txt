@@ -61,6 +61,9 @@ Alternatives:
     1a1. xxx:fill in
   1b. Use values to indicate change, no change, and change not checked 
     1b1. Use 1, 0, and -1 values
+  1c. Have a single flag that flags column/field and row/records changes
+    1c1. For a three column/field table we have an associated change table that has a change column in it with a numeric value of 4 digits. First three digits are boolean values and indicate if a column/field value changed and the last  boolean digita indicates if the row changed. A value of 0101 would indicate the 2nd column changed and the row changed. You could also just have three digits and sum the digits to see if the row changed. 
+           
     
     
  Use ID Change Flag
