@@ -1,0 +1,9 @@
+Determine Query or Data Storage
+Main Success Scenario:
+  1. How much drive and ram space is available
+  2. How frequently does the data change
+  3. Does the logic of the query need to be easily exposed
+  4. Do you have permission to insert into a table
+  5. Do you have a query run time limit
+  6. Do you need to control the time the query is executed
+  7. xxx:fill in
