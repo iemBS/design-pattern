@@ -6,4 +6,5 @@ Main Success Scenario:
   4. Do you have permission to insert into a table
   5. Do you have a query run time limit
   6. Do you need to control the time the query is executed
+  7. How frequently does the query change
   7. xxx:fill in
