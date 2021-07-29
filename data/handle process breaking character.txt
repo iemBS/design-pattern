@@ -1,0 +1,29 @@
+Handle Process Breaking Character
+Pre-Conditions:
+  -Any character that breaks a process needs to be excluded or escaped
+    -Escaping makes the character available for breaking another downstream process
+Main Success Scenario:
+  1. "Get Process Breaking Character List"
+  2. "Escaping the Character"
+Alternatives:
+  2a. Do not need to express the true nature of the data
+    2a1. "Exclude the Character"
+  2b. Downstream systems do not want to deal with escaping character
+    2b1. "Exclude the Character"
+  
+  
+Get Process Breaking Character List
+Main Success Scenario:
+  1. xxx:fill in
+  
+  
+Escaping the Character
+Main Success Scenario:
+  1. xxx:fill in
+  
+  
+Exclude the Character
+Pre-Conditions:
+  -Data does not need to maintain its true nature
+Main Success Scenario:
+  1. xxx:fill in
