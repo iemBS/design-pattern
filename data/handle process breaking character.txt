@@ -14,7 +14,11 @@ Alternatives:
   
 Get Process Breaking Character List
 Main Success Scenario:
-  1. xxx:fill in
+  1. Be weary in general of these characters: 
+       '
+       "
+       xxx:fill in
+  2. xxx:fill in
   
   
 Escaping the Character
