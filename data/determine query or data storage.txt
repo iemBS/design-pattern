@@ -8,4 +8,6 @@ Main Success Scenario:
   6. Do you need to control the time the query is executed
   7. How frequently does the query change
   8. Does the result need to be joined on
+  9. Is maintaining the query more important that maintaining the data
+  10. Is the query only allowed to be in certain objects
   x. xxx:fill in
