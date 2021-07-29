@@ -1,0 +1,11 @@
+Determine Logic Reuse or Duplication
+Note:
+  -Reusing logic keeps one version of the logic
+  -Duplicating logic will have more than one version of the logic
+Main Success Scenario:
+  1. Determine if reused logic can handle two or more simultaneous calls
+  2. Determine if future reused logic changes will make reused logic too complex
+  3. Determine if future logic changes will be performed by many or one
+  4. Determine if future reused logic developers will be aware of all consumers of the reused logic
+  5. Determine if reused logic is allowed to have more than one copy
+  6. Determine if there can be more than one reused logic component 
