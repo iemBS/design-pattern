@@ -1,0 +1,62 @@
+Define Time Value Format
+Pre-Conditions:
+  -If upstream, this, and the dowstream system have a single timezone, that timezone is assumed to be the same. 
+Main Success Scenario:
+  1. Upstream systems use only one timezone 
+  2. Time values coming in will NOT have timezone conversions  
+  3. This system will use one timezone 
+  4. Time values going out will NOT have timezone conversions 
+  5. Downstream systems use only one timezone
+  6. Define time value format as YYYY-MM-DDTHH:MM:SS
+  7. Chosen timezone is the same as your current timezone 
+  8. "Choose 12 or 24 Hr Clock"
+Alternatives:
+  1a. Upstream systems use more than one timezone, but our system will use one
+    1a1. "Define Time Format with Timezone"
+    1a2. Go to step 2a
+  1b. Upstream systems use more than one timezone and our system will use more than one
+    1b1. "Define Time Format with Timezone"
+    1b2. Follow step 2, then go to step 3a
+  2a. Time values coming in WILL have timezone conversions 
+    2a1. Go to step 3
+  3a. This system will use more than one timezone
+    3a1. "Define Time Format with Timezone"
+    3a2. Go to step 4
+  4a. Time values going out WILL have timezone conversions 
+    4a1. Go to step 5a
+  5a. Downstream systems use more than one timezone 
+    5a1. Gp to step 6e
+  6a. Milliseconds are needed to discern between times 
+    6a1. Define time value format as YYYY-MM-DD HH:MM:SS.XXX
+  6b. Seconds are not needed to discern between times 
+    6b1. Define time value format as YYYY-MM-DDTHH:MM:00
+  6c. Minutes are not needed to discern between times 
+    6c1. Define time value format as YYYY-MM-DDTHH:00:00
+  6d. I am not used to the chosen single timezone, so I need to see the timezone
+    6d1. "Define Time Format with Timezone"
+  6e. Downstream systems will have more than one timezone, so I need to see the timezone
+    6e1. "Define Time Format with Timezone"
+    
+    
+Define Time Format with Timezone
+Note:
+  -https://www.w3.org/TR/NOTE-datetime
+  -reasons to have time values being timezone aware:
+    -comparing time values
+    -downstream consumers clearly see the timezone used
+    -xxx:fill in
+Main Success Scenario:
+  1. Define time format as YYYY-MM-DDThh:mm:ss+xx:xx
+Alternatives:
+  1a. Include timezone name in field name and exclude timezone from the time value
+    1a1. xxx:fill in
+  1b. Have a seperate field for timezone and exclude timezone from the time value
+    1b1. xxx:fill in
+    
+    
+Choose 12 or 24 Hr Clock
+Main Success Scenario:
+  1. Choose 24 hr lock to avoid the AM/PM designation
+Alternatives:
+  1a. Choose 12 clock because the team is used to that
+    1a1. xxx:fill in
