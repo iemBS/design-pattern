@@ -361,13 +361,36 @@ Main Success Scenario:
 Determine to Obfuscate, Hide, Deny Access to, or Exclude Data
 Note:
   -A reference value could be an obfuscated or non-obfuscated value. It is just focused on the existence of some value that is a consistent obfuscated value throughout the data system. So, If "Clark Kent" is always obfuscated as "XYZ123". then the data could be analyzed in the same way, whether obfuscated or not.
+  -Pros and Cons of each way of securtizing data (DOHE)
+    -Deny Access to Data
+      Pro:
+        -xxx
+      Con:
+        -Throw error
+    -Obfuscate Data
+      Pro:
+        -NOT throw error
+        -HAVE value to reference
+      Con:
+        -MAY BE ABLE to infer the value
+    -Hide Data
+      Pro:
+        -xxx
+      Con:
+        -DO NOT have value to reference
+    -Exclude Data
+      Pro:
+        -Save drive space
+      Con:
+        -DO NOT have value to reference
 Main Success Scenario:
   1. Need a reference value during data analysis
   2. Relations to reference value cannot be used to infer the real value
   3. DO NOT have access error break a query
   4. DO NOT have drive space limit
   5. DO NOT have a data system cost limit
-  6. "Obfuscate Data"
+  6. Downstream system expects field to exist, regardless of PII status 
+  7. "Obfuscate Data"
 Alternatives:
   1a. DO NOT need a reference value during data analysis
     1a1. 
@@ -384,17 +407,25 @@ Alternatives:
     4a1. "Exclude Data"  
   5a. MAY REACH data system cost limit, others DO NOT need to see the real value
     5a1. "Exclude Data"
-  6a. DO NOT want reference value but others may need to see real value
-    6a1. "Hide Data"
-  6b. DO NOT have access error break a query, do not show a reference value, but others may need to see the real value
-    6b1. "Hide Data"
-  6c. DO NOT have access error break a query, do not show a reference value, others DO NOT need to see the real value
-    6c1. "Exclude Data"
+  6a. Downstream system DOES NOT expect field to exist
+    6a1. Determine if data move to downstream system will break
+    6a2. xxx:fill in
+  6b. Downstream system is ok with the field existing or not 
+    6b1. Go to step 7
+  7a. DO NOT want reference value but others may need to see real value
+    7a1. "Hide Data"
+  7b. DO NOT have access error break a query, do not show a reference value, but others may need to see the real value
+    7b1. "Hide Data"
+  7c. DO NOT have access error break a query, do not show a reference value, others DO NOT need to see the real value
+    7c1. "Exclude Data"
 
 
 Obfuscate Data
 Main Success Scenario:
-  1. xxx:fill in
+  1. Obfuscated value not confused with real value
+  x. xxx:fill in
+Alternatives:
+  1a. Obfuscated value confused with real value 
   
   
 Deny Access To
