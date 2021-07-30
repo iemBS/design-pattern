@@ -14,6 +14,7 @@ Main Success Scenario:
   x. "Define Network User to Access Role Relation"
   x. "Understand Searchability of Grand Map"
   x. "Understand Network User Security Changeability"
+  x. "Determine to Obfuscate, Hide, Deny Access to, or Exclude"
   x. xxx:fill in
 
 
@@ -319,4 +320,51 @@ Main Success Scenario:
 Define Data Vehicle Security
 Main Success Scenario:
   1. xxx:fill in
+  
  
+Determine to Obfuscate, Hide, Deny Access to, or Exclude Data
+Note:
+  -A reference value could be an obfuscated or non-obfuscated value. It is just focused on the existence of some value that is a consistent obfuscated value throughout the data system. So, If "Clark Kent" is always obfuscated as "XYZ123". then the data could be analyzed in the same way, whether obfuscated or not.
+Main Success Scenario:
+  1. Need a reference value during data analysis
+  2. Relations to reference value cannot be used to infer the real value
+  3. DO NOT have access error break a query
+  4. "Obfuscate Data"
+Alternatives:
+  1a. DO NOT need a reference value during data analysis
+    1a1. 
+  1b. DO NOT want reference value during data analysis to preserve space 
+    1b1. 
+  1c. DO NOT want reference value because no one needs to see it
+    1c1. "Exclude Data"
+  2a. Relations to reference value CAN be used to infer the value
+    2a1. Look at only the Hide, Deny Access to, or Exclude options  
+    2a2. Go to step 3
+  3a. HAVE access error break a query
+    3a1. "Deny Access to Data"
+  4a. DO NOT want reference value but others may want to see real value
+    4a1. "Hide Data"
+  4b. DO NOT have access error break a query, do not show a reference value, but others may want to see the real value
+    4b1. "Hide Data"
+  4c. DO NOT have access error break a query, do not show a reference value, others DO NOT want to see the real value
+    4c1. "Exclude Data"
+
+
+Obfuscate Data
+Main Success Scenario:
+  1. xxx:fill in
+  
+  
+Deny Access To
+Main Success Scenario:
+  1. xxx:fill in
+  
+  
+Hide Data
+Main Success Scenario:
+  1. xxx:fill in
+  
+  
+Exclude Data
+Main Success Scenario:
+  1. xxx:fill in
