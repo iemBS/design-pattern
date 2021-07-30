@@ -173,9 +173,31 @@ Main Success Scenario:
   6. "Define Administrative Access Role" for each administrative Access Role
 
 
+Understand Securitizable Levels in the Data System
+Note:
+  -Security could be done through Deny Access to, Obfuscation of, Hiding, or Excluding data
+  -Relational DB levels
+    -xxx:fill in
+  -Graph DB levels
+    -xxx:fill in
+  -xxx:fill in
+Main Success Scenario:
+  1. xxx:fill in
+  
+  
+Understand Pros & Cons of Security at each level
+Main Success Scenario:
+  1. xxx:fill in
+
+
 Understand Privilege Inheritence in an Access Role Hierarchy
 Note:
-  -Privilege inheritance in 
+  -Privilege inheritance in data system type
+    -Relational Database @ xxx
+    -Graph Database @ xxx
+    -Dimensional Cube @ xxx
+    -Tabular Cube @ xxx
+  -Privilege inheritance in specific software 
     -PostGres @ https://medium.com/swlh/postgres-role-inheritance-and-policies-for-beginners-4ae13f973bb1
     -MySQL @ xxx
     -MS SQL Server @ xxx
@@ -184,21 +206,13 @@ Note:
     -Hadoop @ xxx
     -Cassandra @ xxx
     -Azure Data Lake @ xxx
+Pre-Conditions:
+  -"Understand Securitizable Levels in the Data System"
+  -"Understand Pros & Cons of Security at each level"
 Main Success Scenario:
   1. xxx:fill in
+ 
 
-
-Determine Data System Level Security is Applied At
-Note:
-  -Relational DB levels
-    -xxx:fill in
-  -Graph DB levels
-    -xxx:fill in
-  -xxx:fill in
-Main Success Scenario:
-  1. xxx:fill in
-
-  
 Translate Functional Role tasks to Access Role privileges
 Main Success Scenario:
   1. xxx:fill in
