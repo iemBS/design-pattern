@@ -15,6 +15,7 @@ Main Success Scenario:
   x. "Understand Searchability of Grand Map"
   x. "Understand Network User Security Changeability"
   x. "Determine to Obfuscate, Hide, Deny Access to, or Exclude"
+  x. "Assess Security Maintainability"
   x. xxx:fill in
 
 
@@ -397,5 +398,10 @@ Main Success Scenario:
   
   
 Exclude Data
+Main Success Scenario:
+  1. xxx:fill in
+  
+  
+Assess Security Maintainability
 Main Success Scenario:
   1. xxx:fill in
