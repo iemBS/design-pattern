@@ -153,6 +153,7 @@ Main Success Scenario:
 Define Access Role List
 Pre-Conditions:
   -"Understand Privilege Inheritence in an Access Role Hierarchy"
+  -"Determine Temp Access Escalation Use"
 Note:
   -This use case does not implement. It only designs the Access Roles.
   -Each network user will be mapped to a generic user inside of an Access Role.
@@ -187,6 +188,15 @@ Main Success Scenario:
   
   
 Understand Pros & Cons of Security at each level
+Main Success Scenario:
+  1. xxx:fill in
+  
+
+Determine Temp Access Escalation Use
+Note:
+  -A user is in a role that allows that allows them to also be temporarily placed in another role that has more access
+  -The user easily request the use of this temp, higher level access when they need it
+  The temp, higher level access is for a limited time. If the time runs out, the user can request the access again 
 Main Success Scenario:
   1. xxx:fill in
 
