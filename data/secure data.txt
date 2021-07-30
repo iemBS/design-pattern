@@ -187,6 +187,17 @@ Note:
 Main Success Scenario:
   1. xxx:fill in
 
+
+Determine Data System Level Security is Applied At
+Note:
+  -Relational DB levels
+    -xxx:fill in
+  -Graph DB levels
+    -xxx:fill in
+  -xxx:fill in
+Main Success Scenario:
+  1. xxx:fill in
+
   
 Translate Functional Role tasks to Access Role privileges
 Main Success Scenario:
