@@ -1,4 +1,6 @@
 Understand Time Value Importance
 -Knowing when data changes helps understand time dependent activities 
 -Helps you define the precision needed for time values 
+-As long as upstream systems note the correct timezone, timeone enabled time values in the current system will clearly show the timezone the values are in
+-
 -xxx:fill in
