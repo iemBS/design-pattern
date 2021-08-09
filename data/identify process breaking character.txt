@@ -1,0 +1,191 @@
+Identify Process Breaking Character
+Main Success Scenario:
+  1. Specify software used
+  2. Specify computer language used
+  3. "Identify Software Breaking Characters"
+  4. "Identify Computer Language Breaking Characters"
+  
+  
+Identify Software Breaking Characters
+Pre-Conditions:
+  -"Specify software used" step of "Identify Process Breaking Character"
+Main Success Scenario:
+  1. "Understand Spreadsheet Software Breakage by Character"
+Alternatives:
+  1a. "Understand Database Software Breakage by Character"
+  1b. "Understand Data Analytics Software Breakage by Character"
+  1c. "Understand Data Processing and Distribution Software Breakage by Character"
+  1d. "Understand Event Stream Processing Software Breakage by Character"
+  1e. xxx:fill in
+  
+
+Understand Spreadsheet Software Breakage by Character
+Note:
+  -Possible spreadsheet software from https://www.g2.com/categories/spreadsheets
+Main Success Scenario:
+  1. "Understand Excel Software Breakage by Character"
+Alternatives:
+  1a. "Understand Google Sheets Software Breakage by Character"
+  1b. "Understand LibreOffice Software Breakage by Character"
+  
+  
+Understand Excel Breakage by Character
+Main Success Scenario:
+  1. xxx:fill in
+  
+  
+Understand Database Software Breakage by Character
+Note:
+  -Look at types of database architectures 
+Main Success Scenario:
+  1. "Understand Relational DB Software Breakage by Character"
+Alternatives:
+  1a. "Understand Key alue DB Software Breakage by Character"
+  1b. "Understand Graph DB Software Breakage by Character"
+  1c. "Understand Object Oriented DB Software Breakage by Character"
+  1d. "Understand Document DB Software Breakage by Character"
+  1e. "Understand Heirarchical DB Software Breakage by Character"
+  1f. "Understand Network DB Software Breakage by Character"
+
+
+Understand Relational DB Software Breakage by Character
+Note:
+  -Possible relational DB software from https://www.g2.com/categories/relational-databases
+Main Success Scenario:
+  1. "Understand MySQL Software Breakage by Character"
+Alternatives:
+  1a. "Understand MongoDB Software Breakage by Character"
+  1b. "Understand SQL Server Software Breakage by Character"
+  1c. "Understand Oracle Software Breakage by Character"
+  1d. "Understand PostgreSQL Software Breakage by Character"
+  1e. "Understand IBM DB2 Software Breakage by Character"
+  1f. "Understand MariaDB Software Breakage by Character"
+  1g. "Understand Informix Software Breakage by Character"
+    
+
+Understand Document DB Software Breakage by Character
+Note:
+  -Document DB software from https://www.g2.com/categories/document-databases
+Main Success Scenario:
+  1. "Understand MongoDB Software Breakage by Character"
+Alternatives:
+  1a. xxx:fill in
+  
+  
+Understand Network DB Software Breakage by Character
+Main Success Scenario:
+  1. xxx:fill in
+  
+  
+Understand Graph DB Software Breakage by Character
+Note:
+  -Graph database software from https://www.g2.com/categories/graph-databases
+Main Success Scenario:
+  1. "Understand Neo4j Software Breakage by Character"
+Alternatives:
+  1a. "Understand Cassandra Software Breakage by Character"
+  1b. "Understand AWS Neptune Software Breakage by Character"
+  1c. "Understand ArangoDB Software Breakage by Character"
+  
+  
+Understand Object Oriented DB Software Breakage by Character
+Note:
+  -Possible Object Oriented DB from https://www.g2.com/categories/object-oriented-databases
+Main Success Scenario:
+  1. xxx:fill in 
+  
+  
+Understand MySQL Software Breakage by Character
+Main Success Scenario:
+  1. xxx:fill in
+  
+  
+Understand MongoDB Software Breakage by Character
+Main Success Scenario:
+  1. xxx:fill in
+  
+
+Understand Data Analytics Software Breakage by Character
+Main Success Scenario:
+  1. "Understand Matlab Software Breakage by Character"
+Alternatives:
+  1a. "Understand Google Big Query Software Breakage by Character"
+  1b. "Understand Alteryx Software Breakage by Character"
+  1c. "Understand Azure DAta Bricks Software Breakage by Character"
+
+
+
+Understand Data Processing and Distribution Software Breakage by Character
+Note:
+  -Data Processing and Distribution software from https://www.g2.com/categories/big-data-processing-and-distribution
+Main Success Scenario:
+  1. "Understand Hadoop HDFS Software Breakage by Character"
+Alternatives:
+  1a. "Understand AWS EMR Software Breakage by Character"
+  1b. "Understand Snowflake Software Breakage by Character"
+  1c. "Understand Qubole Software Breakage by Character"
+
+
+Understand Event Stream Processing Software Breakage by Character
+Main Success Scenario:
+  1. "Understand Apache Kafka Software Breakage by Character"
+Alternatives:
+  1a. "Understand AWS Kinesis Software Breakage by Character"
+  1b. xxx:fill in
+  
+  
+Identify Computer Language Breaking Characters
+Pre-Conditions:
+  -"Specify computer language used" step of "Identify Process Breaking Character"
+Main Success Scenario:
+  1. "Understand Java Language Breakage by Character"
+Alternatives:
+  1a. "Understand C# Language Breakage by Character"
+  1b. "Understand JavaScript Language Breakage by Character"
+  1c. "Understand Python Language Breakage by Character"
+  1d. xxx:Fill in
+  
+  
+Understand Java Language Breakage by Character
+Main Success Scenario:
+  1. xxx:fill in
+  
+
+Understand C# Language Breakage by Character
+Main Success Scenario:
+  1. xxx:fill in
+  
+
+Understand JavaScript Language Breakage by Character
+Main Success Scenario:
+  1. xxx:fill in
+  
+
+Understand Python Language Breakage by Character
+Main Success Scenario:
+  1. xxx:fill in
+  
+  
+Understand Double Quote Character Process Breakage
+Main Success Scenario:
+  1. xxx:fill in
+  
+
+Understand Single Quote Character Process Breakage
+Main Success Scenario:
+  1. xxx:fill in
+  
+  
+Understand Apostrophe Character Process Breakage
+Main Success Scenario:
+  1. xxx:fill in
+  
+  
+Understand Comma Character Process Breakage
+Main Success Scenario:
+  1. xxx:fill in
+  
+  
+Understand Delimiter Character Process Breakage
+Main Success Scenario:
+  1. xxx:fill in
