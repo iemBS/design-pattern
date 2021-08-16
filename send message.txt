@@ -44,7 +44,7 @@ Pre-Condition:
   -Usually informational, but messages should be auto-watched for warnings, errors, and alternate software paths. 
 Main Success Scenario:
   1. Enable or disable message
-  2. "Set Message Attributes"
+  2. "Set Message Object Attributes"
   3. "Format Message"
   4. "Send Message with X"
 Alternatives:
@@ -66,7 +66,7 @@ Main Success Scenario:
   1. xxx:fill in
   
 
-Set Message Attributes
+Set Message Object Attributes
 Pre-Conditions:
   -"Define Standard Publisher Name"
   -"Agree on Timezone Use"
@@ -95,6 +95,42 @@ Note:
 Main Success Scenario:
   1. "Collect data for Message attribute"
   2. "Map Message Attribute to Purpose"
+  
+ 
+Collect data for Message attribute
+Main Success Scenario:
+  1. Collect hard coded parts of the message from the source code
+  2. "Collect Calculation Result for Message attribute"
+  3. End 
+Alternatives:
+  1a. Get a single hard coded message from the source code
+    1a1. Get hard coded message
+    1a2. Go to step 3
+
+
+Collect Calculation Result for Message attribute
+Note:
+  -types of calculations that might be done in the source code and sent in a message
+    -task run time
+    -count
+    -percentage
+    -average
+    -max
+    -min
+    -sum
+    -ratio 
+Pre-Conditions:
+  -Specify max run time of calculation included in the message
+  -Calculation run time cannot exceed the specified max run time 
+  -Calculation cannot be easily calculated elsewhere 
+Main Success Scenario:
+  1. Run calculation in source code
+  2. End
+Alternatives:
+  1a. Calculation run time exceeds specified max run time
+    1a1. Append "in-message-calc exceeded run time of X" message to existing errors, where X is the max time and the time units
+    1a2. Note "N/A" where calc value would have went in message 
+    1a3. Go to step 2. 
   
   
 Set Consumer to Message Map
