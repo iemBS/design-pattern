@@ -50,9 +50,25 @@ Main Success Scenario:
 Alternatives:
   4a. Received send error from message consumer
     4a1. Ignore, since these are not usually important messages 
+    
+    
+Define Standard Flag
+Note:
+  -Common flags for the same kind of message across your environment will help with issue analysis
+  -Possible common flags to include in the message
+    -TASK_START
+    -TASK_END
+Pre-Condition:
+  -Make sure the standard flags are not used for anything else in the messages. Otherwise, they could lose their findablity value.
+  -If there is a standard already in existence, try to use that
+Main Success Scenario: 
+  1. xxx:fill in
   
   
 Define Standard Publisher Name
+Pre-Conditions:
+  -If there is a standard already in existence, try to use that
+  -Factor in message size limit
 Main Success Scenario:
   1. Collect list of all apps that are generating messages
   2. Define a concise and unique name for that publisher
@@ -70,6 +86,7 @@ Set Message Object Attributes
 Pre-Conditions:
   -"Define Standard Publisher Name"
   -"Agree on Timezone Use"
+  -Factor in message size limit
 Note:
   -Message Time is the time the message is generated and not the time it is published. This is because the time needs to align with what triggered the message. 
   -A Run ID is a unique identifier that defines a specific activity within a publisher.
@@ -101,9 +118,21 @@ Main Success Scenario:
   1. Set to a standard value from an established list
   
   
+Define Flag Format
+Note:
+  -If you have a flag of TASK_START, you want to know how to extract the task name that is using that flag
+    -Example: If you have "TASK_START:XZYGlueJob" in the message you want to be clear on how you extract the "XZYGlueJob" glue job from the flag to task name pair in the message. 
+Pre-Condition:
+  -"Define Standard Flag"
+Main Success Scenario:
+  1. xxx:fill in
+  
+  
 Set Message Attribute
 Note:
   -Do not include PII/PCI data
+Pre-Condition:
+  -"Define Flag Format"
 Main Success Scenario:
   1. "Collect data for Message attribute"
   2. "Map Message Attribute to Purpose"
