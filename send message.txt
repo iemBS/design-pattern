@@ -82,6 +82,18 @@ Main Success Scenario
   6. "Set Environment Attribute"
   
   
+Set Message Time
+Pre-Condition:
+  -Use a time format that ...
+    -Has smallest enough time units to express the needed messages
+    -makes the timezone clear
+    -allows the order of steps in a task to be seen 
+    -is readable by the message audiance 
+    -can be used by the message audiance 
+Main Success Scenario:
+  1. xxx:fill in
+  
+  
 Set Environment Attribute
 Pre-Conditons:
   -Use a set list of environment values. Like DEV, TST, and PRD. 
