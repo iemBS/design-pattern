@@ -1,0 +1,18 @@
+Define Word Processing Doc
+Main Success Scenario:
+  1. "Define Levels"
+  x. xxx:Fill in
+  
+  
+Define Levels
+Note:
+  -When a doc reaches a certain number of levels, finding by ID may be much faster than by name
+Main Success Scenario:
+  1. Define number of levels
+  2. Define purpose of each level
+  3. Define Level by Name
+  4. End 
+Alternatives:
+  3a. Define Level by ID
+    3a1. xxx:fill in
+    3a2. Go to step 4
