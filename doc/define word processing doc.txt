@@ -11,8 +11,21 @@ Main Success Scenario:
   1. Define number of levels
   2. Define purpose of each level
   3. Define Level by Name
-  4. End 
+  4. "Define Level Font Attributes"
+  5. "Define Table of Contents"
+  6. End 
 Alternatives:
   3a. Define Level by ID
     3a1. xxx:fill in
-    3a2. Go to step 4
+    3a2. Go to step 6
+
+
+Define Level Font Attributes
+Main Success Scenario:
+  1. xxx:fill in
+  
+  
+Define Table of Contents
+Main Success Scenario:
+  1. Specify Levels to show in Table of Contents
+  x. xxx:fill in
