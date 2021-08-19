@@ -1,0 +1,50 @@
+Create Value
+Main Success Scenario:
+  1. "Understand Existing Value Limits"
+  2. "Determine Value Count"
+  3. "Specify Values"
+  4. Have team sign off on values 
+  
+  
+Understand Existing Value Limits
+Main Success Scenario:
+  1. Specify min length limit
+  2. Specify max length limit
+  3. Specify character limit
+  4. "Specify Special Values"
+  5. End 
+  
+  
+Specify Special Values
+Main Success Scenario:
+  1. Specify how to represent unknowns
+  2. Specify how to represent not available
+  3. Specify value to use when no other applies
+  4. End 
+  
+  
+Determine Value Count
+Note:
+  -The count of values contributes to determining the min length of the values
+Main Success Scenario:
+  1. Using only english letters and numbers
+    1 character has 36 possibilites 
+    2 charactes has 36 * 36 = 1296 possibilities 
+    3 characters has 36 * 36 * 36 = 46,656 possibilities 
+    etc
+  2. Look at all the possible values and see how short they can be made and still be intelligible
+  3. Will non-English letters be used
+  4. End 
+Alternatives:
+  1a. First character cannot be a number
+    1a1. using only letters and numbers
+      1 character has 26 possibilities
+      2 character has 936 possibilites
+      3 character has 33,696 possibilites 
+      etc
+    1a2. Go to step 3
+
+     
+Specify Values
+Main Success Scenario:
+  1. xxx:fill in
