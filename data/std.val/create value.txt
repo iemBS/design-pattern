@@ -2,8 +2,14 @@ Create Value
 Main Success Scenario:
   1. "Understand Existing Value Limits"
   2. "Determine Value Count"
-  3. "Specify Values"
-  4. Have team sign off on values 
+  3. "Determine Data Type"
+  4. "Specify Values"
+  5. Have team sign off on values 
+  
+  
+Determine Data Type
+Main Success Scenario:
+  1. xxx:fill in
   
   
 Understand Existing Value Limits
