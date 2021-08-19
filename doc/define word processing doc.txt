@@ -7,20 +7,74 @@ Main Success Scenario:
 Define Levels
 Note:
   -When a doc reaches a certain number of levels, finding by ID may be much faster than by name
+  -Use the same font on each level
+  -Number of possible levels limited by abiltiy to 
+    -step down font size
+    -step down behind text shading 
+    -number of levels palatable by the doc audience 
 Main Success Scenario:
   1. Define number of levels
   2. Define purpose of each level
   3. Define Level by Name
   4. "Define Level Font Attributes"
   5. "Define Table of Contents"
-  6. End 
+  6. Define general color for all levels
+  7. End 
 Alternatives:
+  1a. Uses max number of levels of 6
+    1a1. xxx:fill in
+    1a2. Go to step 2
   3a. Define Level by ID
     3a1. xxx:fill in
-    3a2. Go to step 6
-
+    3a2. Go to step 7
+  
 
 Define Level Font Attributes
+Main Success Scenario:
+  1. "Step Down Font Size"
+  2. "Step Font Color"
+  2. xxx:fill in
+  
+  
+Step Down Font Size
+Note:
+  -Each level down, has a smaller font size
+Main Success Scenario:
+  1. xxx:fill in
+
+
+Step Font Color
+Note:
+  -Font color needs to be able to discern text from the background by conracting wtih the behind text shading
+Main Success Scenario:
+  1. "Step Down Behind Text Shading"
+  2. Step up font color to contrast with the behind text shade
+  3. End
+Alternatives:
+  1a. Make behind text shading darker with each lower level
+    1a1. "Step Up Behind Text Shading"
+    1a2. Go to step 3
+  
+  
+Step Down Behind Text Shading
+Note:
+  -Behind text shading keeps you from relying only on the text or a ID prefix to indicate the level
+  -If your doc audience sees darker color as stronger, then have the higher levels be darker
+  -possible colors (in hex)
+    -blue (from level 1 to level 4)
+      -#1F3864
+      -#2F5496
+      -#8EAADB
+      -#F0F4FA
+    -green
+      -xxx:fill in
+Main Success Scenario:
+  1. xxx:fill in
+  
+  
+Step Up Behind Text Shading
+Note:
+  -If your doc audience sees lower levels as being deeper and darker, then mark the color darker with each level down
 Main Success Scenario:
   1. xxx:fill in
   
