@@ -1,4 +1,6 @@
 Define Word Processing Doc
+Note:
+  -Avoid the use of internal links within the doc. The links are a fast way to jump, but you have to be mindful during updates to continue their functionality. The more people working on a doc, the more likely those internal links will be broken. Just reference unique IDs or names of sections. 
 Main Success Scenario:
   1. "Define Levels"
   2. "Define Table"
