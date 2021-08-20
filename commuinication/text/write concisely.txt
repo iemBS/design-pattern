@@ -10,3 +10,5 @@ Types of sentences (create mnemonic names for each type of sentence)
 -The [noun] [verb] [adjective], ex: The rock is blue
 -[verb] the [adjective] [noun], ex: Throw the blue rock
 -xxx:fill in
+
+Have a consitent name. If that consistent name is long, then establish the abbreviation at first mention, then use the abbreviation consistently
