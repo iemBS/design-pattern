@@ -116,3 +116,10 @@ Alternatives:
   1a. There is more than one table in a section
     1a1. Shade the header background to differentiate the tables
     1a2. Go to back step 3. 
+    
+    
+Define List
+Note:
+  -Keep each list entry on its own line
+Main Success Scenario:
+  1. xxx:fill in
