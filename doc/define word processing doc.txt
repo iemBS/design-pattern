@@ -1,6 +1,7 @@
 Define Word Processing Doc
 Main Success Scenario:
   1. "Define Levels"
+  2. "Define Table"
   x. xxx:Fill in
   
   
@@ -93,3 +94,14 @@ Define Table of Contents
 Main Success Scenario:
   1. Specify Levels to show in Table of Contents
   x. xxx:fill in
+  
+  
+Define Table
+Main Success Scenario:
+  1. Use same font, font color, and font size as the content
+  2. Do not bold the column headers
+  3. End 
+Alternatives:
+  1a. There is more than one table in a section
+    1a1. Shade the header background to differentiate the tables
+    1a2. Go to back step 3. 
