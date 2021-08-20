@@ -1,3 +1,12 @@
 Write Concisely
+Note:
+  -guidance @ 
+    -https://www.grammarly.com/blog/concise-writing/?gclid=EAIaIQobChMI0sTd8ZfA8gIVKA2tBh0X9AvwEAAYASAAEgICh_D_BwE&gclsrc=aw.ds
 Main Success Scenario:
   1. xxx:fill in
+  
+  
+Types of sentences (create mnemonic names for each type of sentence)
+-The [noun] [verb] [adjective], ex: The rock is blue
+-[verb] the [adjective] [noun], ex: Throw the blue rock
+-xxx:fill in
