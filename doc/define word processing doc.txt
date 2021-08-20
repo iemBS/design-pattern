@@ -4,7 +4,16 @@ Note:
 Main Success Scenario:
   1. "Define Levels"
   2. "Define Table"
+  x. "Define Update Section"
+  x. Have *UNDER CONSTRUCTION* in red in doc title while working on it
   x. xxx:Fill in
+  
+  
+Define Update Section
+Note:
+  -Section need to show history of updates to the doc. Keeping it in the doc allows the doc to change hosts and not lose the history. It also keeps you from relying on version technology that may fail. 
+Main Success Scenario:
+  1. xxx:fill in
   
   
 Define Levels
