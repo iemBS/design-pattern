@@ -12,6 +12,7 @@ Note:
     -step down font size
     -step down behind text shading 
     -number of levels palatable by the doc audience 
+  -The first 4 levels are nicely done with the headers. If you need to do more, use numbered or bulleted lists. Having beyond four headers 
 Main Success Scenario:
   1. Define number of levels
   2. Define purpose of each level
@@ -39,6 +40,15 @@ Main Success Scenario:
 Step Down Font Size
 Note:
   -Each level down, has a smaller font size
+  -possible sizes to use (from level 1 to level 6)
+    -23
+    -19
+    -16
+    -13
+    -12
+    -11
+  -11 is a common content font size. So, do not make a header font size smaller than that
+  -Microsoft has its largest header font size in Word defaulting to 16
 Main Success Scenario:
   1. xxx:fill in
 
