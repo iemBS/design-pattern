@@ -6,7 +6,25 @@ Main Success Scenario:
   
 limit ideas:
 -cpu usage
+  -max value
+  -max % of installed 
 -ram usage
+  -max value
+  -max % of installed
 -disk space usage
--query run time
+  -max value
+  -max % of installed
+-query run time max
+  -max time a single query run can be
+    -single rule for all time
+    -different windows have different max
+  -max amount of time allowed per time unit
+    -per day
+    -per week
+-query run window
+-query run time max per day
 -
+
+limits applied ideas:
+-per user
+-per group
