@@ -1,0 +1,56 @@
+Define Group
+Main Success Scenario:
+  1. "Define Troubled Topics"
+  2. "Suggest Troubled Topic Ownership"
+  3. "Define Group Purpose"
+  4. "Define Group Input"
+  5. "Define Group Output"
+  6. "Define Group Attributes"
+  7. "Define What Group Owns"
+  8. "Define Group Bridge to Other Group"
+  9. "Define Group Level"
+  
+  
+Define Troubled Topics
+Note:
+  -These are topics that are known to need help
+Main Success Scenario:
+  1. xxx:fill in
+  
+  
+Suggest Troubled Topic Ownership
+Main Success Scenario:
+  1. xxx:fill in
+  
+  
+Define Group Input
+Main Success Scenario:
+  1. What topics do members bring to the group?
+  x. xxx:fill in
+  
+  
+Define Group Output
+Main Success Scenario:
+  1. What 
+
+
+Define Group Attributes
+Main Success Scenario:
+  1. xxx:fill in
+  
+  
+Define What Group Owns
+Main Success Scenario:
+  1. xxx:fill in
+  
+Define Group Bridge to Other Group
+Main Success Scenario:
+  1. xxx:fill in
+  
+  
+Define Group Level
+Main Success Scenario:
+  1. Is this an interest group?
+  2. Is this a department?
+  3. Is this a practice?
+  4. Is this a community?
