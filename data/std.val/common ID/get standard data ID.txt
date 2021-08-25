@@ -24,6 +24,34 @@ Notes:
   -TIN Guidance @ https://www.investopedia.com/terms/t/taxpayer-identification-number.asp
   -TIN Guidance @ https://www.irs.gov/individuals/international-taxpayers/taxpayer-identification-numbers-tin
   -ITIN Guidance @ https://www.americanimmigrationcouncil.org/research/facts-about-individual-tax-identification-number-itin
+  -USA Driver License
+  -USA Individual Tax Identification Number (ITIN)
+    -Format
+    -Range of values
+    -Validation
+  -CAN Social Insurance Number (SIN)
+    -Format
+    -Range of Values
+    -Validation
+  -USA Passport
+    -Format
+    -Range of Values
+    -Validation
+  -USA Social Security Number (SSN)” 
+    -Format
+    -Range of Values
+    -Validation
+  -USA Employer Identification Number (EIN)
+    -format
+      -##-####### (9 numbers without dashes)
+      -ref @ https://www.irs.gov/pub/irs-pdf/p1635.pdf
+    -range of values
+      -first two: See Valid EIN Prefixes @ https://www.irs.gov/businesses/small-businesses-self-employed/how-eins-are-assigned-and-valid-ein-prefixes
+      -Preceding zeroes will be lost if value is stored as an integer
+      -Next seven: xxx:fill in
+    -validation
+      -Has all numbers (ignore dashes), has a length of 9 (ignore dashes), first two falls into range of allowed values, 
+
 Main Success Scenario:
   1. Find SSN
   2. Find Driver's License
