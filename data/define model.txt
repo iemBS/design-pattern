@@ -1,6 +1,10 @@
 Define Model
 Note:
+  -guidance @ 
+    -https://docs.microsoft.com/en-us/common-data-model/
   -common models
+    -xxx
+  -pros & cons for each common model
     -xxx
 Main Success Scenario:
   1. xxx:fill in
