@@ -1,0 +1,20 @@
+Balance Duration and Frequency in Processes
+Note:
+  -Having a data refresh between two query runs, can make looking at data very confusing
+  -definition:
+    -Use Duration: How long you need to look at data
+    -Refresh Frequency: How frequently is the data refreshed. Refresh Frequency >= Refresh Duration.
+    -Refresh Duration: How long it takes to refresh the data
+    -Lastest Data Need: How old can the newest data be
+Main Success Scenario:
+  1. Use snapshot to not have Use Duration hurt by Refresh Frequency
+  2. Latest Data Need > Refresh Duration
+  3. End 
+Alternatives:
+  1a. Has no snapshot ability
+    1a1. Then Use Duration <= Refresh Frequency
+  
+  
+
+
+
