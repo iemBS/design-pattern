@@ -1,0 +1,34 @@
+Parse Message
+Note:
+  -guidance @ 
+    -https://docs.oracle.com/goldengate/gg121211/gg-adapter/GADAD/java_msgcap_parsing.htm#GADAD139
+    -https://www.scalyr.com/blog/log-parser-tutorial/
+    -https://www.graylog.org/post/log-file-parsing
+  -Messages may need to be parsed by a machine to make them more useful 
+Pre-Conditions:
+  -"Understand Message Collection Format"
+  -"Understand Message Object"
+Main Success Scenario:
+  1. xxx:Fill in
+  
+  
+Understand Message Collection Format
+  
+  
+Understand Message Object
+Main Success Scenario:
+  1. Understand what attributes exist
+  2. "Understand Attribute Value"
+  
+  
+Understand Attribute Value
+Main Success Scenario:
+  1. "Understand Possible Attribute Values"
+  2. "Understand Attribute Value Format"
+  3. End 
+
+
+Understand Possible Attribute Values
+
+
+Understand Attribute Value Format
