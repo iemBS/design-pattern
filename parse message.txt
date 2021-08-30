@@ -9,8 +9,32 @@ Pre-Conditions:
   -"Understand Message Collection Format"
   -"Understand Message Object"
   -"Understand Parse Action"
+  -"Understand Presentation Goal"
 Main Success Scenario:
   1. xxx:Fill in
+  
+
+Understand Presentation Goal
+Note:
+  -Common presentation goals
+    -performance
+      -task duration
+      -count / time 
+    -error
+      -error rate
+      -event time
+      -retry
+        -success
+        -fail
+      -success rate
+    -warning
+    -info
+      -task status
+        -start
+        -end 
+Main Success Scenario:
+  1. "Understand Metric Presentation Goal"
+  2. "Understand Chart Presentation Goal"
   
   
 Understand Message Collection Format
@@ -40,7 +64,9 @@ Main Success Scenario:
   
 Understand Flags in Values
 Note:
-  -Common flags 
+  -Common flag concepts
+    -xxx:fill in
+  -Common flag values
     -xxx:fill in
 Main Success Scenario:
   1. xxx:fill in
@@ -54,7 +80,7 @@ Note:
     -diff
       -time
       -numeric
-Pre-Conditions:
+Main Success Scenario:
   -"Understand Aggregation Action"
   -"Understand Order Action"
   -"Understand Math Action"
@@ -63,8 +89,6 @@ Pre-Conditions:
   -"Understand Change Action"
   -"Understand Measure Action"
   -"Understand Filter Action"
-Main Success Scenario:
-  1. xxx:fill in
 
 
 Understand Filter Action
@@ -161,20 +185,38 @@ Main Success Scenario:
   
  
 Understand Math Action
-Note:
-    -math
-      -abs
-      -ceil
-      -floor
-      -isNAN
-      -isInfinity
-      -round
-      -subtract
-      -add
-      -divide
-      -multiply
 Main Success Scenario:
-  1. xxx:fill in
+  1. Understand Abs Math Action
+  2. "Understand Round Math Action"
+  3. "Understand Math Operation Action"
+  4. "Understand Equality Action"
+  
+  
+Understand Equality Action
+Main Success Scenario:
+  1. Understand Is NAN Action
+  2. Understand Is Inficinity Action
+  
+  
+Understand Math Operation Action
+Main Success Scenario:
+  1. Understand Add Operation Action
+  2. Understand Subtract Operation Action
+  3. Understand Divide Operation Action
+  4. Understand Multiply Operation Action 
+  
+  
+Understand Round Math Action
+Main Success Scenario:
+  1. Round a franctional number to a specified number of decimal places
+  2. End 
+Alternatives:
+  1a. Round up to the next whole number
+    1a1. "Understand Ceil Math Action"
+    1a2. Go to step 2
+  1b. Round down to the next whole number
+    1b1. "Understand Floor Math Action"
+    1b2. Go to step 2
   
   
 Understand Order Action
