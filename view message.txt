@@ -1,0 +1,24 @@
+View Message
+Main Success Scenario:
+  1. "Understand Message Attributes"
+  2. "Understand Message Detail Format"
+  3. End 
+  
+  
+Understand Message Attributes
+Main Success Scenario:
+  1. Understand what attributes make up the message object
+  2. Understand each attributes possible values 
+  3. End 
+  
+  
+Understand Message Detail Format
+Main Success Scenario:
+  1. Understand the message detail format
+  2. End 
+Alternatives:
+  1a. There is another message detail format
+    1a1. Understand the format
+    1a2. Go to step 2
+  
+  
