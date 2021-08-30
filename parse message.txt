@@ -8,6 +8,7 @@ Note:
 Pre-Conditions:
   -"Understand Message Collection Format"
   -"Understand Message Object"
+  -"Understand Parse Action"
 Main Success Scenario:
   1. xxx:Fill in
   
@@ -32,3 +33,190 @@ Understand Possible Attribute Values
 
 
 Understand Attribute Value Format
+Main Success Scenario:
+  1. "Understand Flags in Values"
+  2. xxx:fill in
+  
+  
+Understand Flags in Values
+Note:
+  -Common flags 
+    -xxx:fill in
+Main Success Scenario:
+  1. xxx:fill in
+  
+  
+Understand Parse Action
+Note:
+  -guidance @ 
+    -https://help.sumologic.com/05Search/Search-Cheat-Sheets/Log-Operators-Cheat-Sheet
+  -Common parse actions:
+    -diff
+      -time
+      -numeric
+Pre-Conditions:
+  -"Understand Aggregation Action"
+  -"Understand Order Action"
+  -"Understand Math Action"
+  -"Understand Value Cut Action"
+  -"Understand Collection Cut Action"
+  -"Understand Change Action"
+  -"Understand Measure Action"
+  -"Understand Filter Action"
+Main Success Scenario:
+  1. xxx:fill in
+
+
+Understand Filter Action
+Note:
+      -is
+        -blank
+        -null
+        -empty
+        -value
+        -type
+          -numeric
+          -datetime
+          -time
+          -xxx
+        -pattern
+Main Success Scenario:
+  1. Understand Contains Filter Action
+  2. End 
+Alternatives:
+  1a. See if value is a specific value
+    1a1. Understand Is Filter Action
+    1a2. Go to step 2
+  1b. See if value is one in a list of possible values
+   1b1. Understand In Filter Action
+   1b2. Go to step 2
+  1c. Have more complex condition check
+    1c1. Understand If Filter Action
+    1c2. Go to step 2
+
+
+Understand Change Action
+Note:
+  -replace
+  -convert 
+    -dec to hex
+    -hex to dec
+    -dec to bin
+    -number to string
+    -string to number
+    -xxx:fill in
+  -combine
+    -concat
+    -xxx:fill in
+Main Success Scenario:
+  1. xxx:fill in
+
+  
+Understand Measure Action
+Note:
+  common ones
+    -length
+Main Success Scenario:
+  1. xxx:fill in
+
+  
+Understand Top Collection Action  
+Main Success Scenario:
+  1. "Understand Top Count Collection Action"
+  2. "Understand Top Pct Collection Action"
+
+
+Understand Bottom Collection Action
+Main Success Scenario:
+  1. "Understand Bottom Count Collection Action"
+  2. "Understand Bottom Pct Collection Action"
+
+  
+Understand Top Count Collection Action
+
+
+Understand Top Pct Collection Action
+
+
+Understand Bottom Count Collection Action
+
+
+Understand Bottom Pct Collection Action
+  
+  
+Understand Collection Cut Action
+Note:
+  -Works like limit filter
+Main Success Scenario:
+  1. "Understand Top Collection Action"
+  2. "Understand Bottom Collection Action"
+
+  
+Understand Value Cut Action
+Main Success Scenario:
+  1. Understand Split Value Action
+  2. Understand Substring Value Action
+  3. Understand Left Value Action
+  4. Understand Right Value Action
+  
+ 
+Understand Math Action
+Note:
+    -math
+      -abs
+      -ceil
+      -floor
+      -isNAN
+      -isInfinity
+      -round
+      -subtract
+      -add
+      -divide
+      -multiply
+Main Success Scenario:
+  1. xxx:fill in
+  
+  
+Understand Order Action
+Main Success Scenario:
+  1. Order by time
+Alternatives:
+  1a. Order alphabetically
+    1a1. xxx:fill in
+  1b. Order numerically
+    1b1. xxx:fill in
+  1c. Order Alphanumerically
+    1c1. xxx:fill in
+  
+  
+Understand Aggregation Action
+Main Success Scenario:
+  1. Understand Avg Aggregation Action
+  2. "Understand Count Aggregation Action"
+  3. Understand First Aggregation Action
+  4. Understand Last Aggregation Action
+  5. Understand Max Aggregation Action
+  6. Understand Min Aggregation Action
+  7. Understand Sum Aggregation Action
+  8. Understand Pct Aggregation Action
+  9. Understand StdDev Aggregation Action
+  10. Understand Distinct Value Aggregation Action
+  
+  
+Understand Count Aggregation Action
+Main Success Scenario:
+  1. Understand Count Frequency Aggregation Action
+  2. End 
+Alternatives:
+  1a. Count only distinct values
+    1a1. Understand Count Distinct Aggregation Action
+    1a2. Go to step 2
+  
+  
+Understand Parse Tool
+Note:
+  -Common tool
+    -regex
+    -
+Main Success Scenario:
+  1. xxx:fill in
