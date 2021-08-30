@@ -2,9 +2,14 @@ Define Model
 Note:
   -guidance @ 
     -https://docs.microsoft.com/en-us/common-data-model/
+    -https://www.innoarchitech.com/blog/scalable-software-big-data-analytics-architecture-architectural-design-patterns
   -common models
     -xxx
   -pros & cons for each common model
+    -xxx
+  -attributes that determine what model is chosen
+    -available hardware
+      -xxx
     -xxx
 Main Success Scenario:
   1. xxx:fill in
