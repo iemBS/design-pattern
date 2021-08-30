@@ -184,10 +184,17 @@ Pre-Conditions:
 Main Success Scenario:
   1. xxx:fill in
   
+  
+Understand Format Config Ability
+Main Success Scenario: 
+  1. Understand what messages CANNOT be configured
+  2. Understand what messages CAN be configured
+  
 
 Format Message
 Pre-Conditions:
   -"Set Consumer to Message Map"
+  -"Understand Format Config Ability"
 Main Success Scenario:
   1. "Format Email Message"
 Alternatives:
