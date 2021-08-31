@@ -47,7 +47,8 @@ Main Success Scenario:
   1. "Understand Metric Presentation Goal"
   2. "Understand Chart Presentation Goal"
   3. "Understand Derived Values to Relate"
-  4. Understand How to Derive Values from Messages
+  4. "Understand Desired Presentation Flow"
+  5. Understand How to Derive Values from Messages
   
   
 Understand Derived Values to Relate
