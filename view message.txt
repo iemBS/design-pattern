@@ -22,3 +22,9 @@ Alternatives:
     1a2. Go to step 2
   
   
+Securitize Message
+Note:
+  -Controls who can see messages 
+Main Succcess Scenario:
+  1. xxx:fill in 
+  
