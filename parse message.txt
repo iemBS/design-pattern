@@ -10,6 +10,7 @@ Pre-Conditions:
   -"Understand Message Object"
   -"Understand Parse Action"
   -"Understand Presentation Goal"
+  -Understand the natural progession of analysis
 Main Success Scenario:
   1. xxx:Fill in
   
@@ -17,10 +18,16 @@ Main Success Scenario:
 Understand Presentation Goal
 Note:
   -Common presentation goals
-    -performance
-      -task duration
+    -usage
+      -usage pct = (used / total) x 100
+      -usage pattern
+        -all usage patterns
+        -usage pattern %
+    -performance (compared)
+      -duration pct of avg duration
       -count / time 
     -error
+      -error location
       -error rate
       -event time
       -retry
@@ -29,12 +36,62 @@ Note:
       -success rate
     -warning
     -info
-      -task status
+      -task attribute
+        -duration 
+      -task status (what it is)
         -start
         -end 
+      -max reached 
+      -condition achieved 
 Main Success Scenario:
   1. "Understand Metric Presentation Goal"
   2. "Understand Chart Presentation Goal"
+  3. "Understand Derived Values to Relate"
+  4. Understand How to Derive Values from Messages
+  
+  
+Understand Derived Values to Relate
+Note:
+  -Common relation analysis
+    -usage vs performance
+      -usage pct vs task duration vs event time
+        -look at different time units
+    -usage vs error
+      -usage pct vs error count vs event time
+        -look at different time units
+    -usage vs status
+      -usage pct vs task completion pct vs event time
+        -look at different time units
+    -usage vs status vs performance 
+    -usage pct vs task completion pct vs task duration vs event time
+      -look at different time units
+Main Success Scenario:
+  1. xxx:fill in
+  
+
+Understand Chart Presentation Goal
+Note:
+  -guidance @ 
+    -https://www.tableau.com/learn/whitepapers/which-chart-or-graph-is-right-for-you
+    -https://en.wikipedia.org/wiki/Scatter_plot
+  -Common XY line Charts
+    -X=duration, Y=
+  -Common horizontal bar charts
+    -xxx:fill in
+  -Common vertical bar charts
+    -xxx:fill in
+  -Common Bubble Charts
+    -xxx:fill in
+  -Common Pie Charts
+    -xxx:fill in
+  -Common Density Map charts
+    -xxx:fill in
+  -Common Scatter Plot charts
+    -xxx:fill in 
+  -Less Common, but Useful Charts
+    -xxx:Fill in
+Main Success Scenario:
+  1. xxx:fill in
   
   
 Understand Message Collection Format
@@ -262,3 +319,23 @@ Note:
     -
 Main Success Scenario:
   1. xxx:fill in
+
+
+Understand Presentation Ability
+-summary level (start high)
+  -aggregate function
+    -Pro
+      -See aggregate in relation to filters
+      -See aggregate change when filters change
+      -Hint at what more detailed presentation to use next
+    -Con
+      -xxx:fill in
+-mid level 
+  -aggregate function, with more filters and/or more filter values than at the summary level
+    -Pro
+      -xxx
+    -Con
+      -xxx
+-detail level 
+  -see detail supporting summary report
+  -summary and detail reports have same filters
