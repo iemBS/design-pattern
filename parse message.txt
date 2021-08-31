@@ -321,8 +321,20 @@ Main Success Scenario:
   1. xxx:fill in
 
 
-Understand Presentation Ability
--summary level (start high)
+Understand Desired Presentation Flow
+Question:
+  -Is a mid level presentation layer needed that has ...
+    -aggregate function with more filters and/or more filter values than at the summary level
+    -can see grouped data rather than just filtering on it
+Main Success Scenario:
+  1. "Understand Desired Summary Level Presentation"
+  2. "Understand Desired Summary to Detail Level Presentation Transition"
+  3. "Understand Desired Detail Level Presentation"
+  4. End
+  
+
+Understand Desired Summary Level Presentation
+Note:
   -aggregate function
     -Pro
       -See aggregate in relation to filters
@@ -330,12 +342,26 @@ Understand Presentation Ability
       -Hint at what more detailed presentation to use next
     -Con
       -xxx:fill in
--mid level 
-  -aggregate function, with more filters and/or more filter values than at the summary level
-    -Pro
-      -xxx
-    -Con
-      -xxx
--detail level 
-  -see detail supporting summary report
-  -summary and detail reports have same filters
+Main Success Scenario:
+  1. Understand needed aggregations
+  2. xxx:fill in
+  
+  
+Understand Desired Summary to Detail Level Presentation Transition
+Note:
+  -Do not think about UI steps. Instead think about how to logically relate summary to detail
+  -Seeing the number of messages contributing to a summary measure can drive the user to apply different filters
+Main Success Scenario:
+  1. See message count contributing to summary level measure 
+  2. xxx:fill in
+  
+  
+Understand Desired Detail Level Presentation
+Note:
+  -no aggregations exist
+  -all details support summary level
+  -summary and detail levels have same filters
+  -lowest level needed is shown here
+Main Success Scenario:
+  1. xxx:fill in
+
