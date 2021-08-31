@@ -49,6 +49,7 @@ Main Success Scenario:
   3. "Understand Derived Values to Relate"
   4. "Understand Desired Presentation Flow"
   5. Understand How to Derive Values from Messages
+ 
   
   
 Understand Derived Values to Relate
@@ -96,6 +97,8 @@ Main Success Scenario:
   
   
 Understand Message Collection Format
+Main Success Scenario:
+  1. xxx:fill in 
   
   
 Understand Message Object
