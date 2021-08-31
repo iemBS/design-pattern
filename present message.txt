@@ -1,0 +1,75 @@
+Present Message
+Note:
+  -
+Main Success Scenario:
+  1. Define benefits of presentation level over message collection level
+  2. "Define Summary Level"
+  3. "Define Summary to Detail Transition"
+  4. "Define Detail Level"
+  5. "Define Presentation Level Message Toggle"
+  
+  
+Define Summary Level
+Note:
+  -limited to aggregation measures 
+Main Success Scenario:
+  1. "Define Measure"
+  x. Define Message Contribution Count for Measure
+  x. "Define UI Filter"
+  x. xxx:fill in
+  
+
+Define Measure
+Main Success Scenario:
+  1. xxx:fill in 
+  
+
+Define Summary to Detail Transition
+Main Success Scenario:
+  1. xxx:fill in 
+
+
+Define Detail Level
+Main Success Scenario:
+  1. xxx:fill in 
+  
+  
+Define Measure
+Main Success Scenario:
+  1. xxx:fill in 
+
+
+Define UI Filter
+Main Success Scenario:
+  1. "Define Publisher Filter"
+  2. 
+  x. xxx:fill in 
+
+
+Define Before UI Filter
+Main Success Scenario:
+  1. xxx:fill in 
+  
+  
+Define Publisher Filter
+Main Success Scenario:
+  1. xxx:fill in
+  
+  
+Define Calc Author
+Main Success Scenario:
+  1. Define Calcs Done by Message Publisher
+  2. Define Calcs Done by Presentation Level
+  
+  
+Define Presentation Level Message Toggle
+Note:
+  -Defines what messages audiences see
+    -part security
+    -part showing only what they need to see
+Main Success Scenario:
+  1. xxx:fill in 
+
+  
+  
+STOP WATER
