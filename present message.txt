@@ -1,8 +1,10 @@
 Present Message
 Note:
   -
+Pre-Condition:
+  -All messages sent to destinations before going to presentation level
 Main Success Scenario:
-  1. Define benefits of presentation level over message collection level
+  1. Define benefits of presentation level over destination level
   2. "Define Summary Level"
   3. "Define Summary to Detail Transition"
   4. "Define Detail Level"
@@ -16,7 +18,19 @@ Main Success Scenario:
   1. "Define Measure"
   x. Define Message Contribution Count for Measure
   x. "Define UI Filter"
+  x. "Determine Pre-Aggregation Need"
   x. xxx:fill in
+Alternatives:
+  x. Presentation UI too slow, define pre-aggregation
+    xa. "Define Pre-Aggregation"
+    xb. Go to step xxx
+  
+  
+Define Pre-Aggregation
+Note:
+  -A pre-aggregation of message is only needed if the presentation level cannot pre-aggregate in a timely manner
+Main Success Scenario:
+  1. xxx:fill in 
   
 
 Define Measure
@@ -42,9 +56,15 @@ Main Success Scenario:
 Define UI Filter
 Main Success Scenario:
   1. "Define Publisher Filter"
-  2. 
+  2. "Define Time Filter"
   x. xxx:fill in 
 
+
+Define Time Filter
+Main Success Scenario:
+  1. use values of Today, last completed timespan (day, week, month, etc)
+  2. Determine past times spans to look at
+  
 
 Define Before UI Filter
 Main Success Scenario:
@@ -56,10 +76,58 @@ Main Success Scenario:
   1. xxx:fill in
   
   
-Define Calc Author
+Determine Pre-Aggregation Need
+Note:
+  -The presentation level may not be able to aggregate the message collection messages on-the-fly fast enough to make the UI usable
 Main Success Scenario:
-  1. Define Calcs Done by Message Publisher
-  2. Define Calcs Done by Presentation Level
+  1. Test presentation level UI
+  2. Responses slower than 5 seconds need pre-aggregation
+  
+  
+Define Creation Author
+Main Success Scenario:
+  1. "Define Creations by Message Publisher"
+  2. "Define Creations by Presentation Level"
+  
+  
+Define Creations by Message Publisher
+Main Success Scenario:
+  1. "Define Creation Time Limit"
+  2. "Define Only Publisher Creatable Creations"
+  
+
+Define Creations by Presentation Level
+Main Success Scenario:
+  1. "Define Creation Time Limit"
+  2. "Define Only Presentation Creatable Creations"
+  3. "Define Presentation Preferable Creations"
+
+Define Only Publisher Creatable Creations
+Pre-Condition:
+  -Has data access only found in publisher
+Main Success Scenario:
+  1. xxx:fill in
+
+  
+Define Only Presentation Creatable Creations
+Pre-Condition:
+  -Creation dependent upon 2 or more publishers
+Main Success Scenario:
+  1. xxx:fill in
+  
+
+Define Presentation Preferable Creations
+Note:
+  -Created in the presentation level so the publisher stays focused on its work and the presentation level focuses on message presentation
+Main Success Scenario:
+  1. xxx:fill in
+  
+  
+Define Creation Time Limit
+Note:
+  -Need to define time limit for creating a new message or a measure so the activity does not negatively impact the publisher or presentation levels
+Main Success Scenario:
+  1. xxx:fill in
   
   
 Define Presentation Level Message Toggle
@@ -70,6 +138,4 @@ Note:
 Main Success Scenario:
   1. xxx:fill in 
 
-  
-  
-STOP WATER
+
