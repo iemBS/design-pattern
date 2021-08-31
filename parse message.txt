@@ -331,8 +331,14 @@ Main Success Scenario:
   1. "Understand Desired Summary Level Presentation"
   2. "Understand Desired Summary to Detail Level Presentation Transition"
   3. "Understand Desired Detail Level Presentation"
-  4. End
+  4. "Understand Filters to Provide" 
+  5. End
   
+  
+Understand Filters to Provide
+Main Success Scenario:
+  1. Provide message publisher filter 
+  2. xxx:fill in
 
 Understand Desired Summary Level Presentation
 Note:
