@@ -1,6 +1,4 @@
 Present Message
-Note:
-  -
 Pre-Condition:
   -All messages sent to destinations before going to presentation level
 Main Success Scenario:
@@ -34,6 +32,8 @@ Main Success Scenario:
   
 
 Define Measure
+Note:
+  -If aggregation measures can be calcualted at destination, pre-aggregation, or presentation levels; max or min functions will be used for pre-aggregated data in later levels where aggregation is still needed for other data. 
 Main Success Scenario:
   1. xxx:fill in 
   
@@ -57,13 +57,24 @@ Define UI Filter
 Main Success Scenario:
   1. "Define Publisher Filter"
   2. "Define Time Filter"
+  3. "Define Task Filter"
   x. xxx:fill in 
+  
+  
+Define Publisher Filter
+Main Success Scenario:
+  1. xxx:fill in 
 
 
 Define Time Filter
 Main Success Scenario:
   1. use values of Today, last completed timespan (day, week, month, etc)
   2. Determine past times spans to look at
+  
+  
+Define Task Filter
+Main Success Scenario:
+  1. xxx:fill in 
   
 
 Define Before UI Filter
@@ -78,22 +89,45 @@ Main Success Scenario:
   
 Determine Pre-Aggregation Need
 Note:
-  -The presentation level may not be able to aggregate the message collection messages on-the-fly fast enough to make the UI usable
+  -The presentation level may not be able to aggregate the messages from the destination level on-the-fly fast enough to make the UI usable
+  -Use of a Pre-Aggregation means there needs to be a refresh cycle
 Main Success Scenario:
   1. Test presentation level UI
   2. Responses slower than 5 seconds need pre-aggregation
   
   
 Define Creation Author
+Note:
+  -"Creations" term is used because measures or better messages could be created
 Main Success Scenario:
   1. "Define Creations by Message Publisher"
   2. "Define Creations by Presentation Level"
+  3. End 
+Alternatives:
+  1a. Publisher level creation time exceeded
+    1a1. Do not create creation
+    1a2. Go to step 3
+  2a. Presentation level creation time limit exceeds and doing pre-aggregation
+    2a1. "Define Creations by Pre-Aggregation Level"
+    2a2. Go to step 3. 
+  2b. Presentation level creation time limit exceeded and NOT doing pre-aggregation 
+    2b1. "Define Creations by Message Publisher"
+    2b2. Go to step 3
+  2c. Presentation level creation time limit exceeded, doing pre-aggregation, and Pre-Aggregation level creation time limit exceeded
+    2c1. "Define Creations by Message Publisher"
+    2c2. Go to step 3
   
   
 Define Creations by Message Publisher
 Main Success Scenario:
   1. "Define Creation Time Limit"
   2. "Define Only Publisher Creatable Creations"
+  
+  
+Define Creations by Pre-Aggregation Level
+Main Success Scenario:
+  1. "Define Creation Time Limit"
+  2. "Define Only Pre-Aggregation Creatable Creations"
   
 
 Define Creations by Presentation Level
@@ -102,23 +136,36 @@ Main Success Scenario:
   2. "Define Only Presentation Creatable Creations"
   3. "Define Presentation Preferable Creations"
 
+
 Define Only Publisher Creatable Creations
 Pre-Condition:
   -Has data access only found in publisher
 Main Success Scenario:
   1. xxx:fill in
-
+  
+  
+Define Only Pre-Aggregation Creatable Creations
+Main Success Scenario:
+  1. xxx:fill in
+  
   
 Define Only Presentation Creatable Creations
 Pre-Condition:
   -Creation dependent upon 2 or more publishers
 Main Success Scenario:
   1. xxx:fill in
-  
+  2. End 
+Alternatives:
+  1a. Define message instead 
+    1a1. "Define Multi-Publisher Message"
+    1a2. Go to step 2
+
 
 Define Presentation Preferable Creations
 Note:
   -Created in the presentation level so the publisher stays focused on its work and the presentation level focuses on message presentation
+Pre-Condition:
+  -"Relate Task"
 Main Success Scenario:
   1. xxx:fill in
   
@@ -137,5 +184,17 @@ Note:
     -part showing only what they need to see
 Main Success Scenario:
   1. xxx:fill in 
+  
+  
+Relate Task
+Main Success Scenario:
+  1. Associate neighboring tasks (in parallel or sequence) because they could impact each other
+  2. Associate errored tasks with errored tasks down stream 
+  2. End 
+  
+  
+Define Multi-Publisher Message
+Main Success Scenario:
+  1. xxx:fill in
 
 
