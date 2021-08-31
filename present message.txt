@@ -196,5 +196,10 @@ Main Success Scenario:
 Define Multi-Publisher Message
 Main Success Scenario:
   1. xxx:fill in
+  
+  
+Define When Email Needed
+Main Success Scenario:
+  1. Priority 1 Error occurs
 
 
