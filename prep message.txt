@@ -1,0 +1,10 @@
+Prep Message
+Note:
+  -Some messages do not follow an ideal format have an ideal set of attributes. In those cases you need to alter the message. 
+  -Messages sent by a service without any config control, are candidates for prep. 
+  -Prep takes place after the message was sent to its destination and before it is presented. 
+  -Prep is not catching a message as it gets bubbled up through a service and changing it during the bubble. 
+  -Prepping messages adds a step that complicates messages and if too much work is done in this area makes the process of showing messages more of a burden than it should be. 
+  -Pre-aggregation would also e done in a prep message step. 
+Main Success Scenario:
+  1. xxx:fill in
