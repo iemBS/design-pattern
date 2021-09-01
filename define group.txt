@@ -1,4 +1,8 @@
 Define Group
+Question:
+  -Are groups being created for where you want to be or where you are now?
+  -Can you see yourself in these groups?
+  -What are each person's convinctions?
 Main Success Scenario:
   1. "Define Troubled Topics"
   2. "Suggest Troubled Topic Ownership"
