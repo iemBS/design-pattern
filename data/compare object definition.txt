@@ -7,7 +7,7 @@ Alternatives:
   1a. "Compare Graph DB Object Definitions"
   1b. "Compare Document DB Object Definitions"
   1c. "Compare Key Value DB Object Definitions"
-  1d. xxx:fill in
+  1d. "Compare Data at High Level"
   
   
 Compare Relational DB Object Definitions
@@ -22,7 +22,6 @@ Main Success Scenario:
   x. "Compare Table Column Definition Diff"
   x. "Compare Routine Existence"
   x. "Compare Routine Definition Diff"
-  x. "Compare Key Existence in Related Tables"
   
 
 Compare Routine Existence
@@ -35,3 +34,12 @@ Compare Routine Definition Diff
 Main Success Scenario:
   1.  "Compare Procedure Definition Diff"
   2. "Compare Function Definition Diff"
+  
+  
+Compare Data at High Level
+Note:
+  -This is looking at data 
+Main Success Scenario:
+  x. "Compare Key Existence in Related Tables"
+  x. xxx:fill in
+
