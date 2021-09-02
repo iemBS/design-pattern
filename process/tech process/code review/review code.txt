@@ -14,6 +14,10 @@ Main Success Scenario:
   
   
 Compare Code
+Note:
+  -Having code made in such a way that allows an easier code review, can speed code reviews and reduce bug misses
+    -like not changing white space when there is no need to change white space
+    -having code properly modurlized means you are looking at less code
 Main Success Scenario:
   1. Get new version of code and the previous version of the code
   2. Ideally, tools would clearly point out what characters have changed. Not just the changed lines. 
