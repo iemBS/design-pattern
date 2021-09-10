@@ -1,0 +1,8 @@
+Match Everything Before a Character
+Note:
+  -guidance @ 
+    -https://regex101.com/
+    -https://www.rexegg.com/regex-quickstart.html
+Main Success Scenario:
+  1. If the character is a comma, then do the following
+    (.+?),
