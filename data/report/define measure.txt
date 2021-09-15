@@ -4,7 +4,7 @@ Abbreviations
 -WoW = Week over Week = Compare number on a day to the number on the same day a week ago
 
 
-Define Metric
+Define Measure
 Main Success Scenario:
   1. "Define Reporting Goal"
   2. "Define Metric Role in Reporting Goal"
