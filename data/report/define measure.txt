@@ -3,10 +3,13 @@ Abbreviations
 -MoM = Month over Month = Compare number on a date to the number on the same date a month ago
 -WoW = Week over Week = Compare number on a day to the number on the same day a week ago
 
-Measure Hierarchy:
+Contributing Non-Measure (an attribute):
 <>TASK_ID
+<>TASK_RUN_ID
 <>TASK_START_TIME
 <>TASK_END_TIME
+
+Measure Hierarchy:
 <>TASK_RAM_USAGE
 <>TASK_CPU_USAGE
 <>TASK_DSK_USAGE
@@ -16,6 +19,7 @@ Measure Hierarchy:
 <>TASK_DURATION_LIMIT
 <>TASK_RAM_USAGE_LIMIT
 <><>TASK_COUNT = COUNT(TASK_ID)
+<><>TASK_RUN_COUNT = COUNT(TASK_RUN_ID for TASK_ID)
 <><>TASK_ERROR_COUNT = COUNT(TASK_ID where TASK_ERROR exists)
 <><>TASK_DURATION = TASK_END_TIME - TASK_START_TIME
 <><>TASK_MIN_DURATION = MIN(TASK_DURATION)
