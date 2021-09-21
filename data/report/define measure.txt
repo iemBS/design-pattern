@@ -3,6 +3,8 @@ Abbreviations
 -MoM = Month over Month = Compare number on a date to the number on the same date a month ago
 -WoW = Week over Week = Compare number on a day to the number on the same day a week ago
 
+**TASK MEASURES**
+
 Contributing Non-Measure (an attribute):
 <>TASK_ID
 <>TASK_RUN_ID
@@ -40,6 +42,9 @@ Measure Hierarchy:
 <><><><>TASK_SLOW = where TASK_DURATION > AVG_TASK_DURATION
 <><><><>TASK_FAST = where TASK_DURATION < AVG_TASK_DURATION
 <><><><><>AVG_TASK_COMPLETION_PCT = SUM(TASK_COMPLETION_PCT) / # of times the TASK_COMPLETION_PCT was recorded 
+
+**HARDWARE MEASURES**
+xxx:fill in
 
 
 Define Measure
