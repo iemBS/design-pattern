@@ -1,1 +1,35 @@
-xxx:fill in
+Define Role
+Main Success Scenario:
+  1. "Define Attributes"
+  2. "Group Attributes"
+  3. "Convert Attribute Groups to Roles"
+  4. End 
+  
+Define Attributes
+Note:
+  -Do not note the tasks performed for the accountability
+Main Success Scenario:
+  1. Specify tasks done now
+  2. Specify tasks expected to be done in the future
+  3. Specify accountabilities needed now
+  4. Specify accountabilities needed in the future 
+  5. Specify best practice or industry standard attributes 
+  6. End 
+  
+Group Attributes
+Main Success Scenario:
+  1. Note what attributes are related
+  2. Factor in time commmitment for attributes 
+  3. End 
+  
+Convert Attribute Groups to Roles
+Main Success Scenario:
+  1. Note attribute groups that align with an industry standard role
+  2. Note attibutes groups that do not align with an industry standard role
+  3. Assign role names to each attribute group
+  4. End 
+  
+  
+
+
+
