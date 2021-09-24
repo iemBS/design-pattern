@@ -1,1 +1,7 @@
 -https://regexland.com
+-https://docs.microsoft.com/en-us/dotnet/standard/base-types/regular-expression-language-quick-reference
+-https://regex101.com/library
+-https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions
+-https://www.w3schools.com/jsref/jsref_obj_regexp.asp
+-https://www.jetbrains.com/help/idea/regular-expression-syntax-reference.html
+https://support.google.com/a/answer/1371415?hl=en
