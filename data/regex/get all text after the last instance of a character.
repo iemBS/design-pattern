@@ -1,4 +1,7 @@
 Get All Text After the Last Instance of a Character
+Note:
+  -guidance @
+    -https://regexland.com/regex-match-after-character/
 Main Success Scenario:
   1. Get all text after the last instance of a comma 
     [^,]*$
