@@ -1,0 +1,46 @@
+Compare Code
+Main Success Scenario:
+  1. "Compare in Repo"
+  2. End
+Alternatives:
+  1a. Compare whats actually implemented 
+    1a1. "Compare in Implementation"
+    1a2. Go to step 2
+ 
+ 
+Compare in Repo
+Main Success Senario:
+  1. xxx:fill in
+  
+  
+Compare in Implementation
+Main Success Senario:
+  1. "Compare Relational DB Code"
+  2. End 
+Alternatives:
+  1a. Compare Graph DB Code
+    1a1. "Compare Graph DB Code"
+    1a2. Go to step 2
+  1b. xxx:fill in
+    
+    
+Compare Relational DB Code
+Main Success Scenario:
+  1. Compare routine existence
+  2. Compare routine definitions
+  3. Compare table existence
+  4. Compare table definitions (includes column definitions)
+  5. Compare column existence
+  6. Compare column definitions
+  7. Compare column index existence
+  8. Compare column index definitions
+  9. Compare view existence
+  10. Compare view definitions
+  11. Compare table row count difference
+  12. Compare System Variable differences 
+
+
+Compare Graph DB Code
+Main Success Scenario:
+  1. xxx:fill in
+  
