@@ -1,13 +1,20 @@
 Define Role
 Main Success Scenario:
   1. "Define Attributes"
-  2. "Group Attributes"
-  3. "Convert Attribute Groups to Roles"
-  4. End 
+  2. "Define Interactions"
+  3. "Group Attributes"
+  4. "Convert Attribute Groups to Roles"
+  5. End 
   
 Define Attributes
 Note:
   -Do not note the tasks performed for the accountability
+  -Factor into the attributes:
+    -Interactions with other roles
+    -Scope the role based on interactions with other roles
+    -Use consistent terms across roles to capture perspectives (biz, tech, etc)
+    -Establish consistent terms to identify important themes (security, legal compliance, requs, 
+    -Establish consisten terms to identify important objects
 Main Success Scenario:
   1. Specify tasks done now
   2. Specify tasks expected to be done in the future
@@ -15,6 +22,14 @@ Main Success Scenario:
   4. Specify accountabilities needed in the future 
   5. Specify best practice or industry standard attributes 
   6. End 
+  
+Define Interactions
+Note:
+  -This does not define roles
+  -These interactions will contribute to defining roles, scoping roles, and defining attributes that reference roles
+  -These can be interactions with people or machines (that do tasks)
+Main Success Scenario:
+  1. xxx
   
 Group Attributes
 Main Success Scenario:
