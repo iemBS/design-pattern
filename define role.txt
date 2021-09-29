@@ -2,9 +2,40 @@ Define Role
 Main Success Scenario:
   1. "Define Attributes"
   2. "Define Interactions"
-  3. "Group Attributes"
-  4. "Convert Attribute Groups to Roles"
-  5. End 
+  x. "Group Attributes"
+  x. "Convert Attribute Groups to Roles"
+  x. "Define Role Purpose"
+  x. "Define Role Standard"
+  x. "Define Role per Team"
+  x. "Define Time Allocation Per Role Per Team"
+  x. "Standardize Terminology"
+  x. End 
+  
+Standardize Terminology
+Note:
+  -Having standard terms across all roles
+Main Success Scenario:
+  1. xxx:fill in
+  
+Define Role Purpose
+Main Success Scenario:
+  1. xxx:fill in
+  
+Define Role Standard
+Main Success Scenario:
+  1. xxx:fill in
+
+Define Role per Team
+Note:
+  -A team could be any kind of group
+  -Min allocation for a role per team is xxx
+Main Success Scenario:
+  1. xxx:fill in
+  
+Define Time Allocation Per Role Per Team
+Main Success Scenario:
+  1. Define time span allocation is done over 
+  2. xxx:fill in
   
 Define Attributes
 Note:
@@ -15,13 +46,33 @@ Note:
     -Use consistent terms across roles to capture perspectives (biz, tech, etc)
     -Establish consistent terms to identify important themes (security, legal compliance, requs, 
     -Establish consisten terms to identify important objects
+  -Avoid how to do something when trying to tell 
 Main Success Scenario:
   1. Specify tasks done now
   2. Specify tasks expected to be done in the future
   3. Specify accountabilities needed now
   4. Specify accountabilities needed in the future 
   5. Specify best practice or industry standard attributes 
-  6. End 
+  6. "Specify Accountability Frequency"
+  7. "Specify Accountability Priority"
+  8. "Specify Accountability Duration"
+  9. End 
+  
+Specify Accountability Frequency
+Note:
+  -daily, weekly, monthly quarterly, yearly, random
+Main Success Scenario:
+  1. xxx:fill in
+
+Specify Accountability Priority
+Note:
+  -Needs to get done or can slide
+Main Success Scenario:
+  1. xxx:fill in
+
+Specify Accountability Duration
+Main Success Scenario:
+  1. xxx:fill in
   
 Define Interactions
 Note:
