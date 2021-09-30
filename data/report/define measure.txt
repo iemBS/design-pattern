@@ -12,7 +12,7 @@ Contributing Non-Measure (an attribute):
 <>TASK_RUN_END_TIME
 <>TASK_DURATION_TIME_UNIT
 <>TASK_RUN_ERROR
-<>TASK_ENABLED_STATUS
+<>TASK_ENABLED_STATE
 
 Measure Hierarchy:
 <>TASK_RUN_RAM_USAGE
