@@ -116,3 +116,8 @@ Note
  -An index can incorporate several factors into a single metric 
 Main Success Scenario:
   1. xxx:fill in
+  
+  
+Categorize Measure
+Main Success Scenario:
+  1. xxx:fill in
