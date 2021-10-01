@@ -12,6 +12,7 @@ Contributing Non-Measure (an attribute):
 <>TASK_RUN_END_TIME
 <>TASK_DURATION_TIME_UNIT
 <>TASK_RUN_ERROR
+<>TASK_RUN_STATUS (values of RUNNING, FAILED, SUCCEEDED)
 <>TASK_ENABLED_STATE
 
 Measure Hierarchy:
