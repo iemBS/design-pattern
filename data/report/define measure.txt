@@ -45,7 +45,25 @@ Measure Hierarchy:
 <><><><><>AVG_TASK_COMPLETION_PCT = SUM(TASK_COMPLETION_PCT) / # of times the TASK_COMPLETION_PCT was recorded 
 
 **HARDWARE MEASURES**
+
+Contributing Non-Measure (an attribute):
+<>RAM_USAGE
+<>CPU_USAGE
+<>DSK_USAGE
+
+Measure Hierarchy:
+<>RAM_USAGE_AVG = AVG(RAM_USAGE)
+<>CPU_USAGE_AVG = AVG(CPU_USAGE)
+<>DSK_USAGE_AVG = AVG(DSK_USAGE)
 xxx:fill in
+
+
+**DATA CHANGE MEASURES**
+xxx:fill in
+
+**DATA QUALITY MEASURES**
+xxx:fill in
+
 
 
 Define Measure
