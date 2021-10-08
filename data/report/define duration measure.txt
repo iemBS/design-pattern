@@ -1,0 +1,21 @@
+Define Duration Measure
+Main Success Scenario:
+  1. "Define Time Unit Used"
+  x. xxx:fill in 
+
+
+Define Time Unit Used
+Note:
+  -3 digits left of decimal point avoid commas
+  -no digits right of decimal point avoid fractional numbers
+Main Success Scenario:
+  1. "Determine Dynamic Time Unit Need"
+  2. Determine if a time unit standard is already established
+  3. Determine if time units need to align with another time measure
+  4. Determine time unit that provides NNN.0 value format 90% of the time
+  5. End 
+  
+  
+Determine Dynamic Time Unit Need
+Main Success Scenario:
+  x. xxx:fill in 
