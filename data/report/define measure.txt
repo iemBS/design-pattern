@@ -14,6 +14,7 @@ Contributing Non-Measure (an attribute):
 <>TASK_RUN_ERROR
 <>TASK_RUN_STATUS (values of RUNNING, FAILED, SUCCEEDED)
 <>TASK_ENABLED_STATE
+<>PROCESS_TASK_ORDER
 
 Measure Hierarchy:
 <>TASK_RUN_RAM_USAGE
