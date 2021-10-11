@@ -162,3 +162,14 @@ Main Success Scenario:
 Categorize Measure
 Main Success Scenario:
   1. xxx:fill in
+  
+  
+**Chart type**
+<>X & Y chart
+<>xxx
+  
+  
+**Put measures on a chart**
+<>xxx
+
+
