@@ -164,12 +164,73 @@ Main Success Scenario:
   1. xxx:fill in
   
   
-**Chart type**
-<>X & Y chart
+**Chart attribute**
+<># of variables
+<>min & max value per variable 
+<><>set vs dynamic
+<>legend
+<>variable label
+<>variable unit
+<>value display period
+<>title
+<>dynamic vs scheduled refresh vs on-demand refresh
+
+**Chart quality**
 <>xxx
+
   
+**Chart type**
+-chart references
+--https://support.microsoft.com/en-us/office/available-chart-types-in-office-a6187218-807e-4103-9e0a-27cdb19afb90
+--https://support.google.com/docs/answer/190718?hl=en#zippy=
+--https://flowingdata.com/chart-types/
+--https://en.wikipedia.org/wiki/Chart
+--https://chartio.com/learn/charts/essential-chart-types-for-data-visualization/
+-https://blog.hubspot.com/marketing/types-of-graphs-for-data-visualization
+<>Line 
+<>Bar 
+<><>Clustered 
+<><><>3-D
+<><><>2-D
+<><>Stacked 
+<><><>3-D
+<><><>2-D
+<>Pie
+<><><>3-D
+<><><>2-D
+<>Donut
+<>Area
+<>Funnel
+<>Column
+<><>Waterfall
+<>Stock
+<>Radar
+<>Box and Whisker/Candlestick
+<>Histogram
+<>Sunburst
+<>Surface
+<>Map
+<><>Density 
+<><>Tree 
+<>Scatter Plot
+<>Gantt 
+<>Bubble
+<>Guage
+
+*Goal per Chart Type**
+<>xxx
+
+**Pros & Cons per Chart Type**
+<>xxx
+
+**Chart combination**
+<>overlap
+<><>xxx
+<>next to
+<><>xxx
   
 **Put measures on a chart**
 <>xxx
+
 
 
