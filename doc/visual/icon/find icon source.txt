@@ -1,6 +1,40 @@
 Find Icon Source
-Note:
-  -guidance @ 
-    -https://aws.amazon.com/architecture/icons/
 Main Success Scenario:
-  1. xxx:fill in
+  1. "Find Company Specific Icon"
+Alternatives:
+  1a. "Find Government Specific Icon"
+  1b. "Find Graphic Artist Made Icon"
+
+
+Find Graphic Artist Made Icon
+Main Success Scenario:
+  1. https://www.flaticon.com/search
+Alternatives:
+  1. xxx:fill in 
+  
+  
+Find Government Specific Icon
+Main Success Scenario:
+  1. Find US Federal Government specific icon
+    https://designsystem.digital.gov/components/icon/
+  2. End
+Alternatives:
+  1a. xxx:fill in 
+  
+ 
+Find Company Specific Icon
+Main Success Scenario:
+  1. Find Microsoft specific icon
+    https://docs.microsoft.com/en-us/windows/apps/design/style/app-icons-and-logos
+  2. End 
+Alternatives:
+  1a. Find Amazon specific icon
+    1a1. https://aws.amazon.com/architecture/icons/
+    1a2. Go to step 2. 
+  1b. Find Apple specific icon
+    1b1. https://developer.apple.com/design/human-interface-guidelines/ios/icons-and-images/system-icons/
+    1b2. Go to step 2
+  1c. Find MySQL specific icon
+    1c1. https://www.mysql.com/about/legal/logos.html
+    1c2. Go to step 2
+  1d. xxx:fill in 
