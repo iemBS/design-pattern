@@ -1,0 +1,6 @@
+Find Icon Source
+Note:
+  -guidance @ 
+    -https://aws.amazon.com/architecture/icons/
+Main Success Scenario:
+  1. xxx:fill in
