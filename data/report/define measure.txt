@@ -50,6 +50,18 @@ Measure Hierarchy:
 <><><><>TASK_FAST = where TASK_DURATION < AVG_TASK_DURATION
 <><><><><>AVG_TASK_COMPLETION_PCT = SUM(TASK_COMPLETION_PCT) / # of times the TASK_COMPLETION_PCT was recorded 
 
+**SOFTWARE CODE MEASURES**
+
+Measure Hierarchy:
+<>METHOD_COUNT
+<>CLASS_COUNT
+<>PROPERTY_COUNT
+<>VARIABLE_COUNT 
+<>METHOD_LINE_COUNT
+<>METHOD_CALL_COUNT = # of times a method was called from all other methods
+<><>AVG_METHOD_LINE_COUNT
+<>xxx:fill in
+
 **HARDWARE MEASURES**
 
 Contributing Non-Measure (an attribute):
