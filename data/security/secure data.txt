@@ -358,7 +358,7 @@ Main Success Scenario:
   1. xxx:fill in
   
  
-Determine to Obfuscate, Hide, Deny Access to, or Exclude Data
+Determine to Obfuscate, Hide, Deny Access to, Exclude Data, Request Temp Access, or Approve per Use Access
 Note:
   -A reference value could be an obfuscated or non-obfuscated value. It is just focused on the existence of some value that is a consistent obfuscated value throughout the data system. So, If "Clark Kent" is always obfuscated as "XYZ123". then the data could be analyzed in the same way, whether obfuscated or not.
   -Pros and Cons of each way of securtizing data (DOHE)
