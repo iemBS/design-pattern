@@ -75,6 +75,14 @@ Measure Hierarchy:
 <>DSK_USAGE_AVG = AVG(DSK_USAGE)
 xxx:fill in
 
+**DATA VOLUME MEASURES**
+Measure Hierarchy:
+<># of records searched
+<># of records returned
+<>MBs of data searched
+<>MBs of data returned 
+<>xxx:fill in 
+
 
 **DATA CHANGE MEASURES**
 Measure Hierarchy:
