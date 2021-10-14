@@ -12,3 +12,8 @@ Types of sentences (create mnemonic names for each type of sentence)
 -xxx:fill in
 
 Have a consitent name. If that consistent name is long, then establish the abbreviation at first mention, then use the abbreviation consistently
+
+
+See Example
+-I setup a 10:45 am project change clarifiation meeting  
+-xxx:fill in 
