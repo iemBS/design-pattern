@@ -3,6 +3,9 @@ Abbreviations
 -MoM = Month over Month = Compare number on a date to the number on the same date a month ago
 -WoW = Week over Week = Compare number on a day to the number on the same day a week ago
 
+Other
+-PULL_FREQUENCY = An attribute that is needed for measures where measures can change from moment to moment and changing the pull frequency can cause large changes in the data. 
+
 **TASK MEASURES**
 
 Contributing Non-Measure (an attribute):
@@ -68,11 +71,14 @@ Contributing Non-Measure (an attribute):
 <>RAM_USAGE
 <>CPU_USAGE
 <>DSK_USAGE
+<>NET_USAGE
+<>PULL_FREQUENCY
 
 Measure Hierarchy:
 <>RAM_USAGE_AVG = AVG(RAM_USAGE)
 <>CPU_USAGE_AVG = AVG(CPU_USAGE)
 <>DSK_USAGE_AVG = AVG(DSK_USAGE)
+<>NET_USAGE_AVG = AVG(NET_USAGE)
 xxx:fill in
 
 **DATA VOLUME MEASURES**
@@ -105,6 +111,7 @@ Contributing Non-Measure (an attribute):
 <>DB_ROLE_USED = DB Role used to run a query
 <>DB_USER_USED = DB User used to run a query
 <>QUERY_RUN = Run of a query 
+<>PULL_FREQUENCY
 
 Measure Hierarchy:
 <>DB_ROLE_COUNT = COUNT(DB_ROLE) = Count of roles in DB
@@ -204,6 +211,11 @@ Categorize Measure
 Main Success Scenario:
   1. xxx:fill in
   
+
+**Relate Measure**
+-RAM_USAGE, CPU_USAGE, DSK_USAGE, and NET_USAGE = searching for haredware resource impact on other hardware resources
+-TASK_RUN_START_TIME, TASK_RUN_END_TIME, RAM_USAGE, CPU_USAGE, DSK_USAGE, and NET_USAGE = See hardware resource use while a task runs. Need to define haredware measure update frequency. 
+  
   
 **Chart attribute**
 <># of variables
@@ -270,7 +282,7 @@ Main Success Scenario:
 <>next to
 <><>xxx
   
-**Put measures on a chart**
+**Map Measure to Chart**
 <>xxx
 
 
