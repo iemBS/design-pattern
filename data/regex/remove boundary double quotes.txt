@@ -1,0 +1,7 @@
+Remove Boundary Double Quotes
+Note:
+  -guidance @ 
+    -https://regex101.com/
+    -https://stackoverflow.com/questions/19156148/i-want-to-remove-double-quotes-from-a-string/19156197
+Main Success Scenario:
+  1. ^"(.+)"$
