@@ -91,9 +91,14 @@ Measure Hierarchy:
 
 
 **DATA CHANGE MEASURES**
+Contributing Non-Measure (an attribute):
+<>DATA_CHANGE_LEVEL = change at Field or Record level
+<>DATA_CHANGE_TIME = time the data was changed 
+
 Measure Hierarchy:
 <>RECORD_INSERT_COUNT
-<>
+<>RECORD_UPDATE_COUNT
+<>RECORD_DELETE_COUNT
 xxx:fill in
 
 **DATA QUALITY MEASURES**
