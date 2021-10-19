@@ -1,0 +1,23 @@
+DeFine Task
+Main Success Scenario:
+  1. 
+  x. "Define Possible Run Status"
+  x. xxx:fill in 
+  x. "Config Task"
+  
+  
+Define Possible Run Status
+Main Success Scenario:
+  x. xxx:fill in 
+  
+  
+Config Task
+Main Success Scenario:
+  1. "Set Task Able Status"
+  x. xxx:fill in
+  
+
+Set Task Able Status 
+Main Success Scenario:
+  1. Set "ABLE_STATUS" to "ENABLED" or "DISABLED"
+  x. xxx:fill in 
