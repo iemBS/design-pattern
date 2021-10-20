@@ -1,11 +1,19 @@
-DeFine Task
+Define Task
+Note:
+  -A task here is refering to a step in a process that is within code 
 Main Success Scenario:
   1. 
+  x. "Define Task Name"
   x. "Define Possible Run Status"
   x. xxx:fill in 
   x. "Config Task"
   
+
+Define Task Name
+Main Success Scenario:
+  x. xxx:fill in 
   
+
 Define Possible Run Status
 Main Success Scenario:
   x. xxx:fill in 
