@@ -258,6 +258,9 @@ Main Success Scenario:
 <><><>3-D
 <><><>2-D
 <><>Waterfall
+<>Geo
+<><>Geo with Markers
+<><><>ex: Internet Usage per Country @ https://support.google.com/docs/answer/9143071#zippy=%2Cgeo-chart-with-markers
 <>Pie
 <><><>3-D
 <><><>2-D
@@ -274,10 +277,14 @@ Main Success Scenario:
 <>Map
 <><>Density 
 <><>Tree 
+<><><>req: Have label hierarchy, bottom level labels have associated values that can be aggregated to higher levels in label hierarchy, all bottom level values have values
+<><><>ex: College Major distribution @ https://support.google.com/docs/answer/9146947#zippy=%2Clunch-menu%2Ccollege-majors
+<><><>ex: Lunch Menu Cost @ https://support.google.com/docs/answer/9146947#zippy=%2Clunch-menu
 <>Scatter Plot
 <>Gantt 
+<><>ex: timeline @ xxx:fill in 
 <>Bubble
-<>Guage
+<>Gauge
 
 *Goal per Chart Type**
 <>xxx
