@@ -229,9 +229,11 @@ Main Success Scenario:
 <>legend
 <>variable label
 <>variable unit
-<>value display period
 <>title
 <>dynamic vs scheduled refresh vs on-demand refresh
+<>if using time
+  -value display period
+  -period = granularity of time data values, aggregation can aggregate a greater number of values for smaller time periods to fewer values for larger time periods
 
 **Chart quality**
 <>xxx
