@@ -219,7 +219,7 @@ Main Success Scenario:
 
 **Relate Measure**
 -RAM_USAGE, CPU_USAGE, DSK_USAGE, and NET_USAGE = searching for haredware resource impact on other hardware resources
--TASK_RUN_START_TIME, TASK_RUN_END_TIME, RAM_USAGE, CPU_USAGE, DSK_USAGE, and NET_USAGE = See hardware resource use while a task runs. Need to define haredware measure update frequency. 
+-TASK_RUN_START_TIME, TASK_RUN_END_TIME, RAM_USAGE, CPU_USAGE, DSK_USAGE, and NET_USAGE = See hardware resource use while a task runs. Need to define hardware measure update frequency. 
   
   
 **Chart attribute**
@@ -271,6 +271,7 @@ Main Success Scenario:
 <><>Waterfall
 <>Stock
 <>Radar
+<><>req: Has 3 or more variables
 <>Box and Whisker/Candlestick
 <>Sunburst
 <>Surface
@@ -284,6 +285,7 @@ Main Success Scenario:
 <>Gantt 
 <><>ex: timeline @ xxx:fill in 
 <>Bubble
+<><>req: Has 3 variables
 <>Gauge
 
 *Goal per Chart Type**
