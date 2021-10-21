@@ -252,9 +252,12 @@ Main Success Scenario:
 <><>Clustered 
 <><><>3-D
 <><><>2-D
+<><>Histogram
+<><><>ex: Test Scores @ https://support.google.com/docs/answer/9146867#zippy=%2Ctest-scores
 <><>Stacked 
 <><><>3-D
 <><><>2-D
+<><>Waterfall
 <>Pie
 <><><>3-D
 <><><>2-D
@@ -266,7 +269,6 @@ Main Success Scenario:
 <>Stock
 <>Radar
 <>Box and Whisker/Candlestick
-<>Histogram
 <>Sunburst
 <>Surface
 <>Map
