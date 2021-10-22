@@ -2,11 +2,34 @@ Define Task
 Note:
   -A task here is refering to a step in a process that is within code 
 Main Success Scenario:
-  1. 
   x. "Define Task Name"
   x. "Define Possible Run Status"
+  x. "Define Task Status"
+  x. "Define Task Run"
   x. xxx:fill in 
   x. "Config Task"
+  
+  
+Define Task Run
+Main Success Scenario:
+  1. "Define Task Run Status"
+  x. xxx:fill i
+  
+  
+Define Task Run Status
+Main Success Scenario:
+  1. Define a config location outside of the Task code where the allowed run status values are set
+  2. Only allow values of RUNNING, FAILED, SUCCESS
+  3. End 
+  
+  
+Define Task Status
+Pre-Conditions:
+  -For a task to own its own status, it needs to be controlled by the task
+Main Success Scenario:
+  1. Define a config location outside of the Task code where the status is set
+  2. Only allow values of 1 (enabled) or 0 (disabled). 
+  3. End 
   
 
 Define Task Name
@@ -21,11 +44,18 @@ Main Success Scenario:
   
 Config Task
 Main Success Scenario:
-  1. "Set Task Able Status"
+  1. "Config Task Status"
+  2. "Config Task Run Status"
   x. xxx:fill in
   
 
-Set Task Able Status 
+Config Task Status 
 Main Success Scenario:
-  1. Set "ABLE_STATUS" to "ENABLED" or "DISABLED"
-  x. xxx:fill in 
+  1. Set "TASK_STATUS" to "ENABLED" or "DISABLED"
+  2. End 
+  
+
+Config Task Run Status
+Main Success Scenario:
+  1. Set "TASK_RUN_STATUS_LIST" to "RUNNING,FAILED,SUCCESS"
+  2. End 
