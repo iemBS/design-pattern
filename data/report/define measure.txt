@@ -306,5 +306,17 @@ Main Success Scenario:
 **Evolution of Task Measure (handy for breaking up into releases)
 <>xxx:fill in 
 <>If a task is run more than once in a process a PROCESS_RUN_ID will not help. Use a TASK_RUN_ID to represent a specific run of a task for PROCESS_RUN_ID and to associate to the TASK_RUN_START_TIME and TASK_RUN_END_TIME for the task run. 
+<>Associate other types of measures to the tasks
+<><>Associate Hardware Resource Usage measures
+<><><>DSK_USAGE
+<><><>RAM_USAGE
+<><><>NET_USAGE
+<><><>CPU_USAGE
+<><>Associate Task Execution Measures
+<><><>ITEM_COUNT
+<><><>TABLE_ROW_COUNT
+<><><>TABLE_INSERT_ROW_COUNT
+<><><>TABLE_UPDATE_ROW_COUNT
+xxx:fill in
 
  
