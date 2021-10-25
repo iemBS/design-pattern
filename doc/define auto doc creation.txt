@@ -1,0 +1,5 @@
+Define Auto Doc Generation
+Note:
+  -Auto doc generation of code needs to provide a useful doc, drive good code creation, prevent stale code comments, and not be a burden to config. 
+Main Success Scenario:
+  1. xxx:fill in 
