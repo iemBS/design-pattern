@@ -32,7 +32,7 @@ Main Success Scenario:
   3. End 
   
 
-Define Task Name
+Define Task Name 
 Main Success Scenario:
   x. xxx:fill in 
   
@@ -59,3 +59,37 @@ Config Task Run Status
 Main Success Scenario:
   1. Set "TASK_RUN_STATUS_LIST" to "RUNNING,FAILED,SUCCESS"
   2. End 
+  
+  
+
+-Task Run ID of Parent Task passed to Child Task
+  -Parent and Child tasks are action objects like a relational DB procedure, glue job, lambda function, Python method, etc
+-Task Run Start Time and Task Name noted 
+  -Time is to a unit where we will not have to quess what is happening with the time
+-Sub-Task Run Start Time and Sub-Task Name noted
+  -Time is to a unit where we will not have to quess what is happening with the time
+-Sub-Task Run End Time and Su-Task Name noted
+  -Time is to a unit where we will not have to quess what is happening with the time
+-Task Run End Time and Task Name noted
+  -Time is to a unit where we will not have to quess what is happening with the time
+
+
+Minimize Tracking Code with each Task Creation
+Pre-Conditions:
+  -Task Name, Task Run Start Time, Task Run End Time, Task Run Final Status, and Task Status is determined by a layer outside of a task
+  -Custom code within the task is NOT used to provide the Task Name, Task Run Start Time, Task Run End Time, Task Run Final Status, and Task Status
+  -Task Status exists in a config location and not in code. 
+    -Possible Task Status values are configured in one location and stored in the TASK_STATUS_LIST with columns of TASK_STATUS_ID and TASK_STATUS_NAME. 
+      -0, DISABLED
+      -1, ENABLED
+    -The TASK_STATUS_ID property for a TASK in the config location holds the currently configured status. Using TASK_STATUS_ID instead of TASK_STATUS_NAME as the TASK property that defines if a task is enabled or disabled reduces the chance of noting an incorrect task status
+  -A TASK_RUN pulls the TASK_STATUS_ID from the config location to know if it is enabled or disabled
+  -No matter what point the task run exits the task code, the accurate Task Run End Time is seen by the outside layer
+    -That time is stored in the TASK_RUN_END_TIME property of a TASK_RUN
+  -Same property that defines the name of the action object is the same property that holds the Task Name
+  -A Sub-Task is a block of code within a Task (aka action object)
+  -The simplist and same bit of code is used to mark the start and end of a Sub-Task. 
+    -A period will be appended to the parent task name. Then the specified sub-task name will be appended to that. So, you have [PARENT_TASK_NAME].[SUB_TASK_NAME] as the full sub-task name.
+    -That call needs to take in TASK_RUN_ID of the current task
+Main Success Scenario:
+  1. xxx:fill in
