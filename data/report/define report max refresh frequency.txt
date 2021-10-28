@@ -1,0 +1,5 @@
+Define Report Max Refresh Frequency
+Note: 
+  -Pulling data from a source for a report too frequently can waste hardware resources and pull data that has not yet changed.
+Main Success Scenario:
+  1. xxx:fill in 
