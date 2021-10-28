@@ -155,11 +155,44 @@ Main Success Scenario:
   
 Define Reporting Goal
 Main Success Scenario:
+  1. "Understand Report Refresh Periods"
+  2. "Understand Metric Comparison Periods"
+  x. xxx:fill in
+  
+  
+Understand Report Refresh Periods
+Note:
+  -Common reporting refreshes:
+    -daily
+    -weekly
+    -monthly
+    -quarterly
+    -every 6 months
+    -annually
+Main Success Scenario:
   1. xxx:fill in
   
   
+Understand Metric Comparison Periods
+Note:
+  -Common comparison periods:
+    -today to yesterday
+    -this week to last week 
+    -this month to previous month
+    -this quarter to previous quarter
+    -this 6 months to the previous 6 months
+    -this year to last year
+Main Success Scenario:
+  1. Note periods to compare
+  2. Note fixed periods
+  3. End
+Alternatives:
+  2a. Note moving periods
+    2a1. xxx:fill in
+    2a2. Go to step 3
+  
+  
 Define Metric Role in Reporting Goal
-Define Reporting Goal
 Main Success Scenario:
   1. xxx:fill in
   
