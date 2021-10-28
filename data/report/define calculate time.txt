@@ -1,0 +1,14 @@
+Define Calculate Time
+Note:
+  -Calculate once and store result, reduces CPU and RAM resources
+  -Calculate every time allows for past calculations to be changed
+  -Having two process where process 1 calculates only new data and stores old data and process 2 allows you to re-calculate old data when needed, is the best of both worlds. 
+Main Success Scenario:
+  1. For new data, calculate and get new results 
+  2. For past data, retrieve past calculation result
+  3. Pull calculation time
+  4. End 
+Alternatives:
+  2a. Re-calculate past data becasue of change to old data or calculation
+    2a1. xxx:fill in
+    2a2. Go to step 4
