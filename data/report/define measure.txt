@@ -252,7 +252,12 @@ Main Success Scenario:
 
 **Relate Measure**
 -RAM_USAGE, CPU_USAGE, DSK_USAGE, and NET_USAGE = searching for haredware resource impact on other hardware resources
+--Se impact of hardware resource attributes on each other
+-TASK_RUN_START_TIME, TASK_RUN_DURATION
+--See impact of task run start time on the duration of a task
 -TASK_RUN_START_TIME, TASK_RUN_END_TIME, RAM_USAGE, CPU_USAGE, DSK_USAGE, and NET_USAGE = See hardware resource use while a task runs. Need to define hardware measure update frequency. 
+--See impact of hardware resource % usage of max and task run start time on task duration
+
   
   
 **Chart attribute**
@@ -351,5 +356,9 @@ Main Success Scenario:
 <><><>TABLE_INSERT_ROW_COUNT
 <><><>TABLE_UPDATE_ROW_COUNT
 xxx:fill in
+
+
+**Evolution of Task Measure via charts (handy for breaking up into releases)
+-xxx:fill in
 
  
