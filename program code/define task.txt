@@ -13,7 +13,20 @@ Main Success Scenario:
 Define Task Run
 Main Success Scenario:
   1. "Define Task Run Status"
-  x. xxx:fill i
+  2. "Define Task Run Start and End Time"
+  x. xxx:fill in
+  
+  
+Define Task Run Start and End Time
+Main Success Scenario:
+  1. Format time as YYYY-MM-DDTHH:MM:SS+XX:XX
+    ex: 1997-07-16T19:20:30+01:00
+  2. End 
+Alternatives:
+  1a. Include milliseconds
+    1a1. Format time as YYYY-MM-DDTHH:MM:SS.FFF+XX:XX
+      ex: 1997-07-16T19:20:30.435+01:00
+    1a2. Go to step 2
   
   
 Define Task Run Status
