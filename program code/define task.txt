@@ -26,7 +26,7 @@ Main Success Scenario:
     PROCESS_RUN_ID
     TASK_ID or TASK_NAME
     TASK_RUN_START_TIME or TASK_RUN_END_TIME
-    TASK_TRACK_LOCATION
+    TASK_LOG
   2. Confirm TASK_RUN_ID is unique per run
   3. Confirm PROCESS_RUN_ID is unique per run
   4. Confirm TASK_ID is unique across all tasks 
