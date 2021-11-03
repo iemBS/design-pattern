@@ -13,12 +13,17 @@ Contributing Non-Measure (an attribute):
 <>PROCESS_RUN_ID = Uniquely identifies a run of a group of tasks
 <>TASK_RUN_START_TIME = Start time of a specific run of a task
 <>TASK_RUN_END_TIME = End time of a specific run of a task
-<>TASK_DURATION_TIME_UNIT = Time unit to use for task run duration
+<>TASK_RUN_DURATION_TIME_UNIT = Time unit to use for task run duration
 <>TASK_RUN_ERROR = Error that occurred for a specific run of a task
 <>TASK_RUN_STATUS = Has values of RUNNING, FAILED, SUCCEEDED. 
-<>TASK_ENABLED_STATE = Indicates if task is able to run
+<>TASK_STATUS = Indicates if task is able to run
 <>PROCESS_TASK_ORDER = Provides a number for a task to indicate the excution order of the tasks within the process
-<>TASK_DURATION_LIMIT = xxx
+<>TASK_RUN_DURATION_LIMIT = Set in config per task. In same time units as TASK_RUN_DURATION.
+<>TASK_RAM_USAGE_LIMIT = Set in config. Per task if possible.
+<>TASK_NET_USAGE_LIMIT = Set in config. Per task if possible.
+<>TASK_DSK_USAGE_LIMIT = Set in config. Per task if possible.
+<>TASK_CPU_USAGE_LIMIT = Set in config. Per task if possible.
+<>TASK_RUN_START_TIME_MAX_LIMIT = Set in config per task. Will be compared to TASK_RUN_END_TIME_MAX to see if run on schedule. This is part of a dynamic limit, instead of a static limit. 
 
 Measure Hierarchy:
 <>TASK_RUN_RAM_USAGE
@@ -26,7 +31,6 @@ Measure Hierarchy:
 <>TASK_RUN_DSK_USAGE
 <>TASK_RUN_RECORD_COUNT
 <>TASK_RUN_DATA_VOLUME_MB
-<>TASK_RAM_USAGE_LIMIT
 <>TASK_RUN_END_TIME_MAX = MAX(TASK_RUN_END_TIME) GROUP BY TASK_ID = See when the last refresh was completed for a task
 <><>TASK_RUN_START_TIME_MIN = Expectation of a scheduled run. Translated to be a min time. This would also be dynamic to check against TASK_RUN_START_TIME on a schedule.
 <><>TASK_DISTINCT_COUNT = DISTINCT_COUNT(TASK_ID) = Distinct count of tasks regardless of task to process relation
@@ -37,22 +41,22 @@ Measure Hierarchy:
 <><>TASK_RUN_ERROR_COUNT = COUNT(PROCESS_RUN_ID) WHERE TASK_RUN_ERROR EXISTS
 <><>PROCESS_TASK_RUN_DURATION = TASK_RUN_END_TIME - TASK_RUN_START_TIME GROUP BY PROCESS_RUN_ID
 <><>PROCESS_TASK_RUN_DURATION_MIN = MIN(PROCESS_TASK_RUN_DURATION)
-<><>PROCESS_TASK_DURATION_MAX = MAX(PROCESS_TASK_RUN_DURATION)
+<><>PROCESS_TASK_RUN_DURATION_MAX = MAX(PROCESS_TASK_RUN_DURATION)
 <><><>PROCESS_RUN_DURATION = SUM(PROCESS_TASK_RUN_DURATION) GROUP BY PROCESS_RUN_ID
 *<><>TASK_RUN_COMPLETION_STATUS = where TASK_RUN_END_TIME not exist or TASK_RUN_DURATION is 0
 <><>TASK_RUN_OVERLAP_STATUS = where TASK_1_RUN_END_TIME > TASK_2_RUN_START_TIME WHERE (PROCESS_TASK_1_ORDER = PROCESS_TASK_2_ORDER-1) GROUP BY PROCESS_RUN_ID
-<><>TASK_RUN_DURATION_LIMIT_EXCEEDED_STATUS = where PROCESS_TASK_RUN_DURATION > TASK_DURATION_LIMIT
+<><>TASK_RUN_DURATION_LIMIT_EXCEEDED_STATUS = where PROCESS_TASK_RUN_DURATION > TASK_RUN_DURATION_LIMIT
 <><>AVG_TASK_RECORD_COUNT = SUM(TASK_RUN_RECORD_COUNT) / TASK_RUN_COUNT = Avg task count regardless of task to process relation
 <><>AVG_TASK_DATA_VOLUME_MB = SUM(TASK_RUN_DATA_VOLUME_MB) / TASK_RUN_COUNT
 <><><>AVG_RAM_USAGE = SUM(TASK_RUN_RAM_USAGE) / TASK_RUN_COUNT
 <><><>TASK_COMPLETE_COUNT = COUNT(PROCESS_RUN_ID where TASK_RUN_COMPLETION_STATUS is 1)
-<><><>AVG_TASK_DURATION = SUM(TASK_DURATION) / TASK_COUNT
+<><><>AVG_TASK_RUN_DURATION = SUM(TASK_RUN_DURATION) / TASK_COUNT
 <><><>TASK_RECORD_COUNT_HIGH = where TASK_RECORD_COUNT > AVG_TASK_RECORD_COUNT
 <><><>TASK_DATA_VOLUME_MB_HIGH = = where TASK_DATA_VOLUME_MB > AVG_TASK_DATA_VOLUME_MB
 <><><>TASK_ERROR_PCT = TASK_ERROR_COUNT / TASK_COUNT
 <><><><>TASK_COMPLETION_PCT = TASK_COMPLETE_COUNT / TASK_COUNT
-<><><><>TASK_SLOW = where TASK_DURATION > AVG_TASK_DURATION
-<><><><>TASK_FAST = where TASK_DURATION < AVG_TASK_DURATION
+<><><><>TASK_SLOW = where TASK_RUN_DURATION > AVG_TASK_RUN_DURATION
+<><><><>TASK_FAST = where TASK_RUN_DURATION < AVG_TASK_RUN_DURATION
 <><><><><>AVG_TASK_COMPLETION_PCT = SUM(TASK_COMPLETION_PCT) / # of times the TASK_COMPLETION_PCT was recorded 
 
 **SOFTWARE CODE MEASURES**
