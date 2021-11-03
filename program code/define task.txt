@@ -2,6 +2,7 @@ Define Task
 Note:
   -A task here is refering to a step in a process that is within code 
 Main Success Scenario:
+  x. "Define Process Name"
   x. "Define Task Name"
   x. "Define Possible Run Status"
   x. "Define Task Status"
@@ -9,6 +10,11 @@ Main Success Scenario:
   x. "Store Task Run Data"
   x. xxx:fill in 
   x. "Config Task"
+  
+  
+Define Process Name
+Main Success Scenario:
+  1. xxx:fill in 
   
   
 Store Task Run Data
@@ -21,6 +27,18 @@ Main Success Scenario:
     TASK_ID or TASK_NAME
     TASK_RUN_START_TIME or TASK_RUN_END_TIME
     TASK_TRACK_LOCATION
+  2. Confirm TASK_RUN_ID is unique per run
+  3. Confirm PROCESS_RUN_ID is unique per run
+  4. Confirm TASK_ID is unique across all tasks 
+  5. If TASK_NAME is used and no TASK_ID is used, confirm TASK_NAME is unique across all tasks
+  6. "Define Task Run Data Removal"
+  7. End 
+  
+  
+Define Task Run Data Removal
+Main Success Scenario:
+  1. TASK_RUN_END_TIME precedes any task measure
+  x. END 
     
   
 Define Task Run
@@ -69,6 +87,27 @@ Main Success Scenario:
   
   
 Config Task
+Main Success Scenario:
+  x. "Config Static Task Values"
+  x. "Config Static Task Limits"
+  x. "Config Dynamic Task Limits"
+  x. End 
+ 
+ 
+Config Static Task Limits
+Main Success Scenario:
+  1. xxx:Fill in 
+
+
+Config Dynamic Task Limits
+Note:
+  -Frequency can be static but the time related to the frequency is dynamic
+Main Success Scenario:
+  1. Config run frequency per task so TASK_RUN_END_TIME_MAX_LIMIT can be compared to TASK_RUN_END_TIME_MAX
+  2. End 
+
+  
+Config Static Task Values
 Main Success Scenario:
   1. "Config Task Status"
   2. "Config Task Run Status"
