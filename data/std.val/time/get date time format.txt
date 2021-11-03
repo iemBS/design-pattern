@@ -1,1 +1,6 @@
-xxx:fill in
+Get Date Time Format
+Note:
+  -guidance @ 
+    -https://www.w3.org/TR/NOTE-datetime
+Main Success Scenario:
+  1. xxx:fill in
