@@ -1,0 +1,37 @@
+Determine Login to Run As
+Main Success Scenario:
+  1. "Define Needed Login Permissions"
+  2. "Define Unsafe Login Permissions"
+  3. "Use Specific Login"
+  4. "Run with Identifiable Login"
+  
+  
+Define Needed Login Permissions
+Note:
+  -Knowing the permissions needed for the Login may allow the use of an existing Login with adequate perissions
+Main Success Scenario:
+  1. xxx:fill in 
+  
+  
+Define Unsafe Login Permissions
+Note:
+  -Knowing the permissions that are unsafe for a Login to have may allow the use of an existing Login 
+Main Success Scenario:
+  1. xxx:fill in 
+  
+  
+Run with Identifiable Login
+Note:
+  -Having code run with a login that helps identify the runs, can help with monitoring and prevent unwanted parallel executions 
+Main Success Scenario:
+  1. xxx:fill in 
+ 
+ 
+Use Specific Login
+Note:
+  -Management or a security framework may require the use of specific logins 
+Main Success Scenario:
+  1. xxx:fill in 
+  
+
+
