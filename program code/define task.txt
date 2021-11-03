@@ -6,9 +6,22 @@ Main Success Scenario:
   x. "Define Possible Run Status"
   x. "Define Task Status"
   x. "Define Task Run"
+  x. "Store Task Run Data"
   x. xxx:fill in 
   x. "Config Task"
   
+  
+Store Task Run Data
+Main Success Scenario:
+  1. Required attributes for each entry stored
+    TASK_STATUS_ID
+    TASK_RUN_STATUS_ID
+    TASK_RUN_ID
+    PROCESS_RUN_ID
+    TASK_ID or TASK_NAME
+    TASK_RUN_START_TIME or TASK_RUN_END_TIME
+    TASK_TRACK_LOCATION
+    
   
 Define Task Run
 Main Success Scenario:
