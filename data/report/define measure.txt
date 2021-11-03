@@ -28,6 +28,7 @@ Measure Hierarchy:
 <>TASK_RUN_DATA_VOLUME_MB
 <>TASK_RAM_USAGE_LIMIT
 <>TASK_RUN_END_TIME_MAX = MAX(TASK_RUN_END_TIME) GROUP BY TASK_ID = See when the last refresh was completed for a task
+<><>TASK_RUN_START_TIME_MIN = Expectation of a scheduled run. Translated to be a min time. This would also be dynamic to check against TASK_RUN_START_TIME on a schedule.
 <><>TASK_DISTINCT_COUNT = DISTINCT_COUNT(TASK_ID) = Distinct count of tasks regardless of task to process relation
 <><>TASK_PROCESS_DISTINCT_COUNT = DISTINCT_COUNT(PROCESS_RUN_ID) GROUP BY TASK_ID = # of processes using specific task
 <><>PROCESS_RUN_TASK_COUNT = COUNT(PROCESS_RUN_ID) GROUP BY PROCESS_RUN_ID = # of tasks executed in specific process run
