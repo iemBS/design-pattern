@@ -27,6 +27,7 @@ Contributing Non-Measure (an attribute):
 <>TASK_DSK_USAGE_LIMIT = Set in config. Per task if possible.
 <>TASK_CPU_USAGE_LIMIT = Set in config. Per task if possible.
 <>TASK_RUN_START_TIME_MAX_LIMIT = Set in config per task. Will be compared to TASK_RUN_END_TIME_MAX to see if run on schedule. This is part of a dynamic limit, instead of a static limit. 
+<>PROCESS_TASK_RUN_COUNT_LIMIT = Set dynamically based on a task having TASK_STATUS_ID = 1. Per Process. Will be compared to PROCESS_TASK_RUN_COUNT to see how far in process run. 
 
 Measure Hierarchy:
 <>TASK_RUN_RAM_USAGE
