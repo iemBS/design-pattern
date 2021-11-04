@@ -42,8 +42,17 @@ Main Success Scenario:
   8. Compare column index definitions
   9. Compare view existence
   10. Compare view definitions
-  11. Compare table row count difference
-  12. Compare System Variable differences 
+  11. "Compare Static Relational DB Data"
+  12. End 
+
+  
+Compare Static Relational DB Data
+Note:
+  -Static data can be seen as part of the code in a way. 
+Main Success Scenario:
+  1. Compare static table data 
+  2. Compare System Variable differences 
+  3. End 
 
 
 Compare Graph DB Code
