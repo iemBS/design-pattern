@@ -33,15 +33,15 @@ Note:
   -Clarify if child definitions are included in parent definitions and why. 
 Main Success Scenario:
   1. Compare routine existence
-  2. Compare routine definitions
+  2. Compare routine definition
   3. Compare table existence
-  4. Compare table definitions (includes column definitions)
+  4. Compare table definition (includes column definitions)
   5. Compare column existence
-  6. Compare column definitions
+  6. Compare column definition
   7. Compare column index existence
-  8. Compare column index definitions
+  8. Compare column index definition
   9. Compare view existence
-  10. Compare view definitions
+  10. Compare view definition
   11. "Compare Static Relational DB Data"
   12. End 
 
