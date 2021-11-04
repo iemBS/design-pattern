@@ -1,4 +1,6 @@
 Compare Code
+Note:
+  -Comparing the structure of your software before and after deployments reduces surprises and confirms deployments 
 Main Success Scenario:
   1. "Compare in Repo"
   2. End
@@ -25,6 +27,10 @@ Alternatives:
     
     
 Compare Relational DB Code
+Note:
+  -Do not compare child structures if the parent structures do not match. Doing so just has you looking at more detail for something you can more easily and already saw at a summary level. 
+  -Compare existence before definition
+  -Clarify if child definitions are included in parent definitions and why. 
 Main Success Scenario:
   1. Compare routine existence
   2. Compare routine definitions
