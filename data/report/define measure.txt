@@ -9,7 +9,10 @@ Other
 **TASK MEASURES**
 
 Contributing Non-Measure (an attribute):
+<>PROCESS_ID = Uniquely identifies the process 
+<>PROCESS_NAME = Name of process
 <>TASK_ID = Uniquely identifies the task 
+<>TASK_NAME = Name of task 
 <>PROCESS_RUN_ID = Uniquely identifies a run of a group of tasks
 <>TASK_RUN_START_TIME = Start time of a specific run of a task
 <>TASK_RUN_END_TIME = End time of a specific run of a task
