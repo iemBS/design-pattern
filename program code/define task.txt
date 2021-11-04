@@ -18,21 +18,30 @@ Main Success Scenario:
   
   
 Store Task Run Data
+Note:
+  -Grouping on PROCESS_ID allows Process level aggregate measures
+  -Grouping on TASK_ID allows task level aggregate measures
+  -No need to have parent and child TASK_ID or TASK_RUN_ID values because the PROCESS_RUN_ID, TASK_RUN_START_TIME, TASK_RUN_END_TIME values provide a good enough way to understand task relationships 
+  -ID to NAME mappings for the following are not stored here because they needlesses take up haredware resources. The names are associated to the ID at the end of a query. 
+    -PROCESS_ID to PROCESS_NAME
+    -TASK_ID to TASK_NAME
+    -TASK_STATUS_ID to TASK_STATUS_NAME
+    -TASK_RUN_STATUS_ID to TASK_RUN_STATUS_NAME
 Main Success Scenario:
   1. Required attributes for each entry stored
-    TASK_STATUS_ID
-    TASK_RUN_STATUS_ID
-    TASK_RUN_ID
+    PROCESS_ID
     PROCESS_RUN_ID
-    TASK_ID or TASK_NAME
+    TASK_ID
+    TASK_STATUS_ID
+    TASK_RUN_ID
+    TASK_RUN_STATUS_ID
     TASK_RUN_START_TIME or TASK_RUN_END_TIME
     TASK_LOG
   2. Confirm TASK_RUN_ID is unique per run
   3. Confirm PROCESS_RUN_ID is unique per run
   4. Confirm TASK_ID is unique across all tasks 
-  5. If TASK_NAME is used and no TASK_ID is used, confirm TASK_NAME is unique across all tasks
-  6. "Define Task Run Data Removal"
-  7. End 
+  5. "Define Task Run Data Removal"
+  6. End 
   
   
 Define Task Run Data Removal
