@@ -1,0 +1,13 @@
+See Code Deploy List
+Note:
+  -Seeing a deploy list can preven t
+Main Success Scenario:
+  1. See these columns in a list
+    -work item ID
+    -change type
+    -object type
+    -object name
+    -date & time deployed to DEV
+    -date & time deployed to TEST
+    -date & time deployed to other environment
+    -date & time deployed to PRD
