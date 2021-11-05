@@ -1,6 +1,7 @@
 Define Task
 Note:
   -A task here is refering to a step in a process that is within code 
+  -If an object or block of code needs to be run more than once in a process, treat it as a different task each time. If you have 5 steps in a process and 3 of those are running the same object three times, then you need to be able to count the number of tasks in the project, be able to compare Task 1 (or Task 2 or Task 3) between the process runs, be able to analyze attributes of Task 1 (or Task 2 or Task 3). 
 Main Success Scenario:
   x. "Define Process Name"
   x. "Define Task Name"
