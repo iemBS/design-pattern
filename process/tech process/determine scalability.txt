@@ -16,6 +16,11 @@ Note:
   -guidance @ 
     -https://www.investopedia.com/terms/s/scalability.asp
 Main Success Scenario:
+  x. xxx:fill in 
+  
+  
+Define Minimum Scale
+Main Success Scenario:
   1. xxx:fill in 
   
 
@@ -24,4 +29,6 @@ Note:
   -guidance @ 
     -https://www.investopedia.com/terms/s/scalability.asp
 Main Success Scenario:
-  1. xxx:fill in 
+  1. "Define Minimum Desired Scale"
+  2. "Define Maxium Desired Scale"
+  x. xxx:fill in 
