@@ -28,6 +28,7 @@ Note:
     -TASK_ID to TASK_NAME
     -TASK_STATUS_ID to TASK_STATUS_NAME
     -TASK_RUN_STATUS_ID to TASK_RUN_STATUS_NAME
+  -The TASK_ID value does not need to indicate order.  
 Main Success Scenario:
   1. Required attributes for each entry stored
     PROCESS_ID
