@@ -1,6 +1,0 @@
-Determine Desired Scaleability
-Note:
-  -guidance @ 
-    -https://www.investopedia.com/terms/s/scalability.asp
-Main Success Scenario:
-  1. xxx:fill in 

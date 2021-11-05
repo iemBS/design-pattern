@@ -1,0 +1,27 @@
+Determine Scalability
+Main Success Scenario:
+  1. "Define Scalability"
+  2. "Determine Desired Scalability"
+  3. "Determine Possible Scalability"
+  4. End 
+  
+  
+Define Scalability
+Main Success Scenario:
+  1. xxx:fill in 
+
+
+Determine Possible Scalability
+Note:
+  -guidance @ 
+    -https://www.investopedia.com/terms/s/scalability.asp
+Main Success Scenario:
+  1. xxx:fill in 
+  
+
+Determine Desired Scalability
+Note:
+  -guidance @ 
+    -https://www.investopedia.com/terms/s/scalability.asp
+Main Success Scenario:
+  1. xxx:fill in 
