@@ -1,0 +1,44 @@
+Reduce Data Size
+Main Success Scenario:
+  1. "Indicate Non-Existent Value"
+  2. "Remove Unneeded Characters in Values"
+  3. "Store Only IDs"
+  4. "Denormalize Data"
+  x. "Use Smaller Size Characters"
+  x. End 
+  
+  
+Indicate Non-Existent Value
+Main Success Scenario:
+  1. Use NULL
+  2. End 
+Alternatives:
+  1a. Need human understandable text in front end
+    1a1. Store ID and join to text value for display
+    1a2. Go to step 2
+  1b. Need human understandable text in back end
+    1b1. Store text value in backend 
+    1b2. Go to step 2
+    
+    
+Remove Unneeded Characters in Values
+Main Success Scenario:
+  1. xxx:fill in 
+  
+  
+Store Only IDs
+Main Success Scenario:
+  1. xxx:fill in 
+  
+  
+Denormalize Data
+Main Success Scenario:
+  1. xxx:fill in 
+    
+    
+Use Smaller Size Characters
+Main Success Scenario:
+  1. Use Character Set with smaller character sizes
+  x. xxx:fill in 
+
+    
