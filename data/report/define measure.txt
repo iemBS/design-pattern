@@ -111,13 +111,6 @@ Measure Hierarchy:
 <>RECORD_DELETE_COUNT
 xxx:fill in
 
-**DATA QUALITY MEASURES**
-Measure Hierarchy:
-<>FIELD_DISTINCT_VALUE_COUNT
-<>FIELD_VALUE_COUNT
-<><>FIELD_PERCENT_DISTINCT = (FIELD_DISTINCT_VALUE_COUNT/FIELD_VALUE_COUNT) x 100
-xxx:fill in
-
 **DATA USER MEASURES**
 Contributing Non-Measure (an attribute):
 <>DB = A single database
