@@ -5,6 +5,7 @@ Main Success Scenario:
   x. "Measure % of Value Existence"
   x. "Measure % of Distinct Values"
   x. "Measure Unallowed Character Use"
+  x. "Measure Unallowed Character Sequence Use"
   x. "Measure Value Adherence to Format"
   x. "Measure Value Understandability"
   x. "Measure Value Size Benefit"
@@ -28,6 +29,11 @@ Measure Hierarchy:
 <>FIELD_VALUE_COUNT
 <><>FIELD_PERCENT_DISTINCT = (FIELD_DISTINCT_VALUE_COUNT/FIELD_VALUE_COUNT) x 100
 xxx:fill in
+
+
+Measure Unallowed Character Sequence Use
+Main Success Scenario:
+  1. xxx:fill in 
 
 
 Measure Unallowed Character Use
