@@ -1,0 +1,13 @@
+Define Data Quality Measure
+Main Success Scenario:
+  1. xxx:fill in 
+  
+  
+
+
+**DATA QUALITY MEASURES**
+Measure Hierarchy:
+<>FIELD_DISTINCT_VALUE_COUNT
+<>FIELD_VALUE_COUNT
+<><>FIELD_PERCENT_DISTINCT = (FIELD_DISTINCT_VALUE_COUNT/FIELD_VALUE_COUNT) x 100
+xxx:fill in
