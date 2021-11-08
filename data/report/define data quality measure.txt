@@ -1,7 +1,10 @@
 Define Data Quality Measure
+Note:
+  -Measure per value
 Main Success Scenario:
   x. "Measure % of Value Existence"
   x. "Measure % of Distinct Values"
+  x. "Measure Unallowed Character Use"
   x. "Measure Value Adherence to Format"
   x. "Measure Value Understandability"
   x. "Measure Value Size Benefit"
@@ -9,7 +12,15 @@ Main Success Scenario:
   x. "Measure Value Diff with Source"
   x. xxx:fill in 
   
- 
+  
+Define Text Data Quality
+Main Success Scenario:
+  1. 
+
+Define Numeric Data Quality
+Main Success Scenario:
+  1. 
+
 
 **DATA QUALITY MEASURES**
 Measure Hierarchy:
@@ -17,6 +28,14 @@ Measure Hierarchy:
 <>FIELD_VALUE_COUNT
 <><>FIELD_PERCENT_DISTINCT = (FIELD_DISTINCT_VALUE_COUNT/FIELD_VALUE_COUNT) x 100
 xxx:fill in
+
+
+Measure Unallowed Character Use
+Pre-Conditions:
+  -Understand character set used
+  -Understand allowed characters
+Main Success Scenario:
+  1. xxx:fill in 
 
 
 Measure Value Diff with Source
