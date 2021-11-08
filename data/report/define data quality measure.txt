@@ -1,9 +1,15 @@
 Define Data Quality Measure
 Main Success Scenario:
-  1. xxx:fill in 
+  x. "Measure % of Value Existence"
+  x. "Measure % of Distinct Values"
+  x. "Measure Value Adherence to Format"
+  x. "Measure Value Understandability"
+  x. "Measure Value Size Benefit"
+  x. "Measure Value Use"
+  x. "Measure Value Diff with Source"
+  x. xxx:fill in 
   
-  
-
+ 
 
 **DATA QUALITY MEASURES**
 Measure Hierarchy:
@@ -11,3 +17,43 @@ Measure Hierarchy:
 <>FIELD_VALUE_COUNT
 <><>FIELD_PERCENT_DISTINCT = (FIELD_DISTINCT_VALUE_COUNT/FIELD_VALUE_COUNT) x 100
 xxx:fill in
+
+
+Measure Value Diff with Source
+Main Success Scenario:
+  1. xxx:fill in 
+
+
+Measure Value Use
+Main Success Scenario:
+  1. Measure Value Filter Use
+  2. Measure Value Display Use
+  3. Measure Value Join Use
+  4. Measure Value Group By Use
+  4. Measure Value Order Use
+  x. xxx:fill in 
+  
+
+Measure Value Size Benefit
+Main Success Scenario:
+  1. xxx:fill in 
+
+
+Measure Value Understandability
+Main Success Scenario:
+  1. xxx:fill in 
+
+
+Measure % of Value Existence
+Main Success Scenario:
+  1. xxx:fill in 
+
+
+Measure % of Distinct Values
+Main Success Scenario:
+  1. xxx:fill in 
+  
+
+Measure Value Adherence to Format
+Main Success Scenario:
+  1. xxx:fill in 
