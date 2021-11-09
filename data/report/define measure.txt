@@ -158,8 +158,10 @@ Main Success Scenario:
   
 Define Reporting Goal
 Main Success Scenario:
-  1. "Understand Report Refresh Periods"
-  2. "Understand Metric Comparison Periods"
+  1. Understand business goals
+  2. Understand SLAs
+  3. "Understand Report Refresh Periods"
+  4. "Understand Metric Comparison Periods"
   x. xxx:fill in
   
   
@@ -214,6 +216,7 @@ Main Success Scenario:
 Define Metric Business Logic
 Main Success Scenario:
   1. "Define Metric Time Attribute"
+  2. Define good and bad metric values
   2. xxx:fill in
   
 
