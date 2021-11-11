@@ -1,0 +1,106 @@
+Compare Implemented Code
+Pre-Condition:
+  -Assuming same code should be implemented in both locations
+Main Success Scenario:
+  1. "Compare MS Implemented Code"
+  2. "Compare AWS Implemented Code"
+  x. xxx:fill in 
+  
+  
+Compare MS Implemented Code
+Main Success Scenario:
+  1. "Compare MS SQL Server Implemented Code"
+  x. xxx:fill in 
+  
+
+Compare MS SQL Server Implemented Code
+Main Success Scenario:
+  1. "Compare MS SQL Server Routine Implemented Code" 
+  2. "Compare MS SQL Server Table Implemented Code" 
+  3. "Compare MS SQL Server View Implemented Code" 
+  4. "Compare MS SQL Server Data"
+  5. End 
+  
+  
+Compare MS SQL Server Table Implemented Code
+Main Success Scenario:
+  1. "Compare MS SQL Server Table Existence"
+  2. "Compare MS SQL Server Table Definition"
+  3. "Compare MS SQL Server Table Column Existence"
+  4. "Compare MS SQL Server Table Column Definition"
+  5. "Compare MS SQL Server Table Index Existence"
+  6. "Compare MS SQL Server Table Index Definition"
+  7. End 
+  
+  
+Compare MS SQL Server Table Existence
+Main Success Scenario:
+  1. See if table name exists with same schema and database 
+  2. Note existence or non-existence of table
+  3. End 
+  
+  
+Compare MS SQL Server Table Definition
+Pre-Condition:
+  -Only do this compare if table name exists in same schema and database in both
+Main Success Scenario:
+  1. Compare table create script
+  2. Note if table definitions match or not
+  3. End 
+  
+
+Compare MS SQL Server Table Column Existence
+Pre-Condition:
+  -Only do this compare if table name exists in same schema and database in both
+Main Success Scenario:
+  1. See if column of same name exists in both tables
+  2. Note existence or non-existence of column name
+  3. End 
+  
+
+Compare MS SQL Server Table Column Definition
+Pre-Condition:
+  -Only do this compare if table name exists in same schema and database in both
+  -Only do this compare if column name exists in same table in both
+  -Column does not need to be in the same order in both tables
+Main Success Scenario:
+  1. Compare column data type
+  2. Compare column size
+  3. Compare other column attributes 
+  4. Note if column definitions match or not
+  5. End 
+  
+  
+Compare MS SQL Server Table Index Existence
+Pre-Condition:
+  -Only do this compare if table name exists in same schema and database in both
+Main Success Scenario:
+  1. xxx
+  
+  
+Compare MS SQL Server Table Index Definition
+Pre-Condition:
+  -Only do this compare if table name exists in same schema and database in both
+  -Only do this compare if index columns names exist in same table in both
+  -Index columns do not need to be in the same order in both tables
+Main Success Scenario:
+  1. xxx
+
+  
+Compare MS SQL Server Data
+Main Success Scenario:
+  1. "Compare MS SQL Server Static Table Data" 
+  2. "Compare MS SQL Server System Variables"
+  3. End 
+
+  
+  
+Compare AWS Implemented Code
+Main Success Scenario:
+  1. "Compare AWS RDS Implemented Code"
+  2. "Compare AWS Glue Implemeted Code"
+  3. "Compare AWS SQS Implemeted Code"
+  4. "Compare AWS Lambda Implemeted Code"
+  5. "Compare AWS Lambda Implemeted Code"
+  
+  
