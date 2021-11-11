@@ -1,0 +1,38 @@
+Monitor
+Main Success Scenario:
+  1. "Monitor from Environment Perspective"
+  2. End 
+Alternatives:
+  1a. From Process Perspective
+    1a1. "Monitor from Process Perspective"
+    1a2. Go to step 2
+    
+    
+Monitor from Environment Perspective
+Pre-Conditions:
+  -Concerned with environment health and not a specific process
+Main Success Scenario:
+  1. See environment measures 
+  2. See aggregate measures that are built on top of the basic ones
+  3. Compare environment measures to aggregate environment measures to see if runs are better or worse than usual
+  4. Communicate hard hardware and software limits
+  5. Set limits for measures and aggregate measures (> aggregates, < hard limits) 
+  6. Set alerts based on measures, aggregate measures, and limits  
+  7. End 
+    
+    
+Monitor from Process Perspective
+Pre-Conditions:
+  -Concerned with process health
+Main Success Scenario:
+  1. See Process Start, Stop, Duration, Run Status, Completion Status
+  2. See Tasks within Process
+  3. See Task Start, Stop, Duration, Run Status, Completion Status, Status (enabled/disabled)
+  4. See aggregate measures that are built on top of the basic ones
+  5. Compare process and task runs to aggregate measures to see if runs are better or worse than usual
+  6. Associate Runs to Environment measures (at task, process, service instance, or service level)
+  7. Communicate hard hardware and software limits
+  8. Set limits for measures and aggregate measures (> aggregates, < hard limits) 
+  9. Set alerts based on measures, aggregate measures, and limits  
+  10. End 
+    
