@@ -52,6 +52,10 @@ Measure Hierarchy:
 <><>TASK_RUN_DURATION_LIMIT_EXCEEDED_STATUS = where PROCESS_TASK_RUN_DURATION > TASK_RUN_DURATION_LIMIT
 <><>AVG_TASK_RECORD_COUNT = SUM(TASK_RUN_RECORD_COUNT) / TASK_RUN_COUNT = Avg task count regardless of task to process relation
 <><>AVG_TASK_DATA_VOLUME_MB = SUM(TASK_RUN_DATA_VOLUME_MB) / TASK_RUN_COUNT
+<><>measures for task specific goals, a task running without error may not be the only task goal
+  -for object oriented code it could be # method calls, # func calls, # loop iterations, MBs in file, observed network speed, % of possible network speed used
+  -for graph DB it could be # attribute updates, # nodes navigated, # nodes updated, # attributes updated
+  -for relational DBs it could be # rows deleted, # rows inserted, # rows updated, # rows exported, # rows imported, # proc calls, # func calls, MBs deleted data, MBs of inserted data, MBs of data exported, MBs of data imported, # rows joined between tables, # rows aggregated from and to, # characters removed in value, % joins using index, % uniqueness in non-unique index, 
 <><><>AVG_RAM_USAGE = SUM(TASK_RUN_RAM_USAGE) / TASK_RUN_COUNT
 <><><>TASK_COMPLETE_COUNT = COUNT(PROCESS_RUN_ID where TASK_RUN_COMPLETION_STATUS is 1)
 <><><>AVG_TASK_RUN_DURATION = SUM(TASK_RUN_DURATION) / TASK_COUNT = Average task run duration. Valuable to know what to expect when testing and monitoring tasks.
