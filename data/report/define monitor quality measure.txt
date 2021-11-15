@@ -1,0 +1,13 @@
+Define Monitor Quality Measure
+Pre-Condition:
+  -"Define Monitor Quality"
+Note:
+  -If data has measures, data and monitor quality measures make the measures more meaningful. 
+    -This use case is just focused on Monitor Quality
+Main Success Scenario:
+  1. xxx:fill in 
+  
+  
+Define Monitor Quality
+Main Success Scenario:
+  1. xxx:fill in 
