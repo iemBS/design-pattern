@@ -1,5 +1,15 @@
 Define Data Quality Measure
+Pre-Condition:
+  -"Define Data Quality"
 Note:
+  -guidance @ 
+    -https://www.cdc.gov/ncbddd/birthdefects/surveillancemanual/chapters/chapter-7/chapter7.5.html
+    -https://en.wikipedia.org/wiki/Information_quality
+    -https://www.informatica.com/resources/articles/what-is-data-quality.html
+    -https://www.ibm.com/analytics/data-quality
+    -https://www.gartner.com/smarterwithgartner/how-to-improve-your-data-quality
+    -https://www.sas.com/en_us/insights/articles/data-management/data-quality-management-what-you-need-to-know.html
+    -https://www.oracle.com/middleware/technologies/enterprise-data-quality.html
   -Measure per value
 Main Success Scenario:
   x. "Measure % of Value Existence"
@@ -14,13 +24,18 @@ Main Success Scenario:
   x. xxx:fill in 
   
   
+Define Data Quality
+Main Success Scenario:
+  1. xxx:fill in 
+  
+  
 Define Text Data Quality
 Main Success Scenario:
-  1. 
+  1. xxx:fill in
 
 Define Numeric Data Quality
 Main Success Scenario:
-  1. 
+  1. xxx:fill in
 
 
 **DATA QUALITY MEASURES**
