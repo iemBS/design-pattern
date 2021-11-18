@@ -33,9 +33,15 @@ Measure Hierarchy:
 <>TASK_RUN_RAM_USAGE
 <>TASK_RUN_CPU_USAGE
 <>TASK_RUN_DSK_USAGE
+<>TASK_RUN_NET_USAGE
 <>TASK_RUN_RECORD_COUNT
 <>TASK_RUN_DATA_VOLUME_MB
 <>TASK_RUN_END_TIME_MAX = MAX(TASK_RUN_END_TIME) GROUP BY TASK_ID = See when the last refresh was completed for a task
+<><>% of Process Run Duration Spent during Task Run Duration 
+<><>% of Process Run RAM Usage Spent during Task run
+<><>% of Process Run CPU Usage Spent during Task run
+<><>% of Process Run DSK Usage Spent during Task run
+<><>% of Process Run NET Usage Spent during Task run
 <><>TASK_RUN_START_TIME_MIN = Expectation of a scheduled run. Translated to be a min time. This would also be dynamic to check against TASK_RUN_START_TIME on a schedule.
 <><>TASK_DISTINCT_COUNT = DISTINCT_COUNT(TASK_ID) = Distinct count of tasks regardless of task to process relation
 <><>TASK_PROCESS_DISTINCT_COUNT = DISTINCT_COUNT(PROCESS_RUN_ID) GROUP BY TASK_ID = # of processes using specific task
