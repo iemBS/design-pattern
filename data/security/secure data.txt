@@ -8,6 +8,8 @@ Pre-Conditions:
 Note:
   -Data to be careful of is referred to as sensitive, controlled, confidential, private, or PII.
 Main Success Scenario:
+  x. "Define Secured Data"
+  x. "Define Penalty"
   x. "Define Grand Map"
   x. "Define Business Group"
   x. "Define Functional Role"
@@ -19,6 +21,90 @@ Main Success Scenario:
   x. "Determine to Obfuscate, Hide, Deny Access to, or Exclude"
   x. "Assess Security Maintainability"
   x. xxx:fill in
+
+
+Define Secured Data
+Note:
+  -PI = Personal Information. Information that can be used to distinguish or trace an individual's identity either alone or when combined with other information.
+  -PII = Personally Identifiable Information or Personal identity Information
+  -PD = Personal Data
+  -Not all PI needs to be protected
+  -One peice of PI data may not be harmful in the wrong hands. Combined with other PI data, it could be harmful in the wrong hands
+  -single PI data points to secure
+    -SSN in US
+    -Passport #
+    -Medical Hx
+    -Bank and financial info
+    -wage or salary info
+  -PI data not harmful alone, but is when combined with other data
+    -political affiliations or opinions 
+    -job
+    -job responsibilities 
+    -DOB
+    -trade union membership
+      -Union #
+    -sexual orientation
+    -Mother's Maiden Name
+    -fitness tracker health data
+    -biometric data
+    -religious of philosophical beliefs
+    -racial or ethnic origins
+  -combo PI data points to secure
+    -CC #, CC special code, CC expiration date
+  -PHI = Protected Health Info
+    -payment for healthcare
+      -health plan beneficiary #
+      -bio metric identifiers
+      -finger and voice print 
+      -full face photos
+    -recorded info about an indviduals health
+      -medical records
+      -private info about patient
+      -National Identification Number (NIN)
+    -healthcare history
+    -provider records
+      -Referring Provider (aka doctor)
+    -Rx info
+    -Birth Date
+      -Birth Month
+      -NOT Birth Year
+    -NOT
+      -First Name
+      -Birth Year
+      -Last Name
+      -State
+      -CC info
+  -PCI = Payment Card Industry
+    -link
+      -https://en.wikipedia.org/wiki/Payment_card_industry
+      -https://www.pcisecuritystandards.org/
+      -https://www.europeanpaymentscouncil.eu/
+      -https://www.pcisecuritystandards.org/get_involved/participating_organizations
+      -https://en.wikipedia.org/wiki/Tokenization_(data_security)
+    -CC #
+    -Card Verification # (CAV2/CID/CVC2/CVV2)
+    -Cardholder Name
+    -Expiration Date
+    -Personal Identification Number (PIN)
+    -Data from magnetic strip
+    -Data from Chip
+Main Success Scenario:
+  1. Data is personal or proprietary
+  2. Data in wrong hands could cause harm to a person or org
+  3. xxx:fill in 
+
+
+Define Penalty
+Main Success Scenario:
+  1. "Define Penalty for Insufficiently Secured Org"
+  2. xxx:fill in 
+  
+  
+Define Penalty for Insufficiently Secured Org
+Main Success Scenario:
+  1. Increased Transaction Costs
+  2. Legal Ramifications 
+  3. xxx:fill in 
 
 
 Identify Network User when using ABAC
