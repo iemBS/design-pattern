@@ -1,0 +1,4 @@
+
+-encrypt at rest
+-encrypt when transmitting or transporting
+-if possible, do not create copies
