@@ -9,6 +9,7 @@ Note:
   -Data to be careful of is referred to as sensitive, controlled, confidential, private, or PII.
 Main Success Scenario:
   x. "Define Secured Data"
+  x. "Define Confidentiality Agreement"
   x. "Define Penalty"
   x. "Define Grand Map"
   x. "Define Business Group"
@@ -51,6 +52,7 @@ Note:
     -racial or ethnic origins
   -combo PI data points to secure
     -CC #, CC special code, CC expiration date
+    -xxx:fill in 
   -PHI = Protected Health Info
     -payment for healthcare
       -health plan beneficiary #
@@ -88,16 +90,60 @@ Note:
     -Personal Identification Number (PIN)
     -Data from magnetic strip
     -Data from Chip
+  -CUI = Controlled Unclassified Info
+    -Used by USA dept of Defence, under DOD regulations
+    -NOT classified info
+      -classified info examples: Nuclear Launch Codes
+    -CUI is a step below classified info
+    -CUI is not a risk to national security but a risk to individuals or orgs
+    -CUI examples: Personnel Records, General Financial Info, Genetic Info
+  -Proprietary Info
+    -Non-Public Org Info
+      -Production Methods & Processes
+      -Trade Secrets
+      -Password
+      -User ID
+      -Internal Network Info
+      -Strategic Plans
+      -Board room decisions
+      -Confidential Financial Data
+      -NDA
+      -Employee Salary
+  -Privacy Laws
+    -several US State and Federal laws cover PI
+      -National Institute of Standars and Technology (NIST)
+      -Special Publication 800-122
+      -Two Primary PHI laws 
+        -Health INsurance Portability and Accountability Act (HIPAA)
+        -Health Information Technology for Economic and Clinical Health Act (HITECH)
+    -Mexico
+      -Article 6 of the Mexican constitution
+      -several federal laws
+    -Canada
+      -has several federal and provincial laws
+      -At federal level, Personal Information Protection and Electronic Documents (PIPEDA)
+      -At provincial level, BC, Alberta, and Quebec
+    -Personal Data (PD) laws in Europe
+      -General Data Protection Regulation (GDPR)
+    -Canada, Mexico, & EU include PHI rules in larger privacy docs
 Main Success Scenario:
   1. Data is personal or proprietary
   2. Data in wrong hands could cause harm to a person or org
   3. xxx:fill in 
 
 
+Define Confidentiality Agreement
+Note:
+  -Also called non-disclosure agreement (NDA)
+Main Success Scenario:
+  1. xxx:fill in 
+
+
 Define Penalty
 Main Success Scenario:
   1. "Define Penalty for Insufficiently Secured Org"
-  2. xxx:fill in 
+  2. "Define Pently for NDA Breach"
+  x. xxx:fill in 
   
   
 Define Penalty for Insufficiently Secured Org
@@ -105,6 +151,12 @@ Main Success Scenario:
   1. Increased Transaction Costs
   2. Legal Ramifications 
   3. xxx:fill in 
+  
+  
+ 
+Define Pently for NDA Breach
+Main Success Scenario:
+  1. xxx:Fill in 
 
 
 Identify Network User when using ABAC
