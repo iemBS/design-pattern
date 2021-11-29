@@ -5,6 +5,8 @@ Pre-Conditions:
     -determine who is running a query that is using too many resources, runnning too long, or performing unwanted actions
   -See "Identify Network User when using RBAC" for making the network user identifiable within the Data software 
   -https://en.wikipedia.org/wiki/Access-control_list
+Note:
+  -Data to be careful of is referred to as sensitive, controlled, confidential, private, or PII.
 Main Success Scenario:
   x. "Define Grand Map"
   x. "Define Business Group"
