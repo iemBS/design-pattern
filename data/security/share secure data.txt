@@ -1,0 +1,4 @@
+
+
+-am I authorized to share this data
+-is the other party authorized to receive this data
