@@ -4,15 +4,23 @@ Note:
   -Cardinality of field used in a join is size comparison of the count in one data set to another. If a value is joined on and the value in the left set can exist more than once when joined to the right set, then the left side is said to have a count of meny. If the count is only one and that is true for all values, then the count is 1. Same idea works for the set on the right. 
   -https://en.wikipedia.org/wiki/Universally_unique_identifier
 Main Success Scenario:
-  1."Use Common Data Identifier"
+  1.Use source data identifier 
   2.ID NOT expire 
   3.ID NOT reused
   4.ID ranges do NOT need to be identifiable 
   5.ID NOT dependent on software development stage environment 
-  6."Find Data Cardinality"
-  7. xxx:fill in
+  6.ID has size limit (volume, length)
+  7."Find Data Cardinality"
+  8. xxx:fill in
+  x. End 
 Alternatives:
-  1a. xxx:fill in 
+  1a. Use a common data identifier 
+    1a1. "Use Common Data Identifier"
+    1a2. Go to step 2
+  1b. auto generate data identifier 
+    1b1. "Auto Generate Data Identifier"
+    1b2. Go to step 2
+  
   
   
 Use Common Data Identifier
