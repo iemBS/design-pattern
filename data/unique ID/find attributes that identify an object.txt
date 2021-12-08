@@ -1,3 +1,5 @@
 Find Attributes that Identify an Object
+Note:
+  -Identifying attributes for a data object can make a composite unique ID more meaningful and usable beyond data developers
 Main Success Scenario:
   1.xxx:fill in
