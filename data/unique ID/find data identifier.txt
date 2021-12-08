@@ -2,24 +2,63 @@ Find Data Identifier
 Note:
   -Field cardinality is the count of unique values in that field
   -Cardinality of field used in a join is size comparison of the count in one data set to another. If a value is joined on and the value in the left set can exist more than once when joined to the right set, then the left side is said to have a count of meny. If the count is only one and that is true for all values, then the count is 1. Same idea works for the set on the right. 
+  -https://en.wikipedia.org/wiki/Universally_unique_identifier
 Main Success Scenario:
   1."Use Common Data Identifier"
-  2."Does ID expire"
-  3."Find Data Cardinality"
-  4. xxx:fill in
+  2.ID NOT expire 
+  3.ID NOT reused
+  4.ID ranges do NOT need to be identifiable 
+  5.ID NOT dependent on software development stage environment 
+  6."Find Data Cardinality"
+  7. xxx:fill in
 Alternatives:
   1a. xxx:fill in 
   
   
 Use Common Data Identifier
+Note:
+  -https://en.wikipedia.org/wiki/Unique_identifier
+  -https://en.wikipedia.org/wiki/Item_Unique_Identification
+  -https://www.fda.gov/medical-devices/device-advice-comprehensive-regulatory-assistance/unique-device-identification-system-udi-system
 Main Success Scenario:
   1."Use Government ID"
   2."Use Industry ID"
   
 
 Use Government ID
+Note:
+  -See "Govt ID list" below
 Main Success Scenario:
-  1.
+  1. xxx:fill in 
+  
+  
+Govt ID list
+--------------
+-Drivers License # (USA, CAN, many other countries)
+-Social Security Number (USA)
+-REAL ID (USA)
+-Passport ID (many countries)
+-Dept of Defense ID # (USA)
+-Green Card # (USA)
+-Visa # (many countries)
+-NEXUS #
+-SENTRI #
+-Global Entry #
+-Hunting License # 
+
+
+Industry ID list
+-------------------
+-Credit Card #
+-Debit Card #
+-Health Insurance Card #
+-Library Card #
+-Utility Account #
+-Loyalty Card #
+-International Standard Book Number (ISBN)
+-Vehicle Identification Number (VIN)
+-D-U-N-S (Dun & Bradstreet)
+-UPC code
 
 
 Use Industry ID
