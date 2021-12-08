@@ -3,11 +3,29 @@ Note:
   -Field cardinality is the count of unique values in that field
   -Cardinality of field used in a join is size comparison of the count in one data set to another. If a value is joined on and the value in the left set can exist more than once when joined to the right set, then the left side is said to have a count of meny. If the count is only one and that is true for all values, then the count is 1. Same idea works for the set on the right. 
 Main Success Scenario:
-  1."Find Government ID"
-  2."Find Industry ID"
-  3."Does ID expire"
-  4."Find Data Cardinality"
+  1."Use Common Data Identifier"
+  2."Does ID expire"
+  3."Find Data Cardinality"
   4. xxx:fill in
+Alternatives:
+  1a. xxx:fill in 
+  
+  
+Use Common Data Identifier
+Main Success Scenario:
+  1."Use Government ID"
+  2."Use Industry ID"
+  
+
+Use Government ID
+Main Success Scenario:
+  1.
+
+
+Use Industry ID
+Main Success Scenario:
+  1.
+  
   
 Find Data Type for Identifier
 Note:
