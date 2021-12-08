@@ -1,4 +1,6 @@
 Determine Auto Generated ID Limit
+Note:
+  -Knowing the max amount of values for an auto generated ID can provide an understanding of how long it can be used. Possibly determine if it should be used. 
 Main Success Scenario:
   1. Choose auto incrementing integer
   2. xxx:fill in
