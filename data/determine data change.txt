@@ -1,6 +1,76 @@
 Determine Data Change
 Main Success Scenario:
-  1. Be provided only the changes (new, updates to existing data)
+  1. "Determine Field Level Data Change"
+  2. End 
 Alternatives:
-  1a. Compare provided data to what we already have
-    1a1. xxx:fill in
+  1a. Use record level data change
+    1a1. "Determine Record Level Data Change"
+    1a2. To go step 2
+  1d. Use collection level data change
+    1d1. "Determine Record Level Data Change"
+    1d2. Go to step 2
+    
+    
+Determine Field Level Data Change
+Main Success Scenario:
+  1. "Determine Data Change w Field Modification Time"
+  2. End 
+Alternatives:
+  1a. Compare data
+    1a1. "Determine Data Change w Comparison"
+    1a2. Go to step 2
+  
+
+Determine Record Level Data Change
+Main Success Scenario:
+  1. "Determine Data Change w Record Modification Time"
+Alternatives:
+  1a. Compare data
+    1a1. "Determine Data Change w Comparison"
+    1a2. Go to step 2
+    
+    
+Determine Collection Level Data Change
+Main Success Scenario:
+  1. "Determine Data Change w Collection Modification Time"
+Alternatives:
+  1a. Compare data
+    1a1. "Determine Data Change w Comparison"
+    1a2. Go to step 2
+    
+    
+Determine Data Change w Field Modification Time
+Pre-Condition:
+  -Modification time exists, reliable, and has sufficient units
+  -Record modification times are not sufficient 
+Main Success Scenario:
+  1. xxx:fill in 
+  
+
+Determine Data Change w Record Modification Time
+Pre-Condition:
+  -Modification time exists, reliable, and has sufficient units
+  -Field modification times is not needed
+Main Success Scenario:
+  1. xxx:fill in 
+    
+    
+Determine Data Change w Checksum
+Pre-Condition:
+  -Need to check data yourself because modification times do not exist or cannot be used
+Main Success Scenario:
+  1. "Determine Data Change w md5sum"
+Alternatives:
+  1a. xxx:fill in 
+  
+  
+Determine Data Change w md5sum
+Main Success Scenario:
+  1. xxx:fill in 
+  
+  
+Determine Data Change w Comparison
+Main Success Scenario:
+  1. "Determine Data Change w Checksum"
+Alternatives:
+  1a. xxx:fill in 
