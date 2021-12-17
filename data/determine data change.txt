@@ -1,76 +1,179 @@
 Determine Data Change
 Main Success Scenario:
-  1. "Determine Field Level Data Change"
+  1. "Notified of Data Change"
   2. End 
 Alternatives:
-  1a. Use record level data change
-    1a1. "Determine Record Level Data Change"
-    1a2. To go step 2
-  1d. Use collection level data change
-    1d1. "Determine Record Level Data Change"
-    1d2. Go to step 2
+  1a. Compare Data
+    1a1. "Compare Data"
+    1a2. Go to step 2
+   
+   
+Notified of Data Change
+Pre-Condition:
+  -Indication of a data change is noted in the data source pulled from
+Main Success Scenario:
+  1. "Notified of Data Change w Modification Time"
+  2. End 
+Alternatives:
+  1a. Use updated flag instead 
+    1a1. "Notified of Data Change w Updated Flag"
+    1a2. Go to step 2
+  1b. Previous or deleted data is kept
+    1b1. "Indicated Current, Previous, or Deleted Data"
+    1b2. Go to step 2
     
+
+Indicated Current, Previous, or Deleted Data
+Main Success Scenario:
+  1. "Indicated Current, Previous, or Deleted Field Data"
+  2. End 
+Alternatives:
+  1a. Current, Previous, or Deleted record versions indicated
+    1a1. "Indicated Current, Previous, or Deleted Record Data"
+    1a2. Go to step 2
+  1b. Current, Previous, or Deleted collection versions indicated
+    1b1. "Indicated Current, Previous, or Deleted Collection Data"
     
-Determine Field Level Data Change
+   
+Notified of Data Change w Modification Time
+Pre-Condition:
+  -Modification Time from the source needs to be compared with the last pull time from the source to pull the correct set of changes
+  -Modification Time resolution is equal to or less than the data change frequency
 Main Success Scenario:
   1. "Determine Data Change w Field Modification Time"
   2. End 
 Alternatives:
-  1a. Compare data
-    1a1. "Determine Data Change w Comparison"
+  1a. Use record modification time instead
+    1a1. "Determine Data Change w Record Modification Time"
     1a2. Go to step 2
+  1b. Use collection modification time instead 
+    1b1. "Determine Data Change w Collection Modification Time"
+    
+    
+Notified of Data Change w Updated Flag
+Pre-Condition:
+  -Updated flag indicates an update has occurred since an activity or time
+Main Success Scenario:
+  1. "Determine Data Change w Field Updated Flag"
+  2. End 
+Alternatives:
+  1a. Use record modification time instead
+    1a1. "Determine Data Change w Record Updated Flag"
+    1a2. Go to step 2
+  1b. Use collection modification time instead 
+    1b1. "Determine Data Change w Collection Updated Flag"
   
+    
+Compare Data
+Pre-Condition:
+  -Data change cannot be determined with a data change indicator in the source
+Main Success Scenario:
+  1. "Compare Data w Checksum"
+  2. "Indicate Data Comparison Performed"
+  3. End 
+Alternatives:
+  1a. Compare Data Values
+    1a1. "Compare Data Values"
+    1a2. Go to step 2
+    
+    
+Indicate Data Comparison Performed
+Note:
+  -Indicating data that has not changed since being compared, will allow that data to be ignored during future comparisons
+Main Success Scenario:
+  1. xxx:fill in 
+    
+    
+Determine Data Change w Field Updated Flag
+Note:
+  -Knowing what fields we want to know about changes in, will reduce the number of fields to check an updated flag for
+Main Success Scenario:
+  1. xxx:fill in 
+  
+  
+Determine Data Change w Record Updated Flag
 
-Determine Record Level Data Change
-Main Success Scenario:
-  1. "Determine Data Change w Record Modification Time"
-Alternatives:
-  1a. Compare data
-    1a1. "Determine Data Change w Comparison"
-    1a2. Go to step 2
-    
-    
-Determine Collection Level Data Change
-Main Success Scenario:
-  1. "Determine Data Change w Collection Modification Time"
-Alternatives:
-  1a. Compare data
-    1a1. "Determine Data Change w Comparison"
-    1a2. Go to step 2
-    
-    
+
+Determine Data Change w Collection Updated Flag
+  
+     
 Determine Data Change w Field Modification Time
 Pre-Condition:
-  -Modification time exists, reliable, and has sufficient units
+  -Field Level Modification time exists, reliable, and has sufficient units
   -Record modification times are not sufficient 
+  -Need to know field level changes
+Note:
+  -Knowing what fields we want to know about changes in, will reduce the number of fields to check a mod time on
 Main Success Scenario:
   1. xxx:fill in 
   
 
 Determine Data Change w Record Modification Time
 Pre-Condition:
-  -Modification time exists, reliable, and has sufficient units
+  -Record Level Modification time exists, reliable, and has sufficient units
   -Field modification times is not needed
+  -Need to know record level changes
 Main Success Scenario:
   1. xxx:fill in 
+  
+  
+Determine Data Change w Collection Modification Time
+Pre-Condition:
+  -Collection Level Modification time exists, reliable, and has sufficient units
+  -Record modification times is not needed
+  -Need to know collection level changes
+Main Success Scenario:
+  1. xxx:fill in 
+  
+  
+Compare Data Values
+Main Success Scenario:
+  1. "Compare Field Values / Record"
+  2. End 
+Alternatives:
+  1a. Check at record level instead
+    1a1. "Compare Record Values"
+    1a2. Go to step 2
     
     
-Determine Data Change w Checksum
+Compare Field Values / Record
+Main Success Scenario:
+  1.xxx:fill in 
+  
+
+Compare Record Values
+Main Success Scenario:
+  1.xxx:fill in 
+  
+    
+Compare Data w Checksum
 Pre-Condition:
   -Need to check data yourself because modification times do not exist or cannot be used
+  -Checksum can be used on all data that will be compared
+Note:
+  -guidance @ 
+    -https://www.nas.nasa.gov/hecc/support/kb/checking-file-integrity_243.html
+    -https://en.wikipedia.org/wiki/Checksum
+  -Already having the checksums in the source, instead of calculating in your system, will save time and compute resources in your system
+  -possible scenario:
+    -source data collection has checksum value / record
+    -source data collection pulled to your system
+    -checksum value / record is kept on your system as a checksum list, even if the pulled collection is truncated on your system
+    -before next pull from the source system, push the checksum list to the source system and call it list_A
+    -take all the checksums from the source data collection and call it list_B and put an index on it
+    -join list_A on list_B and delete list_B records where the checksums match
+    -join list_B on the source data collection and pull over only the records with matching checksums
+    -pull list_B from the source 
+    -add the list_B checksums to the checksum value / record on your system
 Main Success Scenario:
-  1. "Determine Data Change w md5sum"
+  1. "Compare Data w md5sum"
 Alternatives:
   1a. xxx:fill in 
   
   
-Determine Data Change w md5sum
+Compare Data w md5sum
 Main Success Scenario:
   1. xxx:fill in 
   
   
-Determine Data Change w Comparison
-Main Success Scenario:
-  1. "Determine Data Change w Checksum"
-Alternatives:
-  1a. xxx:fill in 
+
