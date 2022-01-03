@@ -156,6 +156,8 @@ Measure Hierarchy:
 
 
 Define Measure
+Note:
+  -Measures can mature other areas where you eventually want other measures. 
 Main Success Scenario:
   1. "Define Reporting Goal"
   2. "Define Metric Role in Reporting Goal"
