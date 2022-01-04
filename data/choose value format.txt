@@ -1,3 +1,14 @@
 Choose Value Format
+Pre-Condition:
+  -"Understand Value Insert Method"
 Main Success Scenario:
   1. xxx:fill in
+  
+  
+Understand Value Insert Method
+Note:
+  -Insert method is important because 
+    -using one format may be more time consuming or a hassle than another format
+    -there may be limitations to the insert method
+Main Success Scenario:
+  1. xxx:fill in 
