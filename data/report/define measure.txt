@@ -168,6 +168,11 @@ Main Success Scenario:
   7. "Define Supporting Detail for Metric"
   
   
+Mature Not Yet Measurable Area
+Main Success Scenario:
+  1. xxx:fill in 
+  
+  
 Define Reporting Goal
 Main Success Scenario:
   1. Understand business goals
@@ -221,6 +226,8 @@ Main Success Scenario:
   
   
 Define Min Data Quality for Metric
+Note:
+  -Use "Mature Not Yet Measurable Area" use case to see if we need metrics on one area to mature the data in another area. 
 Main Success Scenario:
   1. xxx:fill in
   
