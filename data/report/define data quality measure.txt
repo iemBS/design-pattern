@@ -11,6 +11,7 @@ Note:
     -https://www.sas.com/en_us/insights/articles/data-management/data-quality-management-what-you-need-to-know.html
     -https://www.oracle.com/middleware/technologies/enterprise-data-quality.html
   -Measure per value
+  -Do not bother checking later data quality measures if the current data quality measures are bad, unless the later data quality measures give insight into the flavor of bad. 
 Main Success Scenario:
   x. "Measure % of Value Existence"
   x. "Measure % of Distinct Values"
@@ -42,8 +43,13 @@ Main Success Scenario:
 Measure Hierarchy:
 <>FIELD_DISTINCT_VALUE_COUNT
 <>FIELD_VALUE_COUNT
-<><>FIELD_PERCENT_DISTINCT = (FIELD_DISTINCT_VALUE_COUNT/FIELD_VALUE_COUNT) x 100
-xxx:fill in
+<>FIELD_VALUE_EXISTS_COUNT
+<>FIELD_VALUE_GOOD_FORMAT_COUNT
+<>FIELD_VALUE_GOOD_SIZE_COUNT
+<><>FIELD_VALUE_PERCENT_DISTINCT = (FIELD_DISTINCT_VALUE_COUNT/FIELD_VALUE_COUNT) x 100
+<><>FIELD_VALUE_PERCENT_EXISTS = (FIELD_VALUE_EXISTS_COUNT/FIELD_VALUE_COUNT) x 100
+<><>FIELD_VALUE_GOOD_FORMAT_PERCENT = (FIELD_VALUE_GOOD_FORMAT_COUNT/FIELD_VALUE_COUNT) x 100
+<><>FIELD_VALUE_GOOD_SIZE_PERCENT = (FIELD_VALUE_GOOD_SIZE_COUNT/FIELD_VALUE_COUNT) x 100
 
 
 Measure Unallowed Character Sequence Use
