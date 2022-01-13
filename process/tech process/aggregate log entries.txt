@@ -1,0 +1,8 @@
+Aggregate Log Entries
+Note:
+  -aggregating log entries will reduce the number of entries in the log
+  -original (non-aggregated) log entries are replaced with aggregated log entries
+Pre-Condition:
+  -Must be sure that original (non-aggregated) log entries are not needed
+Main Success Scenario:
+  1. xxx
