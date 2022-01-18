@@ -1,4 +1,12 @@
+Pre-Condition:
+  -Need to understand the data usage independent of the data storage or where it is used in the hierarchy of data storage locations
 Understand Data Usage
 Main Success Scenario:
-  1. "Understand Data Access"
-  2. xxx:fill in
+  1. How is data accessed
+  2. How is data related within the collection
+  3. How is data in the collection related to data outside the collection
+  4. How is data filtered
+  5. How is data viewed
+  6. What usage is mutable and non-mutable
+  7. How is data changed
+  8. xxx
