@@ -1,4 +1,4 @@
-Compare Object Definition
+Compare Data Object Definition
 Note:
   -Handy when needing to compare two databases that should have the same object definitions.
 Main Success Scenario:
