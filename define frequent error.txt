@@ -1,0 +1,8 @@
+Define Frequent Error
+Note:
+  -Describing an error as frequent is arbitary, unless based on comprehensible reasons.
+Main Success Scenario:
+  1. Number of times a step breaks is high compared to the number of times the step is run
+  2. xxx:fill in 
+Alternatives:
+  1a. xxx: fill in 
