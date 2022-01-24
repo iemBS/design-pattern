@@ -1,0 +1,10 @@
+Choose Statically Typed Language
+Note:
+  -guidance @
+    -https://developer.mozilla.org/en-US/docs/Glossary/Static_typing
+    -https://www.sciencedirect.com/science/article/pii/0167642395000070
+  -A statically-typed language is a language (such as Java, C, or C++) where variable types are known at compile time. 
+    -In most of these languages, types must be expressly indicated by the programmer; in other cases (such as OCaml), type inference allows the programmer to not indicate their variable types.
+  -Type inference is the compile-time process of reconstructing missing type information in a program based on the usage of its variables. ML and Haskell are two languages where this aspect of compilation has enjoyed some popularity, allowing type information to be omitted while static type checking is still performed.
+Main Success Scenario:
+  1. xxx:fill in 
