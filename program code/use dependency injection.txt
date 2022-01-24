@@ -1,0 +1,7 @@
+Use Dependency Injection
+Note:
+  -guidance @ 
+    -https://python-dependency-injector.ets-labs.org/introduction/di_in_python.html
+    -https://en.wikipedia.org/wiki/Dependency_injection
+Main Success Scenario:
+  1. xxx:fill in 
