@@ -1,10 +1,20 @@
-Choose Data Archive Duration
+Define Data Retention Period
 Note: 
   - [xxx: need to sharpen this]
 Main Success Scenario:
-  1. Understand Data to choose from
+  1. Understand Data 
+  2. "Understand Company Data Retention Policy"
+  3. "Define Non-Archived to Archived Data Transition"
   2. "Cost" use case
   3. "Define Unusable Data" use case
+  
+Understand Company Data Retention Policy
+Main Success Scenario:
+  1. xxx:fill in 
+  
+Define Non-Archived to Archived Data Transition
+Main Success Scenario:
+  1. xxx:fill in 
 
 Define Unusable Data
 Preconditions:
