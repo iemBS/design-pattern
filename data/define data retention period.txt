@@ -4,15 +4,19 @@ Note:
 Main Success Scenario:
   1. Understand Data 
   2. "Understand Company Data Retention Policy"
-  3. "Define Non-Archived to Archived Data Transition"
-  4. "Cost" use case
-  5. "Define Unusable Data" use case
-  6. Define Non-Archived Data Retention Period
-  7. End 
+  3. This data falls under that policy
+  4. "Define Non-Archived to Archived Data Transition"
+  5. "Cost" use case
+  6. "Define Unusable Data" use case
+  7. Define Non-Archived Data Retention Period
+  8. End 
 Alternatives:
-  6a. Define Log Data Retention Period
-    6a1. Define Log Data Retention Period
-    6a2. Go to step 7
+  3a. This data does not fall under that policy
+    3a1. xxx:fill in 
+    3a2. Go to step 8
+  7a. Define Log Data Retention Period
+    7a1. Define Log Data Retention Period
+    7a2. Go to step 8
   
   
 Understand Company Data Retention Policy
