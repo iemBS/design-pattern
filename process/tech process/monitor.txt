@@ -1,11 +1,25 @@
 Monitor
 Main Success Scenario:
-  1. "Monitor from Environment Perspective"
+  1. "Define Monitoring Goal"
+  2. "Monitor from Environment Perspective"
+  3. End 
+Alternatives:
+  2a. From Process Perspective
+    2a1. "Monitor from Process Perspective"
+    2a2. Go to step 3
+    
+ 
+Define Monitoring Goal
+Maih Success Scenario:
+  1. Check functionality during development
   2. End 
 Alternatives:
-  1a. From Process Perspective
-    1a1. "Monitor from Process Perspective"
+  1a. during Testing 
+    1a1. Check functionality during testing
     1a2. Go to step 2
+  1b. during regular use
+    1b1. Watch functionality during regular use
+    1b2. Go to step 2
     
     
 Monitor from Environment Perspective
