@@ -8,8 +8,23 @@ Alternatives:
     2a1. "Monitor from Process Perspective"
     2a2. Go to step 3
     
+    
+Define Monitoring Reason
+Main Success Scenario:
+  1. Shared Hardware (or Virtual) Resources
+  2. End 
+Alternatives:
+  1a. Do not trust human resources
+  1b. Reduce time looking into issue
+  1c. Know about issues sooner
+  1d. Find issue before others
+  1e. Do not have human resource skills available all the time to research issues
+  1f. Had too many issues in the past
+
  
 Define Monitoring Goal
+Pre-Condition:
+  -"Define Monitoring Reason"
 Maih Success Scenario:
   1. Check functionality during development
   2. End 
