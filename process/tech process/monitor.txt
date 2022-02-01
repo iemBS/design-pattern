@@ -20,6 +20,8 @@ Alternatives:
   1d. Find issue before others
   1e. Do not have human resource skills available all the time to research issues
   1f. Had too many issues in the past
+  1g. Do not have security permissions access issue details all the time
+  1h. Do not want to grant access for issue investigation
 
  
 Define Monitoring Goal
