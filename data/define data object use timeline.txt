@@ -1,0 +1,11 @@
+Define Data Object Use Timeline
+Note:
+  -Data objects read from simultaneously by too many users can be a problem
+  -Data objects updated simultaneously by too many users can be a problem
+    -Updates really are not simultaneous
+    -Turn logic is used
+  -Data objects read from and updated simultaneously can be a problem
+    -Turn logic is used
+  -The use of proxy data objects that remove the need to access the real data objects as much for reading or updates
+Main Success Scenario:
+  1. xxx:fill in 
