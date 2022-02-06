@@ -1,0 +1,59 @@
+-Use cases are used to discover requirements rather than to document them
+-Use cases are not used to discover all requirements. Only the behavioral requirements
+
+Concepts that apply to each setence in a use case and the use case as a whole
+------------------------------------------------------------------------------
+-Scope: What is readlly the system under discussion (SuD)?
+-Primary actor: Who has the goal?
+-Level: How high or low level is that goal?
+
+
+Simple Text Use Case parts
+-----------------------------
+-Actor: Anyone or anything  with behavior
+-Primary actor: The stakeholder who or which initiates an interaction wtih the SuD to achieve a goal.
+-Scope: Identifies the system that we are discussing
+-Precondition: What must be true before the use case runs?
+-Guarantee: What must be true after the use case runs?
+-Main Success Scenario: A case in which nothing goes wrong.
+-Alternatives/Extensions: What can happen differently during that scenario?
+
+
+The Use Case form of writing can be used in these situations
+-------------------------------------------------------------
+-To describe a business's work process
+-The focus discussion about upcoming software system requirements, but not to be the requirements description
+-To be the functionality requirements for a system
+-To document the design of the system
+-To be written in a small, close-knit group, or in a large or distributed group
+
+
+Use Cases as a Project Linking Structure
+------------------------------------------
+-Use cases connect many other requirements details
+-Use cases provide a scaffolding that connects info in different parts of the reqs
+-Use cases help crosslink user profile info, business rules, and data format reqs
+-Outside the reqs doc, use cases help structure project planning info such as
+  -release dates
+  -teams
+  -priorities
+  -development status
+-Use cases help the design team track certain results
+  -Particularly the design of the user interface and system tests
+-These requirements are connected to use cases
+  -Data Formats
+  -I/O Protocols
+  -Performance Reqs
+  -UI Reqs
+  -UI Design
+  -Business Rules
+-Some consider use cases to be the central element of the project' dev process
+  
+
+Use Case Precision that is Needed and How to Tighten It
+--------------------------------------------------------
+-Write Usage Narrative to warm up
+-Define actors and goals
+-Define Main Success Scenario
+-Write Failure Conditions 
+-Write Failure Handling 
