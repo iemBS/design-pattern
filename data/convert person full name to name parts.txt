@@ -1,0 +1,19 @@
+Convert Person Full Name to Name Parts
+Pre-Condition:
+  -"Know Person Full Name to Name Parts Impediments"
+-Note:
+  -Converting full name to name parts cannot be perfect. Holding to an inperfect standard can be perfect.
+Main Success Scenario:
+  1. xxx:fill in 
+  
+  
+Know Person Full Name to Name Parts Impediments
+Main Success Scenario:
+  1. Possible Name parts not set
+  2. Two or more names possible for first name
+  3. Two or more names possible for middle name
+  4. Two or more names possible for last name
+  5. Not accounting for culture specific name features
+  6. Not having a complete list of possible titles/prefixes
+  7. Not having a complete list of possible pedigrees/suffixes
+  8. Name part delimiters not set
