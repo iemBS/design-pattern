@@ -2,10 +2,10 @@ Get All Text After the Last Instance of a Character
 Note:
   -guidance @
     -https://regexland.com/regex-match-after-character/
+Pre-Condition:
+  -Apply on value like: sd,fjk,abc
 Main Success Scenario:
   1. Get all text after the last instance of a comma 
     [^,]*$
-  2. Apply on "sdfjk,abc" string
-  3. Result is "abc"
 Alternatives:
   1a. xxx:fill in
