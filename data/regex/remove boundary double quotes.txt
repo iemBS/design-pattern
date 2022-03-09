@@ -3,5 +3,7 @@ Note:
   -guidance @ 
     -https://regex101.com/
     -https://stackoverflow.com/questions/19156148/i-want-to-remove-double-quotes-from-a-string/19156197
+Pre-Condition:
+  -Have value like: "abcd"
 Main Success Scenario:
   1. ^"(.+)"$
