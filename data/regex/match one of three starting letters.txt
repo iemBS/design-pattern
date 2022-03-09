@@ -1,0 +1,12 @@
+Match One of Three Starting Letters
+Note:
+  -guidance @
+    -https://regex101.com/
+Pre-Conditions:
+  -Apply on values like:
+    -apple
+    -beet
+    -cabbage
+Main Success Scenario:
+  1. Starting letters are a, b, and c
+  2. ^a|^b|^c
