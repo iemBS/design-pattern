@@ -1,0 +1,15 @@
+Get Names of Person Name Parts
+Note:
+  -guidance @
+    -https://simple.wikipedia.org/wiki/Name
+  -name parts
+    Pre-Nominal Letters
+    First Name
+    Nickname
+    Middle Name
+    Last Name
+    Post-Nominal Letters
+    Pedigree
+  -Number of name parts defined by culture
+Main Success Scenario:
+  1. xxx:fill in 
