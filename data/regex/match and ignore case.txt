@@ -1,0 +1,13 @@
+Match and Ignore Case
+Note
+  -guidance @
+    -https://regex101.com/
+Pre-Condition:
+  -Apply to values like:
+    -clarkkent
+    -CLARKKENT
+    -CLarkkent
+    -etc
+Main Success Scenario:
+  1. Search for all cases of "clarkkent"
+    (?i)clarkKent
