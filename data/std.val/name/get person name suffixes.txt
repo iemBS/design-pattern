@@ -1,9 +1,17 @@
 Get Person Name Suffixes
 Note:
-  -Post-Nominal Letters include the following:
-    -xxx
+  -Post-Nominal Letters exist for the following areas:
+    -position
+    -academic degree
+    -accreditation
+    -office
+    -military decoration
+    -military honour
+    -member of a religious institute
+    -member of a fraternity
   -Post-Nominal Letters are also called post-nominal initials, post-nominal titles, designatory letters or post-nominals
   -A Pedigree is a xxx
+  -Pedigree is not a Post-Nominal letter
   -Examples of Pedigree values:
     -xxx
   -A Pedigree is not a Post-Nominal letter
