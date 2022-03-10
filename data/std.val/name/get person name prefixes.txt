@@ -56,6 +56,9 @@ Main Success Scenario:
   1. Get US gov legal abbrev @ https://www.govinfo.gov/content/pkg/GPO-STYLEMANUAL-2008/pdf/GPO-STYLEMANUAL-2008-11.pdf on page 10 
 
 Get US Military Prefix Abbrevation
+Note:
+  -guidance @
+    -https://www.va.gov/vetsinworkplace/docs/em_rank.html
 Main Sucdess Scenario:
   1.Get US military abbrev @ https://www.govinfo.gov/content/pkg/GPO-STYLEMANUAL-2008/pdf/GPO-STYLEMANUAL-2008-11.pdf on pages 7-10
   
