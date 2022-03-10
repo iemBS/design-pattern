@@ -4,7 +4,7 @@ Note:
   -Pre-nominal/Prenominal Letters guidance @ https://en.wikipedia.org/wiki/Pre-nominal_letters
   -https://en.wikipedia.org/wiki/List_of_titles
   -https://en-academic.com/dic.nsf/enwiki/481499
-  -General categories of prenomial letters
+  -Pre-Nominal Letters exist for the following areas:
       -Religious Order
       -Fellowship/Fraternal Order
       -Academic (Scholastic and Honorary) Degree
@@ -16,6 +16,8 @@ Note:
         -Crown Honor
         -Legal
       -Professional Institution or Association
+  -Are there any preceding terms in names that do not fall under Pre-Nominal Letters?
+    -xxx
 Main Success Scenario:
   1. "Get Full Prefix"
   2. "Get Prefix Abbreviation"
