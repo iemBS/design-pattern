@@ -2,7 +2,19 @@ Convert Person Full Name to Name Parts
 Pre-Condition:
   -"Know Person Full Name to Name Parts Impediments"
 -Note:
+  -guidance @
+    -https://commons.wikimedia.org/wiki/Category:Compound_surnames
+    -https://en.wikipedia.org/wiki/List_of_family_name_affixes
   -Converting full name to name parts cannot be perfect. Holding to an inperfect standard can be perfect.
+  -Words in a surname can be seperated by a hyphen or space
+  -Surnames with more than one word can be called compound surnames. 
+  -Surname is also called a family name or last name
+  -A spacenated compound surname has might have a known surnamce prefix like ...
+    -Von in Von Trap
+    -El in El Gaucho
+    -La in La Victoria
+    -Le in Le Man
+    -Mac in Mac Donald
 Main Success Scenario:
   1. xxx:fill in 
   
@@ -14,6 +26,6 @@ Main Success Scenario:
   3. Two or more names possible for middle name
   4. Two or more names possible for last name
   5. Not accounting for culture specific name features
-  6. Not having a complete list of possible titles/prefixes
-  7. Not having a complete list of possible pedigrees/suffixes
+  6. Not having a complete list of possible prefixes
+  7. Not having a complete list of possible suffixes
   8. Name part delimiters not set
