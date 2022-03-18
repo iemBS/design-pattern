@@ -92,13 +92,47 @@ Main Success Scenario
 
 Specify Function Name
 Note: 
+  -guidance @ 
+    -https://softwareengineering.stackexchange.com/questions/402497/how-to-name-functions-with-multiple-return-values
   -example names
     -CleanHouse
     -VacuumRug
     -WashHand
+Post-Condition:
+  -Function Name reflects its primary purpose
 Main Success Scenario
-  1. Start with a present tense verb
-  2. Follow verb with a noun
+  1. "Specify Function Name Prefix"
+  2. "Specify Function Name Suffix"
+  
+Specify Function Name Prefix
+Note:
+  -guidance @
+    -https://stackoverflow.com/questions/1991324/function-naming-conventions
+  -common function prefixes:
+    -get
+    -set
+    -update
+    -delete
+    -
+Post-Condition:
+  -Prefix will be a present tense verb
+Main Success Scenario:
+  1. Function returns value
+  2. "Get" or "Get_"
+  3. End 
+Alternatives:
+  1a. Function sets variable
+    1a1. "Set" or "Set_"
+  1b. Function does other action
+    1b1. 
+
+
+Specify Function Name Suffix
+Post-Condition:
+  -Suffix will be a noun
+  -Suffix will be what the function is performing an action on
+Main Success Scenario:
+  1. xxx:fill in 
 
 
 Define Error Flow
