@@ -112,6 +112,8 @@ Note:
     -https://softwareengineering.stackexchange.com/questions/360742/naming-similar-variables
     -https://softwareengineering.stackexchange.com/questions/33532/naming-conventions-for-variables
     -https://softwareengineering.stackexchange.com/questions/176582/is-there-an-excuse-for-short-variable-names
+    -https://stackoverflow.com/questions/7663880/should-we-avoid-plural-names-for-variables
+    -https://softwareengineering.stackexchange.com/questions/344759/complex-variable-name-with-plural-nouns
   -Variable names may need to align with the names of functions or properties that set or get them
 Post-Condition:
   -Do not include the data type of the contents in the name unless there are two or more variables with similar names and noting the data type in the name discerns between the variables. 
@@ -120,6 +122,7 @@ Post-Condition:
   -Variable name describes its purpose
   -variable name length is greater than 1
   -variable name should be a noun
+  -If a variable holds more than one of something pluralize it. Avoid ending with _collection, _list, etc to indicate plural. 
 Main Success Scenario:
   1. Factor in the name format of existing variables
   2. Factor in if developers will use it in their code
