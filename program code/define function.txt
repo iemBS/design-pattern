@@ -173,7 +173,9 @@ Specify Function Name Suffix
 Post-Condition:
   -Suffix will be a noun
   -Suffix will be what the function is performing an action on
-  -date type returned by the function or the lack of a value returned by the function will not be noted on the function. 
+  -Data type returned by the function or the lack of a value returned by the function will not be noted on the function. 
+    -An exception is where the type is needed to discern between two or more similar items that are being acted on. 
+      -like get_name_string and get_name_object
   -Noun will be as short as possible
 Main Success Scenario:
   1. xxx:fill in 
