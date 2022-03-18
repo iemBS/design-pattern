@@ -147,14 +147,17 @@ Note:
       -read
       -retrieve
       -search
-    -true or false statement
+    -true or false state now or under certain conditions
       -can
       -has
       -is
       -should
   -other prefixes I have used:
-    -count, cnt
-    -execute, exec
+    -call function
+      -call
+      -execute, exec
+    -math
+      -count, cnt
 
 Post-Condition:
   -Prefix will be a present tense verb
