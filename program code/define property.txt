@@ -1,3 +1,6 @@
 Define Property
+Note:
+  -guidance @
+    -https://developer.apple.com/library/archive/documentation/Cocoa/Conceptual/CodingGuidelines/Articles/NamingIvarsAndTypes.html
 Main Success Scenario:
   1. xxx:fill in 
