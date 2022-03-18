@@ -153,6 +153,8 @@ Note:
       -is
       -should
   -other prefixes I have used:
+    -alteration
+      -reduce 
     -call function
       -call
       -execute, exec
