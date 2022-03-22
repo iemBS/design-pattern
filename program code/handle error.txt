@@ -89,7 +89,16 @@ Alternatives:
 
 Handle Error Explicitly
 Main Success Scenario:
-  1. xxx:fill in 
+  1. "Note Error Occurrence"
+  2. "Auto Fix Error"
+  3. "Try Code Again"
+  4. "Clean Up Before Code Exit"
+  5. "Exit Code"
+  6. End 
+Alternatives:
+  3a. Error cannot be fixed and priority or impact too high to continue code execution
+    3a1. "Re-Throw Error"
+    3a2. Go to step 4
   
   
 Handle Error Implicitly
@@ -110,11 +119,15 @@ Main Success Scenario:
   
   
 Note Error Occurrence
+Note:
+  -Noted error may also contribute to tracking of code execution run time or completion status
 Main Success Scenario:
   1. xxx:fill in 
   
   
 Try Code Again
+Pre-Condition:
+  -"Define Max Trys"
 Main Success Scenario:
   1. xxx:fill in 
   
@@ -125,6 +138,12 @@ Main Success Scenario:
   
     
 Clean Up Before Code Exit
+Note:
+  -In Python
+    -"finally" block, ref @ https://docs.python.org/3/tutorial/errors.html#defining-clean-up-actions
+    -https://docs.python.org/3/tutorial/errors.html#predefined-clean-up-actions
+Post-Condition:
+  -"finally" block is good for tasks executed, regardless if an error occurs or not
 Main Success Scenario:
   1. xxx:fill in 
   
@@ -134,13 +153,15 @@ Main Success Scenario:
   1. Bubble Up Error
   2. End 
 Alternatives:
-  1a. Re-Throw Different Error
+  1a. Re-Throw as Different Error
     1a1. Apply logic
     1a2. Throw different error based on logic
     1a3. Go to step 2
   
 
 Exit Code
+Pre-Condition:
+  -"Define Code Exits"
 Main Success Scenario:
   1. xxx:fill in 
   
