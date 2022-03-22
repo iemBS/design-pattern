@@ -37,24 +37,31 @@ Note:
     -in JavaScript ref @ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Error
     -in Python ref @ https://docs.python.org/3/library/exceptions.html
 Main Success Scenario:
-  1. Choose error class to use
+  1. Choose base error class
   2. Choose error message to note in the error object (created from the error class)
   3. Throw error
       [keyword to raise error] [error object [error message]]
-  4. End 
+  4. Note Error in Temp Location
+  5. If another error occurs before the error is sent to its destination, it does NOT overwrite the original error
+  6. "Send Error to Destination"
+  7. End 
 Alternatives:
-  1a. Choose base error class
+  1a. Choose a non-base error class
     1a1. Choose base error class 
     1a2. Go to step 2
-  1b. Choose a non-base error class
-    1b1. Choose base error class 
-    1b2. Go to step 2
-  1c. Create custom error class
-    1c1. Create custom error class
-    1c2. Create object from custom error class
-    1c3. Specify error message in error object
-    1c4. raise error with custom error class
-    1c5. Go to step 2.
+  1b. Choose custom error class
+    1b1. Create custom error class
+    1b2. Create object from custom error class
+    1b3. Specify error message in error object
+    1b4. raise error with custom error class
+    1b5. Go to step 2.
+  1c. Choose non-error class
+    1c1. Create custom error logic
+    1c2. Create custom error message
+    1c3. Go to step 4
+  5a. Error overwritten with another
+    5a1. If another error occurs before the error is sent to its destination, it DOES overwrite the original error
+    5a2. Go to step 6
   
   
 Throw Implicit Error
@@ -80,11 +87,12 @@ Main Success Scenario:
   2. End
 Alternatives:
   1a. Send error to server hosting the code
-    1a1. "Send to Code Hosting Server"
+    1a1. "Send to Code Host"
     1a2. Go to step 2
   1b. Send elsewhere
     1b1. "Send to Other Location"
     1b2. Go to step 2
+  1c. Send to Client and Server
     
 
 Explicit Send to Destination
@@ -95,11 +103,34 @@ Main Success Scenario:
 Send to Code Executing Client
 Main Success Scenario:
   1. xxx:fill in 
+  2. "Receive Error at Destination"
+  3. End 
 
 
-Send to Code Hosting Server
+Send to Code Host
 Main Success Scenario:
   1. xxx:fill in 
+  2. "Receive Error at Destination"
+  3. End 
+  
+
+Receive Error at Destination
+Main Success 
+  1. Note error in log
+  2. End
+Alternatives:
+  1a. Send to GUI
+    1a1. Note error in client GUI
+    1a2. Go to step 2
+  1b. Send to file
+    1b1. Note error in file
+    1b2. Go to step 2
+  1c. Send to other application
+    1c1. Note error in other application
+    1c2. Go to step 2
+  1d. Send to other location
+    1d1. Note error in other location
+    1d2. Go to step 2
   
   
 Send to Other Location
