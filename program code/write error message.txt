@@ -1,0 +1,6 @@
+Write Error Message
+Note:
+  -Error message needs to indicate where, when, and why the error occurred
+  -Target error message for those that will read it
+Main Success Scenario:
+  1. xxx:fill in 
