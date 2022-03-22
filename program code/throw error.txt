@@ -1,0 +1,107 @@
+Throw Error
+Note:
+  -guidance @
+    -in C#
+      -https://docs.microsoft.com/en-us/dotnet/csharp/fundamentals/exceptions/creating-and-throwing-exceptions
+      -https://docs.microsoft.com/en-us/dotnet/standard/exceptions/how-to-explicitly-throw-exceptions
+    -in Java
+      -https://docs.oracle.com/javase/tutorial/essential/exceptions/throwing.html
+    -in JavaScript
+      -https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/throw
+      -https://www.w3schools.com/js/js_errors.asp
+    -in Python
+      -https://www.w3schools.com/python/gloss_python_raise.asp
+      -https://docs.python.org/3/tutorial/errors.html
+      -https://docs.python.org/3/library/exceptions.html
+  -Errors may also be called exceptions.
+Main Success Scenario:
+  1. "Throw Explicit Error"
+  2. "Send Error to Destination"
+Alternatives:
+  1a. Throw Implicit Error
+    1a1. "Throw Implicit Error"
+    1a2. Go to step 2
+  
+
+Throw Explicit Error
+Note:
+  -base exception 
+    -in C# is Exception, ref @ https://docs.microsoft.com/en-us/dotnet/api/system.exception?view=net-6.0
+    -in Java is Exception, ref @ https://docs.oracle.com/javase/7/docs/api/java/lang/Exception.html
+    -in JavaScript is Error, ref @ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Error
+    -in Python is Exception, ref @ https://docs.python.org/3/library/exceptions.html#Exception
+  -All non-base error classes are derived from the base error class
+  -error classes available
+    -in C# ref @ https://docs.microsoft.com/en-us/dotnet/api/system.exception?view=net-6.0
+    -in Java ref @ https://docs.oracle.com/javase/7/docs/api/java/lang/Exception.html
+    -in JavaScript ref @ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Error
+    -in Python ref @ https://docs.python.org/3/library/exceptions.html
+Main Success Scenario:
+  1. Choose error class to use
+  2. Choose error message to note in the error object (created from the error class)
+  3. Throw error
+      [keyword to raise error] [error object [error message]]
+  4. End 
+Alternatives:
+  1a. Choose base error class
+    1a1. Choose base error class 
+    1a2. Go to step 2
+  1b. Choose a non-base error class
+    1b1. Choose base error class 
+    1b2. Go to step 2
+  1c. Create custom error class
+    1c1. Create custom error class
+    1c2. Create object from custom error class
+    1c3. Specify error message in error object
+    1c4. raise error with custom error class
+    1c5. Go to step 2.
+  
+  
+Throw Implicit Error
+Main Success Scenario:
+  1. xxx:fill in 
+  
+
+Send Error to Destination
+Main Success Scenario:
+  1. "Implicit Send to Destination"
+  2. End 
+Alternatives:
+  1a. Explicit Send to Destination
+    1a1. "Explicit Send to Destination"
+    1a2. Go to step 2
+    
+    
+Implicit Send to Destination
+Note:
+  -Client and Server may be on the same machine
+Main Success Scenario:
+  1. "Send to Code Executing Client"
+  2. End
+Alternatives:
+  1a. Send error to server hosting the code
+    1a1. "Send to Code Hosting Server"
+    1a2. Go to step 2
+  1b. Send elsewhere
+    1b1. "Send to Other Location"
+    1b2. Go to step 2
+    
+
+Explicit Send to Destination
+Main Success Scenario:
+  1. xxx:fill in 
+  
+  
+Send to Code Executing Client
+Main Success Scenario:
+  1. xxx:fill in 
+
+
+Send to Code Hosting Server
+Main Success Scenario:
+  1. xxx:fill in 
+  
+  
+Send to Other Location
+Main Success Scenario:
+  1. xxx:fill in 
