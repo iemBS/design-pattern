@@ -1,0 +1,5 @@
+Identify Errable Code
+Note:
+  -Explicitly or implicitly thrown errors will provide an error category, error code, and a message
+Main Success Scenario:
+  1. xxx:fill in 
