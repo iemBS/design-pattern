@@ -1,4 +1,4 @@
-Write Error Message
+Record Error
 Note:
   -Error message needs to indicate where, when, and why the error occurred
   -Target error message for those that will read it
