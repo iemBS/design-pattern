@@ -1,3 +1,138 @@
 Handle Error
+Note:
+  -Try Catch 
+    -in C#
+      -https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/try-catch
+    -in Java
+      -https://www.w3schools.com/java/java_try_catch.asp
+    -in JavaScript
+      -https://www.w3schools.com/js/js_errors.asp
+      -https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/try...catch
+    -in Python
+      -https://www.w3schools.com/python/python_try_except.asp
+Main Success Scenario:
+  1. "Watch Error Prone Code"
+  2. "Associate Error Handler to Code Watcher"
+  3. "Handle Error Implicitly"
+  4. End
+Alternatives:
+  3a. Handle Explicitly
+    3a1. "Handle Error Explicitly"
+    3a2. Go to step 4
+  
+  
+Watch Error Prone Code
+Main Success Scenario:
+  1. "Watch Error Prone Code Implicitly"
+Alternatives:
+  1a. Watch Explicitly
+    1a1. "Watch Error Prone Code Explicitly"
+    
+    
+Watch Error Prone Code Implicitly
+Note:
+  -in C#, use "try" block
+  -in Java, use "try" block
+  -in JavaScript, use "try"
+  -in Python, use "try" block
+Main Success Scenario:
+  1. xxx:fill in 
+
+
+Watch Error Prone Code Explicitly
+Note:
+  -in C#
+    -xxx
+  -in Java
+    -xxx
+  -in JavaScript
+    -xxx
+  -in Python
+    -IF condition, ref @ https://realpython.com/python-conditional-statements/
+    -MATCH statement, ref @ https://docs.python.org/3.10/whatsnew/3.10.html#pep-634-structural-pattern-matching
+    -IF condition with custom function, ref @ https://stackoverflow.com/questions/60208/replacements-for-switch-statement-in-python
+Main Success Scenario:
+  1. Use IF condition
+  2. Throw error if conditions met
+  3. End 
+Alternatives:
+  1a. Use CASE/SWITCH/MATCH statement 
+    1a1. CASE/SWITCH/MATCH statement 
+    1a2. Go to step 2
+  1b. IF conditions with custom function
+    1b1. IF conditions with custom function
+    1b2. Go to step 2
+
+  
+Associate Error Handler to Code Watcher
+Note:
+  -in C#
+    -use "catch", ref @ xxx
+  -in Java
+    -xxx
+  -in JavaScript
+    -xxx
+  -in Python
+    -use "except", ref @ https://docs.python.org/3/tutorial/errors.html
+    -use "finally", ref @ https://docs.python.org/3/tutorial/errors.html
+Main Success Scenario:
+  1. Handle Specific Error Type
+  2. End
+Alternatives:
+  1a. Handle Base Error Type
+    1a1. xxx:fill in 
+    1a2. Go to step 2
+  1b. Handle regardless of Error Type
+    1b1. Use "finally" block
+    1b2. Go to step 2
+    
+
+Handle Error Explicitly
+Main Success Scenario:
+  1. xxx:fill in 
+  
+  
+Handle Error Implicitly
+Main Success Scenario:
+  1. xxx:fill in 
+  
+  
+Define Max Trys
+Main Success Scenario:
+  1. xxx:fill in 
+  
+  
+Try Code Again
+Main Success Scenario:
+  1. xxx:fill in 
+  
+  
+Auto Fix Error
+Main Success Scenario:
+  1. xxx:fill in 
+  
+    
+Clean Up Before Code Exit
+Main Success Scenario:
+  1. xxx:fill in 
+  
+
+Re-Throw Error
+Main Success Scenario:
+  1. Bubble Up Error
+  2. End 
+Alternatives:
+  1a. Re-Throw Different Error
+    1a1. Apply logic
+    1a2. Throw different error based on logic
+    1a3. Go to step 2
+  
+
+Exit Code
+Main Success Scenario:
+  1. xxx:fill in 
+  
+  
+Define Code Exits
 Main Success Scenario:
   1. xxx:fill in 
