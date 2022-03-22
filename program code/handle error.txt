@@ -98,6 +98,8 @@ Main Success Scenario:
   
   
 Categorize Error
+Note:
+  -Category related to error priority, impact, notification, how watched for, and how handled.
 Main Success Scenario:
   1. xxx:fill in 
   
