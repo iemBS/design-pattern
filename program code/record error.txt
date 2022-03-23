@@ -3,4 +3,8 @@ Note:
   -Error message needs to indicate where, when, and why the error occurred
   -Target error message for those that will read it
 Main Success Scenario:
-  1. xxx:fill in 
+  1. Error needs to be recorded
+  2. xxx:fill in 
+Alternatives:
+  1a. Error does not need to be recorded
+    1a1. xxx:fill in 
