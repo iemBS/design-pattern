@@ -10,7 +10,8 @@ Main Success Scenario:
   5. Catch blocks do not hurt code readability
   6. Not many error types are handled in catch blocks
   7. Pre-Error checks reduce possible errors
-  8. End 
+  8. Not much code is skipped in the Try block when an error is thrown
+  9. End 
 Alternatives:
   1a. Too many Try blocks hurt readability
     1a1. Reduce number of Try blocks
@@ -33,3 +34,6 @@ Alternatives:
   6a. Too many error types are handled in catch blocks
     6a1. Replace the existing Try block with more than 1 Try block OR put Try blocks closer to error source
     6a2. Go to step 7
+  8a. A LOT of code is skipped in the Try block when an error is thrown
+    8a1. Move skipped code block into another function and do not include that function inside the current Try block
+    8a2. Go to step 9
