@@ -10,6 +10,7 @@ Note:
       -https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/try...catch
     -in Python
       -https://www.w3schools.com/python/python_try_except.asp
+      -https://boto3.amazonaws.com/v1/documentation/api/latest/guide/error-handling.html
 Main Success Scenario:
   1. "Watch Error Prone Code"
   2. "Associate Error Handler to Code Watcher"
