@@ -1,5 +1,0 @@
-Do Pre-Error Check
-Pre-Condition:
-  -Having an error is much more costly than checks to avoid it
-Main Success Scenario:
-  1. xxx:fill in 

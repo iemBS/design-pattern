@@ -1,0 +1,7 @@
+Check Pre-Error
+Pre-Condition:
+  -Having an error is more costly than a check to avoid the error
+Post-Condition:
+  -Error does not occur
+Main Success Scenario:
+  1. xxx:fill in 
