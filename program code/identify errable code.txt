@@ -1,5 +1,80 @@
 Identify Errable Code
 Note:
-  -Explicitly or implicitly thrown errors will provide an error category, error code, and a message
+  -Explicitly or implicitly thrown errors will provide an error category, error code, and a message. 
+  -If the main path through the code can avoid an error with a code change, then the error was because of a bug. 
+  -If an alternate path needs to exist for an error, then the error is not because of a bug and a bug fix is not possible.
+  -Identifying errable code allows us to define what code blocks to have try blocks on, what catch blocks to associate to try blocks, and if it is better to have try ... catch blocks upstream or downstream in the code flow. 
+Main Success Scenario:
+  1. "Identify Error Classes"
+  2. "Identify Allowed Code Entrances and Exits"
+  3. "Test Allowed and Unexpected Scenario"
+  4. "Identify Error Origin"
+  5. End 
+  
+
+Identify Error Origin
+Main Success Scenario:
+  1. Is an error seen in multiple code blocks inherited from one code block?
+  2. Should only the source code block be errable or the downstream code blocks be errable as well?
+  3. End 
+  
+  
+Identify Allowed Code Entrances and Exits
+Main Success Scenario:
+  1. "Identify How Code Can Be Entered"
+  2. "Identify What Can Enter the Code"
+  3. "Identify How Code Can be Exited"
+  4. "Identify What Can Exit the Code"
+  5. End 
+  
+  
+Identify How Code Can Be Entered
+Main Success Scenario:
+  1. Identify function parameter entrance
+  2. Identify get class variable entrance
+  3. Identify get global variable entrance
+  4. Identify get property entrance
+  5. Identify get child function result entrance
+  6. End 
+  
+  
+Identify What Can Enter the Code
+Main Success Scenario:
+  1. Identify data type of content entering via "Identify How Code Can Be Entered" entrances
+  2. Identity size of content entering via "Identify How Code Can Be Entered" entrances
+  3. End 
+  
+  
+Identify How Code Can be Exited
+Note:
+  -Some exits are momentary because something is being passed out and then execution of code within the block continues 
+Main Success Scenario:
+  1. Identify function return exit
+  2. Identify set class variable exit
+  3. Identity set global variable exit
+  4. Identify set property exit
+  5. Identity send parameter to child function exit 
+  6. End
+
+
+Identify What Can Exit the Code
 Main Success Scenario:
   1. xxx:fill in 
+  2. How possible is a scenario to cause an error
+  3. End 
+
+
+Test Allowed and Unexpected Scenario
+Main Success Scenario:
+  1. xxx:fill in 
+  
+  
+Identify Error Classes
+Note:
+  -In Python
+    -for re module, ref @ https://docs.python.org/3/library/re.html#re.error
+    -for pandas module, ref @ https://pandas.pydata.org/docs/reference/api/pandas.errors.AbstractMethodError.html
+    -for boto3 module, ref @ https://boto3.amazonaws.com/v1/documentation/api/latest/guide/error-handling.html?highlight=exception
+Main Success Scenario:
+  1. Identify error classes associated to classes used in your code
+  2. End 
