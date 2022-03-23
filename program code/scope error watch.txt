@@ -4,13 +4,13 @@ Note:
     -https://stackoverflow.com/questions/19569766/how-much-code-to-put-in-try-catch-block
 Main Success Scenario:
   1. Try blocks do not hurt code readability
-  2. Error source does NOT determine how error is handled
-  3. Error type does NOT determine how error is handled
+  2. *Error source does NOT determine how error is handled
+  3. *Error type does NOT determine how error is handled
   4. One specific error can occur for each possible error type
   5. Catch blocks do not hurt code readability
   6. Not many error types are handled in catch blocks
   7. Pre-Error checks reduce possible errors
-  8. Not much code is skipped in the Try block when an error is thrown
+  8. *Not much code is skipped in the Try block when an error is thrown
   9. End 
 Alternatives:
   1a. Too many Try blocks hurt readability
