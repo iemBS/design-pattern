@@ -7,9 +7,44 @@ Note:
 Main Success Scenario:
   1. "Identify Error Classes"
   2. "Identify Allowed Code Entrances and Exits"
-  3. "Test Allowed and Unexpected Scenario"
-  4. "Identify Error Origin"
-  5. End 
+  3. "Understand Code Logic"
+  4. "Trust What Enters"
+  5. "Trust What Exits"
+  6. "Test Allowed and Unexpected Scenario"
+  7. "Identify Error Origin"
+  8. End
+  
+  
+Understand Code Logic
+Main Success Scenario:
+  1. Understand what the code is intending to do
+  2. Understand what the code is doing
+  3. End 
+Alternatives:
+  1a. Do not understand what the code is intending to do
+    1a1. Go to step 1
+  2a. Do not understand what the code is doing
+    2a1. Go to step 2
+  
+  
+Trust What Enters
+Main Success Scenario:
+  1. Same party owns code being entered and the code doing the entering
+  2. End 
+Alternatives:
+  1a. Different parties owns code being entered and the code doing the entering
+    1a2. xxx:fill in 
+    1a3. Go to step 2
+    
+
+Trust What Exits
+Main Success Scenario:
+  1. Same party owns code being entered and the code doing the entering
+  2. End 
+Alternatives:
+  1a. Different parties owns code being entered and the code doing the entering
+    1a2. xxx:fill in 
+    1a3. Go to step 2
   
 
 Identify Error Origin
