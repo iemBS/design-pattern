@@ -1,3 +1,35 @@
 Scope Error Watch
+Note:
+  -gudiance @ 
+    -https://stackoverflow.com/questions/19569766/how-much-code-to-put-in-try-catch-block
 Main Success Scenario:
-  1. xxx
+  1. Try blocks do not hurt code readability
+  2. Error source does NOT determine how error is handled
+  3. Error type does NOT determine how error is handled
+  4. One specific error can occur for each possible error type
+  5. Catch blocks do not hurt code readability
+  6. Not many error types are handled in catch blocks
+  7. Pre-Error checks reduce possible errors
+  8. End 
+Alternatives:
+  1a. Too many Try blocks hurt readability
+    1a1. Reduce number of Try blocks
+    1a2. Go to step 2
+  2a. Error source DOES determine how error is handled
+    2a1. Put Try blocks closer to error source
+    2a2. Go to step 3
+  3a. Error type DOES determine how error is handled
+    3a1. Replace the existing Try block with more than 1 Try block OR single Try block must have Error type specific catches OR put Try blocks closer to error source
+    3a2. Go to step 4.
+  4a. More than one error can occur for an error type and error provides enough info to determine which one
+    4a1. Go to step 5
+  4b. More than one error can occur for an error type and error provides insufficient info to determine which one
+    4b1. Collect pre-error info to discern between errors 
+    4b2. Replace single Try block with multiple Try blocks
+    4b3. Go to step 5
+  5a. Too much is being done in catch block
+    5a1. Reduce Try block scope and/or put Try blocks closer to error source
+    5a2. Go to step 6
+  6a. Too many error types are handled in catch blocks
+    6a1. Replace the existing Try block with more than 1 Try block OR put Try blocks closer to error source
+    6a2. Go to step 7
