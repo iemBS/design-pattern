@@ -19,9 +19,13 @@ Main Success Scenario:
   
   
 Define BeDeleted Data Filter
+Main Success Scenario:
+  1. xxx:fill in 
 
 
 Define Bedeleted Data History
+Main Success Scenario:
+  1. xxx:fill in 
 
 
 Define Delete Method
@@ -30,7 +34,9 @@ Main Success Scenario:
   2. "Define Delete Order"
   3. xxx:fill in
 Alternatives:
-  1a. "Define Soft Delete Method"
+  1a. Soft Delete
+    1a1. "Define Soft Delete Method"
+    1a2. Go to step 3
   
   
 Define Hard Delete Method
@@ -40,10 +46,38 @@ Main Success Scenario:
   
 Define Soft Delete Method
 Main Success Scenario:
-  1. xxx:fill in
+  1. "Set Flag"
+  2. End 
+Alternatives:
+  1a. Set End Time
+    1a1. "Set End Time"
+    1a2. Go to step 2
+  
+  
+Set Flag
+Pre-Conditions:
+  -Knowing when the delete occurred, is not needed
+Main Success Scenario:
+  1. xxx:fill in 
+  
+  
+Set End Time
+Pre-Conditions:
+  -Knowing when the delete occurred, is needed 
+Main Success Scenario:
+  1. Set End Time
+  
+  
+Set Start Time
+Pre-Conditions:
+  -Set End Time is part of a active time window 
+Main Success Scenario:
+  1. Set Start Time
   
   
 Define Delete Order
+Pre-Conditions:
+-Delete order needed 
 Main Success Scenario:
   1. "Define Delete Location Order"
   2. "Define Delete Location Record Order"
