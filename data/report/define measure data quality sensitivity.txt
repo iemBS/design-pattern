@@ -1,5 +1,6 @@
 Define Measure Data Quality Sensitivity
 Note: 
-  -Important because it determines if DEV and TEST environments have sufficient data quality
+  -Important because it determines if non-PRD (DEV, TEST, Pre-PRD, Integration, etc) environments have sufficient data quality compared to PRD 
+  -May even be applied to the PRD environment. 
 Main Success Scenario:
   1. xxx:fill in 
