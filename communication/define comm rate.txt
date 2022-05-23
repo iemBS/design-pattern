@@ -1,0 +1,17 @@
+Define Comm Rate
+Main Success Scenario:
+  1. xxx:fill in 
+  
+  
+Define Comm Rate Limit
+Main Success Scenario:
+  1. Define Comm Rate Cost Limit
+  2. Define Comm Rate Human Capacity Limit
+  
+  
+Define Comm Rate Cost Limit
+
+
+Define Comm Rate Human Capacity Limit
+  
+  
