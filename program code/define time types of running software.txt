@@ -1,0 +1,32 @@
+Define Time Types of Running Software
+Pre-Condition:
+  -Need to understand the amount of time spent executing the software and the fetching the result, instead of just the full run time. 
+Main Success Scenario:
+  1. "Define Execution Time"
+  2. "Define Data Fetch Time"
+  3. End 
+Alternatives:
+  2a. Software does not return result
+    2a1. Go to step 3
+  
+  
+Define Execution Time
+Main Success Scenario:
+  1. Get time software starts execution
+  2. No sub-component is timed
+  3. Get time software stops execution
+  4. Subtract second time from the first time
+  5. End 
+Alternatives:
+  2a. Time sub-component
+    2a1. Get start time of sub-component execution
+    2a2. Get end time of sub-component execution 
+    2a3. Go to step 2a1 for another sub-component or to step 3
+  
+  
+Define Data Fetch Time
+Main Success Scenario:
+  1. Time result leaves executing software
+  2. Time result reaches pre-defined output
+  3. Subtract second time from the first time
+  4. End 
