@@ -1,0 +1,7 @@
+Identify Test Gap
+Pre-Condition:
+  -There are enough impediements to testing that gaps in testing are pointed out to those that will be impacted by issues that would have been found with better testing. 
+Main Success Scenario:
+  1. Define the functional area where testing has a gap
+  2. Define the data area where testing has a gap
+  3. End
