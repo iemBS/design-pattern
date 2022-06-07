@@ -1,0 +1,23 @@
+Define Retry Action
+Main Success Scenario:
+  1. Identify attributes to check for the retry to be successful
+  2. Identify the attribute values that must exist for the retry to be successful
+  3. Specify the max number of retries
+  4. "Define Wait Time before Retry"
+  5. "Define Retry Logging"
+  6. "Define Retry Metric"
+  
+  
+Define Wait Time before Retry
+Main Success Scenario:
+  1. xxx:fill in 
+  
+ 
+Define Retry Logging
+Main Success Scenario:
+  1. xxx:fill in 
+  
+  
+Define Retry Metric
+Main Success Scenario:
+  1. xxx:fill in 
