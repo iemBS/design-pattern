@@ -1,0 +1,47 @@
+Define Measure Group
+Main Success Scenario:
+  1. Group Measures based on measure ownership
+  2. end 
+Alternatives:
+  1a. group measures based on data ownership
+    1a1. xxx:fill in 
+  1b. group measures based on parent measures they are derived from
+    1b1. xxx:fill in 
+  1c. group measures based on system 
+    1c1. xxx:fill in 
+  1d. group measures based on platform
+    1d1. xxx:fill in 
+  1e. group measures based on units
+    1e1. xxx:fill in 
+  1f. group measures based on measure user group
+    1f1. xxx:fill in 
+  1g. group measures based on measure value severity or impact
+    1g1. xxx:fill in 
+  1h. group measures based on geography
+    1h1. xxx:fill in 
+  1i. group measures based on action-ability on measure values 
+    1i1. xxx:fill in 
+  1j. group measures based on frequency of usage
+    1j1. xxx:fill in 
+  1k. group measures based on quality of data in it
+    1k1. xxx:fill in 
+  1l. group measures based on refresh frequency
+    1l1. xxx:filll in 
+  1m. group measures based on supportability of data in it
+    1m1. xxx:fill in 
+  1n. group measures based on shared data
+    1n1. xxx:fill in 
+  1o. group measures based on common calculation
+    1o1. xxx:fill in 
+  1p. group measures based on data content
+    1p1. xxx:fill in 
+  1q. group measures based on data permissions 
+    1q1. xxx:fill in 
+  1r. group measures based on order of operations 
+    1r1. xxx:fill in 
+  1s. group measures based on relation between measures 
+    1s1. xxx:fill in 
+  1t. group measures based on time 
+    1t1. xxx:fill in 
+  
+    
