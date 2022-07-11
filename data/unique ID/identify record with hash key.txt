@@ -1,0 +1,17 @@
+Identify Record with Hash Key
+Note:
+  -guidance @ 
+    -https://stackoverflow.com/questions/4032209/is-md5-still-good-enough-to-uniquely-identify-files
+  -possibly hash functions to use:
+     -md5
+     -SHA-256
+     -SHA-512
+  -If hash key in the source data is the same as in the destination data, then delete the record in the source, because we already have it in the destination. Then move the remaining source data to the destination. 
+Pre-Condition:
+  -Record level hash key only used to see if a record changed
+Main Success Scenario:
+  1. xxx:fill in 
+  
+  
+Generate Time per Record Level Hash Key
+xxx:fill in 
