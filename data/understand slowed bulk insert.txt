@@ -1,0 +1,7 @@
+Understand Slowed Bulk Insert
+Main Success Scenario:
+  1. On-the-fly data manipulation
+  2. Destination index sorting
+  3. On-the-fly data check
+  4. Network busy
+  5. xxx:fill in 
