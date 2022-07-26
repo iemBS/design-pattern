@@ -15,6 +15,13 @@ Main Success Scenario:
 Alternatives:
   2a. Apply no on-the-fly fix
     2a1. go to step 3
+    
+    
+Define On-the-Fly Fix Limit
+Main Success Scenario:
+  1. Define on-the-fly fixes interpreted as data manipulation by downstream consumer
+  2. Define hardware resource intenstive on-the-fly fix
+  3. End 
 
 
 Apply On-the-Fly Fix
