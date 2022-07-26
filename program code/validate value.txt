@@ -1,11 +1,52 @@
 Validate Value
 Main Success Scenario:
+  1. "Define Value Limit in Source"
+  2. "Define Value Limit in Destination"
+  3. "Assume Value Attribute"
+  4. "Validate Assumption"
+  5. "Note Invalid Value"
+
+
+Note Invalid Value
+Main Success Scenario:
+  1. xxx:fill in 
+  
+  
+Validate Assumption
+Main Success Scenario:
+  1. xxx:fill in 
+  
+  
+Assume Value Attribute
+Note:
+  -Possible assumptions:
+    -xxx:fill in 
+Main Success Scenario:
+  1. xxx:fill in 
+  
+  
+Define Value Limit in Source
+Main Success Scenario:
+  1. xxx:fill in 
+  
+  
+Define Value Limit in Destination
+Main Success Scenario:
+  1. xxx:fill in 
+  
+  
+Define Value Limit
+Note:
+  -Possible value limits:
+    -xxx:fill in
+Main Success Scenario:
   1. xxx:fill in 
   
   
 Define Sufficient Validation
 Main Success Scenario:
   1. xxx:fill in 
+  
   
 Define Max Validation Time Allowed
 Main Success Scenario:
