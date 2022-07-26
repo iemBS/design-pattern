@@ -4,8 +4,25 @@ Main Success Scenario:
   2. "Define Value Limit in Destination"
   3. "Assume Value Attribute"
   4. "Validate Assumption"
-  5. "Note Invalid Value"
+  5. "Handle Invalid Value"
 
+
+Handle Invalid Value
+Main Success Scenario:
+  1. "Note Invalid Value"
+  2. "Apply On-the-Fly Fix"
+  3. End 
+Alternatives:
+  2a. Apply no on-the-fly fix
+    2a1. go to step 3
+
+
+Apply On-the-Fly Fix
+Pre-Condition:
+  -"Define On-the-Fly Fix Limit"
+Main Success Scenario:
+  1. xxx:fill in 
+  
 
 Note Invalid Value
 Main Success Scenario:
