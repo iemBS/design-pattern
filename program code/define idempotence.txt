@@ -1,0 +1,30 @@
+Define Idempotence
+Note:
+  -guidance @
+    -https://en.wikipedia.org/wiki/Idempotence
+  -Idempotence is the property of certain operations in mathematics and computer science whereby they can be applied 
+   multiple times without changing the result beyond the initial application. 
+  -Prevents damaage if application should only be once. 
+  -Uses conditions to confirm application is made only when needed
+  -Confirms you know when to apply
+  -Saves hardware resources
+  -Saves money
+  -Avoids going to an area of a system that does not need to be entered
+  -examples in math
+    -xxx
+  -examples in computer programming
+    -xxx
+Main Success Scenario:
+  1. "Know State Requiring Application"
+  2. "Check State"
+  3. "Apply"
+  4. End
+Alternatives:
+  3a. Do Not Apply
+    3a1. "No Apply"
+    3a2. Go to step 4
+  
+
+Check State
+Main Success Scenario:
+  1. xxx:fill in 
