@@ -3,6 +3,9 @@ Note:
   -Field cardinality is the count of unique values in that field
   -Cardinality of field used in a join is size comparison of the count in one data set to another. If a value is joined on and the value in the left set can exist more than once when joined to the right set, then the left side is said to have a count of meny. If the count is only one and that is true for all values, then the count is 1. Same idea works for the set on the right. 
   -https://en.wikipedia.org/wiki/Universally_unique_identifier
+  -Examples of software that can auto change an ID
+    -Software cannot handle the characters in the ID
+    -ID is numeric and has leading zeroes. Excel drops the leading zeroes on a numeric ID. 
 Main Success Scenario:
   1.Use source data identifier 
   2.ID NOT expire 
@@ -11,7 +14,7 @@ Main Success Scenario:
   5.ID NOT dependent on software development stage environment 
   6.ID has size limit (volume, length)
   7."Find Data Cardinality"
-  8. xxx:fill in
+  8. ID not auto changed by software
   x. End 
 Alternatives:
   1a. Use a common data identifier 
