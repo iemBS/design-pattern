@@ -1,4 +1,4 @@
-Use ETL or ELT or neither
+Move Data
 Main Success Scenario:
   1. Apply reqs early in data life cycle to filter out uneeded data (ETL)
   2. Apply reqs to connect to other data (ELT)
