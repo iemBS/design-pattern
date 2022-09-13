@@ -2,44 +2,117 @@ Compare Data Object Definition
 Note:
   -Handy when needing to compare two databases that should have the same object definitions.
 Main Success Scenario:
-  1. "Compare Relational DB Object Definitions"
+  1. "Compare Relational DB Object Definition"
 Alternatives:
-  1a. "Compare Graph DB Object Definitions"
-  1b. "Compare Document DB Object Definitions"
-  1c. "Compare Key Value DB Object Definitions"
-  1d. "Compare Data at High Level"
+  1a. "Compare Graph DB Object Definition"
+  1b. "Compare Document DB Object Definition"
+  1c. "Compare Key Value DB Object Definition"
   
   
-Compare Relational DB Object Definitions
+Compare Relational DB Object Definition
 Main Success Scenario:
-  x. "Compare Static Table Data Diff"
+  x. "Compare Table Existence"
+  x. "Compare Table Definition"
+  x. "Compare Table Column Existence"
+  x. "Compare Table Column Definition"
+  x. "Compare Table Index Existence"
+  x. "Compare Table Index Definition"
   x. "Compare View Existence"
   x. "Compare View Definition"
-  x. "Compare Table Index Existence"
-  x. "Compare Table Index Definition Diff"
-  x. "Compare Table Existence"
-  x. "Compare Table Column Existence"
-  x. "Compare Table Column Definition Diff"
+  x. "Compare View Column Existence"
   x. "Compare Routine Existence"
-  x. "Compare Routine Definition Diff"
+  x. "Compare Routine Definition"
+  x. "Compare Static Table Data"
   
 
 Compare Routine Existence
 Main Success Scenario:
   1. "Compare Procedure Existence"
   2. "Compare Function Existence"
-
-
-Compare Routine Definition Diff
+  
+  
+Compare Procedure Existence
 Main Success Scenario:
-  1.  "Compare Procedure Definition Diff"
-  2. "Compare Function Definition Diff"
+  1. "Compare Existence"
+  2. End
   
   
-Compare Data at High Level
+Compare Function Existence
+Main Success Scenario:
+  1. "Compare Existence"
+  2. End
+  
+
+Compare Routine Definition
+Main Success Scenario:
+  1. "Compare Procedure Definition"
+  2. "Compare Function Definition"
+  3. End
+  
+
+Compare Procedure Definition
+Pre-Conditions:
+  -Only procedures found to exist in both in "Compare Procedure Existence"
+  -Procedures not adhering to the above will not be compared here
+Main Success Scenario:
+  1.
+  
+
+Compare Function Definition
+Pre-Conditions:
+  -Only functions found to exist in both in "Compare Function Existence"
+  -Functions not adhering to the above will not be compared here
+Main Success Scenario:
+  1.
+  
+  
+Compare Existence
 Note:
-  -This is looking at data 
+  -Define EXISTS, NOT EXISTS flags
+Pre-Conditions:
+  -Object is table, view, column, procedure, function, index, trigger, or another object type
 Main Success Scenario:
-  x. "Compare Key Existence in Related Tables"
-  x. xxx:fill in
+  1. Note object name exists here and there
+  2. Note object name exists here and NOT there
+  3. From other perspective, note object name exists here and NOT there
+  4. End
+  
+  
+Compare Table Column Existence
+Pre-Conditions:
+  -Only tables found to exist in both in "Compare Table Existence"
+  -Table not adhering to the above will not be compared here
+Main Success Scenario:
+  1. 
+  
+  
+Compare Table Index Existence  
+Pre-Conditions:
+  -Only when all table index columns found to exist in both in "Compare Table Column Existence"
+  -Only when all table index columns found to match in "Compare Table Column Definition"
+  -Table indexes not adhering to the above will not be compared here
+Main Success Scenario:
+  1. 
+  
+  
+Compare Table Index Definition
+Pre-Conditions:
+  -Only table indexes found to exist in both in "Compare Table Index Existence"
+  -Table indexes not adhering to the above will not be compared here
+Main Success Scenario:
+  1. 
+  
+  
+Compare View Column Existence
+Pre-Conditions:
+  -Only views found to exist in both in "Compare View Existence"
+  -Views not adhering to the above will not be compared here
+Main Success Scenario:
+  1. xxx:fill in 
+  
 
+Compare Static Table Data
+Main Success Scenario:
+  1. xxx:fill in 
+  
+  
