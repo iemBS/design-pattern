@@ -102,6 +102,8 @@ Main Success Scenario:
     
     
 Monitor Process
+Note:
+  -Apply "Separate Monitor and Process"
 Pre-Conditions:
   -Concerned with process health
   -Process provides sufficient data or ability to monitor
@@ -117,4 +119,16 @@ Main Success Scenario:
   8. "Set Measure Limit"
   9. "Set Measure Alert"
   10. End 
+  
+  
+Separate Monitor and Process
+Main Success Scenario:
+  1. Change for monitor has minimal or no change for process
+  2. "Define Process Min Contribution to Monitoring"
+  x. xxx:fill in 
+  
+
+Define Process Min Contribution to Monitoring
+Main Success Scenario:
+  1. xxx:fill in 
     
