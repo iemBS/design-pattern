@@ -1,0 +1,12 @@
+Reuse Code
+Note:
+  -Reuse Definition
+Main Success Scenario:
+  1. "Define Code Reuse Goals"
+  x. xxx:fill in 
+
+
+Define Code Reuse Goals
+Main Success Scenario:
+  1. Task defined in one place
+  2. xxx:fill in 
