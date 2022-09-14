@@ -22,6 +22,8 @@ Alternatives:
   1f. Had too many issues in the past
   1g. Do not have security permissions access issue details all the time
   1h. Do not want to grant access for issue investigation
+  1i. See where optimization needed
+  1j. Clarify steps/tasks in process
 
  
 Define Monitoring Goal
