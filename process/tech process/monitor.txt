@@ -78,8 +78,12 @@ Main Success Scenario:
   
 Set Measure Limit
 Main Success Scenario:
-  1. Set limit for measure 
-  2. Set limit for aggregate measure
+  1. Set hard limit for measure 
+  2. End
+Alternatives:
+  1a. Priority, Severity, or both are less
+    1a1. Set soft limit for measure
+    1a2. Go to step 2
   
   
 Set Measure Alert
@@ -87,7 +91,7 @@ Pre-Condition:
   -"Set Measure Limit"
 Main Success Scenario:
   1. Set alert based on measure and limit
-  2. Set alert based on aggregate measure and limit  
+  2. End
     
     
 Monitor Environment
