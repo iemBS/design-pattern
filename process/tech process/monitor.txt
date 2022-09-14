@@ -1,11 +1,11 @@
 Monitor
 Main Success Scenario:
   1. "Define Monitoring Goal"
-  2. "Monitor from Environment Perspective"
+  2. "Monitor Environment"
   3. End 
 Alternatives:
-  2a. From Process Perspective
-    2a1. "Monitor from Process Perspective"
+  2a. Narrow monitoring to a process
+    2a1. "Monitor Process"
     2a2. Go to step 3
     
     
@@ -74,21 +74,21 @@ Main Success Scenario:
   x. xxx:fill in 
   
   
-Set Limit
+Set Measure Limit
 Main Success Scenario:
   1. Set limit for measure 
   2. Set limit for aggregate measure
   
   
-Set Alert
+Set Measure Alert
 Pre-Condition:
-  -"Set Limit"
+  -"Set Measure Limit"
 Main Success Scenario:
   1. Set alert based on measure and limit
   2. Set alert based on aggregate measure and limit  
     
     
-Monitor from Environment Perspective
+Monitor Environment
 Pre-Conditions:
   -Concerned with environment health and not a specific process
 Main Success Scenario:
@@ -96,14 +96,16 @@ Main Success Scenario:
   2. See aggregate measures that are built on top of the basic ones
   3. Compare environment measures to aggregate environment measures to see if runs are better or worse than usual
   4. Communicate hard hardware and software limits
-  5. "Set Limit"
-  6. "Set Alert"
+  5. "Set Measure Limit"
+  6. "Set Measure Alert"
   7. End 
     
     
-Monitor from Process Perspective
+Monitor Process
 Pre-Conditions:
   -Concerned with process health
+  -Process provides sufficient data or ability to monitor
+  -Monitoring able to access process sufficiently
 Main Success Scenario:
   1. See Process Start, Stop, Duration, Run Status, Completion Status
   2. See Tasks within Process
@@ -112,7 +114,7 @@ Main Success Scenario:
   5. Compare process and task runs to aggregate measures to see if runs are better or worse than usual
   6. Associate Runs to Environment measures (at task, process, service instance, or service level)
   7. Communicate hard hardware and software limits
-  8. "Set Limit"
-  9. "Set Alert"
+  8. "Set Measure Limit"
+  9. "Set Measure Alert"
   10. End 
     
