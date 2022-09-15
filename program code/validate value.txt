@@ -91,6 +91,9 @@ validations to do
     -modified by
     -modified time
   -xxx:fill in 
+-use validation
+  -file
+    -current use (open or closed)
 -structure validation
   -xxx:fill in 
   -relational database
@@ -99,6 +102,7 @@ validations to do
     -xxx:fill in 
   -file
     -csv 
+      -column header
       -column count
       -column name
       -column order
