@@ -81,9 +81,12 @@ Main Success Scenario:
   1. Set hard limit for measure 
   2. End
 Alternatives:
-  1a. Priority, Severity, or both are less
+  1a. Priority, Severity, or both for a measure are less than in the main scenario
     1a1. Set soft limit for measure
     1a2. Go to step 2
+  1b. Limit factors in two or more measures
+    1b1. Set limit logic between two or more measures
+    1b2. Go to step 2
   
   
 Set Measure Alert
