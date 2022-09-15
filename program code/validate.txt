@@ -1,4 +1,4 @@
-Validate Value
+Validate
 Main Success Scenario:
   1. "Define Value Limit in Source"
   2. "Define Value Limit in Destination"
@@ -90,7 +90,10 @@ validations to do
     -created time
     -modified by
     -modified time
+  -program 
+    -xxx:fill in 
   -xxx:fill in 
+  
 -container use validation
   -file
     -current use (open or closed)
@@ -111,6 +114,8 @@ validations to do
       -expected column delimiter
       -row count
     -xxx:fill in 
+  -variable 
+    -xxx:fill in 
 -data validation
   -data type 
   -code follows standard
@@ -118,3 +123,4 @@ validations to do
   -format
   -uniqueness
   -no value indicator
+  -character set
