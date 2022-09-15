@@ -1,5 +1,29 @@
 Define Code Path
 Main Success Scenario:
+  1. "Define Fork in the Road"
+  2. "Define Unexpected Path"
+  3. "Define Retry"
+  4. "Define Stop"
+  x. xxx:fill in 
+ 
+ 
+Define Fork in the Road
+Main Success Scenario:
+  1. xxx:fill in 
+  
+  
+Define Unexpected Path
+Main Success Scenario:
+  1. xxx:fill in 
+  
+  
+Define Stop
+Main Success Scenario:
+  1. xxx:fill in 
+  
+  
+Define Retry
+Main Success Scenario:
   1. xxx:fill in 
   
   
