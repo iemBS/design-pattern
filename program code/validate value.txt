@@ -75,3 +75,42 @@ Main Success Scenario:
 Define Max Validation Time Allowed
 Main Success Scenario:
   1. xxx:fill in 
+
+
+validations to do
+-location validation 
+  -xxx:fill in 
+-container validation
+  -file
+    -file type
+    -file extension
+    -character set
+    -file name
+    -created by
+    -created time
+    -modified by
+    -modified time
+  -xxx:fill in 
+-structure validation
+  -xxx:fill in 
+  -relational database
+    -xxx:fill in 
+  -graph database
+    -xxx:fill in 
+  -file
+    -csv 
+      -column count
+      -column name
+      -column order
+      -column name casing
+      -column consecutivity 
+      -expected column delimiter
+      -row count
+    -xxx:fill in 
+-data validation
+  -data type 
+  -code follows standard
+  -range
+  -format
+  -uniqueness
+  -no value indicator
