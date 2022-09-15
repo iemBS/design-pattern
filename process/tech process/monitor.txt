@@ -87,6 +87,9 @@ Alternatives:
   1b. Limit factors in two or more measures
     1b1. Set limit logic between two or more measures
     1b2. Go to step 2
+  1c. Create new measure based on 2 or more measures instead of limit factoring in 2 or more measures
+    1c1. Go to "Define Measure"
+    1c2. Go to step 1
   
   
 Set Measure Alert
@@ -132,7 +135,7 @@ Main Success Scenario:
   
 Separate Monitor and Process
 Main Success Scenario:
-  1. Change for monitor has minimal or no change for process
+  1. Change for monitor has minimal or no change, for process
   2. "Define Process Min Contribution to Monitoring"
   x. xxx:fill in 
   
