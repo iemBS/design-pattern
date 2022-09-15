@@ -3,10 +3,30 @@ Note:
   -Handy when needing to compare two databases that should have the same object definitions.
 Main Success Scenario:
   1. "Compare Relational DB Object Definition"
+  2. "Show Compare Result"
 Alternatives:
   1a. "Compare Graph DB Object Definition"
   1b. "Compare Document DB Object Definition"
   1c. "Compare Key Value DB Object Definition"
+  
+  
+Show Compare Result
+Note:
+  -fields to show in result (for each environment compared)
+    -Time compared data pulled
+    -Time zone when compared data pulled
+    -server name
+    -database name
+    -object name
+    -create time (if available)
+    -last modified time (if available)
+    -ENV1 vs ENV2 
+      -NOT exist
+      -exist, def match
+      -exist, def NOT match
+  -only one database object type compared at a time
+Main Success Scenario:
+  1. xxx:fill in 
   
   
 Compare Relational DB Object Definition
