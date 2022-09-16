@@ -59,6 +59,8 @@ Main Success Scenario:
   3. Time of calculation
   4. Time of report publish
   5. Time noted in report publish name
+  6. Time of fiscal month change
+  7. Time of clock set back or forward
   x. End
   
   
