@@ -22,7 +22,12 @@ Main Success Scenario:
   
 Define Time Scale
 Main Success Scenario:
-  1. xxx:fill in 
+  1. 
+  x. xxx:fill in 
+Alternatives:
+  1a. Maximizing optimization
+    1a1. Use lowest possible time scale we hope to see time reduction on
+    1a2. Go to step X
   
  
 Define Time Perspective
