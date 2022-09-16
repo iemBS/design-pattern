@@ -1,12 +1,42 @@
 Define Time
 Main Success Scenario:
-  1. "Define Time Zone"
-  2. "Define Time Perspective"
+  1. "Define Current Time Source"
+  2. "Define Time Zone"
+  3. "Define Time Perspective"
+  4. "Define Time Scale"
+  5. "Define Time Format"
+  6. "Define Time Position"
+  7. "Define Archive Time" 
+  
+  
+Define Current Time Source
+Main Success Scenario:
+  1. xxx:fill in 
+ 
+  
+Define Archive Time
+Main Success Scenario:
+  1. xxx:fill in 
+  
+  
+Define Time Scale
+Main Success Scenario:
+  1. xxx:fill in 
   
  
 Define Time Perspective
 Main Success Scenario:
-  1. xxx:fill in 
+  1. Define Last Business Cycle
+  2. Define Time Range Comparison
+  3. Define Forecast Time
+  
+
+Define Time Position
+Main Success Scenario:
+  1. Time data updated in source
+  2. Time data pulled from source
+  3. Time of calculation
+  x. End
   
   
 Define Time Zone
