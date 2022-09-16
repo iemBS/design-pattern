@@ -1,3 +1,19 @@
+Define Time
+Main Success Scenario:
+  1. "Define Time Zone"
+  2. "Define Time Perspective"
+  
+ 
+Define Time Perspective
+Main Success Scenario:
+  1. xxx:fill in 
+  
+  
+Define Time Zone
+Main Success Scenario:
+  1. xxx:fill in 
+  
+
 Define Calculate Time
 Note:
   -Calculate once and store result, reduces CPU and RAM resources
