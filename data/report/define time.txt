@@ -61,6 +61,9 @@ Main Success Scenario:
   5. Time noted in report publish name
   6. Time of fiscal month change
   7. Time of clock set back or forward
+  8. start and end time of a business day
+  9. business days in week
+  10. recognized holidays
   x. End
   
   
