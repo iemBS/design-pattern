@@ -1,0 +1,18 @@
+Define Data Value
+Main Success Scenario:
+  1. Define Data Type
+  2. Define Data Length
+  3. Define Value Derivation
+  4. "Define Possible Value"
+  5. Define Character Set
+  6. Define Value Sensitivity
+  7. Define Value Meaning
+  8. Define Value Longevity
+  9. Define Value Order
+  
+  
+Define Possible Value
+Main Success Scenario:
+  1. Define Default Value
+  2. Define Nullability
+  3. xxx:fillin 
