@@ -25,6 +25,7 @@ Note:
       -exist, def match
       -exist, def NOT match
   -only one database object type compared at a time
+  -Make times for both data systems use same timezone or convert it for the comparison
 Main Success Scenario:
   1. xxx:fill in 
   
@@ -43,6 +44,23 @@ Main Success Scenario:
   x. "Compare Routine Existence"
   x. "Compare Routine Definition"
   x. "Compare Static Table Data"
+  
+
+Compare Table Column Definition
+Pre-Conditions:
+  -"Compare Table Existence"
+  -"Compare Table Definition"
+  -"Compare Table Column Existence"
+Main Success Scenario:
+  1. xxx:Fill in 
+  
+  
+Compare Table Column Existence
+Pre-Conditions:
+  -"Compare Table Existence"
+  -"Compare Table Definition"
+Main Success Scenario:
+  1. xxx:Fill in 
   
 
 Compare Routine Existence
@@ -108,6 +126,10 @@ Main Success Scenario:
   
 Compare Table Index Existence  
 Pre-Conditions:
+  -"Compare Table Existence"
+  -"Compare Table Definition"
+  -"Compare Table Column Existence"
+  -"Compare Table Column Definition"
   -Only when all table index columns found to exist in both in "Compare Table Column Existence"
   -Only when all table index columns found to match in "Compare Table Column Definition"
   -Table indexes not adhering to the above will not be compared here
@@ -117,10 +139,15 @@ Main Success Scenario:
   
 Compare Table Index Definition
 Pre-Conditions:
+  -"Compare Table Existence"
+  -"Compare Table Definition"
+  -"Compare Table Column Existence"
+  -"Compare Table Column Definition"
+  -"Compare Table Index Existence"
   -Only table indexes found to exist in both in "Compare Table Index Existence"
   -Table indexes not adhering to the above will not be compared here
 Main Success Scenario:
-  1. 
+  1. xxx:fill in 
   
   
 Compare View Column Existence
