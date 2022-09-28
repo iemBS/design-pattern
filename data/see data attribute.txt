@@ -1,0 +1,20 @@
+See Data Attributes
+Pre-Condition:
+  -DO NOT look at data quality
+Note:
+  -Look at
+    -per table
+      -size in MB
+      -size in row count
+    -per table column
+      -non-null value count
+      -unique non-null value count
+      -null count
+      -max value length
+      -min value length (null is 0 length)
+      -avg value length (null is 0 length)
+      -% max value length is of data type max length
+    -per table relation
+      -relation type (many to many, many to 1, 1 to many, 1 to 1)
+Main Success Scenario:
+  1. xxx:fill in
