@@ -1,0 +1,34 @@
+See Data Quality
+Note:
+  -Input
+    -per table
+      -expected row count
+        -general or specific 
+      -columns defining unique rows
+    -per table column
+      -allowed values
+      -allowed nullability
+      -allowed min length
+      -allowed max length
+      -allowed characters
+      -not allowed characters
+      -allowed value uniqueness
+      -allowed value format
+    -per table relation
+      -expected relation type (1 to 1, many to 1, 1 to many, many to many)
+  -Like
+    -per table
+      -invalid row count
+      -invalid row uniqueness
+    -per table column
+      -invalid value
+      -invalid nullability
+      -invalid min length
+      -invalid max length
+      -invalid character
+      -invalid value uniqueness
+      -invalid value format 
+    -per table relation
+      -invalid relation type
+Main Success Scenario:
+  1. xxx:fill in 
