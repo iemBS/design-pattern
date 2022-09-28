@@ -1,7 +1,38 @@
 See Data Process Quality
+Main Success Scenario:
+  1. "See Relational DB Data Process Quality"
+  2. End 
+Alternatives:
+  1a. "See Graph DB Data Process Quality"
+  1b. "See Document DB Data Process Quality"
+
+
+See Graph DB Data Process Quality
+Main Success Scenario:
+  1. xxx:fill in 
+
+
+See Document DB Data Process Quality
+Main Success Scenario:
+  1. xxx:fill in 
+  
+
+See Relational DB Data Process Quality
 Note:
+  -Input
+    -per table
+      -expected insert count
+      -expected update count
+      -expected delete count
+    -per procedure 
+      -expected run duration 
   -Like
+    -per table
+      -invalid insert count
+      -invalid update count
+      -invalid delete count
     -per procedure 
       -% rollback per run
+      -invalid run duration 
 Main Success Scenario:
   1. xxx:fill in 
