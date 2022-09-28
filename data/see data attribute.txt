@@ -1,4 +1,14 @@
 See Data Attributes
+Main Success Scenario:
+  1. "See Relational DB Data Attributes"
+  2. End
+Alternatives:
+  1a. "See Graph DB Data Attributes"
+  1b. "See Document DB Data Attributes"
+  1c. "See File Data Attributes"
+
+
+See Relational DB Data Attributes
 Pre-Condition:
   -DO NOT look at data quality
 Note:
@@ -16,5 +26,25 @@ Note:
       -% max value length is of data type max length
     -per table relation
       -relation type (many to many, many to 1, 1 to many, 1 to 1)
+    -per procedure 
+      -per parameter
+        -unique value count
+        -unique value
+    -per function 
+      -per parameter
+        -unique value count
+        -unique value
 Main Success Scenario:
   1. xxx:fill in
+  
+  
+See File Data Attributes
+Main Success Scenario:
+  1. "See CSV File Data Attributes"
+  2. End 
+Alternatives:
+  1a. "See DAT File Data Attributes"
+  1b. "See JSON File Data Attributes"
+  1c. "See Excel File Data Attributes"
+  1d. "See TXT File Data Attributes"
+  1e. xxx:fill in 
