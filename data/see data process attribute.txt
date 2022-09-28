@@ -1,0 +1,16 @@
+See Data Process Attribute
+Note:
+  -Like
+    -per table
+      -Count of inserts per unit time
+      -Count of updates per unit time
+      -Count of deletes per unit time
+    -per table relation
+      -per expected 1 to many or many to 1 relations
+        -avg count of "many"
+      -per expected many to many relations
+        -avg count of "many"
+    -per procedure 
+      -avg run time
+Main Success Scenario:
+  1. xxx:fill in 
