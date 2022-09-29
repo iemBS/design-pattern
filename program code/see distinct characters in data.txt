@@ -1,0 +1,12 @@
+See Distinct Characters in Data
+Main Success Scenario:
+  1. Grab first character
+  2. Put character in a list
+  3. Remove all instances of that character from the data
+  4. See if there is more characters in the data
+  5. No more characters in data
+  6. Publish list of distinct characters in unicode base 10 ID order
+Alternatives:
+  5a. There is more characters in the data
+    5a1. Go to step 1
+    
