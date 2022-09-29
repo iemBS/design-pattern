@@ -1,4 +1,8 @@
 See Distinct Characters in Data
+Note:
+  -Bring all file data into memory or just part of it?
+    -What is the max size of the data that can be brought into memory and saved between character retrievals?
+  -Save between remaining data in memory or in file?
 Main Success Scenario:
   1. Grab first character
   2. Put character in a list
