@@ -1,0 +1,110 @@
+Retry Action
+Pre-Condition:
+  -"Define Failure Reason"
+  -"Determine Max Retry Count"
+  -"Determine Wait Duration"
+Main Success Scenario:
+  1. "Wait"
+  2. "Check Conditions"
+  3. Retry action
+  4. Action successful
+  5. End 
+Alternatives:
+  2a. Failed for a Non-Retryable reason
+    2a1. Go to step 5
+  4a. Action not successful
+    4a1. Go to step 1
+    
+    
+Define Failure Reason
+Main Success Scenario:
+  1. "Define Retryable Failure Reason"
+  2. End 
+Alternatives:
+  1a. Cannot be retried
+    1a1. "Define Non-Retryable Failure Reason"
+    1a2. Go to step 2
+    
+
+Define Retryable Failure Reason
+Main Success Scenario:
+  1. Retryable Failure Reasons
+    -Cannot connect, destination too busy
+    -Can connect, but destination too busy
+    -Can connect, destination NOT busy, response not desirable, response should only be temporary
+    -xxx:fill in 
+  
+
+Define Non-Retryable Failure Reason
+Main Success Scenario:
+  1. Non-Retryable Failure Reasons
+    -Cannot connect, destination is down
+    -Can connect, destination NOT busy, response not desirable, response is not temporary
+    -xxx:fill in 
+    
+Check Failure Reason
+Pre-Conditions:
+  -"Define Failure Reason"
+Main Success Scenario:
+  1. Can be surpassed with a retry (in Possible Retryable Failure Reasons)
+  2. End 
+Alternatives:
+  1a. Cannot be surpassed with a retry 
+    1a1. in Possible Non-Retryable Failure Reasons
+    1a2. go to step 2
+  1b. Not sure if can be surpassed (not in Possible or Non-Possible Retryable Failure Reasons)
+    1b1. Log details 
+    1b2. Go to step 1
+  1c. Cannot be surpassed with a retry and retries exhausted
+    1c1. Use logged details of failure to add it to the Possible or Non-Possible Retryable list
+    1c2. Watch action next time
+    1c3. Go to step 2
+    
+    
+    
+Check Conditions
+Main Success Scenario:
+  1. "Check Failure Reason"
+  2. End 
+
+
+Wait
+Main Success Scenario:
+  1. xxx:fill in 
+
+
+Determine Max Retry Count
+Main Success Scenario: 
+  1. xxx:fill in
+  
+  
+Determine Wait Duration
+Main Success Scenario: 
+  1. "Determine Wait Dependencies"
+  2. "Determine Wait Type"
+  3. "Determine Retry count impact on Wait Duration"
+  
+
+Determine Wait Type
+Main Success Scenario: 
+  1. Loop until conditions are good enough to retry
+  2. End 
+Alternatives:
+  1a. Hand of the component that will perform the action in a stopped state to a manager component that does the waiting and the awakening
+    1a1. xxx:fill in 
+  
+  
+Determine Retry count impact on Wait Duration
+Main Success Scenario: 
+  1. Have same wait duration before each retry
+  2. End 
+Alternatives:
+  1a. Have longer wait time before each retry
+    1a1. Wait twice as long as previous wait
+    1a2. Go to step 2
+  
+  
+Determine Wait Dependencies
+Main Success Scenario: 
+  1. Determine how much time should pass until action likely to succeed
+  x. xxx:fill in 
