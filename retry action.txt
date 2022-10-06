@@ -3,6 +3,7 @@ Pre-Condition:
   -"Define Failure Reason"
   -"Determine Max Retry Count"
   -"Determine Wait Duration"
+  -"Define Max Cost of Failure Reason Check"
 Main Success Scenario:
   1. "Wait"
   2. "Check Conditions"
@@ -43,6 +44,11 @@ Main Success Scenario:
     -xxx:fill in 
     
     
+Define Max Cost of Failure Reason Check
+Main Success Scenario:
+  1. xxx:fill in 
+    
+    
 Check Failure Reason
 Pre-Conditions:
   -"Define Failure Reason"
@@ -55,7 +61,7 @@ Alternatives:
     1a1. in Possible Non-Retryable Failure Reasons
     1a2. go to step 2
   1b. Not sure if can be surpassed (not in Possible or Non-Possible Retryable Failure Reasons)
-    1b1. Log details 
+    1b1. "Log Unknown Fail Reason Details"
     1b2. Go to step 1
   1c. Cannot be surpassed with a retry and retries exhausted
     1c1. Use logged details of failure to add it to the Possible or Non-Possible Retryable list
@@ -64,6 +70,11 @@ Alternatives:
   1d. Cost to check failure reason is too great
     1d1. Hardware Resource or Time Cost is too great to check failure reason
     1d2. Go to step 2
+    
+    
+Log Unknown Fail Reason Details
+Main Success Scenario:
+  1. xxx:fill in 
     
     
 Costing Failure Reason Check
@@ -95,16 +106,22 @@ Main Success Scenario:
   3. "Determine Retry count impact on Wait Duration"
   
 
-Determine Wait Type
+Determine Wait Typer
 Main Success Scenario: 
   1. Loop until conditions are good enough to retry
   2. End 
 Alternatives:
-  1a. Hand of the component that will perform the action in a stopped state to a manager component that does the waiting and the awakening
-    1a1. xxx:fill in 
+  1a. Cost (in money) is too great to loop
+    1a1. Hand off the action performing component to a manager component that does the waiting and the awakening
+    1a2. xxx:fill in 
   
   
 Determine Retry count impact on Wait Duration
+Note:
+  -Do not wait to retry if fail reason is not among the retryable ones
+Pre-Condition:
+  -Know duration of successful run
+  -Know duration to check fail reason
 Main Success Scenario: 
   1. Have same wait duration before each retry
   2. End 
