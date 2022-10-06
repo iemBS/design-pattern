@@ -42,9 +42,11 @@ Main Success Scenario:
     -Can connect, destination NOT busy, response not desirable, response is not temporary
     -xxx:fill in 
     
+    
 Check Failure Reason
 Pre-Conditions:
   -"Define Failure Reason"
+  -"Costing Failure Reason Check"
 Main Success Scenario:
   1. Can be surpassed with a retry (in Possible Retryable Failure Reasons)
   2. End 
@@ -59,7 +61,15 @@ Alternatives:
     1c1. Use logged details of failure to add it to the Possible or Non-Possible Retryable list
     1c2. Watch action next time
     1c3. Go to step 2
+  1d. Cost to check failure reason is too great
+    1d1. Hardware Resource or Time Cost is too great to check failure reason
+    1d2. Go to step 2
     
+    
+Costing Failure Reason Check
+Main Success Scenario:
+  1. Understand Min Hardware Resources needed to retrieve reason
+  2. Understand Time needed to retrieve reason
     
     
 Check Conditions
