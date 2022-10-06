@@ -1,0 +1,29 @@
+Convert File Format
+Main Success Scenario:
+  1. "Convert File Character Set"
+  2. "Convert File Content Structure"
+  3. "Convert File Extension"
+  4. Convert file back original format
+  5. Compare original file to twice converted file
+  
+  
+Convert File Content Structure
+Main Success Scenario:
+  1. "Convert XML to JSON"
+  2. End 
+Alternatives:
+  1a. xxx:fill in 
+    1a1. "Convert JSON to XML"
+    1a2. Go to step 2
+  1b. 
+    1a1. "Convert JSON to CSV"
+    1a2. Go to step 2
+  1c.  xxx:fill in 
+    1c1. "Convert CSV to JSON"
+    1c2. Go to step 2
+  1d.  xxx:fill in 
+    1d1. "Convert JSON to YAML"
+    1d2. Go to step 2
+  1e.  xxx:fill in 
+    1e1. "Convert YAML to JSON"
+    1e2. Go to step 2
