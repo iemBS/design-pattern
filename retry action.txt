@@ -100,13 +100,15 @@ Main Success Scenario:
   
   
 Determine Wait Duration
+Pre-Condition:
+  -Understand https://en.wikipedia.org/wiki/Exponential_backoff
 Main Success Scenario: 
   1. "Determine Wait Dependencies"
   2. "Determine Wait Type"
   3. "Determine Retry count impact on Wait Duration"
   
 
-Determine Wait Typer
+Determine Wait Type
 Main Success Scenario: 
   1. Loop until conditions are good enough to retry
   2. End 
