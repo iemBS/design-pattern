@@ -163,3 +163,21 @@ Main Success Scenario:
   1. xxx:fill in 
   
   
+Compare Document DB Object Definition
+Note:
+  -guidance @
+    -https://docs.couchbase.com/go-sdk/current/concept-docs/nonjson.html
+Main Success Scenario:
+  1. "Compare JSON Document DB Object Definition"
+Alternatives:
+  1a. xxx:fill in 
+  
+  
+Compare JSON Document DB Object Definition
+Main Success Scenario:
+  1. Use text file comparison 
+  2. End 
+Alternatives:
+  1a. JSON key value pair order does not match between files
+    1a1. Use semantic JSON file comparison 
+    1a2. Go to step 2 
