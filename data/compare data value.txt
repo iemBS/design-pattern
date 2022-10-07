@@ -1,3 +1,5 @@
 Compare Data Value
+Note:
+  -Levenshtein Distance @ https://en.wikipedia.org/wiki/Levenshtein_distance
 Main Success Scenario:
   1. xxx:fill in 
