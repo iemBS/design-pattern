@@ -8,7 +8,10 @@ Main Success Scenario:
   
 Impact Active Record Filter
 Main Success Scenario:
-  1. xxx:fill in
+  1. Impact existence filter
+  2. Impact on equality filter 
+  3. Impact on like filter 
+  4. xxx:fill in 
   
   
 Impact Active Record Index
