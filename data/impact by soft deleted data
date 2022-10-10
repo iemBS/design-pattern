@@ -1,0 +1,37 @@
+Impact By Soft Deleted Data
+Main Success Scenario:
+  1. "Impact Active Record Filter"
+  2. "Impact Active Record Index"
+  3. "Impact Active Record Action Time"
+  4. "Impact Action Data Inclusion"
+  
+  
+Impact Active Record Filter
+Main Success Scenario:
+  1. xxx:fill in
+  
+  
+Impact Active Record Index
+Main Success Scenario:
+  1. xxx:fill in
+  
+  
+Impact Active Record Action Time
+Main Success Scenario:
+  1. "Impact Active Record Retrieval Time"
+  2. End
+Alternatives:
+  1a. Update time impacted
+    1a1. "Impact Active Record Retrieval Time"
+    1a2. go to step 2
+  1b. Hard delete time impacted
+    1b1. "Impact Active Record Hard Delete Time"
+    1b2. go to step 2
+  1c. Soft delete time impacted 
+    1c1. "Impact Active Record Soft Delete Time"
+    1c2. go to step 2
+    
+    
+ Impact Action Data Inclusion
+ Main Success Scenario:
+  1. xxx:fill in
