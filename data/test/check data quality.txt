@@ -3,6 +3,7 @@ Pre-Conditions
   -Run "Check SQL Object Quality" use case before this one
   -Not checking how well data was migrated or comparing upstream data to downstream data
 Main Success Scenario:  
+  0. "Check Value Uniqueness"
   1. "Check Data Relations"
   2. "Check for Dupes"
   3. "Check for unexpected content in values"
@@ -10,6 +11,14 @@ Main Success Scenario:
   5. "Check numeric data scale"
   6. "Check data is minimized"
   7. "Check data hidden appropriately"
+  
+Check Value Uniqueness
+Note:
+  -If a PRD environment field has a uniqueness count greater than 1 and a lower environment (DEV, INT, etc) has a count of 1, that is a testability issue. 
+Pre-Condition:
+  -For non-ID fields
+Main Success Scenario:
+  1. xxx:fill in 
   
 Check Data Relations
 Main Success Scenario:
