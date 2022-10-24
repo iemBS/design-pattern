@@ -1,0 +1,7 @@
+Compare Data Quality
+Note:
+  -Having data of the same quality in the TEST environment as the PRD environment is important to catch as many issues as possible
+Pre-Condition:
+  -"See Data Quality"
+Main Success Scenario:
+  1. xxx: fill in 

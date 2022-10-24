@@ -1,5 +1,0 @@
-Compare Data Quality
-Pre-Condition:
-  -"See Data Quality"
-Main Success Scenario:
-  1. xxx: fill in 
