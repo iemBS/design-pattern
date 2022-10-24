@@ -1,5 +1,6 @@
 Compare Data Quality
 Note:
+  -Comparing data quality between environments in same system or between systems. 
   -Having data of the same quality in the TEST environment as the PRD environment is important to catch as many issues as possible
 Pre-Condition:
   -"See Data Quality"
