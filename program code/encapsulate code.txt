@@ -1,3 +1,12 @@
 Encapsulate Code
+Note:
+  -benefits of encapsulation:
+    -can change order of execution without making line by line code comparison difficult
+    -reduce collision between two or more developers working on the same program
+    -forces understanding and adhering to input and output definition for code block
+    -allows code block reuse
+    -increases plug and play opportunities 
+    -reduces lines of code for a program, system, or platform
+    -xxx:fill in 
 Main Success Scenario:
   1. xxx:fill in 
