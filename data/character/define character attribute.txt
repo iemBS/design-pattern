@@ -1,0 +1,4 @@
+Define Character Attribute
+Main Success Scenario:
+  x. xxx:fill in 
+  x. "Is Double Click Select in GUI Break"
