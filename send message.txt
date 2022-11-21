@@ -9,11 +9,81 @@ Note:
 Pre-Conditions:
   -"Impact of Message Send on Publisher"
   -"Define Possible Message Types"
+  -"Define what Publisher needs to Notify of"
+  -"Define What Consumer Needs to be Notified Of"
+  -"Define Min Message Quality Standard"
+  -"Define Max Message Sends"
+  -"Define Message Send Enablement"
 Main Success Scenario:
   1. "Send Error Message"
 Alternatives:
   1a. "Send Warning Message"
   1b. "Send Note Message"
+  
+  
+Define Message Quality
+Main Success Scenario:
+  1. Clarify message origin
+  2. Clarify message time
+  3. Clarify if one message or many are needed for clarity
+  4. Clarify action or state being messaged about
+  5. Actionable Message
+  
+  
+Measure Message Send
+Main Success Scenario:
+  1. Count per unit time
+  2. xxx:fill in 
+  
+  
+Measure Message Host 
+Main Success Scenario:
+  1. Count per unit time
+  2. Count added per unit time
+  3. Count expired per unit time
+  4. Count deleted per unit time 
+  5. Average Quality Score
+  
+   
+Define Message Active Duration 
+Main Success Scenario:
+  1. xxx:fill in 
+  
+  
+Define Message Send Enablement
+Note:
+  -ref 
+    -https://medium.com/@joecrobak/seven-best-practices-for-keeping-sensitive-data-out-of-logs-3d7bbd12904
+  -Reduces the amount of messages sent, messages in host, messages looked through, messages moved downstream
+Main Success Scenario:
+  1. Based on environemnt
+  2. End
+Alternatives:
+  1a. Based on message content
+    1a1. Do not send message due to security concenrns of message content 
+    1a2. go to step 2
+  1b. Based on low priority, severity, or both
+    1b1. Message content or time is low priority, severity, or both
+    1b2. go to step 2
+  1c. Ease of enable or disable
+    1c1. Enabling or disabling message is not too intensive
+    1c2. go to step 2
+  1d. Testablity 
+    1d1. If lack of messages impedes testing, they need to be on for testing 
+    1d2. go to step 2
+  1e. Actionality 
+    1e1. Messages are not actionable, so do not enable 
+    1e2. go to step 2
+  
+  
+Define what Publisher needs to Notify of
+Main Success Scenario:
+  1. xxx:fill in 
+  
+  
+Define What Consumer Needs to be Notified Of
+Main Success Scenario:
+  1. xxx:fill in 
   
   
 Define Possible Message Types
@@ -310,5 +380,52 @@ Impact of Message Send on Publisher
 Main Success Scenario:
   1. xxx:fill in
   
+  
+Expire Message
+Note:
+  -Message can go away when its value is gone 
+Main Success Scenario:
+  1. "Check Message Value"
+  2. Message has no value 
+  3. Expire message
+  4. End
+Alternatives:
+  2a. Message has value 
+    2a1. go to step 4
+  
+  
+Check Message Value
+Main Success Scenario:
+  1. Message no longer valid 
+  2. Message has no value 
+  3. End
+Alternatives:
+  1a. Message is old
+    1a1. Message has no value 
+    1a2. go to step 3
+  1b. xxx:fill in 
+
+
+Define Max Message Sends
+Main Success Scenario:
+  1. "Reached Received Message Count Max"
+  2. "Reached Received Messsage Max Frequency"
+  3. "Reached Message Host Min Performance"
+  4. "Reached Message Host Max Size"
+  x. End 
+  
+  
+Received Message Count Max Reached
+Main Success Scenario:
+  1. xxx:fill in 
+  
+  
+Define Min Message Send Frequency
+Main Success Scenario:
+  1. xxx:fill in 
+
+
+  
+
 
  
