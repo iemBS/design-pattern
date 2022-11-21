@@ -8,11 +8,22 @@ Note:
   -Retention of messages will not be described in this file
 Pre-Conditions:
   -"Impact of Message Send on Publisher"
+  -"Define Possible Message Types"
 Main Success Scenario:
   1. "Send Error Message"
 Alternatives:
   1a. "Send Warning Message"
   1b. "Send Note Message"
+  
+  
+Define Possible Message Types
+Note
+  -Message types of error, warning, and note are common
+Main Success Scenario:
+  1. Group possible priorities 
+  2. Group possible severities 
+  3. Group possible content 
+  4. End
   
   
 Send Error Message
