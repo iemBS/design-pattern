@@ -1,0 +1,22 @@
+Configure Value Equality
+Main Success Scenario:
+  1. "Define Group"
+  2. "Group Value"
+  3. end
+  
+  
+Define Group
+Main Success Scenario:
+  1. xxx:fill in 
+  
+  
+Group Value
+Note:
+  -Grouping values according to a definition allows you to loosen the definition of equality between values
+  -Allowing a value to be in more then one group allows more than one perspective of equality. 
+  -Tightening the definition of a group over time can drive a data quailty increase in the values 
+  -Soundex is a way of loosening value equality
+Main Success Scenario:
+  1. xxx:fill in 
+  
+  
