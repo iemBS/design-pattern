@@ -1,3 +1,13 @@
 Measure Value Simplicity
 Main Success Scenario:
-  1. xxx: Fill in 
+  1. Count of characters
+  2. Count of distinct characters while ignoring case and accents
+  3. Count of distinct characters while including case and accents 
+  4. "Likliness of Character Sequence"
+  x. xxx: Fill in 
+
+Likliness of Character Sequence
+Main Success Scenario:
+  1. likliness of 4 characters in sequence
+  2. likliness of 3 characters in sequence
+  3. likliness of 2 characters in sequence
