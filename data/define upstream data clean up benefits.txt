@@ -1,0 +1,29 @@
+Define Upstream Data Clean Up Benefits
+Main Success Scenario:
+  1. Have Common Data Understanding 
+  2. "Eliminate Duplicate Work"
+  3. "Eliminate Data Divergence"
+  4. Simplify data
+  5. "Support Data Knowledge Growth"
+  6. ""
+  x. xxx:fill in 
+  
+  
+Eliminate Duplicate Work
+Main Success Scenario:
+  1. xxx:fill in 
+  
+  
+Eliminate Data Divergence
+Main Success Scenario:
+  1.xxx:fill in 
+  
+  
+Support Data Knowledge Growth
+Main Success Scenario:
+  1.xxx:fill in 
+  
+  
+Eliminate Data Divergence
+Main Success Scenario:
+  1.xxx:fill in 
