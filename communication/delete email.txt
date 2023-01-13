@@ -1,0 +1,157 @@
+Delete Email
+Pre-Conditions:
+  -Email destination choice not managed well
+  -Email receiver cannot control destination of email during send action 
+Main Success Scenario:
+  1. Is email
+  -Delete Email immediately based on sender domain 
+  -Delete Email immediately based on complete subject 
+  -Delete Email immediately based on partial subject 
+  -Delete Email later based on sender domain 
+  -Delete Email immediately based on system sender (non-human) email address
+  -Delete Email later based on system sender (non-human) email address
+  -Delete Email immediately based on team sender (non-human) email address
+  -Delete Email later based on team sender (non-human) email address
+  -Delete Email immediately bbased on specific email address
+  -"Delete Auto Reply Later"
+  -Delete meeting cancelled later 
+  -Delete meeting accepted later 
+  -Delete meeting delined now
+Alternatives:
+  1a. Is meeting invite 
+    1a1. "Delete Meeting Invite"
+    
+    
+Delete Auto Reply Later
+Main Success Scenario:
+  1. "Determine Delete Time"
+  2. Delete auto reply
+  3. End
+  
+  
+Delete Meeting Invite
+Main Success Scenario:
+  1. "Determine Delete Time"
+  2. Delete meeting invite
+  3. End
+  
+
+Determine Delete Time
+Note:
+  -Limit retention policy to 1 wk, 1 mth, 3 mths, 6 mths, and 1 year
+Main Success Scenario:
+  1. Deleting now will not hurt other functionality
+  2. Content does not need to be kept
+  3. End
+Alternatives:
+  1a. Deleting now will remove meeting on my calendar
+    1a1. xxx
+    1a2. go to step 2
+  1b. Deleting now will prevent auto save to another folder
+    1b1. xxx
+    1b2. go to step 2
+  1c. Deleting now will prevent auto forward to another email address
+    1c1. xxx
+    1c2. go to step 2
+  1d. Deleting now will prevent auto categorization
+    1d1. xxx
+    1d2. go to step 2
+  1e. Deleting now will prevent auto 
+    1e1. xxx
+    1e2. go to step 2
+  2a. Contains important attachment
+    2a1. "Determine Important Attachment"
+    2a2. go to step 3
+  2b. Contains important body
+    2b. "Determine Important Body"
+    2b2. go to step 3
+  2c. Contains important sender
+    2c1. "Determine Important Actor"
+    2c2. go to step 3
+  2d. Contains important receiver
+    2d1. "Determine Important Actor"
+    2d2. go to step 3
+  2e. Contains important subject
+    2e1. "Determine Important Subject"
+    2e2. go to step 3
+  2f. Contains important send time
+    2f1. "Determine Important Time"
+    2f2. go to step 3
+  2g. Contains important receive time
+    2g1. "Determine Important Time"
+    2g2. go to step 3
+    
+    
+Determine Important Time
+Main Success Scenario:
+  1. No important event occurred at the time
+  x. End
+Alternatives:
+  1a. Important event occurred at the time
+    xxx
+    x. go to step xxx
+    
+    
+Determine Important Actor
+Main Success Scenario:
+  1. Actor is human
+  2. "Determine Actor Role"
+  x. End
+Alternatives:
+  1a. Actor is a team
+    xxx
+    x. Go to step 2
+  1b. Actor is non-human
+    xxx
+    x. Go to step 2
+    
+ 
+Determine Actor Role
+Main Success Scenario:
+  1. Actor is not on my team
+  2. Actor is not my manager
+  3. Actor is not important for my tasks
+  4. Actor is on TO line
+  x. End
+Alternatives:
+  1a. Actor is on my team
+    xxx
+    x. Go to step xxx
+  2a. Actor is my manager
+    xxx
+    x. Go to step xxx
+  3a. Actor is important for my tasks
+    xxx
+    x. Go to step xxx
+  4a. Actor is on CC line
+    xxx
+    x. Go to step xxx
+    
+    
+Determine Important Topic
+Main Success Scenario:
+  1. xxx
+    
+    
+Determine Important Body
+Main Success Scenario:
+  1. No important actor referenced in body
+  2. No important topic refrenced in body
+  3. End
+Alternatives:
+  1a. Important actor referenced in body
+    1a1. "Determine Important Actor"
+    1a2. Go to step 3
+  2a. Important topic referenced in body
+    2a1. "Determine Important Topic"
+    2a2. Go to step 3
+    
+    
+ Determine Important Attachment
+ Main Success Scenario:
+  1. xxx
+  
+  
+Determine Important Subject
+ Main Success Scenario:
+  1. xxx
