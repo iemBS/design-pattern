@@ -1,3 +1,93 @@
 Define Comm Method
+Note:
+  -Publisher could be a person or a process
+  -Subscriber could be a person or a process
+  -Hold is a process and storage
 Main Success Scenario:
-  1. xxx:fill in 
+  1. "Define Simple Comm Method"
+  2. End
+Alternatives:
+  1a. Extract and disconnect a middle step to scale comms
+    1a1. "Define Publish, Hold, & Subscribe Comm Method"
+    1a2. Go to step 2
+  
+
+Define Simple Comm Method
+Main Success Scenario:
+  1. Publisher sends a message
+  2. Subscriber receives the message
+  3. End 
+
+
+Define Publish, Hold, & Subscribe Comm Method
+Note:
+  -Hold is ...
+    -an intermediate step that does not exist in the simple comm method
+    -constructed in a way that ...
+      -minimizes spam for the Subscriber
+      -minimmizes spam ability by the Publisher
+  -Hold can ...
+    -publish a message to a Subscriber
+    -have a description 
+  -Hold cannot ...
+    -Have the same name as another Hold
+  -Hold will ...
+    -expire a message
+    -auto delete Hold if not used 
+  -Publisher is ...
+    -concerned with publishing a message to a Hold and not to a process or a person
+  -Publisher can ...
+    -have a description 
+    -publish a message to the Hold
+    -share with a Subscriber or another Publisher the Holds they publish to
+    -share with a Subscriber or another Publisher the Hold a message is published to
+    -see subscribers of a Hold
+  -Publisher cannot ...
+    -be more than one person
+    -Have the same name as another Publisher
+    -be setup to publish to a Hold by a Subscriber or another Publisher
+    -xxx: publish the same message to two or more Holds
+  -Publisher will ...
+    -be associated with a person Publisher if it is a process
+  -Subscriber is ...
+    -concerned with gettting a message from a Hold instead of a process or a person
+  -Subscriber can ...
+    -have a description 
+    -subscribe to a Hold
+    -unsubscribe from a Hold
+    -look at all messages in a Hold that they are not subscribed to (not from the Subscriber side though)
+    -share with a Publisher or another Subscriber the Holds they subscribe to
+    -indicate undesirable messasges they received from a Hold 
+    -Subscriber can pull a message from a Hold
+  -Subscriber cannot ...
+    -be subscribed to a Hold by a Publisher or another Subscriber
+    -be more than one person
+    -Have the same name as another Subscriber
+  -Subscriber will ...
+    -receive a message only once if it is published to two or more Holds that the Subscriber has subsribed to
+    -receive a message only once if two or more Publishers publish the same message to any number of Holds that the Subscriber subscribes to
+    -be associated with a person Subscriber if it is a process
+  -Subscriber or Publisher can ...
+    -see the count of Publishers publishing to a Hold
+    -see the count of Subscribers subscribing to a Hold
+    -see last publish time to a Hold
+    -see last time message sent from a Hold to a Subscriber 
+    -see count of undesireable messages in a Hold (as seen by Subscribers)
+    -see unsubscribed Subscribers for a Hold
+    -see unpublished Publishers for a Hold
+    -create a Hold
+  -Subscriber or Publisher cannot ...
+    -delete a Hold that they do not own
+  -Hold Owner is ....
+    -one Publisher or one Subscriber 
+    -is a person and not a process
+  -Hold Owner can ...
+    -delete the Hold
+    -pass ownership to another person Subsriber or Publisher
+Main Success Scenario:
+  1. Subscriber publishes messages to Hold
+  2. Hold holds messages
+  3. Subscriber subscribes to messages in Hold
+  4. Subscriber receives messages from Hold
+  5. End 
+  
