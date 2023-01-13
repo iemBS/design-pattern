@@ -134,8 +134,12 @@ Alternatives:
 Determine Important Topic
 Main Success Scenario:
   1. "Determine Topic Identifiability"
-  2. xxx
+  2. Not related to a project I am working on
   x. End
+Alternatives:
+  2a. Related to a project I am working on
+    2a1. xxx
+    x. go to step xxx
     
     
 Determine Important Body
