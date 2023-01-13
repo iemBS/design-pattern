@@ -28,6 +28,7 @@ Note:
     -people put more effort into keeping only important messages 
     -communication paths going away if they are not actually used
     -drive message template use
+    -drive use of consistent subject for a re-occurring message 
     -only restrict publishing and subscription, if needed
   -Hold is ...
     -an intermediate step that does not exist in the simple comm method
@@ -37,8 +38,10 @@ Note:
   -Hold can ...
     -publish a message to a Subscriber
     -have a description 
+    -have different messages with different subjects 
   -Hold cannot ...
     -Have the same name as another Hold
+    -pull a message from a Subscriber
   -Hold will ...
     -expire a message
     -expire if ... 
@@ -103,6 +106,9 @@ Note:
     -pass ownership to another person Subsriber or Publisher
     -restrict what Publishers can publish to the Hold (by default, no restrictions)
     -restrict what Subscribers can subscribe to the Hold (by default, no restrictions)
+  -Message can ...
+    -Have a subject (like an email)
+    -expire 
 Main Success Scenario:
   1. Subscriber publishes messages to Hold
   2. Hold holds messages
