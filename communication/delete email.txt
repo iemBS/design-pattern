@@ -34,7 +34,7 @@ Main Success Scenario:
   1. "Determine Delete Time"
   2. Delete meeting invite
   3. End
-  
+
 
 Determine Delete Time
 Note:
@@ -56,7 +56,7 @@ Alternatives:
   1d. Deleting now will prevent auto categorization
     1d1. xxx
     1d2. go to step 2
-  1e. Deleting now will prevent auto 
+  1e. Deleting now will prevent auto xxx
     1e1. xxx
     1e2. go to step 2
   2a. Contains important attachment
@@ -96,7 +96,8 @@ Determine Important Actor
 Main Success Scenario:
   1. Actor is human
   2. "Determine Actor Role"
-  x. End
+  3. Actor sends templatized emails
+  4. End
 Alternatives:
   1a. Actor is a team
     xxx
@@ -104,6 +105,8 @@ Alternatives:
   1b. Actor is non-human
     xxx
     x. Go to step 2
+  3a. Actor DOES NOT send templatized emails
+    3a1. go to step 4
     
  
 Determine Actor Role
@@ -130,7 +133,9 @@ Alternatives:
     
 Determine Important Topic
 Main Success Scenario:
-  1. xxx
+  1. "Determine Topic Identifiability"
+  2. xxx
+  x. End
     
     
 Determine Important Body
@@ -149,9 +154,21 @@ Alternatives:
     
  Determine Important Attachment
  Main Success Scenario:
-  1. xxx
+  1. "Determine Important Attachment by name"
+  x. End
+Alternatives:
+  1a. Look inside attachment instead
+    1a1. "Determine Important Attachment by attachment content"
+    x. go to step xxx
   
   
 Determine Important Subject
  Main Success Scenario:
+  1. "Determine Topic Identifiability"
+  2. xxx
+  x. End
+
+
+Determine Topic Identifiability 
+Main Success Scenario:
   1. xxx
