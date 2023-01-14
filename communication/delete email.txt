@@ -105,7 +105,7 @@ Alternatives:
   1b. Actor is non-human
     1b1. Determine Actor relationship to a process
     1b2. "Determine Important Process"
-    1b3. Go to step 2
+    1b3. Go to step 3
   3a. Actor DOES NOT send templatized emails
     3a1. go to step 4
     
@@ -180,9 +180,25 @@ Main Success Scenario:
 
 Determine Important Process
 Main Success Scenario:
-  1. xxx
+  1. "Determine Process Purpose"
+  
+
+Determine Process Purpose
+Main Success Scenario:
+  1. Provide process status 
+  2. End 
+Alternatives:
+  1a. Notify of another Actor's activity on something
+    1a1. go to step 2
+  1b. Provide event reminder 
+    1b1. go to step 2
+  1c. Notify of task assignment 
+    1c1. go to step 2
+  1d. Notify of my status change on something 
+    1d1. go to step 2
   
   
 Determine Important Team
 Main Success Scenario:
   1. xxx
+
