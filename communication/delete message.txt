@@ -1,4 +1,4 @@
-Delete Email
+Delete Message
 Pre-Conditions:
   -Email destination choice not managed well
   -Email receiver cannot control destination of email during send action 
