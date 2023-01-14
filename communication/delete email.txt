@@ -100,11 +100,12 @@ Main Success Scenario:
   4. End
 Alternatives:
   1a. Actor is a team
-    xxx
-    x. Go to step 2
+    1a1. "Determine Important Team"
+    1a2. Go to step 2
   1b. Actor is non-human
-    xxx
-    x. Go to step 2
+    1b1. Determine Actor relationship to a process
+    1b2. "Determine Important Process"
+    1b3. Go to step 2
   3a. Actor DOES NOT send templatized emails
     3a1. go to step 4
     
@@ -174,5 +175,14 @@ Determine Important Subject
 
 
 Determine Topic Identifiability 
+Main Success Scenario:
+  1. xxx
+
+Determine Important Process
+Main Success Scenario:
+  1. xxx
+  
+  
+Determine Important Team
 Main Success Scenario:
   1. xxx
