@@ -178,9 +178,11 @@ Determine Topic Identifiability
 Main Success Scenario:
   1. xxx
 
+
 Determine Important Process
 Main Success Scenario:
   1. "Determine Process Purpose"
+  2. Determine my association to process
   
 
 Determine Process Purpose
@@ -192,10 +194,16 @@ Alternatives:
     1a1. go to step 2
   1b. Provide event reminder 
     1b1. go to step 2
-  1c. Notify of task assignment 
+  1c. Notify of my assignment to a task 
     1c1. go to step 2
   1d. Notify of my status change on something 
     1d1. go to step 2
+  1e. Marketing 
+    1e1. go to step 2
+  1f. News
+    1f1. go to step 2
+  1g. Notify of warning or error in a process 
+    1g1. go to step 2
   
   
 Determine Important Team
