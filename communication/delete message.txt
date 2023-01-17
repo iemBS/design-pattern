@@ -3,24 +3,36 @@ Pre-Conditions:
   -Email destination choice not managed well
   -Email receiver cannot control destination of email during send action 
 Main Success Scenario:
-  1. Is email
-  -Delete Email immediately based on sender domain 
-  -Delete Email immediately based on complete subject 
-  -Delete Email immediately based on partial subject 
-  -Delete Email later based on sender domain 
-  -Delete Email immediately based on system sender (non-human) email address
-  -Delete Email later based on system sender (non-human) email address
+  1. "Delete Immediately"
+  2. End
+Alternatives:
+  1a. Do not delete immediately
+    1a1. "Delete Later"
+    1a1. Go to step 2
+
+    
+Delete Immediately
+Main Success Scenario:
+  1.Delete based on sender domain 
+  2.Delete based on specific sender 
+  3.Delete based on specific system sender (non-human) 
+  4.Delete based on complete subject 
+  5.Delete based on partial subject 
   -Delete Email immediately based on team sender (non-human) email address
+  -Delete Email immediately based on specific sender
+  
+  
+Delete Later
+Main Success Sender
+  1.Delete based on sender domain 
+  -Delete Email later based on system sender (non-human) email address
   -Delete Email later based on team sender (non-human) email address
-  -Delete Email immediately bbased on specific email address
   -"Delete Auto Reply Later"
   -Delete meeting cancelled later 
   -Delete meeting accepted later 
-  -Delete meeting delined now
-Alternatives:
-  1a. Is meeting invite 
-    1a1. "Delete Meeting Invite"
-    
+  -Delete meeting delined later
+  "Delete Meeting Invite"
+  
     
 Delete Auto Reply Later
 Main Success Scenario:
