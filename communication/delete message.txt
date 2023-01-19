@@ -1,4 +1,12 @@
 Delete Message
+Note:
+  -Summary
+    -Identify locations in message where deletability is determined 
+    -Define values to check for each of those locations 
+    -Define conditions to check for each of those locations 
+    -Use the values and conditions to determine when to delete a message
+    -Limit delete times to short list of windows
+    -Periodically update the values and conditions checked to remove uneeded checks and to add needed ones 
 Pre-Conditions:
   -Email destination choice not managed well
   -Email receiver cannot control destination of email during send action 
@@ -17,7 +25,8 @@ Main Success Scenario:
   2.Delete based on specific sender 
   3.Delete based on specific system sender (non-human) 
   4.Delete based on complete subject 
-  5.Delete based on partial subject 
+  5.Delete based on term in subject
+  6.Delete based on partial subject 
   -Delete Email immediately based on team sender (non-human) email address
   -Delete Email immediately based on specific sender
   
