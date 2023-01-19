@@ -27,8 +27,10 @@ Main Success Scenario:
   4.Delete based on complete subject 
   5.Delete based on term in subject
   6.Delete based on partial subject 
-  -Delete Email immediately based on team sender (non-human) email address
-  -Delete Email immediately based on specific sender
+    -Delete Email immediately based on team sender (non-human) email address
+    -Delete Email immediately based on specific sender
+  7.Delete based on TO group receiver in body
+  8.Delete based on CC group receiver in body
   
   
 Delete Later
