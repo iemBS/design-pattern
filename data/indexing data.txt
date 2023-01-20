@@ -1,24 +1,31 @@
 Indexing Data
+Note:
+  -guidance @
+    -https://dev.mysql.com/doc/refman/5.7/en/optimization-indexes.html
+    -https://en.wikipedia.org/wiki/Database_index
+    -https://learn.microsoft.com/en-us/sql/relational-databases/indexes/indexes?view=sql-server-ver16
+    -https://www.ibm.com/docs/en/db2-warehouse?topic=indexes-types
+    -https://www.geeksforgeeks.org/indexing-in-databases-set-1/
 Main Success Scenario:
-  1. create a single column unique index that will work now and in the future
+  1. create a single field unique index that will work now and in the future
   2. storage size of all index values on the data set is acceptable
   3. time to compress and uncompress all index values on the data set is acceptable
   4. I/O operation count is acceptable 
   5. End
 Alternatives:
-  1a. two or more columns can uniquely identify all rows now and in the future
-    1a1. create a two or more column unique index that will work now and in the future
+  1a. two or more fields can uniquely identify all rows now and in the future
+    1a1. create a two or more field unique index that will work now and in the future
     1a2. go to step 2
-  1b. two or more columns can uniquely identify all rows now but maybe NOT in the future
-    1b1. create a two or more column unique index that will work now but maybe NOT in the future
+  1b. two or more fields can uniquely identify all rows now but maybe NOT in the future
+    1b1. create a two or more field unique index that will work now but maybe NOT in the future
     1b2. have error handling notify when the index cannot be used in the future
     1b3. go to step 2
-  1c. one column can non-uniquely identify all rows now and in the future
-    1c1. create a single column NON-unique index that will work now and in the future
+  1c. one field can non-uniquely identify all rows now and in the future
+    1c1. create a single field NON-unique index that will work now and in the future
     1c2. you are ok with the performance with the index 
     1c3. go too step 2
-  1d. two or more columns can non-uniquely identify all rows now and in the future
-    1d1. create a two or more column NON-unique index that will work now and in the future
+  1d. two or more fields can non-uniquely identify all rows now and in the future
+    1d1. create a two or more field NON-unique index that will work now and in the future
     1d2. you are ok with the performance with the index 
     1d3. go to step 2
   1e. a field in the index has a null value
@@ -102,23 +109,29 @@ Note:
     -https://dba.stackexchange.com/questions/281405/mysql-large-table-index-performance-and-query-issue
     -https://dev.mysql.com/doc/refman/5.7/en/innodb-index-types.html
 Main Success Scenario:
-  1. Reduce the number of columns in the composite index
+  1. Reduce the number of fields in the composite index
   2. storage size of all index values on the data set is acceptable
   3. index performance is acceptable 
-  4. End
+  4. index is used
+  5. End
 Alternatives:
-  1a. index only has one column 
+  1a. index only has one field 
     1a1. go to step 2
   1b. index is unique 
-    1b1. Change to non-unique and reduce the number of columns in the composite index
+    1b1. Change to non-unique and reduce the number of fields in the composite index
   1c. reduce the record number in the data set
     1c1. reduce the record number in the data set
     1c2. go to step 2
   1d. break up the data set into two or more data sets
-    1d1. break up the data set into two or more data sets
-    1d2. go to step 2
+    1d1. "Define Data Set Break Up"
+    1d2. break up the data set into two or more data sets
+    1d3. go to step 2
   1e. Primary and secondary indexes exist on the table
     1e1. reduce the length of the primary index 
+    1e2. go to step 2
+  1f. change order of fields in index and then remove fields from index
+    1f1. re-order fields in index to achieve greater uniqueness with fewer fields
+    1f2. go to step 2
   2a. storage size of all index values on the data set is NOT acceptable
     2a1. go to step 1
   2b. secondary index contains primary index and the storage size is large
@@ -129,8 +142,21 @@ Alternatives:
     2c2. go to step 2
   3a. index performance is NOT acceptable 
     3a1. Add new fields to data set that can be used in a new index
-    3a2. go to step 4
+    3a2. go to step 5
+  4a. index is not used
+    4a1. "Determine Index Usage"
+    4a2. drop index 
+    4a3. go to step 5
     
+    
+Determine Index Usage
+Main Success Scenario:
+  1. xxx:fill in 
+    
+
+Define Data Set Break Up
+Main Success Scenario:
+  1. xxx:fill in 
 
 
 Need to cover 
