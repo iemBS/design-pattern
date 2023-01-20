@@ -130,4 +130,9 @@ Alternatives:
     3a1. Add new fields to data set that can be used in a new index
     3a2. go to step 4
     
-  
+
+
+Need to cover 
+-buffer pool
+  -https://cs.brown.edu/courses/cs295-11/2006/anatomyofadatabase.pdf
+-different types of cache
