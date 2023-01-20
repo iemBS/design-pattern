@@ -53,6 +53,7 @@ Cluster Index
 Note:
   -guidance @
     -https://www.ibm.com/docs/en/ias?topic=indexes-clustered-non-clustered
+    -https://learn.microsoft.com/en-us/sql/relational-databases/indexes/clustered-and-nonclustered-indexes-described?view=sql-server-ver16
   -Index architectures are classified as clustered or non-clustered. 
   -Clustered indexes are indexes whose order of the rows in the data pages corresponds to the order of the rows in the index. 
   -This order is why only one clustered index can exist in any table, whereas, many non-clustered indexes can exist in the table. 
