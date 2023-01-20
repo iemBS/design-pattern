@@ -6,6 +6,7 @@ Note:
     -https://learn.microsoft.com/en-us/sql/relational-databases/indexes/indexes?view=sql-server-ver16
     -https://www.ibm.com/docs/en/db2-warehouse?topic=indexes-types
     -https://www.geeksforgeeks.org/indexing-in-databases-set-1/
+    -https://dev.mysql.com/doc/refman/5.7/en/innodb-indexes.html
 Main Success Scenario:
   1. create a single field unique index that will work now and in the future
   2. storage size of all index values on the data set is acceptable
