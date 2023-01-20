@@ -1,0 +1,133 @@
+Indexing Data
+Main Success Scenario:
+  1. create a single column unique index that will work now and in the future
+  2. storage size of all index values on the data set is acceptable
+  3. time to compress and uncompress all index values on the data set is acceptable
+  4. I/O operation count is acceptable 
+  5. End
+Alternatives:
+  1a. two or more columns can uniquely identify all rows now and in the future
+    1a1. create a two or more column unique index that will work now and in the future
+    1a2. go to step 2
+  1b. two or more columns can uniquely identify all rows now but maybe NOT in the future
+    1b1. create a two or more column unique index that will work now but maybe NOT in the future
+    1b2. have error handling notify when the index cannot be used in the future
+    1b3. go to step 2
+  1c. one column can non-uniquely identify all rows now and in the future
+    1c1. create a single column NON-unique index that will work now and in the future
+    1c2. you are ok with the performance with the index 
+    1c3. go too step 2
+  1d. two or more columns can non-uniquely identify all rows now and in the future
+    1d1. create a two or more column NON-unique index that will work now and in the future
+    1d2. you are ok with the performance with the index 
+    1d3. go to step 2
+  1e. a field in the index has a null value
+    1e1. xxx:fill in 
+    1e2. go to step 2
+  2a. storage size of all index values on the set cannot be cached by the database
+    2a1. "Reduce Index Size"
+    2a2. go to step 2
+  2b. storage size of all index values on the set cannot be stored in RAM
+    2b1. "Reduce Index Size"
+    2b2. go to step 2
+  3a. time to compress and uncompress all index values on the data set is NOT acceptable
+    3a1. "Reduce Index Size"
+    3a2. go to step 3
+  3b. data is not stored compressed
+    3b1. go to step 4
+  4a. I/O operation count is NOT acceptable 
+    4a1. "Cluster Index"
+    
+    
+Define Large I/O operation count
+Main Success Scenario:
+  1. xxx:fill in 
+  
+  
+Define Long Duration Compressing and Uncompressing
+Main Success Scenario:
+  1. xxx:fill in 
+    
+    
+Cluster Index
+Note:
+  -guidance @
+    -https://www.ibm.com/docs/en/ias?topic=indexes-clustered-non-clustered
+  -Index architectures are classified as clustered or non-clustered. 
+  -Clustered indexes are indexes whose order of the rows in the data pages corresponds to the order of the rows in the index. 
+  -This order is why only one clustered index can exist in any table, whereas, many non-clustered indexes can exist in the table. 
+  -In some database systems, the leaf node of the clustered index corresponds to the actual data, not a pointer to data that is found elsewhere.
+Pre-Condition:
+  -Only one clustered index can exist on a data set at a time
+  -A clustered index is a unique index
+Main Success Scenario:
+  1. fields in clustered index do NOT have value changes
+  2. fields in clustered index do NOT have null values
+  3. records are not deleted from the data set
+  4. ReIndex duration is short
+  5. End 
+Alternatives:
+  1a. fields in clustered index DO have value changes and ReIndex duration IS acceptable 
+    1a1. "Define Long Duration ReIndex"
+    1a2. go to step 2
+  1b. fields in clustered index DO have value changes and ReIndex duration is NOT acceptable 
+    1b1. "Define Long Duration ReIndex"
+    1b2. do not use a clustered index
+    1b3. go to step 4
+  2a. fields in clustered index DO have null values
+    2a1. Do not use a clustered index
+    2a2. go to step 5
+  3a. records ARE deleted from the data set and ReIndex duration IS acceptable
+    3a1. "Define Long Duration ReIndex"
+    3a2. go to step 4
+  3b. records ARE deleted from the data set and ReIndex duration is NOT acceptable
+    3b1. "Define Long Duration ReIndex"
+    3b2. do not use a clustered index
+    3b3. go step 5
+  4a. ReIndex duration is too long
+    4a1. "Define Long Duration ReIndex"
+    4a2. Do not use a clustered index
+    4a3. go to step 5
+    
+  
+Define Long Duration ReIndex
+Main Success Scenario:
+  1. xxx:fill in 
+ 
+ 
+Reduce Index Size
+Note:
+  -guidance @
+    -https://dba.stackexchange.com/questions/281405/mysql-large-table-index-performance-and-query-issue
+    -https://dev.mysql.com/doc/refman/5.7/en/innodb-index-types.html
+Main Success Scenario:
+  1. Reduce the number of columns in the composite index
+  2. storage size of all index values on the data set is acceptable
+  3. index performance is acceptable 
+  4. End
+Alternatives:
+  1a. index only has one column 
+    1a1. go to step 2
+  1b. index is unique 
+    1b1. Change to non-unique and reduce the number of columns in the composite index
+  1c. reduce the record number in the data set
+    1c1. reduce the record number in the data set
+    1c2. go to step 2
+  1d. break up the data set into two or more data sets
+    1d1. break up the data set into two or more data sets
+    1d2. go to step 2
+  1e. Primary and secondary indexes exist on the table
+    1e1. reduce the length of the primary index 
+  2a. storage size of all index values on the data set is NOT acceptable
+    2a1. go to step 1
+  2b. secondary index contains primary index and the storage size is large
+    2b1. reduce length of primary index
+    2b2. go to step 2
+  2c. primary index on data set auto chosen by database engine and the storage size is large
+    2c1. specify a primary index that will replace it
+    2c2. go to step 2
+  3a. index performance is NOT acceptable 
+    3a1. Add new fields to data set that can be used in a new index
+    3a2. go to step 4
+    
+  
