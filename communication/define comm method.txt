@@ -28,6 +28,7 @@ Note:
     -people put more effort into keeping only important messages 
     -communication paths going away if they are not actually used
     -drive message template use
+    -drive message subject template use
     -drive use of consistent subject for a re-occurring message 
     -only restrict publishing and subscription, if needed
   -Hold is ...
@@ -116,3 +117,13 @@ Main Success Scenario:
   4. Subscriber receives messages from Hold
   5. End 
   
+
+Define Message Subject Template
+Main Success Scenario:
+  1. Message Subject Template assists message processing
+  2. Message Subject Template drives concision
+  3. Message Subject Template allows multiple types of message from same sender
+  x. End
+Alternatives:
+  1a. Subject Template does not assist message proessing enough
+    1a1. xxx:fill in 
