@@ -1,0 +1,15 @@
+Collect Requirements 
+Main Success Scenario:
+  1. Req Collector understand known limits
+  2. Req Provider able to provide requirements to a suitable level
+  x. End
+Alternatives:
+  1a. Req Collector not understand known limits
+    1a1. "Understand Known Limits"
+    1a2. go to step 2
+  2a.Req Provider not able to provide requirements to a suitable level
+    2a1. xxx
+  2c. Req Provider not willing to provide requirements to a suitable level
+    2c1. xxx
+  2c. Req Provider not able to work within known limits 
+    2c1. xxx
