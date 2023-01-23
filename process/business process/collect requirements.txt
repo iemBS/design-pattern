@@ -2,14 +2,32 @@ Collect Requirements
 Main Success Scenario:
   1. Req Collector understand known limits
   2. Req Provider able to provide requirements to a suitable level
-  x. End
+  3. End
 Alternatives:
   1a. Req Collector not understand known limits
     1a1. "Understand Known Limits"
     1a2. go to step 2
-  2a.Req Provider not able to provide requirements to a suitable level
-    2a1. xxx
-  2c. Req Provider not willing to provide requirements to a suitable level
-    2c1. xxx
-  2c. Req Provider not able to work within known limits 
-    2c1. xxx
+  2a.Req Provider not able to provide business requirements to a suitable level
+    2a1. "Req Collector Defines Requirements"
+    2a2. go to step 3
+  2c. Req Provider not able to provide tech requirements to a suitable level
+    2c1. "Req Collector Defines Requirements"
+    2c2. go to step 3
+  2d. Req Provider not willing to provide business requirements to a suitable level
+    2d1. "Req Collector Defines Requirements"
+    2d2. go to step 3
+  2e. Req Provider not willing to provide tech requirements to a suitable level
+    2e1. "Req Collector Defines Requirements"
+    2e2. go to step 3
+  2f. Req Provider not able to work within known limits 
+    2f1. xxx
+
+
+Increase Data Validation
+Main Success Scenario:
+  1. xxx:fill in 
+  
+  
+Req Collector Defines Requirements 
+Main Success Scenario:
+  1. xxx:fill in 
