@@ -147,7 +147,18 @@ Pre-Conditions:
   -Only table indexes found to exist in both in "Compare Table Index Existence"
   -Table indexes not adhering to the above will not be compared here
 Main Success Scenario:
-  1. xxx:fill in 
+  1. Table exists in both
+  2. Columns used in index in one exists in the table in the other
+  3. Index in one exists in the other
+  x. End
+Alternatives:
+  1a. Table does not exist in one
+    1a1. go to last step
+  2a. A column used in index in one DOES NOT exist in the table in the other
+    2a1. go to last step
+  3a. Index in one DOES NOT exist in the other
+    3a1. go to last step
+    
   
   
 Compare View Column Existence
