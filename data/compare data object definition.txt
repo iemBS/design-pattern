@@ -1,6 +1,7 @@
 Compare Data Object Definition
 Note:
   -Handy when needing to compare two databases that should have the same object definitions.
+  -Showing only the higher priority differences may help bring focus on fixing those first.
 Main Success Scenario:
   1. "Compare Relational DB Object Definition"
   2. "Show Compare Result"
@@ -119,7 +120,6 @@ Main Success Scenario:
 Compare Table Column Existence
 Pre-Conditions:
   -Only tables found to exist in both in "Compare Table Existence"
-  -Table not adhering to the above will not be compared here
 Main Success Scenario:
   1. 
   
@@ -170,6 +170,11 @@ Main Success Scenario:
   
 
 Compare Static Table Data
+Main Success Scenario:
+  1. xxx:fill in 
+  
+  
+Compare Graph DB Object Definition
 Main Success Scenario:
   1. xxx:fill in 
   
