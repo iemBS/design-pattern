@@ -4,7 +4,8 @@ Note:
   -Showing only the higher priority differences may help bring focus on fixing those first.
 Main Success Scenario:
   1. "Compare Relational DB Object Definition"
-  2. "Show Compare Result"
+  2. "Compare System Variables"
+  3. "Show Compare Result"
 Alternatives:
   1a. "Compare Graph DB Object Definition"
   1b. "Compare Document DB Object Definition"
@@ -197,3 +198,8 @@ Alternatives:
   1a. JSON key value pair order does not match between files
     1a1. Use semantic JSON file comparison 
     1a2. Go to step 2 
+
+
+Compare System Variables
+Main Success Scenario:
+  1. xxx:fill in 
