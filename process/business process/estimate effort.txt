@@ -1,5 +1,12 @@
 Estimate Effort
+  1. "Estimate Work Item Effort"
+  2. xxx:fill in 
+  x. End
 
+
+Estimate Work Item Effort
+Main Success Scenario:
+  1. See points below
 -requirements gathering
 -analysis
 -design for business
