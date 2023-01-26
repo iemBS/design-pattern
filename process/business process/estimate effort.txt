@@ -41,6 +41,7 @@ Main Success Scenario:
 -code review by other developer, 1 or more iterations 
 -lack of requirements code review delay: more review because of more coding 
 -code review delay: other developer not available 
--testing by QA, 1 or more iterations 
+-testing by tester, 1 or more iterations 
 -lack of requirements testing delay: more testing because of more coding 
+-testing issue delay: developer developer not available to research
 -re-coding, 1 or more iterations 
