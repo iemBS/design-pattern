@@ -1,0 +1,39 @@
+Estimate Effort
+
+-requirements gathering
+-analysis
+-design for business
+-lack of requirements business design delay
+-design review by business
+-business design review delay: reviewer not available 
+-design for technical
+-lack of requirements technical design delay
+-design review by developer 
+-technical design review delay: reviewer not available 
+-redesign
+-coding
+-lack of requirements coding delay: more coding needed because of unknowns
+-testing by developer, 1 or more iterations 
+-re-coding, 1 or more iterations 
+-learn new technology
+-learn new way for known technology
+-hardware resource limitation delay
+-data quality limitation delay
+-permission delay
+-dependency delay: another work item needs to be implemented first
+-documentation
+-documentation review by other person
+-documentation review delay: reviewer not available 
+-update documentation 
+-code review by other developer, 1 or more iterations 
+-code review delay: other developer not available 
+-re-coding after code review 
+-deploy prep
+-deploy, 3 or more iterations 
+-deploy delay: specific deploy window required
+-code review by other developer, 1 or more iterations 
+-lack of requirements code review delay: more review because of more coding 
+-code review delay: other developer not available 
+-testing by QA, 1 or more iterations 
+-lack of requirements testing delay: more testing because of more coding 
+-re-coding, 1 or more iterations 
