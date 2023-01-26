@@ -1,0 +1,8 @@
+Only Like Characters Group Selectable - only singly selectable if not surrounded by like characters, importable for creating single selectable strings
+/
+\
+.
++
+
+xxx:fill in 
+
