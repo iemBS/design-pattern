@@ -1,0 +1,19 @@
+Clean Work Item Tracking
+Main Success Scenario:
+  1. "Clean Item Title"
+  2. "Clean Item Description"
+  3. "Clean Item Activity History"
+  4. "Clean Item State"
+  5. "Clean Item Categorization"
+  6. "Clean Item Time Estimate"
+  7. "Clean Item Priority & Severity"
+  8. "Clean Item Attachments"
+  9. "Clean Item Sprint Assignment"
+  x. "Clean Item to Item Relations" 
+  x. xxx: fill in 
+  
+  
+Clean Item Title
+Main Success Scenario:
+  1. Make title intuitive enough so we do not have to drill into details
+  2. xxx:fill in 
