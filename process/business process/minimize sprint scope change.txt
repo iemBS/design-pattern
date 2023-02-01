@@ -1,0 +1,17 @@
+Minimize Sprint Scope Change
+Note:
+  -Sprint, push, iteration, time-boxed period, and development period all refer to a period of time that is spent working on a set of items 
+Main Success Scenario:
+  1. Work on only items specified as in scope at the beginning of the sprint
+  2. For a bug, use a temp fix
+  3. End
+Alternatives:
+  2a. A temp fix cannot be used and items must be re-prioritized
+    2a1. Re-prioritize work items
+    2a2. go to step 3
+  2b. A temp fix cannot be used and bug must be passed to another existing team member
+    2b1. Hand bug to another existing team member
+    2b2. go to step 3
+  2c. A temp fix cannot be used and bug must be passed to a new team member
+    2c1. Hand bug to new team member
+    2c2. go to step 3
