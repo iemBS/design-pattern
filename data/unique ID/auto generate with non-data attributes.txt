@@ -1,0 +1,16 @@
+Auto Generate with Non-Data Attributes
+Main Success Scenario:
+  1. Use Data System Time
+  2. "Combine Non-Data Attributes"
+  3. End
+Alternatives:
+  1a. Use Data System Time Zone
+  1b. Use User Time Zone
+  1c. Use Data System Location
+  1d. Use User Location
+  1e. Use User Name
+  
+
+Combine Non-Data Attributes
+Main Success Scenario:
+  1. xxx:fill in 
