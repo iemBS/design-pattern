@@ -8,40 +8,63 @@ Estimate Work Item Effort
 Main Success Scenario:
   1. See points below
 -requirements gathering
+-requirements gathering delay: permissions needed
+-requirements gathering delay: requirements provider not available 
+-requirements gathering delay: requirements provider does not know enough
 -analysis
--design for business
--lack of requirements business design delay
+-analysis delay: permissions needed
+-business design
+-business design delay: lack of requirements 
 -design review by business
 -business design review delay: reviewer not available 
--design for technical
--lack of requirements technical design delay
--design review by developer 
--technical design review delay: reviewer not available 
+-business design review delay: permission needed
+-tech design
+-tech design delay: permission needed
+-tech design delay: lack of requirements 
+-tech design review by another developer
+-tech design review delay: developer reviewer not available 
+-tech design review delay: permission needed
+-tech design review delay: lack of requirements 
 -redesign
 -coding
--lack of requirements coding delay: more coding needed because of unknowns
--testing by developer, 1 or more iterations 
+-coding delay: lack of requirements lead to more coding to deal with unknowns
+-coding delay: data quality
+-coding delay: find bug that CAN be worked around
+-coding delay: find bug that CANNOT be worked around
+-test by developer, 1 or more iterations 
 -re-coding, 1 or more iterations 
--learn new technology
--learn new way for known technology
--hardware resource limitation delay
--data quality limitation delay
--permission delay
--dependency delay: another work item needs to be implemented first
+-learn new tech
+-learn new tech delay: permission needed
+-learn new tech delay: new way of using known tech
+-hardware resource delay: performance limit reached
+-hardware resource delay: performance limit reached with shared hardware resource
+-software resource delay: licensing limit
+-software resource delay: performance limit reached with shared licensing limit
 -documentation
 -documentation review by other person
 -documentation review delay: reviewer not available 
--update documentation 
--code review by other developer, 1 or more iterations 
+-documentation update
+-documentatin provided in other perspectives 
+-code review 1 or more iterations 
 -code review delay: other developer not available 
+-code review delay: permission needed
+-code review delay: lack of requirements lead to more coding or coding that is incomplete 
 -re-coding after code review 
 -deploy prep
 -deploy, 3 or more iterations 
 -deploy delay: specific deploy window required
--code review by other developer, 1 or more iterations 
--lack of requirements code review delay: more review because of more coding 
--code review delay: other developer not available 
--testing by tester, 1 or more iterations 
--lack of requirements testing delay: more testing because of more coding 
--testing issue delay: developer not available to research
+-deploy delay: permission needed
+-deploy delay: is new deploy process
+-deploy delay: deploy process uses shared hardware resources
+-test by tester, 1 or more iterations 
+-test by tester delay: permissions needed
+-test by tester delay: tester not available 
+-test by tester delay: insufficient test guidance 
+-test by tester delay: Last of requirements caused more coding and more coding caused more testing
+-test by tester delay: Tester blocked and developer not available to research
 -re-coding, 1 or more iterations 
+-test by user delay: permissions needed
+-test by user delay: test window required
+-test by user delay: user not available 
+-test by user delay: insufficient test guidance 
+-test by user delay: user blocked and tester and developer are not available 
