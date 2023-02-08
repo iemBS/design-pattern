@@ -63,6 +63,7 @@ Main Success Scenario:
 -test by tester delay: Last of requirements caused more coding and more coding caused more testing
 -test by tester delay: Tester blocked and developer not available to research
 -re-coding, 1 or more iterations 
+-test by user
 -test by user delay: permissions needed
 -test by user delay: test window required
 -test by user delay: user not available 
