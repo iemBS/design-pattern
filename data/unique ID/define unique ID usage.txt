@@ -1,0 +1,6 @@
+Define Unique ID Usage
+Main Success Scenario:
+  1. Uniquely identify record 
+Alternatives:
+  1a. Identify when record created
+  1b. xxx:fill in 
