@@ -11,6 +11,6 @@ Alternatives:
   1e. Use User Name
   
 
-Combine Non-Data Attributes
+Combine System Attributes
 Main Success Scenario:
   1. xxx:fill in 
