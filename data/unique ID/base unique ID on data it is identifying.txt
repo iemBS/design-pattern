@@ -1,3 +1,6 @@
 Base Unique ID on Data it is Identifying
 Main Success Scenario:
-  1. xxx:fill in 
+  1. Understand Column Data Types
+  2. Define Composite ID Data Type
+  3. Define Column Order in Composite ID
+  x. xxx:fill in 
