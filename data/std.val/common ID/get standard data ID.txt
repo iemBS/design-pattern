@@ -1,19 +1,119 @@
 Get Standard Data ID
 Main Success Scenario:
   1."Find Government ID"
-  2."Find Industry ID"
+  2. End
+Alternatives:
+  1a. For industry
+    1a1."Find Industry ID"
+    1a2. go to step 2
+  1b. Within an Org
+    1b1. "Find Org ID"
+    1b2. go to step 2
+  1c. Natural ID
+    1c1. "Define Natural ID"
+    1c2. "Find Natural ID"
+    1c3. go to step 2
+    
+    
+Define Natural ID
+Main Success Scenario:
+  1. "Find Fingerprint ID"
+  2. End
+Alternatives:
+  1a. Use DNA
+    1a1. "Find DNA ID"
+    1a2. go to step 2
+  
 
 Find Government ID
 Notes:
-  -Guidance @ https://en.wikipedia.org/wiki/Identity_documents_in_the_United_States
-  -Guidance @ https://www.tn.gov/safety/driver-services/classd/dlidentify.html
-  -Guidance @ https://en.wikipedia.org/wiki/List_of_national_identity_card_policies_by_country
-  -Guidance @ https://www.canada.ca/en/employment-social-development/services/sin.html
-  -Guidance @ https://www.dhs.gov/real-id
-  -Guidance @ https://dmv.dc.gov/page/real-id-faqs
+  -Guidance @
+    -https://en.wikipedia.org/wiki/Identity_documents_in_the_United_States
+    -https://www.tn.gov/safety/driver-services/classd/dlidentify.html
+    -https://en.wikipedia.org/wiki/List_of_national_identity_card_policies_by_country
+    -https://www.canada.ca/en/employment-social-development/services/sin.html
+    -https://www.dhs.gov/real-id
+    -https://dmv.dc.gov/page/real-id-faqs
+    -https://id4d.worldbank.org/guide/types-id-systems
+Pre-Conditions:
+  -"Define Valuable Government ID"
 Main Success Scenario:
-  1."Find US Government ID"
-  2.xxx:fill in
+  1. "Choose Country Government ID is in"
+  2. "Choose Government Level ID is in"
+  3. "Understand Government ID Atrributes"
+  4. "Define Government ID Assignment"
+  5. End
+
+
+Define Government ID Assignment
+Main Success Scenario:
+  1. Government initiates assignment
+  x. End
+Alternatives:
+  1a. Receiver of the ID initiates assignment
+    1a1. xxx:fill in 
+    
+ 
+Understand Government ID Atrributes
+Main Success Scenario:
+  1. ID associated with a person only
+  2. Define age a person can have the ID
+  2. Define expiration period for ID
+  3. "Define ID Structure"
+  4. Define if ID can be reused for another person after death
+  5. Define Law Violations that can prevent ID use
+Alternatives:
+  1a. ID associated with a company only
+    1a1. ID associated with a company only
+    1a2. go to step 2
+    
+    
+Define Valuable Government ID
+Main Success Scenario:
+  1. "Define Valuable Government ID for Person"
+  2. End
+Alternatives:
+  1a. for Company
+    1a1. "Define Valuable Government ID for Company"
+    1a2. go to step 2
+  1b. For item
+    1b1. "Define Valuable Government ID for Item"
+    1b2 go to step 2
+  
+  
+Define Valuable Government ID for Person
+Main Success Scenario:
+  1. see list below
+    -citzienship status
+    -capable auto driver
+    -capable plane pilot
+  
+  
+Define Valuable Government ID for Company
+Main Success Scenario:
+  1. xxx:fill in 
+  
+  
+Define Valuable Government ID for Item
+Main Success Scenario:
+  1. see list below
+    -vehicle registration
+    -Vehicle Identifier Number (VIN)
+    
+    
+Choose Country Government ID is in
+Pre-Conditions:
+  -Countries that have an ID of value
+Main Success Scenario:
+  1. xxx:fill in 
+  
+  
+Choose Government Level ID is in
+Pre-Conditions:
+  -Government levels that exist in each country that have an ID of value
+Main Success Scenario:
+  1. xxx:fill in 
+  
   
 Find US Government ID
 Notes:
