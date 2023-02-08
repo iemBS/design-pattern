@@ -1,10 +1,10 @@
 Estimate Effort
-  1. "Estimate Work Item Effort"
-  2. xxx:fill in 
+  1. "Understand Work Activities"
+  2. "Base Estiamte on Previous Work"
   x. End
 
 
-Estimate Work Item Effort
+Understand Work Activities
 Main Success Scenario:
   1. See points below
 -requirements gathering
@@ -68,3 +68,12 @@ Main Success Scenario:
 -test by user delay: user not available 
 -test by user delay: insufficient test guidance 
 -test by user delay: user blocked and tester and developer are not available 
+-general delay: orders from two or more managers
+-general delay: unclear project priorities 
+-general delay: jumping between multiple work items
+-general delay: recalibration when jumping between multiple work items
+
+
+Base Estiamte on Previous Work
+Main Success Scenario:
+  1. xxx:fill in 
