@@ -1,4 +1,4 @@
-Find Attributes that Identify an Object
+Define Atributes of Object associated to Unique ID
 Note:
   -Identifying attributes for a data object can make a composite unique ID more meaningful and usable beyond data developers
 Main Success Scenario:
