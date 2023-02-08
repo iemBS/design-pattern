@@ -1,4 +1,4 @@
-Define Non-Data Attributes to use in Unique ID
+Define Unique ID with System Attributes
 Main Success Scenario:
   1. Use Data System Time
   2. "Combine Non-Data Attributes"
