@@ -49,6 +49,7 @@ Main Success Scenario:
 -code review delay: other developer not available 
 -code review delay: permission needed
 -code review delay: lack of requirements lead to more coding or coding that is incomplete 
+-code review delay: technology discussion 
 -re-coding after code review 
 -deploy prep
 -deploy, 3 or more iterations 
