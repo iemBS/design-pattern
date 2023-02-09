@@ -19,7 +19,8 @@ Main Success Scenario:
 -business design review delay: reviewer not available 
 -business design review delay: permission needed
 -tech design
--tech design delay: permission needed
+-tech design delay: permission needed for my access
+-tech design delay: permission needed to see other user's perspective
 -tech design delay: lack of requirements 
 -tech design review by another developer
 -tech design review delay: developer reviewer not available 
