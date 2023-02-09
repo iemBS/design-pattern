@@ -74,6 +74,7 @@ Main Success Scenario:
 -general delay: unclear project priorities 
 -general delay: jumping between multiple work items
 -general delay: recalibration when jumping between multiple work items
+-general delay: time spent on another project
 -next sprint prep (factoring in all of the above for each item)
 
 
