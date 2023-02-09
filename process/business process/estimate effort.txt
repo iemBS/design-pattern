@@ -16,6 +16,7 @@ Main Success Scenario:
 -requirements gathering delay: requirements provider does not know enough
 -analysis
 -analysis delay: permissions needed
+-analysis delay: notes, docs, research deleted
 -business design
 -business design delay: lack of requirements 
 -design review by business
@@ -25,6 +26,7 @@ Main Success Scenario:
 -tech design delay: permission needed for my access
 -tech design delay: permission needed to see other user's perspective
 -tech design delay: lack of requirements 
+-tech design delay: notes, docs, research deleted
 -tech design review by another developer
 -tech design review delay: developer reviewer not available 
 -tech design review delay: permission needed
