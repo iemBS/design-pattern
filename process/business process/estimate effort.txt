@@ -1,10 +1,13 @@
 Estimate Effort
   1. "Understand Work Activities"
   2. "Base Estiamte on Previous Work"
+  3. "Estimate Numerous Small Activities as Categories"
   x. End
 
 
 Understand Work Activities
+Note:
+  -Not all of these contribute to the effort for this item, but they all contribute to the time the item stays open
 Main Success Scenario:
   1. See points below
 -requirements gathering
@@ -51,7 +54,7 @@ Main Success Scenario:
 -code review delay: permission needed
 -code review delay: lack of requirements lead to more coding or coding that is incomplete 
 -code review delay: technology discussion 
--re-coding after code review 
+-re-coding 1 or more iterations after code review 
 -deploy prep
 -deploy, 3 (at least 1 per environment) or more iterations
 -deploy delay: specific deploy window required
@@ -64,14 +67,16 @@ Main Success Scenario:
 -test by tester delay: insufficient test guidance 
 -test by tester delay: lack of requirements caused more coding and more coding caused more testing
 -test by tester delay: Tester blocked and developer not available to research
--re-coding, 1 or more iterations 
+-test by tester delay: developer needs to assist with testing 
+-re-coding 1 or more iterations after test by tester
 -test by user
 -test by user delay: permissions needed
 -test by user delay: test window required
 -test by user delay: user not available 
 -test by user delay: insufficient test guidance 
 -test by user delay: user blocked and tester and developer are not available 
--test by tester delay: developer needs to assist with testing 
+-test by user delay: lack of requirements leads to less than desirable result that is tested by the user
+-re-coding 1 or more iterations after test by user
 -general delay: orders from two or more managers
 -general delay: unclear project priorities 
 -general delay: jumping between multiple work items
@@ -83,3 +88,53 @@ Main Success Scenario:
 Base Estiamte on Previous Work
 Main Success Scenario:
   1. xxx:fill in 
+  
+  
+Estimate Numerous Small Activities as Categories
+Main Success Scenario:
+  1. "Review Others Work"
+  2. "Deploy Others Work"
+  3. "Research Potential Bug"
+  
+  
+Review Others Work
+Main Success Scenario:
+  1. "Review Others Docs"
+  2. End 
+Alternatives:
+  1a. Review code instead 
+    1a1. "Review Others Code" 
+    1a2. go to step 2
+  
+  
+Review Others Docs
+Main Success Scenario:
+  1. xxx:fill in 
+  
+  
+Review Others Code
+Main Success Scenario:
+  1. xxx:fill in 
+  
+
+Deploy Others Work
+Main Success Scenario:
+  1. xxx:fill in 
+
+
+Research Potential Bug
+Main Success Scenario:
+  1. Research potential bug
+  2. Becomes a bug
+  3. Determine bug needs to be fixed now
+  4. Determine short term bug fix can be done now
+  5. Do short term bug fix 
+  6. End
+Alternatives:
+  2a. Does not become bug
+    2a1. go to last step
+  3a. Determine bug can be fixed later
+    3a1. go to last step
+  4a. Determine long term bug fix needs to be done now
+    4a1. do long term bug fix
+    4a2. go to last step
