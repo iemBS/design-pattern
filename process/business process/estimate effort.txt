@@ -62,7 +62,7 @@ Main Success Scenario:
 -test by tester delay: permissions needed
 -test by tester delay: tester not available 
 -test by tester delay: insufficient test guidance 
--test by tester delay: Last of requirements caused more coding and more coding caused more testing
+-test by tester delay: lack of requirements caused more coding and more coding caused more testing
 -test by tester delay: Tester blocked and developer not available to research
 -re-coding, 1 or more iterations 
 -test by user
