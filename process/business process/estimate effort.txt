@@ -53,7 +53,7 @@ Main Success Scenario:
 -code review delay: technology discussion 
 -re-coding after code review 
 -deploy prep
--deploy, 3 or more iterations 
+-deploy, 3 (at least 1 per environment) or more iterations
 -deploy delay: specific deploy window required
 -deploy delay: permission needed
 -deploy delay: is new deploy process
