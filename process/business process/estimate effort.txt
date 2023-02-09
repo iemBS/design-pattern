@@ -71,6 +71,7 @@ Main Success Scenario:
 -test by user delay: user not available 
 -test by user delay: insufficient test guidance 
 -test by user delay: user blocked and tester and developer are not available 
+-test by tester delay: developer needs to assist with testing 
 -general delay: orders from two or more managers
 -general delay: unclear project priorities 
 -general delay: jumping between multiple work items
