@@ -44,7 +44,7 @@ Main Success Scenario:
 -documentation review by other person
 -documentation review delay: reviewer not available 
 -documentation update
--documentatin provided in other perspectives 
+-documentation provided in other perspectives 
 -code review 1 or more iterations 
 -code review delay: other developer not available 
 -code review delay: permission needed
