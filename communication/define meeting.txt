@@ -1,0 +1,45 @@
+Define Meeting
+Main Success Scenario:
+  x. "Collect Agenda Items"
+  x. "Define Scope"
+  x. "Create Invite"
+  x. End
+  
+  
+Define Scope
+Main Success Scenario:
+  x. "Define Meeting Depth Limit"
+  x. "Identify Bombshells to Avoid"
+  x. "Define Agenda"
+  x. xxx:fill in 
+  
+  
+Identify Bombshells to Avoid
+Main Success Scenario:
+  1. xxx:fill in 
+  
+  
+Define Meeting Depth Limit
+Main Success Scenario:
+  1. xxx:fill in 
+  
+  
+Create Invite
+Main Success Scenario:
+  1. "Invite Attendees"
+  2. Note Agenda
+  3. Specify Communication Method
+  3. End
+
+
+Invite Attendees
+Main Success Scenario:
+  1. Invite required attendees
+  2. Invite optional attendees
+  3. CC those needing to know of meeting existence
+  4. End
+  
+
+Define Agenda
+Main Success Scenario:
+  1. xxx:fill in 
