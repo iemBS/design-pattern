@@ -2,26 +2,27 @@ Track Effort
 Note:
   -This guidance can remind you to create general items in a sprint to estimate the time that will be spent in general for areas rather than having to create and manage specific trackers for these areas.
   -A work place that is bad at providing requirements can be an indicator of if other areas are bad and general trackers need to be created to allow each person to estimate their own time spent. 
+  -Group Planning Tracking Item Description: To ensure a researchers time stays aligned with a sprint, this item is owned by the researcher. This is specific to tracking time spent planning. Includes prep before planning meetings and the planning meetings. 
+  -General Code Tracking Item Description: To ensure a researchers time stays aligned with a sprint, this item is owned by the researcher. This is specific to tracking time spent code reviewing. 
+  -General Deploy Tracking Item Description: To ensure a researchers time stays aligned with a sprint, this item is owned by the researcher. This is specific to tracking time spent deploying changes. 
+  -Bug Research Tracking Item Description: To ensure a researchers time stays aligned with a sprint, this item is owned by the researcher. This is specific to tracking time spent researching bugs. Short or long term bug fixes are covered in a different item.
 Main Success Scenario:
   1. Track specific activity effort
 Alternatives:
-  1a. Track General Planning Effort
-      -work items need to be clarified before they can be worked on
-      -Tracking Item Description: To ensure a researchers time stays aligned with a sprint, this item is owned by the researcher. This is specific to tracking time spent planning. Includes prep before planning meetings and the planning meetings. 
   1b. Track General Code Review Effort
       -code review is done on another person's work
       -the other person estimated the code review effort
-      -Tracking Item Description: To ensure a researchers time stays aligned with a sprint, this item is owned by the researcher. This is specific to tracking time spent code reviewing. 
   1c. Track General Deploy Effort
       -deploy may be done on another person's work
       -the other person understand the work better
       -the other person provides deployment instructions
-      -Tracking Item Description: To ensure a researchers time stays aligned with a sprint, this item is owned by the researcher. This is specific to tracking time spent deploying changes. 
   1d. Track General Bug Triage Effort
       -bug triage may be done on another person's work
   1e. Track Bug Research (wo fix) Effort
       -Bug research is done on new bugs. Research determines if it is a bug, if it needs to be dealt with now, what team needs to fix it, and if it is a short or long term fix. 
-      -Tracking Item Description: To ensure a researchers time stays aligned with a sprint, this item is owned by the researcher. This is specific to tracking time spent researching bugs. Short or long term bug fixes are covered in a different item.
-
   1f. Track Bug Research & Fix Effort
-  
+    -xxx:fill in 
+  1g. Track Individual Planning Effort
+    -work items need to be clarified before they can be worked on
+  1h. Track Group Planning Effort
+    -work items need to be clarified before they can be worked on  
