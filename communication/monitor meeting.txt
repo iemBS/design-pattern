@@ -3,7 +3,13 @@ Main Success Scenario:
   x. designate a note and task taker
   x. Note out of scope topics
   x. Note notes
-  x. Note tasks
+  x. "Note tasks"
   x. Note time periodically
-  x. Send list of notes and tasks
+  x. Send list of notes and tasks to meeting attendees
+  
+  
+Note Tasks
+Main Success Scenario:
+  1. Each task starts with a person or group (ideally a person)
+  2. Each task ends with an activity
   
