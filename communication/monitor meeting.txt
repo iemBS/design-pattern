@@ -1,0 +1,9 @@
+Monitor Meeting
+Main Success Scenario:
+  x. designate a note and task taker
+  x. Note out of scope topics
+  x. Note notes
+  x. Note tasks
+  x. Note time periodically
+  x. Send list of notes and tasks
+  
