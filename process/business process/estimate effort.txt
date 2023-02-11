@@ -37,6 +37,9 @@ Main Success Scenario:
 -coding delay: data quality
 -coding delay: find bug that CAN be worked around
 -coding delay: find bug that CANNOT be worked around
+-coding delay: do not understand technology being used
+-coding delay: do not understand coding language being used 
+-coding delay: do not understnad coding library being used
 -test by developer, 1 or more iterations 
 -re-coding, 1 or more iterations 
 -learn new tech
@@ -56,6 +59,9 @@ Main Success Scenario:
 -code review delay: permission needed
 -code review delay: lack of requirements lead to more coding or coding that is incomplete 
 -code review delay: technology discussion 
+-code review delay: do not understand technology being reviewed
+-code review delay: do not understand coding language being reviewed 
+-code review delay: do not understnad coding library being reviewed
 -re-coding 1 or more iterations after code review 
 -deploy prep
 -deploy, 3 (at least 1 per environment) or more iterations
@@ -70,6 +76,7 @@ Main Success Scenario:
 -test by tester delay: lack of requirements caused more coding and more coding caused more testing
 -test by tester delay: Tester blocked and developer not available to research
 -test by tester delay: developer needs to assist with testing 
+-test by tester delay: data quality
 -re-coding 1 or more iterations after test by tester
 -test by user
 -test by user delay: permissions needed
