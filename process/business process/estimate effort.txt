@@ -14,9 +14,11 @@ Main Success Scenario:
 -requirements gathering delay: permissions needed
 -requirements gathering delay: requirements provider not available 
 -requirements gathering delay: requirements provider does not know enough
+-requirements gathering delay: waiting for a process to start and stop
 -analysis
 -analysis delay: permissions needed
 -analysis delay: notes, docs, research deleted
+-analysis delay: waiting for a process to start and stop
 -business design
 -business design delay: lack of requirements 
 -design review by business
@@ -40,6 +42,7 @@ Main Success Scenario:
 -coding delay: do not understand technology being used
 -coding delay: do not understand coding language being used 
 -coding delay: do not understnad coding library being used
+-coding delay: waiting for a process to start and stop
 -test by developer, 1 or more iterations 
 -re-coding, 1 or more iterations 
 -learn new tech
@@ -47,8 +50,10 @@ Main Success Scenario:
 -learn new tech delay: new way of using known tech
 -hardware resource delay: performance limit reached
 -hardware resource delay: performance limit reached with shared hardware resource
+-hardware resource delay: waiting for a process to start and stop
 -software resource delay: licensing limit
 -software resource delay: performance limit reached with shared licensing limit
+-software resource delay: waiting for a process to start and stop
 -documentation
 -documentation review by other person
 -documentation review delay: reviewer not available 
@@ -77,6 +82,7 @@ Main Success Scenario:
 -test by tester delay: Tester blocked and developer not available to research
 -test by tester delay: developer needs to assist with testing 
 -test by tester delay: data quality
+-test by tester delay: waiting for a process to start and stop
 -re-coding 1 or more iterations after test by tester
 -test by user
 -test by user delay: permissions needed
@@ -85,6 +91,7 @@ Main Success Scenario:
 -test by user delay: insufficient test guidance 
 -test by user delay: user blocked and tester and developer are not available 
 -test by user delay: lack of requirements leads to less than desirable result that is tested by the user
+-test by user delay: waiting for a process to start and stop
 -re-coding 1 or more iterations after test by user
 -general delay: orders from two or more managers
 -general delay: unclear project priorities 
