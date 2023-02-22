@@ -1,0 +1,16 @@
+Break Double Click Highlight
+Note:
+  -guidance @
+    -https://stackoverflow.com/questions/22310932/which-characters-will-break-a-double-click-highlight
+    -https://stackoverflow.com/questions/71899794/weird-double-click-behavior-with-text-highlighting-when-dynamically-changing-th
+  -Specific characters break double click highlight. That list of characters is not the same in all software. 
+  -only singly selectable if not surrounded by like characters, importable for creating single selectable strings
+Main Success Scenario:
+  1. "Break Double Click Highlight with Space"
+Alternatives
+  1a. "Break Double Click Highlight with /"
+  1b. "Break Double Click Highlight with \"
+  1c. "Break Double Click Highlight with ."
+  1d. "Break Double Click Highlight with +"
+  1e. xxx:fill in 
+
