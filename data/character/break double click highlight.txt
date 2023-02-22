@@ -15,5 +15,12 @@ Alternatives
   1e. "Break Double Click Highlight with _"
   1f. "Break Double Click Highlight with -"
   1g. "Break Double Click Highlight with ~"
+  1h. "Break Double Click Highlight with |"
   x. xxx:fill in 
+
+
+Break Double Click Highlight with Space
+Main Success Scenario:
+  1. Occurs in the following software
+    -xxx:fill in 
 
