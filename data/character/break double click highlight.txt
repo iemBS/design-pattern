@@ -12,5 +12,8 @@ Alternatives
   1b. "Break Double Click Highlight with \"
   1c. "Break Double Click Highlight with ."
   1d. "Break Double Click Highlight with +"
-  1e. xxx:fill in 
+  1e. "Break Double Click Highlight with _"
+  1f. "Break Double Click Highlight with -"
+  1g. "Break Double Click Highlight with ~"
+  x. xxx:fill in 
 
