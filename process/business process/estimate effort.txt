@@ -43,7 +43,12 @@ Main Success Scenario:
 -coding delay: do not understand coding language being used 
 -coding delay: do not understnad coding library being used
 -coding delay: waiting for a process to start and stop
+-coding delay: other item being tested in same area
+-coding delay: other item being tested in same area
+-coding delay: other item being developed in same area
+-coding delay: insufficient tech design 
 -test by developer, 1 or more iterations 
+-test by developer delay: multiple testers and items on same area
 -re-coding, 1 or more iterations 
 -learn new tech
 -learn new tech delay: permission needed
@@ -84,6 +89,7 @@ Main Success Scenario:
 -test by tester delay: developer needs to assist with testing 
 -test by tester delay: data quality
 -test by tester delay: waiting for a process to start and stop
+-test by tester delay: multiple testers and items on same area
 -re-coding 1 or more iterations after test by tester
 -test by user
 -test by user delay: permissions needed
@@ -93,6 +99,7 @@ Main Success Scenario:
 -test by user delay: user blocked and tester and developer are not available 
 -test by user delay: lack of requirements leads to less than desirable result that is tested by the user
 -test by user delay: waiting for a process to start and stop
+-test by user delay: multiple testers and items on same area
 -re-coding 1 or more iterations after test by user
 -general delay: orders from two or more managers
 -general delay: unclear project priorities 
