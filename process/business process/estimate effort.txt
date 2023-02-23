@@ -80,6 +80,7 @@ Main Success Scenario:
 -deploy delay: permission needed
 -deploy delay: is new deploy process
 -deploy delay: deploy process uses shared hardware resources
+-deploy delay: more changes to deploy than expected
 -test by tester, 1 or more iterations 
 -test by tester delay: permissions needed
 -test by tester delay: tester not available 
@@ -92,6 +93,7 @@ Main Success Scenario:
 -test by tester delay: multiple testers and items on same area
 -test by tester delay: other item being tested in same area
 -test by tester delay: other item being developed in same area
+-test by tester delay: more to test than expected
 -re-coding 1 or more iterations after test by tester
 -test by user
 -test by user delay: permissions needed
@@ -104,6 +106,7 @@ Main Success Scenario:
 -test by user delay: multiple testers and items on same area
 -test by user delay: other item being tested in same area
 -test by user delay: other item being developed in same area
+-test by user delay: more to test than expected
 -re-coding 1 or more iterations after test by user
 -general delay: orders from two or more managers
 -general delay: unclear project priorities 
@@ -138,17 +141,23 @@ Alternatives:
   
 Review Others Docs
 Main Success Scenario:
-  1. xxx:fill in 
+  1. Undertstand their potential content
+  2. Estimate time needed to review that content
+  2. xxx:fill in 
   
   
 Review Others Code
 Main Success Scenario:
-  1. xxx:fill in 
+  1. Understand their potential changes
+  2. Estimate time needed to review that work
+  x. xxx:fill in 
   
 
 Deploy Others Work
 Main Success Scenario:
-  1. xxx:fill in 
+  1. Understnad their potential changes
+  2. Estiamte time neded to deploy that work
+  x. xxx:fill in 
 
 
 Research Potential Bug
