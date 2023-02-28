@@ -1,0 +1,12 @@
+Verify File Structure
+Main Success Scenario:
+  1. Verify file type
+  2. Verify file name
+  3. Verify file size
+  4. "Verify File Content Structure"
+  5. End
+  
+  
+Verify File Content Structure
+Main Success Scenario:
+  1. xxx:fill in 
