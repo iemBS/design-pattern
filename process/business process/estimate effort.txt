@@ -128,9 +128,24 @@ Main Success Scenario:
   1. "Review Others Work"
   2. "Deploy Others Work"
   3. "Research Potential Bug"
+  4. "Prep for Work Refinement and Planning"
+  
+
+Prep for Work Refinement and Planning
+Note:
+  -Refinement is clarifying the work to be done
+  -Planning is choosing what refined items to work on during the next period
+Main Success Scenario:
+  1. Clarify work you understand but NOT assigned
+  2. Clarify work you understand and ARE assigned
+  3. Clarify work you DO NOT understand but tasked with clarifying
   
   
 Review Others Work
+Note:
+  -This is dependent on the planned work items in the period
+Pre-Condition:
+  -Use this only if you need to control what sprint your spent hours are reflected in because your logged hours are being moved to later sprints with the incomplete item that you do not own
 Main Success Scenario:
   1. "Review Others Docs"
   2. End 
@@ -155,13 +170,19 @@ Main Success Scenario:
   
 
 Deploy Others Work
+Note:
+  -This is dependent on the planned work items in the period
+Pre-Condition:
+  -Use this only if you need to control what period your spent hours are reflected in because your logged hours are being moved to later sprints with the incomplete item (that you do not own)
 Main Success Scenario:
   1. Understnad their potential changes
-  2. Estiamte time neded to deploy that work
+  2. Estimate time needed to deploy that work
   x. xxx:fill in 
 
 
 Research Potential Bug
+Pre-Condition:
+  -"Base Estiamte on Previous Work"
 Main Success Scenario:
   1. Research potential bug
   2. Becomes a bug
