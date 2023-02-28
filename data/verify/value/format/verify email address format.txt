@@ -1,3 +1,3 @@
-Verity Email Address
+Verity Email Address Format
 Main Success Scenario:
   1. xxx:fillin
