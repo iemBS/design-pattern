@@ -26,3 +26,34 @@ Alternatives:
     -work items need to be clarified before they can be worked on
   1h. Track Group Planning Effort
     -work items need to be clarified before they can be worked on  
+
+
+Track Level
+Main Success Scenario:
+  1. "Track at Top Level"
+  2. "Track at 2nd Level"
+  3. "Track at Bottom Level"
+  
+  
+Track at Top Level
+Note:
+  -Meant to group items 2nd level trackers
+Main Success Scenario:
+  1.xxx:fill in 
+  
+  
+Track at 2nd Level
+Note:
+  -Common level to track at
+  -Tracking level communicated to the business
+  -Singl person owns
+Main Success Scenario:
+  1.xxx:fill in 
+  
+  
+Track at 3rd Level
+Note:
+  -If more than one person involved with working on a 2nd level item, those different people are owning 3rd level trackers here
+  -Tracking level NOT communicated to the business
+Main Success Scenario:
+  1.xxx:fill in 
