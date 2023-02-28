@@ -1,12 +1,23 @@
 Verify File Structure
 Main Success Scenario:
   1. Verify file type
-  2. Verify file name
-  3. Verify file size
-  4. "Verify File Content Structure"
-  5. End
+  2. Verify file extension
+  3. Verify file name
+  4. Verify file size
+  5. "Verify File Content Structure"
+  6. End
   
   
 Verify File Content Structure
 Main Success Scenario:
-  1. xxx:fill in 
+  1. "Verify Columnar Document"
+Alternatives:
+  1a. xxx:fill in 
+  
+  
+Verify Columnar Document
+Main Success Scenario:
+  1. Verify column count
+  2. Verify column name
+  3. Verify row count
+  4. Verify character set
