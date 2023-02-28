@@ -1,4 +1,4 @@
-Verify Address
+Verify Address Format
 Note:
   -Service used by Reltio software @ https://support.loqate.com/documentation/reportcodes/address-verification-code/
 Main Success Scenario:
