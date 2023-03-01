@@ -1,0 +1,6 @@
+Define Alert Worthy Threshold
+Main Success Scenario:
+  1. See metric Hx
+  2. See consumer response to DQ
+  3. Define alert threshold that balances metric Hx and consumer response to DQ
+  4. End 
