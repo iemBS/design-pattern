@@ -1,6 +1,24 @@
 Define Alert Worthy Threshold
+Note:
+  -Factoring in a special period could be ...
+    -End of a business cycle
+    -could be a long term upstream trouble
+  -Factoring in a special event could be ...
+    -a specific day
+    -upstream trouble
+    -xxx:fill in 
+  -Having to factor in an event or a period, may indicate the need to be able to have a temp override
 Main Success Scenario:
   1. See metric Hx
   2. See consumer response to DQ
-  3. Define alert threshold that balances metric Hx and consumer response to DQ
-  4. End 
+  3. See provider data change expections 
+  4. Define alert threshold that balances the above three
+  5. End 
+Alternatives:
+  4a. Factor in specific events
+    4a1. xxx:fill in 
+    4a2. go to step 5
+  4b. Factor in specific periods
+    4b1. xxx:fill in 
+    4b2. go to step 5
+  
