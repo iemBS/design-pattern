@@ -1,0 +1,23 @@
+Compare New to Previous
+Main Success Scenario:
+  1. "Compare New to Previous Count"
+  2. "Compare New to Previous Detail"
+  x. End
+  
+  
+Compare New to Previous Count
+Note:
+  -Comparing at a summary level can save time, hardware resources, and time if an issue can be found at the summary level first
+  -Counting the number of blocks of data (columns, rows, specific JSON blocks, XML blocks, etc) may be more of a structure check than a value check. 
+Main Success Scenario:
+  1. xxx:fill in 
+  
+  
+Compare New to Previous Detail
+Note:
+  -Comparing at the detail level could be skipped if the summary level looks good
+  -Comparing at the detail level should be done if trust is low, even though the summary level looks good.
+Pre-Condition:
+  -"Compare New to Previous Count" indicated no issue 
+Main Success Scenario:
+  1. xxx:fill in 
