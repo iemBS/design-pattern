@@ -1,0 +1,4 @@
+Verifying in provided structure avoids has feedback generated from a place familiar with the provider. It also precedes any movements or transformations that could hide the issue. 
+
+
+Verifying in the provided structure could also be more costly (dollars, time) and to an extend that it is not feasilbiy to verify in its provided structure. 
