@@ -20,9 +20,11 @@ Alternatives:
 
     
 Delete Immediately
+Pre-Condition:
+  -"Define Bedeleted Sender Domain"
 Main Success Scenario:
   1.Delete based on sender domain 
-  2.Delete based on specific sender 
+  2.Delete based on specific sender
   3.Delete based on specific system sender (non-human) 
   4.Delete based on complete subject 
   5.Delete based on term in subject
@@ -31,18 +33,37 @@ Main Success Scenario:
     -Delete Email immediately based on specific sender
   7.Delete based on TO group receiver in body
   8.Delete based on CC group receiver in body
+Alternatives:
+  2a. All emails from a domain are being deleted in this step
+    2a1. Add domain to the Bedeleted Sender Domain list
+    2a2. go to step 3
   
   
 Delete Later
+Pre-Condition:
+  -"Define Bedeleted Sender Domain"
 Main Success Sender
   1.Delete based on sender domain 
-  -Delete Email later based on system sender (non-human) email address
-  -Delete Email later based on team sender (non-human) email address
-  -"Delete Auto Reply Later"
-  -Delete meeting cancelled later 
-  -Delete meeting accepted later 
-  -Delete meeting delined later
-  "Delete Meeting Invite"
+  2. Delete Email later based on system sender (non-human) email address
+  3. Delete Email later based on team sender (non-human) email address
+  4. "Delete Auto Reply Later"
+  5. Delete meeting cancelled later 
+  6. Delete meeting accepted later 
+  7. Delete meeting delined later
+  8. Delete Meeting Invite"
+Alternatives:
+  2a. All emails from a domain are being deleted in this step or step 3
+    2a1. Add domain to the Bedeleted Sender Domain list
+    2a2. go to step 3
+  3a. All emails from a domain are being deleted in this step or step 3
+    3a1. Add domain to the Bedeleted Sender Domain list
+    3a2. go to step 4
+  
+    
+Define Bedeleted Sender Domain
+Main Success:
+  1. No message from the domain needs to be kept long term
+  2. End
   
     
 Delete Auto Reply Later
