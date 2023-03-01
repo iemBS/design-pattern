@@ -1,0 +1,3 @@
+Inform vs Alert
+-Only allow receivers to subscribe to informs themselves 
+-xxx:Fill in 
