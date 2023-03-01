@@ -1,3 +1,4 @@
 Inform vs Alert Comm
 -Only allow receivers to subscribe to informs themselves 
+-alert is needed instead of inform, because of the serverity, priority, and impact of not having the alert
 -xxx:Fill in 
