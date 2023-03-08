@@ -3,6 +3,9 @@ Note:
   -Levenshtein Distance @ https://en.wikipedia.org/wiki/Levenshtein_distance
   -https://en.wikipedia.org/wiki/Match_rating_approach
   -regular expression
+  -soundex mentioned in the following areas of this code repo
+    -iemBS/design-pattern/data/match data.txt
+    -iemBS/design-pattern/data/configure value equality.txt
 Main Success Scenario:
   1. xxx:fill in 
   
