@@ -1,5 +1,48 @@
 Compare Data Value
 Note:
   -Levenshtein Distance @ https://en.wikipedia.org/wiki/Levenshtein_distance
+  -https://en.wikipedia.org/wiki/Match_rating_approach
+  -regular expression
+Main Success Scenario:
+  1. xxx:fill in 
+  
+  
+Adjust Value Equality
+Main Success Scenario:
+  1. xxx:fill in 
+
+
+Group Values 
+Note:
+  -Grouping values allows a group representative to be compared rather than all the values in the group
+  -If a data collection needs to be compared to a data collection elsewhere, this can reduce the movement of data to only the group representative
+  -The broader the definition of the group, the more values making up the group, and the possibly the less representative the group representative will be
+  -ways of grouping
+    -value divergence due to 
+      -pronunciation
+        -speach impediment
+        -accent
+        -non-fluent speaker
+      -sound perception
+      -spelling ability
+      -text format differences
+      -writing ability
+      -sight perception
+        -human
+        -machine
+      -typing ability
+      -language evolution
+      -character set digital conversion
+Main Success Scenario:
+  1. "Group Values with Soundex"
+Alternatives:
+  1a. xxx:fill in 
+  
+  
+Group Values with Soundex
+Note:
+  -guidance @
+    -https://en.wikipedia.org/wiki/Soundex
+  -Soundex is a phonetic algorithm for indexing names by sound, as pronounced in English
 Main Success Scenario:
   1. xxx:fill in 
