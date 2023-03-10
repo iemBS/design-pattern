@@ -61,9 +61,42 @@ Alternatives:
   
     
 Define Bedeleted Sender Domain
+Note:
+  -Domain exists for emails, but domain could be a categorization for other types of messages
+  -Ordering the domains alphabetically allows faster list review
+Pre-Conditions:
+  -Message deletion time not determined by this use case 
+  -Message not have a domain in the bedeleted sender list
 Main Success:
-  1. No message from the domain needs to be kept long term
+  1. All messages from a domain can be deleted
+  2. Maintain a bedeleted domain list
   2. End
+  
+  
+Define Bedeleted Sender
+Note:
+  -Ordering the senders alphabetically allows faster list review
+Pre-Conditions:
+  -Message deletion time not determined by this use case 
+  -Message not have a domain in bedeleted domain list
+  -senders are not independent of a domain 
+Main Success:
+  1. All messages from a sender can be deleted
+  2. Maintain a bedeleted sender list
+  2. End
+  
+  
+Define Bedeleted Subject
+Main Success Scenario:
+  1. "Define Bedeleted Full Subject"
+  2. End 
+Alternatives:
+  1a. only partial
+    1a1. "Define Bedeleted Partial Subject"
+    1a2. go to step 2
+  1b. only partial
+    1b1. "Define Bedeleted Subject Term"
+    1b2. go to step 2
   
     
 Delete Auto Reply Later
