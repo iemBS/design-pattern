@@ -1,0 +1,5 @@
+Define Measure Attributes
+-Comparability
+-Graphability
+-Actionability
+-xxx:fill in 
