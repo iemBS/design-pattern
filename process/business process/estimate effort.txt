@@ -15,24 +15,30 @@ Main Success Scenario:
 -requirements gathering delay: requirements provider not available 
 -requirements gathering delay: requirements provider does not know enough
 -requirements gathering delay: waiting for a process to start and stop
+-requirements gathering delay: new person 
 -analysis
 -analysis delay: permissions needed
 -analysis delay: notes, docs, research deleted
 -analysis delay: waiting for a process to start and stop
+-analysis delay: new person
 -business design
 -business design delay: lack of requirements 
+-business design delay: new person
 -design review by business
 -business design review delay: reviewer not available 
 -business design review delay: permission needed
+-business design review delay: new person
 -tech design
 -tech design delay: permission needed for my access
 -tech design delay: permission needed to see other user's perspective
 -tech design delay: lack of requirements 
 -tech design delay: notes, docs, research deleted
+-tech design delay: new person
 -tech design review by another developer
 -tech design review delay: developer reviewer not available 
 -tech design review delay: permission needed
 -tech design review delay: lack of requirements 
+-tech design review delay: new person
 -redesign
 -coding
 -coding delay: lack of requirements lead to more coding to deal with unknowns
@@ -47,21 +53,25 @@ Main Success Scenario:
 -coding delay: other item being developed in same area
 -coding delay: insufficient tech design 
 -coding delay: remove existing item and work on higher priority item instead 
+-coding delay: new person
 -test by developer, 1 or more iterations 
 -test by developer delay: multiple testers and items on same area
+-test by developer delay: new person
 -re-coding, 1 or more iterations 
 -learn new tech
 -learn new tech delay: permission needed
 -learn new tech delay: new way of using known tech
+-learn new tech delay: new person
 -hardware resource delay: performance limit reached
 -hardware resource delay: performance limit reached with shared hardware resource
 -hardware resource delay: waiting for a process to start and stop
 -software resource delay: licensing limit
 -software resource delay: performance limit reached with shared licensing limit
--software resource delay: waiting for a process to start and stop
+-software resource delay: waiting for a process to start and stop 
 -documentation
 -documentation review by other person
 -documentation review delay: reviewer not available 
+-documentation review delay: new person
 -documentation update
 -documentation provided in other perspectives 
 -code review 1 or more iterations 
@@ -74,6 +84,7 @@ Main Success Scenario:
 -code review delay: do not understnad coding library being reviewed
 -code review delay: more code to review than expected
 -code review delay: code more complex than expected 
+-code review delay: new person
 -re-coding 1 or more iterations after code review 
 -deploy prep
 -deploy, 3 (at least 1 per environment) or more iterations
@@ -82,6 +93,7 @@ Main Success Scenario:
 -deploy delay: is new deploy process
 -deploy delay: deploy process uses shared hardware resources
 -deploy delay: more changes to deploy than expected
+-deploy delay: new person
 -test by tester, 1 or more iterations 
 -test by tester delay: permissions needed
 -test by tester delay: tester not available 
@@ -95,6 +107,7 @@ Main Success Scenario:
 -test by tester delay: other item being tested in same area
 -test by tester delay: other item being developed in same area
 -test by tester delay: more to test than expected
+-test by tester delay: new person
 -re-coding 1 or more iterations after test by tester
 -test by user
 -test by user delay: permissions needed
@@ -108,6 +121,7 @@ Main Success Scenario:
 -test by user delay: other item being tested in same area
 -test by user delay: other item being developed in same area
 -test by user delay: more to test than expected
+-test by user delay: new person
 -re-coding 1 or more iterations after test by user
 -general delay: orders from two or more managers
 -general delay: unclear project priorities 
@@ -115,6 +129,7 @@ Main Success Scenario:
 -general delay: recalibration when jumping between multiple work items
 -general delay: time spent on another project
 -general delay: too much time spent in meetings
+-general delay: new person
 -next sprint prep (factoring in all of the above for each item)
 
 
