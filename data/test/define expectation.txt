@@ -1,3 +1,22 @@
 Define Expectation
 Main Success Scenario:
+  1. "Define Time Point Expectation"
+  2. End
+Alternatives:
+  1a. Duration instead
+    1a1. "Define Duration Expectation"
+    1a2. go to step 2
+  x. xxx:fill in 
+  
+  
+Define Time Point Expectation
+Main Success Scenario:
+  1. Define when data is expected at a time and location 
+  2. End
+Alternatives:
+  1a. xxx:fill in 
+
+
+Define Duration Expectation
+Main Success Scenario:
   1. xxx:fill in 
