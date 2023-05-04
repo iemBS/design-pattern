@@ -9,6 +9,7 @@ Understand Work Activities
 Note:
   -Not all of these contribute to the effort for this item, but they all contribute to the time the item stays open
   -An activity from here can be represented as a task, story, or bug in an agile development process
+  -"same area" could mean "same code", "same functionality", "same environment", more than one of these, or all of these. 
 Main Success Scenario:
   1. See points below
 -requirements gathering
