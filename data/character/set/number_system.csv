@@ -1,0 +1,6 @@
+number_system_name,base,characters,base_10_convert_ex,ref
+hexedecimal,16,0123456789ABCDEF,unknown,https://en.wikipedia.org/wiki/Hexadecimal
+binary,2,01,unknown,unknown
+octal,8,01234567,1x8^2 + 1x8^1 + 2x8^0 = 112,https://en.wikipedia.org/wiki/Octal
+decimal,10,0123456789,unknown,unknown
+sexagesimal,60,unknown,unknown,https://en.wikipedia.org/wiki/Sexagesimal;https://blogs.scientificamerican.com/roots-of-unity/the-joy-of-sexagesimal-floating-point-arithmetic/
