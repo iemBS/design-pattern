@@ -5,3 +5,24 @@ Note:
   -Comparing Data Functionality between two different applications that must use the same logic, allows the two applications to better align.
 Main Succss Scenario:
   1. xxx:fill in 
+
+
+
+Compare Field Value Uniquneness
+Main Succss Scenario:
+  1. xxx:fill in 
+  
+  
+Compare Join Cardinality
+Main Succss Scenario:
+  1. xxx:fill in 
+ 
+  
+Compare Record Count
+Main Succss Scenario:
+  1. xxx:fill in 
+  
+  
+Compare Data Size
+Main Succss Scenario:
+  1. xxx:fill in 
