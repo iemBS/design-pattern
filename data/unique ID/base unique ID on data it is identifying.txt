@@ -4,3 +4,50 @@ Main Success Scenario:
   2. Define Composite ID Data Type
   3. Define Column Order in Composite ID
   x. xxx:fill in 
+
+
+Define Time Unique ID
+Main Success Scenario:
+  1. "Define Year Unique ID"
+Alternatives:
+  1a. "Define Month Uniuqe ID"
+  1b. "Define Week Unique ID"
+  1c. "Define Day Unique ID"
+  1d. "Define Hour Unique ID"
+  1e. "Define Minute Unique ID"
+  1f. "Define Second Unique ID"
+  1g. "Define Millisecond Unique ID"
+  1h. "Define Nanosecond Unique ID"
+  
+  
+Define Month Unique ID 
+Main Success Scenario:
+  1. ID is relative
+  2. Do not always need a two character ID
+  3. Use 1 to 12
+  4. End
+Alternatives:
+  1a. ID is not relative
+    1a1. Use 202301 to 202312
+    1a2. go to step 4
+  2a. Always need a two character ID
+    2a1. Use 01 to 12
+    2a2. Go to step 4
+  
+  
+Define Year Unique Id
+Pre-Condition:
+ -Define year number to cover 
+Main Success Scenario:
+  1. Do not always need a four character ID
+  2. Year may not be after 999
+  3. Use year number (ex: this year is 2023)
+  4. End
+Alternatives:
+  1a. Always needs a four character ID
+    1a1. Years less than 1000, preceded by Y and a number of zeros to make the integer portion a length of 4
+    1a2. Use year number 0000 to 9999
+    1a3. go to step 4
+  2a. Year is only after 999
+    2a1. Use year number 1000 to 9999
+    2a2. go to step 4
