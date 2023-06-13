@@ -27,7 +27,7 @@ Main Success Scenario:
   
 Define Manager Message Content
 Main Success Scenario:
-  1.
+  1. 
 
 
 Define Direct Report Message Content
