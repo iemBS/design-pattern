@@ -1,7 +1,9 @@
 Define Comm Method
 Note:
   -Publisher could be a person or a process
+  -Publisher term is used instead of sender, because Publisher term goes with Subscriber term.  
   -Subscriber could be a person or a process
+  -Subscriber term is used instead of receiver, because they are choosing to receive instead of just receive everything. 
   -Hold is a process and storage
 Main Success Scenario:
   1. "Define Simple Comm Method"
