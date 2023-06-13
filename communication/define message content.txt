@@ -1,13 +1,28 @@
 Define Message Content
 Note:
+  -Audience term is used instead of receiver of subscriber, because seeing the receiver or subscriber as an audience is a way of focusing on the attributes of the receiver or subscriber.
   -Message content is defined by ...
     -audience
     -number in audience
-    -who message could be shared with
-    -how au
-    -medium
+    -relationship with each member of the audience 
+      -personal relationship
+        -past experience
+      -professional relationship
+        -past experience 
+    -how each member of the audience may respond to the message
+    -who a member of the audience could share the message with someone else 
+    -medium used to send the message
+      -visual and audio
+      -visual only
+      -audio only
+      -written only
+    -audience's filters
+      -e-custom filters
+      -e-system filters
+    -xxx: add more 
 Main Success Scenario:
   1. "Define Manager Message Content"
+  2. xxx:fill in 
   
   
 Define Manager Message Content
