@@ -1,0 +1,30 @@
+Define Message Content
+Note:
+  -Message content is defined by ...
+    -audience
+    -number in audience
+    -who message could be shared with
+    -how au
+    -medium
+Main Success Scenario:
+  1. "Define Manager Message Content"
+  
+  
+Define Manager Message Content
+Main Success Scenario:
+  1.
+
+
+Define Direct Report Message Content
+Main Success Scenario:
+  1.
+
+
+Define Indirect Report Message Content
+Main Success Scenario:
+  1.
+  
+
+Define Colleague Message Content
+Main Success Scenario:
+  1.
