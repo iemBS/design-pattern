@@ -1,0 +1,110 @@
+Define No Value
+Note:
+  -guidance @
+    -https://www.w3schools.com/sql/sql_datatypes.asp
+    -https://www.scribbr.com/statistics/missing-data/
+    -https://en.wikipedia.org/wiki/Missing_data
+    -https://www.ibm.com/docs/vi/spss-statistics/beta?topic=SSLVMB_subs/statistics_mainhelp_ddita/spss/base/define_missing_howto.htm
+    -https://learn.microsoft.com/en-us/analysis-services/data-mining/missing-values-analysis-services-data-mining?view=asallproducts-allversions
+    -https://medium.com/geekculture/how-to-deal-with-missing-values-in-machine-learning-98e47f025b9c
+  -No value reasons
+    -Not provided
+    -Non-existence is known
+    -Existence is dependent on other data
+    -Existence is dependent on an action
+    -error
+    -Cell level hard deletion
+Main Success Scenario:
+  1. "Define No Singular value"
+  2. "Respond to Action"
+  3. end
+Alternatives:
+  1a. Data storage location expects a plural value data type
+    1a1. "Define No Plural Value"
+    1a2. go to step 2
+
+    
+Define No Plural Value
+Main Success Scenario:
+  1. "Define No Collection value"
+  2. "Response of No Value to an Action"
+  3. end
+Alternatives:
+  1a. No JSON Value
+    1a1. "Define No JSON Value"
+    1a2. go to step 2
+  1b. No File Value
+    1b1. "Define No File Value"
+    1b2. go to step 2
+
+
+Define No Singular Value
+Note:
+  -guidance @
+    -https://www.w3schools.com/sql/sql_datatypes.asp
+Main Success Scenario:
+  1. "Define No DateTime value"
+  2. "Response of No Value to an Action"
+  3. end
+Alternatives:
+  1a. No String value
+    1a1. "Define No String Value"
+    1a2. go to step 2
+  1b. No Boolean value
+    1b1. "Define No Boolean Value"
+    1b2. go to step 2
+  1c. No Number Value
+    1c1. "Define No Number Value"
+    1c2. go to step 2
+  1d. No JSON Value
+    1d1. "Define No JSON Value"
+    1d2. go to step 2
+
+
+Define No File Value
+Note:
+  -guidance @
+    -https://www.file-extensions.org/
+xxx
+
+    
+Define No DateTime Value
+xxx
+
+
+Define No String Value
+xxx
+
+
+Define No Boolean Value
+xxx
+
+
+Define No Number Value
+xxx
+
+
+Respond to Action
+Main Success Scenario:
+  1. "Respond to Concatenation Action"
+  2. End
+Alternatives:
+  1a. Response to math calculation
+    1a1. "Respond to Math Calculation Action"
+    1a2. go to step 2
+  1b. Response to comparison
+    1b1. "Respond to Comparison Action"
+    1b2. go to step 2
+  1c. Response to print
+    1c1. "Respond to Print Action"
+    1c2. go to step 2
+  1d. xxx
+    1d1. "Respond to Data Type Cast Action"
+  1e. xxx
+    1e1. "Respond to Byte Size Measure Action"
+  1f. xxx
+    1f1. 
+    
+
+Respond to Concatenation Action
+xxx
