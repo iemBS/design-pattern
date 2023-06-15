@@ -14,6 +14,7 @@ Note:
     -Existence is dependent on an action
     -error
     -Cell level hard deletion
+    -Insuficient storage 
 Main Success Scenario:
   1. "Define No Singular value"
   2. "Respond to Action"
