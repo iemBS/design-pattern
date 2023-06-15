@@ -31,7 +31,7 @@ Main Success Scenario:
   3. end
 Alternatives:
   1a. No JSON Value
-    1a1. "Define No JSON Value"
+    1a1. "Define No Plural JSON Value"
     1a2. go to step 2
   1b. No File Value
     1b1. "Define No File Value"
@@ -44,7 +44,7 @@ Note:
     -https://www.w3schools.com/sql/sql_datatypes.asp
 Main Success Scenario:
   1. "Define No DateTime value"
-  2. "Response of No Value to an Action"
+  2. "Impact on Action"
   3. end
 Alternatives:
   1a. No String value
@@ -57,7 +57,7 @@ Alternatives:
     1c1. "Define No Number Value"
     1c2. go to step 2
   1d. No JSON Value
-    1d1. "Define No JSON Value"
+    1d1. "Define No Singular JSON Value"
     1d2. go to step 2
 
 
@@ -84,27 +84,35 @@ Define No Number Value
 xxx
 
 
-Respond to Action
+Impact on Action
 Main Success Scenario:
-  1. "Respond to Concatenation Action"
+  1. "Impact on Concatenation Action"
   2. End
 Alternatives:
-  1a. Response to math calculation
-    1a1. "Respond to Math Calculation Action"
+  1a. Impact on math calculation
+    1a1. "Impact on Math Calculation Action"
     1a2. go to step 2
-  1b. Response to comparison
-    1b1. "Respond to Comparison Action"
+  1b. Impact on comparison
+    1b1. "Impact on Comparison Action"
     1b2. go to step 2
-  1c. Response to print
-    1c1. "Respond to Print Action"
+  1c. Impact on print
+    1c1. "Impact on Print Action"
     1c2. go to step 2
   1d. xxx
-    1d1. "Respond to Data Type Cast Action"
+    1d1. "Impact on Data Type Cast Action"
   1e. xxx
-    1e1. "Respond to Byte Size Measure Action"
+    1e1. "Impact on Byte Size Measure Action"
   1f. xxx
-    1f1. 
-    
+    1f1. "Impact on Value Update Action"
+    1f2. go to step 2
 
-Respond to Concatenation Action
-xxx
+
+Impact on Value Update Action
+Main Success Scenario:
+  1. No Value applied to a Value
+  2. xxx
+Alternatives:
+  1a. Value applied to No Value
+    1a1. xxx
+
+
