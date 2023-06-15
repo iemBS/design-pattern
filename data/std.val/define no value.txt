@@ -16,6 +16,7 @@ Note:
     -Cell level hard deletion
     -Insuficient storage 
     -Data structure has not needed fields
+  -Reason for No Value can be self explanatory or need explanation
 Main Success Scenario:
   1. "Define No Singular value"
   2. "Respond to Action"
@@ -107,6 +108,10 @@ Alternatives:
   1f. xxx
     1f1. "Impact on Value Update Action"
     1f2. go to step 2
+  1g. xxx
+    1g1. "Impact on Data Move Action"
+  1h. xxx
+    1h1. "Impact on Discerning No Value Type Action"
 
 
 Impact on Value Update Action
