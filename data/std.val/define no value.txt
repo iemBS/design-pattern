@@ -15,6 +15,7 @@ Note:
     -error
     -Cell level hard deletion
     -Insuficient storage 
+    -Data structure has not needed fields
 Main Success Scenario:
   1. "Define No Singular value"
   2. "Respond to Action"
