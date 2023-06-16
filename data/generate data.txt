@@ -1,4 +1,26 @@
 Generate Data
+Pre-Conditons:
+  -Data generation can be based on production data to the extent that it does not violate data security rules
+  -Basing data generation on production data, provides scope for the data generation
+  -attributes of production data that can be used to scope the data generation:
+    -general
+      -volumne of data
+      -number of collections
+      -number of fields per collection
+      -number of records per collection
+      -number of fields with values per collection
+      -field data type
+      -field nullability
+      -relationships between collections
+        -relationship cardinality
+      -uniqueness of values in a field 
+      -xxx
+    -person
+      -name part count
+      -use of prefix or suffix
+    -geography
+      -xxx
+    -xxx
 Main Success Scenario:
   1. "Generate Email Address Data"
   2. End
@@ -6,7 +28,6 @@ Alternatives:
   1a. xxx
     1a1. "Generate Phone Number Data"
     1a2. go to step 2
-
 
 
 Generate Email Data
@@ -18,3 +39,14 @@ Pre-Condition:
   -X character is a letter or number only
 Main Success Scenario:
   1. Use ^[A-Z0-9+_.-]+@[A-Z0-9.-]+$ pattern to define email address format 
+  2. Include creator login in value (ckent)
+  3. Include system create time in value (YYMMDD_HHMMSS)
+  4. End
+Alternatives:
+  3a. More than one email will be created per second
+    3a1. Use milliseconds in time contribution (YYMMDD_HHMMSS_XXX)
+    3a2. go to step 4
+  3b. More than one email will be created per millisecond
+    3b1. Use nanoseconds in time contribution (YYMMDD_HHMMSS_XXXXXX)
+     3b2. go to step 4
+  
