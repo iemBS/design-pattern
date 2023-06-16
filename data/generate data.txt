@@ -1,0 +1,20 @@
+Generate Data
+Main Success Scenario:
+  1. "Generate Email Address Data"
+  2. End
+Alternatives:
+  1a. xxx
+    1a1. "Generate Phone Number Data"
+    1a2. go to step 2
+
+
+
+Generate Email Data
+Note:
+  -guidance @
+    -https://www.oreilly.com/library/view/regular-expressions-cookbook/9781449327453/ch04s01.html
+    -https://en.wikipedia.org/wiki/Email_address
+Pre-Condition:
+  -X character is a letter or number only
+Main Success Scenario:
+  1. Use ^[A-Z0-9+_.-]+@[A-Z0-9.-]+$ pattern to define email address format 
