@@ -1,0 +1,12 @@
+    
+Define Test Goal
+Main Success Scenario:
+  1. See difference
+  2. End
+Alternatives:
+  1a. See if correct
+    1a1. See if correct
+    1a2. go to step 2
+  1b. See if incorrect
+    1b1. See if incorrect
+    1b2. go to step 2
