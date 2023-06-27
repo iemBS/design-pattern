@@ -26,3 +26,8 @@ Main Succss Scenario:
 Compare Data Size
 Main Succss Scenario:
   1. xxx:fill in 
+
+
+Compare Field Value to Field Defined Size
+xxx
+
