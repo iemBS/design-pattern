@@ -1,4 +1,4 @@
-Compare Data Functionality
+Test Data Functionality
 Note: 
   -Data functionality takes into account how the data is used and looks at how it functions. This may be more detaild than the data object definition. For example, for data functionality it may be required than a column not be null, but the definiton of that column (aka data object definition) allows it to be null. 
   -Comparing Data Functionality between two environments, like TEST and PRD, for the same application is important to maximize the benefit of testing in the TEST environment. 
@@ -7,13 +7,12 @@ Main Succss Scenario:
   1. xxx:fill in 
 
 
-
-Compare Field Value Uniquneness
+Compare Actual to Expected Field Value Uniquneness
 Main Succss Scenario:
   1. xxx:fill in 
   
   
-Compare Join Cardinality
+Compare Actual to Expected Join Cardinality
 Main Succss Scenario:
   1. xxx:fill in 
  
