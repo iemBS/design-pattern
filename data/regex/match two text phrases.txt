@@ -1,0 +1,7 @@
+Match Two Text Phrases
+Note:
+  -guidance @
+    -https://stackoverflow.com/questions/2219830/regular-expression-to-find-two-strings-anywhere-in-input
+Main Success Scenario:
+  1. Match where string has "i am here" and "i am there" text phrases
+    /^.*?\bi am here\b.*?\bi am there\b.*?$/m
