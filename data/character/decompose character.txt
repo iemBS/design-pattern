@@ -1,6 +1,7 @@
 Decompose Character
 Note
   -Guidance @
+    -https://stackoverflow.com/questions/48385080/how-to-properly-normalize-a-string-with-composite-characters
     -https://docs.oracle.com/en/database/oracle/oracle-database/21/sqlrf/DECOMPOSE.html
     -https://www.gnu.org/software/libunistring/manual/html_node/Decomposition-of-characters.html
     -https://en.m.wikipedia.org/wiki/Unicode_compatibility_characters
