@@ -13,9 +13,10 @@ Main Success Scenario:
 Group Value
 Note:
   -Grouping values according to a definition allows you to loosen the definition of equality between values
-  -Allowing a value to be in more then one group allows more than one perspective of equality. 
+  -Allowing a value to be in more than one group allows more than one perspective of equality. 
   -Tightening the definition of a group over time can drive a data quailty increase in the values 
   -Soundex is a way of loosening value equality
+  -Levenshtein distance is a way of loosening value equality
 Main Success Scenario:
   1. xxx:fill in 
   
