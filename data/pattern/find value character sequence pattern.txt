@@ -1,6 +1,7 @@
 Find Value Character Sequence Pattern 
 Note:
   -Can only define non-matching patterns to check future values, if existing values provide all possible patterns.
+  -If patterns limits are provided, use those to reduce the scope of possible patterns. 
 Main Success Scenario:
   1. Value is text data type
   2. "Find Text Value Character Sequence Pattern"
