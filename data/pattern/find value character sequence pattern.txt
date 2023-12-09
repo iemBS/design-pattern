@@ -24,8 +24,14 @@ Find Character Position Existence
 Pre-Conditions
   -Understand character categories @ https://www.compart.com/en/unicode/category 
   -Establish single character identifier per category
+Note:
+  -Use inverse of step 2 or 3 to identify patterns of new values that do not match. 
 Main Success Scenario:
   1. Replace each value character w category 
   2. Note categories existing at each position
   3. Note characters existing at each position.
   4. End
+Alternatives: 
+  2a. More specific categories are known
+    2a1. Use more specific categories 
+    2a2. Go to step 3
