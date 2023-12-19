@@ -1,7 +1,17 @@
 Define Data Type
 Note:
+  -ref 
+    -https://www.thecomputingteacher.com/csc/index.php/programming/196-data-type-charateristics
+    -https://www.thecomputingteacher.com/csc/index.php/man-data/data/data-types
   -Can be industry standard or custom data type
   -custom data types can cause data sharing issues
+  -data type characteristics
+    -number of possible values
+    -value compactness in visual length and memory use
+    -value order
+    -value usability by processes and people
+      -where processes are functions, xxx, or xxx
+    -lets a computer system know how to deal with a value 
 Main Success Scenario:
   1. "Define Time Data Type"
   2. End
@@ -10,5 +20,7 @@ Alternatives:
 
     
 Define Time Data Type
+Note:
+  -Type of timestamps
 Main Success Scenario:
   1. xxx
