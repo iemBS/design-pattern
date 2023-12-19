@@ -1,0 +1,14 @@
+Define Data Type
+Note:
+  -Can be industry standard or custom data type
+  -custom data types can cause data sharing issues
+Main Success Scenario:
+  1. "Define Time Data Type"
+  2. End
+Alternatives:
+  1a. xxx
+
+    
+Define Time Data Type
+Main Success Scenario:
+  1. xxx
