@@ -3,6 +3,7 @@ Note:
   -ref 
     -https://www.thecomputingteacher.com/csc/index.php/programming/196-data-type-charateristics
     -https://www.thecomputingteacher.com/csc/index.php/man-data/data/data-types
+    -https://press.rebus.community/programmingfundamentals/chapter/data-types/
   -Can be industry standard or custom data type
   -custom data types can cause data sharing issues
   -data type characteristics
@@ -12,6 +13,7 @@ Note:
     -value usability by processes and people
       -where processes are functions, xxx, or xxx
     -lets a computer system know how to deal with a value 
+    -classification of data which tells the compiler or interpreter how the programmer intends to use the data.
 Main Success Scenario:
   1. "Define Time Data Type"
   2. End
