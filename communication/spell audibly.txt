@@ -1,0 +1,9 @@
+Spell Audibly 
+Note:
+  -ref @ 
+    -https://en.m.wikipedia.org/wiki/NATO_phonetic_alphabet
+Pre-Condition:
+  -Minimize respelling
+  -Spell method reduces pronuncuation speed
+Main Success Scenario:
+  1. xxx
