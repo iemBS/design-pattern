@@ -1,4 +1,7 @@
 Define Expectation
+Note: 
+  -Expectations of the data are important to defining the effort put into meeting those expectations
+    -Effort can be expressed in money, time, human resources, and education.
 Main Success Scenario:
   1. "Define Time Point Expectation"
   2. End
