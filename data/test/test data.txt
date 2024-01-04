@@ -1,4 +1,6 @@
 Test Data
+Pre-Condition:
+  -"define expectation.txt" use case file
 Main Success Scenario:
-  1. "Test Data Existence.txt" use case file
+  1. "test data existence.txt" use case file
   2. xxx:fill in 
