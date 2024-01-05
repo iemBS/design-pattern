@@ -4,10 +4,11 @@ Main Success Scenario:
   x. "Get Host Machine Config"
   x. "Get Data Structure"
   x. "Get Enabled Query Languages"
-  x. "Get Config"
+  x. "Get Data Config"
   x. Get size of data in bytes
   x. "Get Relations"
   x. "Get Unique Identifiers"
+  x. "Get Field Value Limits"
   x. "Get Value Data Types"
   x. "Get Nullability"
   x. "Get Performance Tunning Points"
@@ -60,6 +61,20 @@ Alternatives:
 
 
 Get Unique Identifiers
+Note:
+  -Unique identifiaction on these objects
+    -file
+    -record in a table or file
+    -row in a table or file
+    -field in table, view, collection, or frame
+  -Unique identificiation can be done via the following ways
+    -versioning
+    -xxx:fill in 
+  -unique values can be 
+    -integer
+    -time
+    -randomly generated
+  -sort of a unique ID may match the order in which it was created
 Main Success Scenario:
   1. xxx:fill in 
 
@@ -76,11 +91,23 @@ Main Success Scenario:
   1. xxx:fill in 
 
 
-Get Config
+Get Data Config
 Main Success Scenario:
-  1. Get character sets specified
-  2. Get value data types specified
-  3. Get value length specified 
+  1. "Get Server Config"
+  2. xxx:fill in 
+  3. "Get Field Config"
+
+
+Get Server Config
+  1. Get configured character set
+  2. xxx:fill in 
+
+
+Get Field Config
+Main Success Scenario:
+  1. Get field configured data type
+  2. Get field configured data length
+  3. Get distinct field values
 
 
 Get Activity Log
@@ -108,3 +135,6 @@ Main Success Scenario:
 Get Data Content Impacts on Performance
 Main Success Scenario:
   1. xxx:fill in 
+
+
+
