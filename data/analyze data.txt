@@ -108,6 +108,7 @@ Main Success Scenario:
   1. Get field configured data type
   2. Get field configured data length
   3. Get distinct field values
+  4. Determine if field has picklist values
 
 
 Get Activity Log
@@ -115,11 +116,33 @@ Main Success Scenario:
   1. xxx:fill in 
 
 
-Get Activity Times
+See Activity Times
 Main Success Scenario:
-  1. Get insert times
-  2. Get update times
-  3. Get delete times
+  1. "See Insert Activity Times"
+  2. "See Update Activity Times"
+  3. "See Delete Activity Times"
+  x. End
+
+
+See Insert Activity Times
+Main Success Scenario:
+  1. See if insert times exist
+  2. See insert time queryability
+  3. See insert volume over time
+
+
+See Update Activity Times
+Main Success Scenario:
+  1. See if update times exist 
+  2. See update time queryability
+  4. See update volume over time
+
+
+See Delete Activity Times
+Main Success Scenario:
+  1. See if delete times exist
+  2. See delete time queryability
+  4. See delete volume over time
 
 
 Get Errors
