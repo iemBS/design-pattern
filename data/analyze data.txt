@@ -129,20 +129,40 @@ Main Success Scenario:
   1. See if insert times exist
   2. See insert time queryability
   3. See insert volume over time
+  4. "See Change Volume Per Time Unit"
 
 
 See Update Activity Times
 Main Success Scenario:
   1. See if update times exist 
   2. See update time queryability
-  4. See update volume over time
+  3. See update volume over time
+  4. "See Change Volume Per Time Unit"
 
 
 See Delete Activity Times
 Main Success Scenario:
   1. See if delete times exist
   2. See delete time queryability
-  4. See delete volume over time
+  3. See delete volume over time
+  4. "See Change Volume Per Time Unit"
+
+
+See Change Volume Per Time Unit
+Note:
+  -Volume could be measured in count, byte, or percent
+  -Max is needed because you need to see the max amount of changes that can be done in the time period. 
+  -Knowing the max amount of changes that can be done in a time period, can factor into the quality of time based unique identifiers or processes that function at a slower speed. 
+Pre-Condition:
+  -Specify if change is insert, update, or delete
+Main Success Scenario:
+  1. See max volume of changes per week
+  2. See max volume of changes per day
+  3. See max volume of changes per hour
+  4. See max volume of changes per minute
+  5. See max volume of changes per second
+  6. See max volume of changes per millisecond
+  7. See max volume of changes per nanosecond
 
 
 Get Errors
