@@ -11,6 +11,7 @@ Main Success Scenario:
   x. "Get Value Data Types"
   x. "Get Nullability"
   x. "Get Performance Tunning Points"
+  x. "Get Data Content Impacts on Performance"
   x. "Get Value Characters"
   x. "Get Activity Times"
   x. "Get Activty Log"
@@ -100,5 +101,10 @@ Main Success Scenario:
 
 
 Get Warnings
+Main Success Scenario:
+  1. xxx:fill in 
+
+
+Get Data Content Impacts on Performance
 Main Success Scenario:
   1. xxx:fill in 
