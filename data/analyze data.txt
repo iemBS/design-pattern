@@ -1,0 +1,104 @@
+Analyze Data
+Main Success Scenario:
+  1. Analysis goal is to understand the data
+  x. "Get Host Machine Config"
+  x. "Get Data Structure"
+  x. "Get Enabled Query Languages"
+  x. "Get Config"
+  x. Get size of data in bytes
+  x. "Get Relations"
+  x. "Get Unique Identifiers"
+  x. "Get Value Data Types"
+  x. "Get Nullability"
+  x. "Get Performance Tunning Points"
+  x. "Get Value Characters"
+  x. "Get Activity Times"
+  x. "Get Activty Log"
+  x. "Get Warnings"
+  x. "Get Errors"
+Alternatives:
+  1a. Analysis goal is to xxx
+
+
+Get Host Machine Config
+Main Success Scenario:
+  1. Get host machine available RAM
+  2. Get host machine available CPU Hz
+  3. Get host machin available drive space
+  4. xxx:fill in 
+
+
+Get Data Structure
+Note:
+  -ref @
+    -https://en.wikipedia.org/wiki/Data_structure
+Main Success Scenario:
+  1. xxx
+
+
+Get Enabled Query Languages
+Main Success Scenario:
+  1. xxx:fill in 
+
+
+Get Relations
+Main Success Scenario:
+  1. Data is in a relational DB
+  2. Get relations between tables or views
+  3. Get relations between columns within the same table or view
+  4. End
+Alternatives:
+  1a. Data is in a graph database
+    1a1. xxx:fill in 
+  1b. Data is in a text file
+    1b1. xxx:fill in 
+  1c. Data is in a document DB
+    1c1. xxx:fill in 
+  1d. Data is in a CSV file
+    1d1. xxx:fill in 
+
+
+Get Unique Identifiers
+Main Success Scenario:
+  1. xxx:fill in 
+
+
+Get Performance Tunning Points
+Main Success Scenario:
+  1. xxx:fill in 
+
+
+Get Value Characters
+Note:
+  -This gets the distinct list of characters found in any of the values in the data.
+Main Success Scenario:
+  1. xxx:fill in 
+
+
+Get Config
+Main Success Scenario:
+  1. Get character sets specified
+  2. Get value data types specified
+  3. Get value length specified 
+
+
+Get Activity Log
+Main Success Scenario:
+  1. xxx:fill in 
+
+
+Get Activity Times
+Main Success Scenario:
+  1. Get insert times
+  2. Get update times
+  3. Get delete times
+
+
+Get Errors
+Main Success Scenario:
+  1. xxx:fill in 
+
+
+Get Warnings
+Main Success Scenario:
+  1. xxx:fill in 
