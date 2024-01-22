@@ -2,6 +2,7 @@ Choose Value Format
 Note:
   -ref @
     -https://en.wikipedia.org/wiki/Data_type
+    -https://libguides.library.kent.edu/SAS/Informats-Formats
   -Value format controls how a value is displayed without affecting the stored value. 
   -Value type control how the value is stored, precision (if a number), value limits, define how to interact with value, and sorting. 
   -Before choosing a pre-defind or custom value format, you need to go through the same checks to make sure the value format will fit your needs. 
@@ -13,6 +14,9 @@ Pre-Condition:
   -impact on process speed
   -impact on storage size
   -singular or plural
+  -culture association
+  -language association
+  -medium used in (video,text,audio)
   -xxx
 Main Success Scenario:
   1. "Choose Pre-Defined Value Format"
