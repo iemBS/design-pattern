@@ -1,2 +1,5 @@
-"group","format name","example value","ref","note"
-"comm.phone","area code","302","https://www.att.com/ecms/dam/att/smb/help/pdf/Area-Codes-N-America-by-State.pdf",""
+"group","format name","attribute","example value","ref","note"
+"time","YYMMDD date","file sort sorts by YMD;date value may not be intuitive enough;not include time; not include time zone;xxx","240105","",""
+"geo","country letter code","","CAN","",""
+"geo","USA state abbreviation","","CA","",""
+"comm.phone","USA area code","","302","https://www.att.com/ecms/dam/att/smb/help/pdf/Area-Codes-N-America-by-State.pdf",""
