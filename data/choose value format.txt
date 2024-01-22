@@ -1,8 +1,17 @@
 Choose Value Format
+Note:
+  -Before choosing a pre-defind or custom value format, you need to go through the same checks to make sure the value format will fit your needs. 
 Pre-Condition:
   -"Understand Value Insert Method"
+  -Value Format works for your consumers and consumers of your consumers
+  -xxx
 Main Success Scenario:
-  1. xxx:fill in
+  1. "Choose Pre-Defined Value Format"
+  2. End
+Alternatives:
+  1a. Cannot use a pre-defined value format
+    1a1. "Define Custom Value Format"
+    1a2. go to step 2
   
   
 Understand Value Insert Method
@@ -10,5 +19,16 @@ Note:
   -Insert method is important because 
     -using one format may be more time consuming or a hassle than another format
     -there may be limitations to the insert method
+Main Success Scenario:
+  1. xxx:fill in 
+
+
+Choose Pre-Defined Value Format
+Main Success Scenario:
+  1. xxx:fill in 
+  x. End
+
+
+Define Custom Value Format
 Main Success Scenario:
   1. xxx:fill in 
