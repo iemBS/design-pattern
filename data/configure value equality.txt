@@ -1,5 +1,7 @@
 Configure Value Equality
 Note:
+  -ref @
+    -https://en.wikipedia.org/wiki/Fuzzy_logic
   -Equality between two values is a type of relationship. 
   -Terms dealing with non-exact equality between values
     -fuzzy
