@@ -1,4 +1,37 @@
 Configure Value Equality
+Note:
+  -Equality between two values is a type of relationship. 
+  -Terms dealing with non-exact equality between values
+    -fuzzy
+    -xxx
+  -Phrases dealing with non-exact equality between values
+    -fuzzy match
+    -fuzzy set
+    -rough set
+    -xxx
+  -Areas of study dealing with non-exact equality between values
+    -fuzzy set theory
+    -xxx
+  -If an algorithm cannot be defined to equate non-exact values, then a manual mapping must be made
+  -Reasons values may be equal but not exactly the same value
+    -letter case
+    -abbreviation
+    -language
+    -punctuation use (period, comma, accent, apostrophe, dash, umlaut)
+    -human input mistake
+    -storage length limit
+    -missing part in multi-part equality
+    -character visiblity
+    -spelling variant: https://english.stackexchange.com/questions/412983/is-there-a-word-to-describe-words-that-can-be-spelled-different-ways
+    -heterography (sound variant): https://en.wiktionary.org/wiki/heterography#English
+    -visual variant
+    -homonym: https://www.merriam-webster.com/dictionary/homonym
+    -homograph: https://en.wikipedia.org/wiki/Homograph
+    -homophone: https://en.wikipedia.org/wiki/Homophone
+    -format
+    -change triggered by data type treated as
+      -Example: drop 0 prefix when treated as a number 
+    -xxx
 Main Success Scenario:
   1. "Define Group"
   2. "Group Value"
