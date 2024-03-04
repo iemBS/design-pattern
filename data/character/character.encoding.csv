@@ -1,6 +1,8 @@
-characterSetShortName,encodingShortName,encodingLongName,ref
-Unicode Standard,UTF-8,Unicode Transformation Format – 8 bit,https://en.wikipedia.org/wiki/UTF-8
-Unicode Standard,UTF-16,Unicode Transformation Format – 16 bit,https://en.wikipedia.org/wiki/UTF-16
-Unicode Standard,UTF-32,Unicode Transformation Format – 32 bit,https://en.wikipedia.org/wiki/UTF-32
-CP1252,,,
-ASCII,,,
+setShortName,encodingShortName,encodingLongName,encodingUse,codeUnitSize,,characterMaxByteCount,ref,note
+Unicode,UTF-8,Unicode Transformation Format – 8 bit,Each character is one to four 8-bit code units. Each 8-bit code unit is a byte. Primary character set used on internet.,8 bits,Each code point maps to a sequence of 1 to 4 code units.,4,https://en.wikipedia.org/wiki/UTF-8,
+Unicode,UTF-16,Unicode Transformation Format – 16 bit,Each character is one or two 16-bit code units. Not really used. Characters that are preceded by the character defined by the 0xC2 UTF-16 base 16 character identifier when the UTF-8 base 16 character identifiers are decomposed to UTF-16 base 16 character identifiers. Seeing the 0xC2 UTF-16 base 16 character identifier in data using the UTF-16 character set where it is not expected is a sign that UTF-8 to UTF-16 decomposition has taken place.,16 bits,,,https://en.wikipedia.org/wiki/UTF-16,
+Unicode,UTF-32,Unicode Transformation Format – 32 bit,,32 bits,,,https://en.wikipedia.org/wiki/UTF-32,
+CP1252,CP1252,,,8 bits,,,,CP1252 is a character set and an encoding
+ASCII,ASCII,,,7 bits,,,,ASCII is a character set and an encoding.
+Unicode,HTML 5,HTML 5 entity,,8 bits,,,https://www.w3schools.com/charsets/ref_html_utf8.asp,HTML 5 uses UTF-8 by default (not fully though)
+ISO-8859-1,,,,,,,,
