@@ -1,5 +1,5 @@
 characterAttributeName,define,ref
-set,Named set of characters that a character is a part of. It can be part of more than one set. ,
+set,Named set of characters that a character is a part of. It can be part of more than one set. ,https://www.iana.org/assignments/character-sets/character-sets.xhtml
 encoding,Way the character is stored in memory. A character set can use more than one encoding. ,
 category in set,,
 font supported in,Font the character is supported in. ,
