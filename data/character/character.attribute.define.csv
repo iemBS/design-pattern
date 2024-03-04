@@ -2,6 +2,6 @@ characterAttributeName,define,ref
 set,Named set of characters that a character is a part of. It can be part of more than one set. ,https://www.iana.org/assignments/character-sets/character-sets.xhtml
 coded character set,A set in which a unique number (aka code point) is assigned to each character.,
 code page,alt name for coded character set,
-encoding,Way the character is stored in memory. A character set can use more than one encoding. An encoding is associated to only one character set.,https://en.wikipedia.org/wiki/Character_encoding
+encoding,Way the character is stored in memory. A character set can use more than one encoding. An encoding is associated to only one character set. Different encodings may use same code point to represent different characters.,https://en.wikipedia.org/wiki/Character_encoding
 category in set,,
 font supported in,Font the character is supported in. ,
