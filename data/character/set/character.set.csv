@@ -1,15 +1,13 @@
-﻿orgShortName,standardLongName,standardShortName,characterSetId,characterSetName,characterSetAlias,characterSetUse,osUse,characterCount,characterMaxByteCount,hasNotAssigned,base10_start,base16_start,base10_end,base16_end,refLink,note
-MS,,WHATWG Encoding Standard,CP1252,Windows-1252,Latin 1;ANSI character set,Extends ISO 8859-1 (excluding C1 controls),Windows 7 - 10,251 (218?),1,,0,,,,https://www.cp1252.com;https://www.techopedia.com/definition/932/ansi-character-set,
-ISO,ISO/IEC 8859,ISO/IEC 8859,8859-1,ISO/IEC 8859-1,iso-ir-100;csISOLatin1;latin1;l1;IBM819;CP819;ECMA-94,Extends ASCII,,256,1,,,,,,https://en.wikipedia.org/wiki/ISO/IEC_8859-1;http://www.fileformat.info/info/charset/ISO-8859-1/list.htm,
-Unicode Consortium,Unicode Standard,Unicode Standard,UTF-8,Unicode Transformation Format - 8 bit,,Each character is one to four 8-bit code units. Each 8-bit code unit is a byte. Primary character set used on internet.,,"1,112,064",4,,0,,,,https://unicode.org/charts/,
-Unicode Consortium,Unicode Standard,Unicode Standard,UTF-16,Unicode Transformation Format - 16 bit,,Each character is one or two 16-bit code units. Not really used. ,,"1,112,064",,,0,,,,https://unicode.org/charts/,
-IBM,,,CP437,OEM Code Page 437,437;csPC8CodePage437;OEM-US;OEM 437;PC-8;DOS LATIN US;OEM font;high ASCII;extended ASCII,"Character set of the original IBM PC. This character set remains the primary set in the core of any EGA and VGA-compatible graphics card. Text shown when a PC reboots, before any other font can be loaded from a storage medium, typically is rendered in this character set.[note 1] Many file formats developed at the time of the IBM PC are based on code page 437 as well.",,256,,,,,,,https://en.wikipedia.org/wiki/Code_page_437; https://www.ascii-codes.com/,
-ECMA,,,ECMA-94,,,Very similar to ISO 8859-1 character set.,,,,,,,,,https://en.wikipedia.org/wiki/ISO/IEC_8859-1,
-ANSI,,,ASCII,,,,,128,1,,0,,127,,https://www.rapidtables.com/code/text/ascii-table.html;https://www.ascii-code.com/,
-Apple,,,,Mac Roman,Code page 10029;x-mac-ce,Extends ASCII,,,,,,,,,,
-IBM,Extended Binary Coded Decimal Interchange Code,EBCDIC,,EBCDIC Code Page 1,,An eight-bit character set used mainly on IBM mainframe and IBM midrange computer operating systems. ,,,,,,,,,https://en.wikipedia.org/wiki/Code_page#EBCDIC-based_code_pages;,
-IBM,Extended Binary Coded Decimal Interchange Code,EBCDIC,,EBCDIC Code Page 2,,,,,,,,,,,,
-IBM,Extended Binary Coded Decimal Interchange Code,EBCDIC,,EBCDIC Code Page 3,,,,,,,,,,,,
-IBM,Extended Binary Coded Decimal Interchange Code,EBCDIC,,EBCDIC Code Page 4,,,,,,,,,,,,
-IBM,Extended Binary Coded Decimal Interchange Code,EBCDIC,,EBCDIC Code Page 5,,,,,,,,,,,,
-Unicode Consortium,Unicode Standard,Unicode Standard,UTF-16,Characters that are preceded by the character defined by the 0xC2 UTF-16 base 16 character identifier when the UTF-8 base 16 character identifiers are decomposed to UTF-16 base 16 character identifiers. ,,,,,,,0,,249,0xC2,,Seeing the 0xC2 UTF-16 base 16 character identifier in data using the UTF-16 character set where it is not expected is a sign that UTF-8 to UTF-16 decomposition has taken place
+orgShortName,setLongName,setShortName,characterSetId,characterSetName,characterSetAlias,characterSetUse,osUse,characterCount,hasNotAssigned,codepointDecimal_start,codepointHex_start,codepointDecimal_end,codepointHex_end,ref,note
+MS,Windows-1252,CP1252,,,Latin 1;ANSI character set,Extends ISO 8859-1 (excluding C1 controls),Windows 7 - 10,251 (218?),,0,,,,https://www.cp1252.com;https://www.techopedia.com/definition/932/ansi-character-set,CP1252 is a character set and an encoding.
+ISO,ISO/IEC 8859-1,ISO-8859-1,,,iso-ir-100;csISOLatin1;latin1;l1;IBM819;CP819;ECMA-94,Extends ASCII,,256,,,,,,https://en.wikipedia.org/wiki/ISO/IEC_8859-1;http://www.fileformat.info/info/charset/ISO-8859-1/list.htm,
+Unicode Consortium,Unicode Standard,Unicode,,,,,,1112064,,0,0,1114111,U+10FFFF,https://unicode.org/charts/,
+IBM,,,CP437,OEM Code Page 437,437;csPC8CodePage437;OEM-US;OEM 437;PC-8;DOS LATIN US;OEM font;high ASCII;extended ASCII,"Character set of the original IBM PC. This character set remains the primary set in the core of any EGA and VGA-compatible graphics card. Text shown when a PC reboots, before any other font can be loaded from a storage medium, typically is rendered in this character set.[note 1] Many file formats developed at the time of the IBM PC are based on code page 437 as well.",,256,,,,,,https://en.wikipedia.org/wiki/Code_page_437; https://www.ascii-codes.com/,
+ECMA,,,ECMA-94,,,Very similar to ISO 8859-1 character set.,,,,,,,,https://en.wikipedia.org/wiki/ISO/IEC_8859-1,
+ANSI,American Standard Code for Information Interchange,ASCII,,,,,,128,,0,,127,,https://www.rapidtables.com/code/text/ascii-table.html;https://www.ascii-code.com/,ASCII is a character set an an encoding.
+Apple,,,,Mac Roman,Code page 10029;x-mac-ce,Extends ASCII,,,,,,,,,
+IBM,Extended Binary Coded Decimal Interchange Code,EBCDIC,,EBCDIC Code Page 1,,An eight-bit character set used mainly on IBM mainframe and IBM midrange computer operating systems. ,,,,,,,,https://en.wikipedia.org/wiki/Code_page#EBCDIC-based_code_pages;,
+IBM,Extended Binary Coded Decimal Interchange Code,EBCDIC,,EBCDIC Code Page 2,,,,,,,,,,,
+IBM,Extended Binary Coded Decimal Interchange Code,EBCDIC,,EBCDIC Code Page 3,,,,,,,,,,,
+IBM,Extended Binary Coded Decimal Interchange Code,EBCDIC,,EBCDIC Code Page 4,,,,,,,,,,,
+IBM,Extended Binary Coded Decimal Interchange Code,EBCDIC,,EBCDIC Code Page 5,,,,,,,,,,,
