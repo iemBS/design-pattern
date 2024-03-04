@@ -6,4 +6,4 @@ encoding,Way the character is stored in memory. A character set can use more tha
 category in set,,
 font supported in,Font the character is supported in. ,
 collation,A combination of a character encoding and a sort order for the characters,
-sort order,There may be more than one sort order for each character set. Like a case sensitive order and a case insensitive order. Two languages may sort the same characters in a different order.
+sort order,There may be more than one sort order for each character set. Like a case sensitive order and a case insensitive order. Two languages may sort the same characters in a different order.,
