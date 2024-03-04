@@ -1,5 +1,5 @@
 characterSetShortName,encodingShortName,encodingLongName,ref
-Unicode Standard,UTF-8,Unicode Transformation Format – 8 bit,
-Unicode Standard,UTF-16,Unicode Transformation Format – 16 bit,
-Unicode Standard,UTF-32,Unicode Transformation Format – 32 bit,
+Unicode Standard,UTF-8,Unicode Transformation Format – 8 bit,https://en.wikipedia.org/wiki/UTF-8
+Unicode Standard,UTF-16,Unicode Transformation Format – 16 bit,https://en.wikipedia.org/wiki/UTF-16
+Unicode Standard,UTF-32,Unicode Transformation Format – 32 bit,https://en.wikipedia.org/wiki/UTF-32
 CP1252,,,
