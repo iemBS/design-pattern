@@ -87,6 +87,9 @@ Main Success Scenario:
 
 
 Use SSA's Social Security Number Verification Service (SSNVS)
+Note:
+  -ref @
+    -https://www.ssa.gov/employer/ssnvshandbk/appendix.htm
 Pre-Conditions:
   -Only allowed to be used by xxx
   -Only allowed to be used to xxx
