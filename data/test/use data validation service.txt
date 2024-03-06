@@ -53,6 +53,9 @@ Note:
 Pre-Conditions:
   -Only allowed to be used by xxx
   -Only allowed to be used to xxx
+  -required input parameters:
+    -xxx
+  -result format is usable
 Main Success Scenario:
   1. xxx:fill in 
 
@@ -64,6 +67,9 @@ Note:
 Pre-Conditions:
   -Only allowed to be used by xxx
   -Only allowed to be used to xxx
+  -required input parameters:
+    -xxx
+  -result format is usable
 Main Success Scenario:
   1. xxx:fill in 
 
@@ -72,14 +78,21 @@ Use IRS's Taxpayer Identification Number (TIN) Matching Program
 Pre-Conditions:
   -Only allowed to be used by xxx
   -Only allowed to be used to xxx
+  -required input parameters:
+    -xxx
+  -result format is usable
 Main Success Scenario:
   1. xxx:fill in 
+  2. view results 
 
 
 Use SSA's Social Security Number Verification Service (SSNVS)
 Pre-Conditions:
   -Only allowed to be used by xxx
   -Only allowed to be used to xxx
+  -required input parameters:
+    -xxx
+  -result format is usable
 Main Success Scenario:
   1. xxx:fill in 
 
