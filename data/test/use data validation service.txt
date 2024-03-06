@@ -34,6 +34,7 @@ Note
       -Upload files of up to 250,000 names and SSNs and usually receive results the next business day
 Pre-Conditions:
   -complete on-line e-services registration on the e-services registration home page
+  -"Impact of Tax ID Validation Service use on scores"
 Main Success Scenario:
   1. "Use IRS's Taxpayer Identification Number (TIN) Matching Program"
   2. End
@@ -44,6 +45,15 @@ Alternatives:
   1b. Check a USA SSN with the SSA's CBSV service instead 
     1b1. "Use SSA's Consent Based Social Security Number Verification (CBSV) Service"
     1b2. go to step 2
+
+
+Impact of Tax ID Validation Service use on scores
+Note:
+  -score
+    -Credit Score
+    -xxx
+Main Success Scenario:
+  1. xxx:fill in 
 
 
 Use SSA's Consent Based Social Security Number Verification (CBSV) Service
