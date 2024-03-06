@@ -1,0 +1,38 @@
+Use Data Validation Service
+Main Success Scenario:
+  1. "Use Tax ID Validation Service"
+  2. End
+Alternatives:
+  1a. Check Drivers License Number
+    1a1. "Use Drivers License Number Validation Service"
+    1a2. go to step 2
+  1b. Check Passport Number
+    1b1. "Use Passport Number Validation Service"
+    1b2. go to step 2
+
+
+Use Tax ID Validation Service
+Note
+  -ref @
+    -https://www.irs.gov/government-entities/federal-state-local-governments/taxpayer-identification-matching-tin-tools
+  -services
+    -Taxpayer Identification Number (TIN) Matching Program is offered by the IRS
+      -Interactive TIN Matching
+      -Bulk TIN Matching 
+    -Social Security Number Verification Service (SSNVS) is offered by the SSA
+      -Verify up to 10 names and SSNs online and receive immediate results
+      -Upload files of up to 250,000 names and SSNs and usually receive results the next business day
+Pre-Conditions:
+  -complete on-line e-services registration on the e-services registration home page
+Main Success Scenario:
+  1. xxx:fill in 
+
+
+Use Drivers License Number Validation Service
+Main Success Scenario:
+  1. xxx:fill in 
+
+
+Use Passport Number Validation Service
+Main Success Scenario:
+  1. xxx:fill in 
