@@ -12,6 +12,16 @@ Alternatives:
 
 
 Use Tax ID Validation Service
+Main Success Scenario:
+  1. "Use Government Tax ID Valdiation Service"
+  2. End
+Alteratives:
+  1a. Use non-government Tax ID validation service
+    1a1. "Use Non-Government Tax ID Valdiation Service"
+    1a2. go to step 2
+
+
+Use Government Tax ID Valdiation Service
 Note
   -ref @
     -https://www.irs.gov/government-entities/federal-state-local-governments/taxpayer-identification-matching-tin-tools
@@ -24,6 +34,63 @@ Note
       -Upload files of up to 250,000 names and SSNs and usually receive results the next business day
 Pre-Conditions:
   -complete on-line e-services registration on the e-services registration home page
+Main Success Scenario:
+  1. "Use IRS's Taxpayer Identification Number (TIN) Matching Program"
+  2. End
+Alternatives:
+  1a. Check a USA SSN with the SSA instead
+    1a1. "Use SSA's Social Security Number Verification Service (SSNVS)"
+    1a2. go to step 2
+  1b. Check a USA SSN with the SSA's CBSV service instead 
+    1b1. "Use SSA's Consent Based Social Security Number Verification (CBSV) Service"
+    1b2. go to step 2
+
+
+Use SSA's Consent Based Social Security Number Verification (CBSV) Service
+Note:
+  -ref @
+    -https://www.ssa.gov/cbsv/
+Pre-Conditions:
+  -Only allowed to be used by xxx
+  -Only allowed to be used to xxx
+Main Success Scenario:
+  1. xxx:fill in 
+
+
+Use DHS's E-Verify
+Note:
+  -ref @
+    -https://www.e-verify.gov/
+Pre-Conditions:
+  -Only allowed to be used by xxx
+  -Only allowed to be used to xxx
+Main Success Scenario:
+  1. xxx:fill in 
+
+
+Use IRS's Taxpayer Identification Number (TIN) Matching Program
+Pre-Conditions:
+  -Only allowed to be used by xxx
+  -Only allowed to be used to xxx
+Main Success Scenario:
+  1. xxx:fill in 
+
+
+Use SSA's Social Security Number Verification Service (SSNVS)
+Pre-Conditions:
+  -Only allowed to be used by xxx
+  -Only allowed to be used to xxx
+Main Success Scenario:
+  1. xxx:fill in 
+
+
+Use Non-Government Tax ID Valdiation Service
+Note:
+  -ref @
+    -https://risk.lexisnexis.com/products/instant-verify
+    -
+Pre-Conditions:
+  -xxx
 Main Success Scenario:
   1. xxx:fill in 
 
