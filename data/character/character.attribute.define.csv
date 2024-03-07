@@ -5,11 +5,20 @@ code page,alt name for coded character set,
 encoding,"Way the character is stored in memory. A character set can use more than one encoding. An encoding is associated to only one character set. Different encodings may use same code point to represent different characters. One or more code units encode a single code point. Each code unit has the same size, which depends on the encoding format that is used. ",https://en.wikipedia.org/wiki/Character_encoding; https://www.techopedia.com/definition/948/encoding; https://www.w3.org/International/questions/qa-what-is-encoding
 category in set,,
 font supported in,Font the character is supported in. ,
-collation,A combination of a character encoding and a sort order for the characters,
+collation,A combination of a character encoding and a sort order for the characters. Also called alphabetizing or alphabetic sorting. ,database.guide/what-is-collation-in-databases/
 sort order,There may be more than one sort order for each character set. Like a case sensitive order and a case insensitive order. Two languages may sort the same characters in a different order.,
 code point,Also called Code Position. Unique integer defined by a set for each character in the set. This integer can be represented as a decimal (base 10) or hexadecimal (base 16) number. ,https://en.wikipedia.org/wiki/Code_point
 code unit,"Sequence of bits (binary digits) for a code point that are defined by an encoding (not the set). One or more code units encode a single code point. Each code unit has the same size, which depends on the encoding format that is used. Code Value is an obsolete synonym of code unit. ",https://en.wikipedia.org/wiki/Character_encoding#Terminology
-block,One of several contiguous ranges of numeric character codes (code points) of the Unicode character set that are defined by the Unicode Consortium for administrative and documentation purposes.,unicode.org/faq/blocks_ranges.html; unicode.org/public/UCD/latest/ucd/Blocks.txt; 
+block,One of several contiguous ranges of numeric character codes (code points) of the Unicode character set that are defined by the Unicode Consortium for administrative and documentation purposes.,unicode.org/faq/blocks_ranges.html; unicode.org/public/UCD/latest/ucd/Blocks.txt; https://www.unicode.org/glossary/#block; 
 grapheme cluster,A collection of symbols that together represent an individual character that the user will see within a string on the screen. It generally comprises a base character plus combining marks. These are used when there is no available precomposed single Unicode character that might do the job for you. ,
 glyph,,
 byte ordering,Describes which order bytes should be arranged in a sequence. There are two orders multi-byte characters can be ordered. Most significant byte first or least significant byte first. ,https://en.wikipedia.org/wiki/Endianness; https://medium.com/@keithgabryelski/a-practical-guide-to-character-sets-and-encodings-b5362447456f
+composite character,Also called decomposable character. ,https://www.unicode.org/glossary/#decomposable_character
+decomposition,,https://www.unicode.org/glossary/#decomposition
+case,,https://www.unicode.org/glossary/#case
+byte,"The minimal unit of addressable storage for a particular computer architecture. (2) An octet. Note that many early computer architectures used bytes larger than 8 bits in size, but the industry has now standardized almost uniformly on 8-bit bytes. The Unicode Standard follows the current industry practice in equating the term byte with octet and using the more familiar term byte in all contexts.",https://www.unicode.org/glossary/#byte
+bit,,
+compatibility variant,A character that generally can be remapped to another character without loss of information other than formatting.,https://www.unicode.org/glossary/#compatibility_variant
+class,A set of characters sharing a particular set of properties.,https://www.unicode.org/glossary/#character_class
+character entity,"Expression of the form &amp; for ""&"" or &nbsp; for the no-break space. These are found in markup language files like HTML or XML. There are also numerically defined character entities (aka character escape). ",https://www.unicode.org/glossary/#character_entity
+character escape,"A numerical expression of the form \uXXXX, \xXXXX or &#xXXXX; where X is a hex digit, or &#dddd; where d is a decimal digit. These are found in programming source code or markup language files (such as HTML or XML).",https://www.unicode.org/glossary/#character_escape
