@@ -6,3 +6,4 @@ CP1252,CP1252,,,8 bits / 1 byte,,,,,CP1252 is a character set and an encoding
 ASCII,ASCII,,,7 bits,,,,,ASCII is a character set and an encoding.
 Unicode,HTML 5,HTML 5 entity,,8 bits / 1 byte,,,,https://www.w3schools.com/charsets/ref_html_utf8.asp,HTML 5 uses UTF-8 by default (not fully though)
 ISO-8859-1,,,,,,,,,
+Unicode,UTF-16LE,,,,,,,,
