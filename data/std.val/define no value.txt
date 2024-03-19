@@ -76,6 +76,34 @@ xxx
 
 
 Define No String Value
+Main Success Scenario:
+  1. "Define Common No String Value"
+  2. End
+Alternatives:
+  1a. Define missing string value specific to an organzation
+    1a1. "Define Org Specific No String Value"
+    1a2. Go to step 2
+
+
+Define Common No String Value
+Note:
+  -ref @
+    -https://documentation.sas.com/doc/en/pgmsascdc/9.4_3.5/lepg/p0ueqauvtyb2hqn1mj79t26azlxv.htm
+    -
+  -common Missing value representations that are strings
+    -NULL (as a string)
+    -N/A
+    -Not Available
+    -NA
+    -na
+    -(empty string)
+    -Inf
+    -NaN
+Main Success Scenario:
+  1. xxx
+
+
+Define Org Specific No String Value
 xxx
 
 
