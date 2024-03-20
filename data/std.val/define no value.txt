@@ -92,19 +92,32 @@ Note:
     -
   -common Missing value representations that are strings
     -NULL (as a string)
+    -null (as string)
     -N/A
+    -n/a
     -Not Available
     -NA
     -na
     -(empty string)
     -Inf
     -NaN
+    -NAN
+    -nan
+    -UNKNOWN
+    -unknown
+    -not defined
+    -NOT DEFINED
+    -undefined
+    -UNDEFINED
 Main Success Scenario:
   1. xxx
 
 
 Define Org Specific No String Value
-xxx
+Main Success Scenario:
+  1. Ask others what company specific missing value representations exist
+  2. Find values not mapped to lists
+  3. xxx
 
 
 Define No Boolean Value
