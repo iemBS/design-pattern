@@ -91,26 +91,31 @@ Note:
     -https://documentation.sas.com/doc/en/pgmsascdc/9.4_3.5/lepg/p0ueqauvtyb2hqn1mj79t26azlxv.htm
     -
   -common Missing value representations that are strings
-    -NULL (as a string)
-    -null (as string)
-    -N/A
-    -n/a
-    -Not Available
-    -NA
-    -na
     -(empty string)
-    -Inf
-    -NaN
+    -INF
+    -N/A
+    -NA
     -NAN
-    -nan
-    -UNKNOWN
-    -unknown
-    -not defined
+    -NOT AVAILABLE
     -NOT DEFINED
-    -undefined
+    -NULL (as a string)
     -UNDEFINED
+    -UNKNOWN
 Main Success Scenario:
   1. xxx
+  2. End
+Alternatives:
+  1a. Define common no string value for a person's first name
+    1a1. "Define Common First Name No String Value"
+    1a2. Go to step 2
+
+
+Define Common First Name No String Value
+Note:
+  -FNU: https://uk.usembassy.gov/visas/visa-errors/name-appears-as-fnu/
+Main Success Scenario:
+  1. Reference known list 
+  2. End 
 
 
 Define Org Specific No String Value
