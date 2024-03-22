@@ -1,0 +1,18 @@
+Get Data Relevant Surnames
+Note:
+  -BLANK
+  -DONE
+  -NIL
+  -NONE
+  -NULL
+  -TEST
+  -TESTER
+  -VALUE
+Main Success Scenario:
+  1. Reference known list of data relevant surnames 
+  2. End
+Alternatives:
+  1a. Surname to check is not in known list
+    1a1. Check https://www.ancestry.com/learn/facts 
+    1a2. Add to known list
+    1a3. Go to step 2
