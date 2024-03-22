@@ -1,0 +1,6 @@
+Define Placeholder Value
+Note:
+  -ref @
+    -https://www.nngroup.com/articles/form-design-placeholders/
+Main Success Scenario:
+  1. xxx:fill in 
