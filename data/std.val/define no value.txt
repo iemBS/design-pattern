@@ -99,6 +99,8 @@ Note:
     -NOT AVAILABLE
     -NOT DEFINED
     -NULL (as a string)
+    -TBD
+    -TO BE DETERMINED
     -UNDEFINED
     -UNKNOWN
 Main Success Scenario:
