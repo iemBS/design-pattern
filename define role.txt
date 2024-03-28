@@ -30,6 +30,8 @@ Main Success Scenario:
 
 Define Activity Grouping
 Note:
+  -ref @
+    -https://mgrush.com/blog/how-to-categorize/
   -Defines factors that drive the grouping of activities
 Main Success Scenario:
   1. xxx:fill in 
