@@ -16,11 +16,25 @@ Note:
   -Having standard terms across all roles
 Main Success Scenario:
   1. xxx:fill in
-  
+
+
 Define Role Purpose
 Main Success Scenario:
   1. xxx:fill in
-  
+
+
+Define Role Activities
+Main Success Scenario:
+  1. xxx:fill in 
+
+
+Define Activity Grouping
+Note:
+  -Defines factors that drive the grouping of activities
+Main Success Scenario:
+  1. xxx:fill in 
+
+
 Define Role Standard
 Main Success Scenario:
   1. xxx:fill in
