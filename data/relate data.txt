@@ -1,0 +1,21 @@
+Relate Data
+Main Success Scenario:
+  1. "Define Relation Purpose"
+  x. xxx:fill in 
+
+
+Define Relation Purpose
+Note:
+  -possible purposes
+    -commonly used together
+      -xxx:fill in 
+    -dependency
+        -part of a whole
+          -first name, middle name, and last name
+        -hierarchy
+          -country, state, city
+        -sequence
+          -version
+          -history
+Main Success Scenario:
+  1. xxx:fill in 
