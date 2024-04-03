@@ -7,6 +7,8 @@ Main Success Scenario:
 Define Relation Purpose
 Note:
   -possible purposes
+    -perspective
+      -xxx:fill in 
     -commonly used together
       -xxx:fill in 
     -dependency
