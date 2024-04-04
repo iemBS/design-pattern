@@ -15,6 +15,7 @@ Main Success Scenario:
 -requirements gathering
 -requirements gathering delay: permissions needed
 -requirements gathering delay: requirements provider not available 
+-requirements gathering delay: requirements provider in different time zone
 -requirements gathering delay: requirements provider does not know enough
 -requirements gathering delay: waiting for a process to start and stop
 -requirements gathering delay: new person 
@@ -23,6 +24,7 @@ Main Success Scenario:
 -analysis delay: notes, docs, research deleted
 -analysis delay: waiting for a process to start and stop
 -analysis delay: new person
+-analysis delay: analyst in different time zone
 -business design
 -business design delay: lack of requirements 
 -business design delay: new person
@@ -30,6 +32,7 @@ Main Success Scenario:
 -business design review delay: reviewer not available 
 -business design review delay: permission needed
 -business design review delay: new person
+-business design review delay: reviewer in different time zone
 -tech design
 -review new ref lib version
 -tech design delay: permission needed for my access
@@ -39,6 +42,7 @@ Main Success Scenario:
 -tech design delay: new person
 -tech design review by another developer
 -tech design review delay: developer reviewer not available 
+-tech design review delay: developer in different time zone
 -tech design review delay: permission needed
 -tech design review delay: lack of requirements 
 -tech design review delay: new person
@@ -57,6 +61,7 @@ Main Success Scenario:
 -coding delay: insufficient tech design 
 -coding delay: remove existing item and work on higher priority item instead 
 -coding delay: new person
+-coding delay: developer in different time zone
 -test by developer, 1 or more iterations 
 -test by developer delay: multiple testers and items on same area
 -test by developer delay: new person
@@ -74,6 +79,7 @@ Main Success Scenario:
 -documentation
 -documentation review by other person
 -documentation review delay: reviewer not available 
+-documentation review delay: reviewer in different time zone
 -documentation review delay: new person
 -documentation update
 -documentation provided in other perspectives 
@@ -88,6 +94,7 @@ Main Success Scenario:
 -code review delay: more code to review than expected
 -code review delay: code more complex than expected 
 -code review delay: new person
+-code review delay: developer in different time zone
 -re-coding 1 or more iterations after code review 
 -deploy prep
 -deploy, 3 (at least 1 per environment) or more iterations
@@ -97,9 +104,11 @@ Main Success Scenario:
 -deploy delay: deploy process uses shared hardware resources
 -deploy delay: more changes to deploy than expected
 -deploy delay: new person
+-deploy delay: deployer in different time zone
 -test by tester, 1 or more iterations 
 -test by tester delay: permissions needed
 -test by tester delay: tester not available 
+-test by tester delay: tester in different time zone
 -test by tester delay: insufficient test guidance 
 -test by tester delay: lack of requirements caused more coding and more coding caused more testing
 -test by tester delay: Tester blocked and developer not available to research
@@ -116,6 +125,7 @@ Main Success Scenario:
 -test by user delay: permissions needed
 -test by user delay: test window required
 -test by user delay: user not available 
+-test by user delay: user in different time zone
 -test by user delay: insufficient test guidance 
 -test by user delay: user blocked and tester and developer are not available 
 -test by user delay: lack of requirements leads to less than desirable result that is tested by the user
