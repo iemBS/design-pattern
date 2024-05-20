@@ -1,0 +1,24 @@
+Choose File Extension
+Note:
+  -ref
+    -https://docs.aws.amazon.com/kendra/latest/dg/index-document-types.html
+    -https://support.microsoft.com/en-us/windows/common-file-name-extensions-in-windows-da4a4430-8e76-89c5-59f7-1cdbbc75cb01
+    -https://www.lenovo.com/us/en/glossary/file-extension/
+  -Extensions tell your computer which application created or can open the file and which icon to use for the file. 
+  -file extensions
+    -CSV
+    -DOCX
+    -
+    -HTML
+    -JPEG
+    -JPG
+    -JSON
+    -MD @ https://www.adobe.com/uk/acrobat/resources/document-files/text-files/md.html
+    -PPTX
+    -TXT 
+    -XLS
+    -XML
+    -XSLT
+Main Success Scenario:
+  1. Choose file extension character length 
+  2. xxx:fill in 
