@@ -1,0 +1,3 @@
+Match String with Non-ASCII char
+Main Success Scenario:
+  1. [^\x00-\x7F]
