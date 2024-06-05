@@ -164,13 +164,24 @@ Create File Format
 Note:
   -ref @
     -https://en.wikipedia.org/wiki/File_format
+    -https://en.wikipedia.org/wiki/List_of_file_formats
+  -7z
   -CSV
+  -GZIP
+  -HTML
   -JSON
+  -ORC
+  -Parquet
+  -PNG
   -TSV
   -TXT
+    -alt file extension with same format: LOG
+  -XLSX
+  -ZIP
   -xxx
 Main Success Scenario:
-  1. xxx:fill in 
+  1. Define file structure
+  2. xxx:fill in 
 
 
 Change Data Value Format
