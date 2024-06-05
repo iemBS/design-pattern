@@ -1,30 +1,365 @@
 Define Codable Software Action
 Main Success Scenario:
+  1. "Use Action & Object perspective"
+  2. End
+Alternatives:
+  1a. Need a perspective based only on actions
+    1a1. "Use Create, Change, Destroy perspective"
+    1a2. go to step 2
+
+
+Use Action & Object perspective
+Note:
+  -Actions always involves an object
+  -If an action is not done on one object, an action is done on a different object.
+Main Success Scenario:
+  1. "Create Object"
+  2. End
+Alternatives:
+  1a. Change already existing object in some way
+    1a1. "Change Object
+    1a2. go to step 2
+  1b. Change object's relationship with its environment
+    1b1. "Move Object"
+    1b2. go to step 2
+ 1c. Destory object
+   1c1. "Destory Object"
+   1c2. go to step 2
+
+
+Create Object
+Main Success Scenario:
   1. xxx:fill in 
 
 
+Change Object
+Note:
+  -Change Object relation to its environment
+Main Success Scenario:
+  1. xxx:fill in 
 
-Create 
--Visalize Data
--Create Connection
-  -TODO
--Create Structure
-  -TODO
--Create Test
-  -TODO
-    
-Change 
+
+Move Object
+Main Success Scenario:
+  1. xxx:fill in 
+
+
+Destroy Object
+Main Success Scenario:
+  1. xxx:fill in 
+
+
+Use Create, Change, Destroy perspective
+Main Success Scenario:
+  1. "Create"
+  2. End
+Alternatives:
+  1a. Need to perform a change action
+    1a1. "Change"
+    1a2. go to step 2
+  1b. Need to perform a destroy action
+   1b1. "Destroy"
+   1b2. go to step 2
+  1c. Need to perform an action that is not one of the other three
+    1c1. "Unknown"
+    1c2. go to step 2
+
+
+Create
+Main Success Scenario:
+  1. "Create Structure"
+  2. End
+Alternatives:
+  1a. 
+    1a1. "Create Test"
+    1a2. go to step 2
+ 1b. 
+    1b1. "Create Connection"
+    1b2. go to step 2
+
+
+Change
+Note:
 -Change Data Type
--Change Data Format
--Change Data Value
+-Change Data Value 
+-Change Data Value Format
 -Change Data Structure
+  -Create Folder
+  -Destroy Folder
+  -Move File
 -Move Data
--Open File
-    
+  -Open File
+  -Read File
+  -Write File
+Main Success Scenario:
+  1. xxx:fill in 
+
+
 Destroy
--Remove data
+Note:
+-Destroy Data Value
  -TODO
+Main Success Scenario:
+  1. xxx:fill in 
+ 
 
 Unknown
+Note:
 -Analyze Data
  -Apply Machine Learning 
+Main Success Scenario:
+  1. xxx:fill in 
+
+** ABOVE THIS ARE THE PERSPECTIVES & BELOW THIS THE ACTIONS **
+
+
+Change Data Value 
+Pre-Condition:
+  -"Create Data Value"
+Main Success Scenario:
+  1. xxx:fill in 
+
+
+Change Data Value Format
+Pre-Condition:
+  -"Create Data Value"
+Main Success Scenario:
+  1. xxx:fill in 
+
+
+Create Structure
+Main Success Scenario:
+  1. "Create Data Collection"
+  2. End
+Alternatives:
+  1a. Define types of data values
+    1a1. "Define Data Type"
+    1a2. go to step 2
+  1b. 
+    1b1. "Create File"
+    1b1. go to step 2
+
+
+Change Structure
+Pre-Condition:
+  -"Create Structure"
+Main Success Scenario:
+  1. xxx:fill in 
+
+
+Destroy Structure
+Pre-Condition:
+  -"Create Structure"
+Main Success Scenario:
+  1. xxx:fill in 
+
+
+Create Connection Type
+Main Success Scenario:
+  1. xxx:fill in 
+
+
+Create Connection
+Pre-Condition:
+  -"Create Connection Type"
+Main Success Scenario:
+  1. xxx:fill in 
+
+
+Move Data
+Main Success Scenario:
+  1. "Read File"
+  2. End
+Alternatives:
+  1a. 
+    1a1. "Write File"
+
+
+Create File Type
+Note:
+  -Even though you are not creating file types from scratch, you are importing file types into your code. 
+  -file types
+    -CSV
+    -JSON
+    -TXT
+Main Success Scenario:
+  1. xxx:fill in 
+
+
+Create Data Collection Type
+Pre-Condition:
+  -"Create Data Type"
+Main Success Scenario:
+  1. xxx:fill in 
+
+
+Create Data Collection
+Pre-Condition:
+  -"Create Data Value"
+  -"Create Data Collection Type"
+Main Success Scenario:
+  1. xxx:fill in 
+
+
+Change Data Collection
+Pre-Condition:
+  -"Create Data Collection"
+Main Success Scenario:
+  1. xxx:fill in 
+
+
+Create Data Type
+Main Success Scenario:
+  1. xxx:fill in 
+
+
+Create Data Value
+Pre-Condition:
+  -"Create Data Type"
+Main Success Scenario:
+  1. Choose character set
+  2. xxx:fill in 
+
+
+Change Data Value
+Pre-Condition:
+  -"Create Data Value"
+Main Success Scenario:
+  1. xxx:fill in 
+  2. End
+Alternatives:
+  1a. Change not allowed by chosen character set
+    1a1. Create Character Set Error
+    1a2. go to step 1
+  1b. Change not allowed by chosen data type
+    1b1. Create Data Type Error
+    1b2. go to step 2
+
+
+Destroy Data Value
+Pre-Condition:
+  -"Create Data Value"
+Main Success Scenario:
+  1. xxx:fill in 
+
+
+Change Data Type
+Pre-Condition:
+  -"Create Data Type"
+  -"Create Data Value"
+Main Success Scenario:
+  1. xxx:fill in 
+
+
+Create Folder 
+Main Success Scenario:
+  1. xxx:fill in 
+
+
+Create File 
+Pre-Condition:
+  -"Create Folder"
+  -"Create File Type"
+Main Success Scenario:
+  1. xxx:fill in 
+
+
+Change File 
+Pre-Condition:
+  -"Create File"
+Main Success Scenario:
+  1. xxx:fill in 
+
+
+Move File
+Pre-Condition:
+  -"Create File"
+Main Success Scenario:
+  1. xxx:fill in 
+
+
+Open Connection
+Pre-Condition:
+  -"Create Connection"
+Main Success Scenario:
+  1. xxx:fill in 
+
+
+Close Connection
+Pre-Condition:
+  -"Open Connection"
+Main Success Scenario:
+  1. xxx:fill in 
+
+
+Open File 
+Pre-Condition:
+  -"Open Connection"
+  -"Create File"
+Post-Condition:
+  -"Close Connection"
+Main Success Scenario:
+  1. xxx:fill in 
+
+
+Destroy Connection
+Pre-Condition:
+  -"Close Connection"
+Main Success Scenario:
+  1. xxx:fill in 
+
+
+Write File 
+Pre-Condition:
+  -"Open File"
+Main Success Scenario:
+  1. xxx:fill in 
+
+
+Read File
+Pre-Condition:
+  -"Open File"
+Main Success Scenario:
+  1. xxx:fill in 
+
+
+Destroy File 
+Pre-Condition:
+  -"Create File"
+Main Success Scenario:
+  1. xxx:fill in 
+
+
+Iterate Collection
+Pre-Condition:
+  -"Create Collection"
+Main Success Scenario:
+  1. xxx:fill in 
+
+
+Create Test
+Main Success Scenario:
+  1. "Test Object Resource Limits"
+  2. End 
+Alternatives:
+  1a. 
+    1a1. "Test Action Resource Limits"
+  1b. 
+    1b1. "Test Object Performance Limits"
+  1c. 
+    1c1. "Test Action Performance Limits"
+  1d. 
+    1d1. xxx:fill in 
+  1x.
+    1x1. "Test Unexpected"
+    1x2. go to step 2
+
+
+Test Data Value Equality
+Main Success Scenario:
+  1. xxx:fill in 
+
+
+Test Unexpected
+Main Success Scenario:
+  1. xxx:fill in 
