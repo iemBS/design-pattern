@@ -68,15 +68,17 @@ Alternatives:
 
 Create
 Main Success Scenario:
-  1. "Create Structure"
+  1. "Create Thread"
   2. End
 Alternatives:
   1a. 
-    1a1. "Create Test"
+    1a1. "Create Structure"
     1a2. go to step 2
  1b. 
     1b1. "Create Connection"
     1b2. go to step 2
+ 1c.
+    1c1. "Create Test"
 
 
 Change
@@ -172,6 +174,20 @@ Main Success Scenario:
 
 
 Create Connection Type
+Main Success Scenario:
+  1. xxx:fill in 
+
+
+Create Thread
+Note:
+  -https://realpython.com/intro-to-python-threading/
+Main Success Scenario:
+  1. xxx:fill in 
+
+
+Destroy Thread
+Note:
+  -https://realpython.com/intro-to-python-threading/
 Main Success Scenario:
   1. xxx:fill in 
 
