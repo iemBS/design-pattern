@@ -11,6 +11,7 @@ Alternatives:
 Use Action & Object perspective
 Note:
   -Actions always involves an object
+  -At least one object is being acted upon in code at all times.
   -If an action is not done on one object, an action is done on a different object.
 Main Success Scenario:
   1. "Create Object"
