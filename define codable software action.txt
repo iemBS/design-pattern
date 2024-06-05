@@ -159,6 +159,7 @@ Alternatives:
     1b1. go to step 2
 
 
+
 Change Structure
 Pre-Condition:
   -"Create Structure"
