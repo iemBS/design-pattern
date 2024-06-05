@@ -139,6 +139,40 @@ Main Success Scenario:
   1. xxx:fill in 
 
 
+Create Data Format
+Note:
+  -ref @
+    -https://en.wikipedia.org/wiki/Data_format
+Main Success Scenario
+  1. "Create Data Type"
+  2. End
+Alternatives:
+  1a. Need to create a file format
+    1a1. "Create File Format"
+    1a2. go to step 2
+  1b. Need to change value to a specific format without changing the data type
+    1b1. "Change Data Value Format"
+    1b2. go to step 2
+    
+
+Create Data Value Format
+Main Success Scenario:
+  1. xxx:fill in 
+
+
+Create File Format
+Note:
+  -ref @
+    -https://en.wikipedia.org/wiki/File_format
+  -CSV
+  -JSON
+  -TSV
+  -TXT
+  -xxx
+Main Success Scenario:
+  1. xxx:fill in 
+
+
 Change Data Value Format
 Pre-Condition:
   -"Create Data Value"
@@ -152,7 +186,7 @@ Main Success Scenario:
   2. End
 Alternatives:
   1a. Define types of data values
-    1a1. "Define Data Type"
+    1a1. "Create Data Type"
     1a2. go to step 2
   1b. 
     1b1. "Create File"
@@ -207,17 +241,6 @@ Main Success Scenario:
 Alternatives:
   1a. 
     1a1. "Write File"
-
-
-Create File Type
-Note:
-  -Even though you are not creating file types from scratch, you are importing file types into your code. 
-  -file types
-    -CSV
-    -JSON
-    -TXT
-Main Success Scenario:
-  1. xxx:fill in 
 
 
 Create Collection Type
@@ -306,7 +329,7 @@ Main Success Scenario:
 Create File 
 Pre-Condition:
   -"Create Folder"
-  -"Create File Type"
+  -"Create File Format"
 Main Success Scenario:
   1. xxx:fill in 
 
