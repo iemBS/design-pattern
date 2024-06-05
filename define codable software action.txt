@@ -113,6 +113,22 @@ Main Success Scenario:
 
 ** ABOVE THIS ARE THE PERSPECTIVES & BELOW THIS THE ACTIONS **
 
+Create Search
+Main Success Scenario:
+  1. "Search Collection"
+  2. return search results
+  3. End
+Alternatives:
+  1a. 
+    1a1. "Search File"
+    1a2. go to step 2
+  1b.
+    1b1. "Search Folder"
+    1b2. go to step 2
+  1c. 
+    1c1. xxx:fill in 
+
+
 
 Change Data Value 
 Pre-Condition:
@@ -200,6 +216,19 @@ Pre-Condition:
   -"Create Collection Type"
 Main Success Scenario:
   1. xxx:fill in 
+
+
+Read Collection Element
+Main Success Scenario:
+  1. xxx:fill in 
+
+
+Search Collection
+Main Success Scenario:
+  1. Start "Iterate Collection"
+  2. Per iteration, "Read Collection Element"
+  3. Per iteration, "Test Data Value Equality"
+  4. "Create Test Results"
 
 
 Change Collection
@@ -341,6 +370,8 @@ Main Success Scenario:
 Create Test
 Note:
   -Tests are based on a degree of equality
+  -Tests will be done on an object, collection of objects, or collection needs to be iterated so tests can be one on each object in the collection
+  -Testing a collection or the items in a collection, depends on the tests required, limits of the objects and collections, and environment resources
 Pre-Condition:
   -"Create Comparison Type"
 Main Success Scenario:
@@ -358,6 +389,20 @@ Alternatives:
   1x.
     1x1. "Test Unexpected"
     1x2. go to step 2
+
+
+Apply Test
+Pre-Condition:
+  -"Create Test"
+Main Success Scenario:
+  1. xxx:fill in 
+  2. "Create Test Results"
+  3. End
+
+
+Create Test Results
+Main Success Scenario:
+  1. xxx:fill in 
 
 
 Create Comparison Type
@@ -418,10 +463,16 @@ Main Success Scenario:
   2. End
 Alternatives:
   1a. 
-    1a1. xxx:fill in 
+    1a1. "Create Algorithm"
+    1a2. go to step 2
 
 
-Create Pattern
+Create Test Pattern
+Main Success Scenario:
+  1. xxx:fill in 
+
+
+Create Test Algorithm
 Main Success Scenario:
   1. xxx:fill in 
 
