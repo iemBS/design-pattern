@@ -129,7 +129,7 @@ Main Success Scenario:
 
 Create Structure
 Main Success Scenario:
-  1. "Create Data Collection"
+  1. "Create Collection"
   2. End
 Alternatives:
   1a. Define types of data values
@@ -186,24 +186,24 @@ Main Success Scenario:
   1. xxx:fill in 
 
 
-Create Data Collection Type
+Create Collection Type
 Pre-Condition:
   -"Create Data Type"
 Main Success Scenario:
   1. xxx:fill in 
 
 
-Create Data Collection
+Create Collection
 Pre-Condition:
   -"Create Data Value"
-  -"Create Data Collection Type"
+  -"Create Collection Type"
 Main Success Scenario:
   1. xxx:fill in 
 
 
-Change Data Collection
+Change Collection
 Pre-Condition:
-  -"Create Data Collection"
+  -"Create Collection"
 Main Success Scenario:
   1. xxx:fill in 
 
@@ -338,6 +338,10 @@ Main Success Scenario:
 
 
 Create Test
+Note:
+  -Tests are based on a degree of equality
+Pre-Condition:
+  -"Create Comparison Type"
 Main Success Scenario:
   1. "Test Object Resource Limits"
   2. End 
@@ -353,6 +357,72 @@ Alternatives:
   1x.
     1x1. "Test Unexpected"
     1x2. go to step 2
+
+
+Create Comparison Type
+Main Success Scenario:
+  1. "Create Simple Comparison Type"
+  2. End
+Alternatives:
+  1a. 
+    1a1. "Create Complex Comparison Type"
+    1a2. go to step 2
+
+
+Create Simple Comparison Type
+Note:
+  -Uses a simple comparison like equality
+  -equal
+  -equal w letter case ignored
+  -equal w negation ignored
+Main Success Scenario:
+  1. "Create Simple Data Value Comparison Type"
+  2. End
+Alternatives:
+  1a. 
+    1a1. "Create Simple Collection Comparison Type"
+    1a2. go to step 2
+
+
+Create Simple Data Value Comparison Type
+Main Success Scenario:
+  1. xxx:fill in 
+
+
+Create Simple Collection Comparison Type
+Main Success Scenario:
+  1. xxx:fill in 
+
+
+Create Complex Comparison Type
+Note:
+  -Allows variance in equality or a requires series of steps 
+Main Success Scenario:
+  1. xxx:fill in 
+
+
+Create Complex Data Value Comparison Type
+Main Success Scenario:
+  1. xxx:fill in 
+
+
+Create Complex Collection Comparison Type
+Main Success Scenario:
+  1. xxx:fill in 
+
+
+Create Complex Comparison Target
+Main Success Scenario:
+  1. "Create Pattern"
+  2. End
+Alternatives:
+  1a. 
+    1a1. xxx:fill in 
+
+
+Create Pattern
+Main Success Scenario:
+  1. xxx:fill in 
 
 
 Test Data Value Equality
