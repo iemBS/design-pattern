@@ -1,0 +1,30 @@
+Define Codable Software Action
+Main Success Scenario:
+  1. xxx:fill in 
+
+
+
+Create 
+-Visalize Data
+-Create Connection
+  -TODO
+-Create Structure
+  -TODO
+-Create Test
+  -TODO
+    
+Change 
+-Change Data Type
+-Change Data Format
+-Change Data Value
+-Change Data Structure
+-Move Data
+-Open File
+    
+Destroy
+-Remove data
+ -TODO
+
+Unknown
+-Analyze Data
+ -Apply Machine Learning 
