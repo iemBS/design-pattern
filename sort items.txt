@@ -1,3 +1,11 @@
+Sort Items
+Note:
+  -ref @
+    -https://www.techrepublic.com/article/force-your-favorite-files-to-the-top-of-any-directory/
+Main Success Scenario:
+  1. xxx:fill in 
+
+
 Sort Items w Lomuto partition scheme
 Note: 
   - Known as Quick Sort
