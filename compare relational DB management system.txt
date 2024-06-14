@@ -1,0 +1,44 @@
+compare relational DB management system
+Main Success Scenario:
+  1. Limit
+  2. Performance
+  3. Dollar Cost
+
+
+Performance
+-Compute
+-Functionality
+-Transfer
+
+Compute Performance
+-TODO
+  
+Transfer Performance 
+-DB to in-DB-network 
+-in-DB-network to DB
+-DB to out-of-DB-network 
+-out-of-DB-network to DB
+-replication
+
+  
+Limit
+-Compute
+-Transfer
+-Storage
+-Functionality
+
+Dollar Cost
+-Compute Dollar Cost
+-Storage Dollar Cost
+-Transfer Dollar Cost
+
+
+Transfer Dollar Cost 
+-DB to in-DB-network 
+-in-DB-network to DB
+-DB to out-of-DB-network 
+-out-of-DB-network to DB
+-replication
+
+  
+  
