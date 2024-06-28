@@ -1,0 +1,23 @@
+Config Test
+Main Success Scenario:
+  1. Enable Test
+  2. End
+Alternatives:
+  1a. Test no longer needded
+    1a1. "Disable Test"
+    1a2. go to step 2
+  1b. Reduce test frequency
+    1b1. "Change Test Frequency"
+    1b2. go to step 2
+
+
+Disable Test
+Note: 
+  -Testing no longer needed, because ...
+    -Test handled before this test
+    -xxx
+Main Success Scenario:
+  1. xxx:fill in 
+
+
+Change Test Frequency
