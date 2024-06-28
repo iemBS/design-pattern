@@ -16,3 +16,17 @@ Main Success Scenario:
 Use Long Term
 Main Success Scenario:
   1. xxx:Fill in 
+
+
+Use Short Distance
+Post-Condition:
+  -Within block of code or within current application
+Main Success Scenario:
+  1. xxx:fill in 
+
+
+Use Long Distance
+Post-Condition:
+  -Within another application
+Main Success Scenario:
+  1. xxx:Fill in 
