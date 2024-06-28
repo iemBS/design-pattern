@@ -1,0 +1,19 @@
+Define Test Result Audience
+Note:
+  -Possible alt apps the test result could be used in
+    -Reporting on physical resources used by this and other apps
+    -Reporting on service resources used by this and other apps
+Main Success Scenario:
+  1. Test result sent to human
+  2. End
+Alternatives:
+  1a. Test result needed for another test
+    1a1. Send result to another test
+    1a2. Go to step 2
+  1b. Test result determines current application flow
+    1b1. Send result to application path
+    1b2. go to step 2
+  1c. Test result used in an alternate appliation
+   1c1. Send result to reporting
+   1c2. go to step 2
+    
