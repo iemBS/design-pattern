@@ -1,3 +1,3 @@
-Collect Test Results
+Collect Test Result
 Main Success Scenario:
   1. xxx:fill in 
