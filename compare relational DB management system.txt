@@ -1,4 +1,7 @@
 compare relational DB management system
+Note:
+  -ref
+    -https://en.wikipedia.org/wiki/Comparison_of_relational_database_management_systems
 Main Success Scenario:
   1. Limit
   2. Performance
