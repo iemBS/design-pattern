@@ -1,6 +1,6 @@
 Use Test Result
 Note:
-  -Use of the test result is defind by the audience
+  -Use of the test result is defined by the needs of the audience
 Main Success Scenario:
   1. "Use Short Term"
   2. End
