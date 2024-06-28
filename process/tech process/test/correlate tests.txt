@@ -1,3 +1,7 @@
 Correlate Tests
+Note:
+  -Driven by ...
+    -what each test is applied to
+    -xxx
 Main Success Scenario:
   1. xxx:fill in 
