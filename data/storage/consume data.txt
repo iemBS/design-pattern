@@ -1,4 +1,6 @@
-Define Data Audience Consumer
+Consume Data
+Note:
+  -Defines data consumer
 Main Success Scenario:
   1. "Define Data Consumer Need"
   2. "Define Data Consumer Limit"
