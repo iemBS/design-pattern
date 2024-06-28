@@ -1,12 +1,12 @@
 Test in Release
-Pre-Condition:
+Post-Condition:
   -Testing in release ...
     -insignificantly impacts ...
       -performance
       -functionality
     -avoids scenario that are more negatively impactful on functionality and performance than the testing itself
     -provides ... 
-      -visiblity to an occurred or potential scenario that may not otherwise be seen
+      -visiblity to an actual or potential scenario that may not otherwise be seen
       -monitoring of ...
         -functionality gap
         -known problem area
@@ -16,6 +16,11 @@ Pre-Condition:
           -shut down due to ...
             -discontinued
             -error 
+        -performance impact of inputs our outputs
+    -may provide ...
+      -better performance
+      -shorter run time
+      -discernment between potential and actual issues
 Main Success Scenario:
   1. "Test via Exception"
   2. End
@@ -38,6 +43,6 @@ Test via Non-Exception
 Note: 
   -This is using tests that are more strict than the limits of the programming language to test
 Post-Condition:
-  -xxx:fill in 
+  -Testing improves
 Main Success Scenario:
   1. xxx:fill in 
