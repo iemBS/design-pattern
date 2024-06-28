@@ -3,6 +3,9 @@ Note:
   -Possible alt apps the test result could be used in
     -Reporting on physical resources used by this and other apps
     -Reporting on service resources used by this and other apps
+Pre-Condition:
+  -"Define Test Result Human Audience"
+  -"Define Test Result Alt App Audience"
 Main Success Scenario:
   1. Human needs to see test result
   2. End
@@ -16,4 +19,44 @@ Alternatives:
   1c. An alt app needs to see the test result
    1c1. Send result to alt app
    1c2. go to step 2
-    
+
+
+Define Test Result Human Audience
+Post-Condition:
+  -benefits from seeing the test result
+  -can take action based on the test result
+Main Success Scenario:
+  1. "Define Current App Human Monitor"
+  2. End
+Alternatives:
+  1a. xxx
+    1a1. "Define Current App Human User"
+    1a2. go to step 2
+
+
+Define Current App Human User
+Main Success Scenario:
+  1. xxx:fill in 
+
+
+Define Current App Human Monitor
+Main Success Scenario:
+  1. xxx:fill in 
+
+
+Define Alt App Human User
+Main Success Scenario:
+  1. xxx:fill in 
+
+
+Define Alt App Human Monitor
+Main Success Scenario:
+  1. xxx:fill in 
+
+
+Define Test Result Alt App Audience
+Post-Condition:
+  -benefits from seeing the test result
+  -can take action based on the test result
+Main Success Scenario:
+  1. xxx:fill in 
