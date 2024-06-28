@@ -1,4 +1,6 @@
 Use Test Result
+Note:
+  -Use of the test result is defind by the audience
 Main Success Scenario:
   1. "Use Short Term"
   2. End
