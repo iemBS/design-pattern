@@ -1,0 +1,18 @@
+Use Test Result
+Main Success Scenario:
+  1. "Use Short Term"
+  2. End
+Alternatives:
+  1a. xxx
+    1a1. "Use Long Term"
+    1a2. go to step 2
+
+
+Use Short Term
+Main Success Scenario:
+  1. xxx:fill in 
+
+
+Use Long Term
+Main Success Scenario:
+  1. xxx:Fill in 
