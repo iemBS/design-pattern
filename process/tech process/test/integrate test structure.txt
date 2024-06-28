@@ -1,4 +1,9 @@
 Integrate Test Structure
+Note:
+  -Impacts 
+    -test scalability
+    -test configurability
+    -xxx
 Main Success Scenario:
   1. xxx:fill in 
 
