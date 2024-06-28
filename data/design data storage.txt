@@ -49,6 +49,8 @@ Main Success Scenario:
 
 Define Audiences
 Main Success Scenario:
+  x. "Define Data Consumer Audience"
+  x. "Define Data Provider Audience"
   1. Who wants to interact w data and why
   2. mngmt OKs user add to Audience
   3. users put into audiences
@@ -104,6 +106,17 @@ Main Success Scenario:
   1. Find most sensible storage type for the data's purpose and usage
   2. If using a DB, find the most sensible DB type for the data's purpose and usage
 
+
+Define Data Consumer Audience
+Main Success Scenario:
+  1. Define Data Consumer Need
+  2. End
+
+
+Define Data Provider Audience
+Main Success Scenario:
+  1. Define Data Provider Need
+  2. xxx:fill in 
 
 chg freq
   -chg freq in the past
