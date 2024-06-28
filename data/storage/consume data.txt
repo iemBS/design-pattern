@@ -2,16 +2,24 @@ Consume Data
 Note:
   -Defines data consumer
 Main Success Scenario:
-  1. "Define Data Consumer Need"
-  2. "Define Data Consumer Limit"
-  3. xxx:fill in 
+  1. "Choose Data"
+  2. "Format Data"
+  3. "Consume X-ly"
+  4. End
 
 
-Define Data Consumer Need
+Choose Data
 Main Success Scenario:
-  1. xxx:fill in 
+  1. xxx:Fill in 
 
 
-Define Data Consumer Limit
+Format Data
 Main Success Scenario:
-  1. xxx:fill in 
+  1. xxx:Fill in 
+
+
+Consume X-ly
+Note:
+  -Defines how frequently the data is consumed 
+Main Success Scenario:
+  1. xxx:Fill in 
