@@ -1,5 +1,19 @@
 Define Data Audience Provider
+Note: 
+ -Provider needs and limits will contribute to these decisions:
+   -database type
+   -xxx:fill in 
 Main Success Scenario:
   1. "Define Data Provider Need"
   2. "Define Data Provider Limit"
   3. xxx:fill in 
+
+
+Define Data Provider Need
+Main Success Scenario:
+  1. xxx:fill in 
+
+
+Define Data Provider Limit
+Main Success Scenario:
+  1. xxx:fill in 
