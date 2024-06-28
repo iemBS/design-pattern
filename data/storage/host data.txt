@@ -21,5 +21,8 @@ Main Success Scenario:
   4. "Pay Host Processing"
 
 
-
-
+Layer Data Interface
+Note:
+  -Enables insulation between interface used by provider or consumer and a layer where performance improvements can be made.
+Main Success Scenario:
+  1. xxx:fill in 
