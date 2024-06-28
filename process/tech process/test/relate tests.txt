@@ -1,7 +1,7 @@
-Correlate Tests
+Relate Tests
 Note:
   -Driven by ...
-    -what each test is applied to
+    -relation of test contents
     -xxx
 Main Success Scenario:
   1. xxx:fill in 
