@@ -1,0 +1,7 @@
+Test in Release
+Pre-Condition:
+  -Testing in release insignificantly impacts performance
+  -Testing in release does not impact functionality
+  -Release users cannot discern between a release that has testing enabled or disabled 
+Main Success Scenario:
+  1. xxx:fill in 
