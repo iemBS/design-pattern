@@ -1,3 +1,5 @@
 Define Test Result Lifespan
+Note:
+  -Driven by use of test result
 Main Success Scenario:
   1. xxx:fill in 
