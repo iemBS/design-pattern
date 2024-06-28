@@ -1,3 +1,5 @@
 Communicate with Host
+Note:
+  -Provider, Processor, and Consumer will all communicate with the host
 Main Success:
   1. xxx:Fill in 
