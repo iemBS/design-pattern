@@ -1,5 +1,5 @@
 Define Test Result
 Note:
-  -Driven usage of the test result
+  -Driven by how the test result is used
 Main Success Scenario:
   1. xxx:fill in 
