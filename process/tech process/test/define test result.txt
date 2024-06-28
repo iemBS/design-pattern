@@ -1,5 +1,6 @@
 Define Test Result
 Note:
   -Driven by how the test result is used
+  -align terms and phrases
 Main Success Scenario:
   1. xxx:fill in 
