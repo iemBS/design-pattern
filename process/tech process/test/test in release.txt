@@ -1,7 +1,43 @@
 Test in Release
 Pre-Condition:
-  -Testing in release insignificantly impacts performance
-  -Testing in release does not impact functionality
-  -Release users cannot discern between a release that has testing enabled or disabled 
+  -Testing in release ...
+    -insignificantly impacts ...
+      -performance
+      -functionality
+    -avoids scenario that are more negatively impactful on functionality and performance than the testing itself
+    -provides ... 
+      -visiblity to an occurred or potential scenario that may not otherwise be seen
+      -monitoring of ...
+        -functionality gap
+        -known problem area
+        -component with little history of performance or functionality
+        -component functionality or performance that can be changed by a third party
+          -functionality deprecation due to version change
+          -shut down due to ...
+            -discontinued
+            -error 
+Main Success Scenario:
+  1. "Test via Exception"
+  2. End
+Alternatives:
+  1a. xxx:fill in 
+    1a1. "Test via Non-Exception"
+    1a2. go to step 2
+
+
+
+Test via Exception
+Note: 
+  -This is using the limits of the programming language to perform the testing
+Main Success Scenario:
+  1. xxx:fill in 
+
+
+
+Test via Non-Exception
+Note: 
+  -This is using tests that are more strict than the limits of the programming language to test
+Post-Condition:
+  -xxx:fill in 
 Main Success Scenario:
   1. xxx:fill in 
