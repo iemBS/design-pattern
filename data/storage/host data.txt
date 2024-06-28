@@ -7,7 +7,19 @@ Main Success Scenario:
 
 Version Data
 Main Success Scenario:
-  1. xxx:fill in 
+  1. Define max number of versions to keep
+  2. Define version lifespan
+
+
+Pay Host
+Note:
+  -Defines dollar cost of data hosting 
+Main Success Scenario:
+  1. "Pay Host Data Storage"
+  2. "Pay Host Data Input"
+  3. "Pay Host Data Output"
+  4. "Pay Host Processing"
+
 
 
 
