@@ -4,16 +4,16 @@ Note:
     -Reporting on physical resources used by this and other apps
     -Reporting on service resources used by this and other apps
 Main Success Scenario:
-  1. Test result sent to human
+  1. Human needs to see test result
   2. End
 Alternatives:
-  1a. Test result needed for another test
+  1a. Another test in the app needs to see the test result
     1a1. Send result to another test
     1a2. Go to step 2
-  1b. Test result determines current application flow
-    1b1. Send result to application path
+  1b. App flow determiner in the app needs to see the test result
+    1b1. Send result to app path
     1b2. go to step 2
-  1c. Test result used in an alternate appliation
-   1c1. Send result to reporting
+  1c. An alt app needs to see the test result
+   1c1. Send result to alt app
    1c2. go to step 2
     
