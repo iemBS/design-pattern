@@ -1,19 +1,28 @@
 Provide Data
-Note: 
- -Provider needs and limits will contribute to these decisions:
-   -database type
-   -xxx:fill in 
+Note:
+  -Defines data provider
+  -Provider needs and limits will contribute to these decisions:
+    -database type
+    -xxx:fill in 
 Main Success Scenario:
-  1. "Define Data Provider Need"
-  2. "Define Data Provider Limit"
-  3. xxx:fill in 
+  1. "Choose Data"
+  2. "Format Data"
+  3. "Provide X-ly"
+  4. End
 
 
-Define Data Provider Need
+Choose Data
 Main Success Scenario:
-  1. xxx:fill in 
+  1. xxx:Fill in 
 
 
-Define Data Provider Limit
+Format Data
 Main Success Scenario:
-  1. xxx:fill in 
+  1. xxx:Fill in 
+
+
+Provide X-ly
+Note:
+  -Defines how frequently the data is provided 
+Main Success Scenario:
+  1. xxx:Fill in 
