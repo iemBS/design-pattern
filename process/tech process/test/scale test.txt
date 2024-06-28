@@ -1,0 +1,10 @@
+Scale Test
+Note:
+  -Ability to scale test structures
+    -volume
+    -types of tests
+  -Ability to scale specific tests
+    -volume
+    -pararalellism
+Main Success Scenario:
+  1. xxx:fill in 
