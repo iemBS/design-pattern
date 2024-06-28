@@ -11,6 +11,13 @@ Main Success Scenario:
   2. Define version lifespan
 
 
+Version Host
+Note:
+  -Data Host will go through versions to offer different functionality. Like SQL Server as a host.
+Main Success Scenario:
+  1. xxx:fill in 
+
+
 Pay Host
 Note:
   -Defines dollar cost of data hosting 
