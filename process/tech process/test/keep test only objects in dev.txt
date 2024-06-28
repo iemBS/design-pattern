@@ -1,3 +1,0 @@
-Keep Test Only Objects in DEV
-Main Success Scenario:
-  1. xxx:fill in 
