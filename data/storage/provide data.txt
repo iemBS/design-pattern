@@ -8,17 +8,34 @@ Main Success Scenario:
   1. "Choose Data"
   2. "Format Data"
   3. "Provide X-ly"
-  4. End
+  4. "Negotiate Data Push or Pull"
+  5. "Negotiate Data Movement Method"
+
+
+Negotiate Data Push or Pull
+Main Success Scenario:
+  1. xxx:fill in 
+
+
+Negotiate Data Movement Method
+Main Success Scenario:
+  1. xxx:fill in 
 
 
 Choose Data
 Main Success Scenario:
-  1. xxx:Fill in 
+  1. Choose only the data that is needed
+  2. End 
 
 
 Format Data
 Main Success Scenario:
-  1. xxx:Fill in 
+  1. Provider formats data to the host's needs
+  2. End
+Alternatives:
+  1a. Host formats data to its needs
+    1a1. Host formats data
+    1a2. go to step 2
 
 
 Provide X-ly
