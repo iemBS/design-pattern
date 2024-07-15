@@ -57,10 +57,10 @@ Define Backup Frequency
 Main Success Scenario:
   1. "Understand Data Change by Time"
   2. "Understand Data Structure Change by Time"
-  3. "Define Backup Lifespan"
+  3. "Define Backup Retention"
 
 
-Understand DB Change by Time
+Understand Data Change by Time
 Main Success Scenario:
   1. xxx:fill in 
 
@@ -70,7 +70,7 @@ Main Success Scenario:
   1. xxx:fill in 
 
 
-Define Backup Lifespan
+Define Backup Retention
 Main Success Scenario:
   1. "See Available Storage"
   2. "Cost Storage"
@@ -103,7 +103,28 @@ MTTR with DB Restore
 Note:
   -MTTR (mean time to resolve) is the average time it takes to fully resolve a failure. This includes not only the time spent detecting the failure, diagnosing the problem, and repairing the issue, but also the time spent ensuring that the failure won't happen again.
 Main Success Scenario:
+  1. "MTTI Failure"
+  2. Specify mean time to resolve with a DB restore
+  3. End 
+
+
+MTTI Failure
+Note:
+  -MTTI: Mean time to identify 
+Main Success Scenario:
+  1. "Understand Monitoring"
+  2. "Understand Issues requiring a DB restore"
+
+
+Understand Issues requiring a DB restore
+Main Success Scenario:
   1. xxx:fill in 
+
+
+Understand Monitoring
+Main Success Scenario:
+  1. Identify gaps in data monitoring
+  2. xxx:fill in 
 
 
 Staling Data
