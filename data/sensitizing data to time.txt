@@ -1,0 +1,26 @@
+Sensitizing Data to Time
+Main Success Scenario:
+  1. Importance of previous field value is less once the current value exists.
+  2. xxx:fill in 
+  x. xxx
+
+
+Sensitizing by Data Change
+Main Success Scenario:
+  1. xxx:fill in 
+
+  
+Sensitizing by Data Change Frequency
+Main Success Scenario:
+  1. xxx:fill in 
+
+
+Sensitizing by Data Change Expectation
+Main Success Scenario:
+  1. xxx:fill in 
+
+
+Sensitizing by Scheduled Refresh
+Main Success Scenario:
+  1. xxx:fill in 
+
