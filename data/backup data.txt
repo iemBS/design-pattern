@@ -1,3 +1,132 @@
 Backup Data
 Main Success Scenario:
+  1. "Define Backup Data Filters"
+  2. "Define Backup Frequency"
+  3. "Define Backup Format"
+  4. Implement data backup
+  5. End
+
+
+Define Backup Format
+Main Success Scenario:
   1. xxx:fill in 
+
+
+Define Backup Data Filters
+Main Success Scenario:
+  1. "Define Collection Filter"
+  2. "Define Record Filter"
+  3. "Define Column Filter"
+  4. "Define DB Backup Utility Filter"
+  5. End
+
+
+Define Record Filter
+Note:
+  -In relation DB this would be row filter
+  -In graph DB this would be xxx
+  -In document DB this would be xxx
+Main Success Scenario:
+  1. xxx:fill in 
+
+
+Define Field Filter
+Note:
+  -In relation DB this would be column filters
+  -In graph DB this would be xxx filters
+  -In xxx
+Main Success Scenario:
+  1. xxx:fill in 
+
+
+Define DB Backup Utility Filter
+Main Success Scenario:
+  1. Full backup
+  2. Backup data and log
+  3. End
+Alternatives:
+  1a. Partial backup
+    1a1. xxx
+    1a2. go to step 2
+ 2a. Backup only data
+   2a1. xxx
+   2a2. go to step 3
+
+
+Define Backup Frequency
+Main Success Scenario:
+  1. "Understand Data Change by Time"
+  2. "Understand Data Structure Change by Time"
+  3. "Define Backup Lifespan"
+
+
+Understand DB Change by Time
+Main Success Scenario:
+  1. xxx:fill in 
+
+
+Understand Data Structure Change by Time
+Main Success Scenario:
+  1. xxx:fill in 
+
+
+Define Backup Lifespan
+Main Success Scenario:
+  1. "See Available Storage"
+  2. "Cost Storage"
+  3. "MTTR with DB Restore"
+  4. "Staling Data"
+  5. "Define Max Backup Count"
+  6. Specify duration to keep each backup
+  7. End
+
+
+See Available Storage
+Main Success Scenario:
+  1. xxx:fill in 
+
+
+Cost Storage
+Main Success Scenario:
+  1. xxx:fill in 
+
+
+Define Max Backup Count
+Main Success Scenario:
+  1. "MTTR with DB Restore"
+  2. "Staling Data"
+  3. Specify max backup count at one time
+  4. End
+
+
+MTTR with DB Restore
+Note:
+  -MTTR (mean time to resolve) is the average time it takes to fully resolve a failure. This includes not only the time spent detecting the failure, diagnosing the problem, and repairing the issue, but also the time spent ensuring that the failure won't happen again.
+Main Success Scenario:
+  1. xxx:fill in 
+
+
+Staling Data
+Main Success Scenario:
+  1. "Staling Data for Provider"
+  2. "Staling Data for Consumer"
+  3. End
+
+
+Staling Data for Provider
+Main Success Scenario:
+  1. Cannot correctly update data
+  2. Misrepresents data that is in the provider
+  3. Duration to achieve the above stale states
+  4. End
+
+
+Staling Data for Consumer
+Main Success Scenario:
+  1. Data does not align with other data systems
+  2. Data hurts their data
+  3. Data no longer relevant
+  4. Duration to achieve the above stale states
+  5. End
+
+
