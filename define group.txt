@@ -6,14 +6,34 @@ Question:
 Main Success Scenario:
   1. "Define Troubled Topics"
   2. "Suggest Troubled Topic Ownership"
-  3. "Define Group Purpose"
-  4. "Define Group Input"
-  5. "Define Group Output"
-  6. "Define Group Attributes"
-  7. "Define What Group Owns"
-  8. "Define Group Bridge to Other Group"
-  9. "Define Group Level"
-  
+  3. "Purpose Group"
+  4. "Parameterize Group"
+  7. "Own Item"
+  8. "Relate Groups"
+  9. "Order Groups"
+
+
+Purpose Group
+Note:
+  -group purpose examples:
+    -interest
+    -department
+    -practice
+    -community
+Main Success Scenario:
+  1. Define group purpose
+  2. End
+Alternatives:
+  1a. Group definition starts with relating items
+    1a1. "Relate Items"
+    1a2. go to step 1
+  1b. Group definition starts with defining group parameterization
+    1b1. "Parameterize Group"
+    1b2. go to step 1
+  1c. Group definition starts with item ownership
+    1c1. "Own Item"
+    1c2. go to step 1
+    
   
 Define Troubled Topics
 Note:
@@ -25,36 +45,127 @@ Main Success Scenario:
 Suggest Troubled Topic Ownership
 Main Success Scenario:
   1. xxx:fill in
-  
-  
+
+
+Relate Items
+Main Success Scenario:
+  1. Relate items and note why they are related
+  2. End 
+Alternatives:
+  1a. Group definition starts with group purpose
+    1a1. "Purpose Group"
+    1a2. go to step 1
+  1b. Group definition starts with defining group input
+    1b1. "Parameterize Group"
+    1b2. go to step 1
+  1c. Group definition starts with item ownership
+    1c1. "Own Item"
+    1c2. go to step 1
+  1d. Easier to order items than relate items
+    1d1. "Order Items"
+    1d2. go to step 1
+
+
+Parameterize Group
+Main Success Scenario:
+  1. "Define Group Input"
+  2. "Define Group Output"
+  3. End
+
+
 Define Group Input
 Main Success Scenario:
-  1. What topics do members bring to the group?
-  x. xxx:fill in
+  1. Align input with group purpose
+  2. xxx:fill in
   
   
 Define Group Output
 Main Success Scenario:
-  1. What 
+  1. Align output with group purpose
+  2. xxx:fill in 
+
+  
+Own Item
+Note:
+  -An object owned by a group may be a group input or output parameter
+  -An object may come from an action
+  -An object may go into an action
+Main Success Scenario:
+  1. Group owns items
+  2. Each item is an object or action
+  3. "Own Action"
+  4. "Own Object"
+  5. End
 
 
-Define Group Attributes
+Own Action
 Main Success Scenario:
-  1. xxx:fill in
-  
-  
-Define What Group Owns
+  1. Sole owned action
+  2. Share owned action
+  3. End
+
+
+Own Object
 Main Success Scenario:
-  1. xxx:fill in
-  
-Define Group Bridge to Other Group
+  1. Sole owned object
+  2. Share owned object
+  3. End
+
+
+Relate Groups
+Note:
+  -groups can be related without the relationship acting like an order/rank
+  -examples of group to group relationships
+    -xxx
 Main Success Scenario:
-  1. xxx:fill in
-  
-  
-Define Group Level
+  1. "Relate Items between Groups"
+  2. Use item relationships to relate groups
+  3. End 
+
+
+Relate Items between Groups
 Main Success Scenario:
-  1. Is this an interest group?
-  2. Is this a department?
-  3. Is this a practice?
-  4. Is this a community?
+  1. Relate objects between groups
+  2. Relate actions between groups
+  3. Relate actions and objects between groups
+  4. End 
+  
+  
+Order Groups
+Note:
+  -An order is a specific type of relationship
+Main Success Scenario:
+  1. "Order Items"
+  2. "Order Groups"
+  3. End
+
+
+Order Items
+Note:
+  -An order is a specific type of relationship
+Main Success Scenario:
+  1. Order items and note why they are ordered
+  2. End
+Alternatives:
+  1a. Easier to relate items than order items
+    1a1. "Relate Items"
+    1a2. go to step 1
+
+
+Order Groups
+Note:
+  -An order is a specific type of relationship
+Main Success Scenario:
+  1. Order groups by relationship
+  2. End
+Alternatives:
+  1a. Order groups by parameterization
+    1a1. "Parameterize Group"
+    1a2. Use group I/O parameters to order groups
+    1a2. go to step 2
+  2a. Order groups by items within them
+    2a1. Use item order and relations to order groups
+    2a2. go to step 2
+
+
+
