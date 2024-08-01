@@ -75,14 +75,56 @@ Main Success Scenario:
 
 Define Group Input
 Main Success Scenario:
-  1. Align input with group purpose
-  2. xxx:fill in
+  1. "Relate Group Input to Group Purpose"
+  2. "Relate Group Input to Group Output"
+  3. "Relate Group Input with Item"
+  4. End
+Alteratives:
+  1a. Group purpose does not exist
+    1a1. go to step 2
+  2a. Group output does not exist
+    2a2. go to step 3
+  3a. Items do not exist
+    3a1. go to step 4
+
+
+Relate Group Input to Group Purpose
+Main Success Scenario:
+  1. xxx
+
+
+Relate Group Input to Group Output
+Main Success Scenario:
+  1. xxx
+
+
+Relate Group Input with Item
+Main Success Scenario:
+  1. xxx
   
-  
+
 Define Group Output
 Main Success Scenario:
-  1. Align output with group purpose
-  2. xxx:fill in 
+  1. "Relate Group Output to Group Purpose"
+  2. "Relate Group Input to Group Output"
+  3. "Relate Group Output with Item"
+  4. End
+Alteratives:
+  1a. Group purpose does not exist
+    1a1. go to step 2
+  2a. Group output does not exist
+    2a2. go to step 3
+  3a. Items do not exist
+    3a1. go to step 4
+
+Relate Group Output to Group Purpose
+Main Success Scenario:
+  1. xxx
+
+
+Relate Group Output with Item
+Main Success Scenario:
+  1. xxx
 
   
 Own Item
@@ -103,6 +145,11 @@ Main Success Scenario:
   1. Sole owned action
   2. Share owned action
   3. End
+Altnernatives:
+  1a. Cannot identify sole owned actions
+    1a1. go to step 2
+  2a. Cannot identify share owned actions
+    2a1. go to step 3
 
 
 Own Object
@@ -110,12 +157,18 @@ Main Success Scenario:
   1. Sole owned object
   2. Share owned object
   3. End
+Altnernatives:
+  1a. Cannot identify sole owned objects
+    1a1. go to step 2
+  2a. Cannot identify share owned objects
+    2a1. go to step 3
 
 
 Relate Groups
 Note:
   -groups can be related without the relationship acting like an order/rank
   -examples of group to group relationships
+    -state to country levels in geo hierarchy
     -xxx
 Main Success Scenario:
   1. "Relate Items between Groups"
@@ -134,6 +187,10 @@ Main Success Scenario:
 Order Groups
 Note:
   -An order is a specific type of relationship
+  -examples of group ordering
+    -specificity
+      -state/province name is more specific than a country name
+    -xxx
 Main Success Scenario:
   1. "Order Items"
   2. "Order Groups"
@@ -143,6 +200,13 @@ Main Success Scenario:
 Order Items
 Note:
   -An order is a specific type of relationship
+  -examples of item ordering
+    -alphabetical
+    -numerical
+    -size
+      -length
+      -money value
+    -xxx
 Main Success Scenario:
   1. Order items and note why they are ordered
   2. End
