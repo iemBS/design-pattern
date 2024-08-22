@@ -1,3 +1,6 @@
 Choose Encoding
+Note:
+  -ref@
+    -https://learn.microsoft.com/en-us/dotnet/standard/base-types/character-encoding-introduction
 Main Success Scenario:
   1. xxx:fill in 
