@@ -164,3 +164,18 @@ Need to cover
 -buffer pool
   -https://cs.brown.edu/courses/cs295-11/2006/anatomyofadatabase.pdf
 -different types of cache
+
+
+Define Index Structure
+Note:
+  -ref@
+    -https://en.wikipedia.org/wiki/Database_index
+Main Success Scenario:
+  1. Key field has values that point to full records in the collection the index is supporting
+  2. Values in Key field are ordered by a collation
+  3. One or more columns from the associated collection may exist in the index
+  4. Constraints may be attached to the index
+Alternatives:
+  1a. Only party index is used
+    1a1. Only some of the rows in the collection hae a key in the index
+    1a2. go to step 2
