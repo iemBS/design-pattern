@@ -8,6 +8,7 @@ Note:
   -One or more collations can be associated to each character set
   -Collation defines the sort that is used by an index
   -If a collation is specified on-the-fly that does not match the collation that the index is based on, then the index will not be used during a filter, sort, join, or aggregation. 
+  -If a collation is changed, the indices that use it will need to be rebuilt.
 Main Success Scenario:
   1. Case of letter characters searched for may not match the letter case in the searched data  
   2. xxx
