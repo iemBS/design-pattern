@@ -1,0 +1,14 @@
+Encode Character
+Note:
+  -ref@
+    -https://www.percona.com/blog/charset-and-collation-settings-impact-on-mysql-performance/
+    -https://docs.oracle.com/javaee/1.4/tutorial/doc/WebI18N5.html
+  -Character encoding refers to the method used to represent characters as binary data for storage and transmission. It specifies how characters are converted into binary code and vice-versa. 
+  -A character set can have more than one encoding. 
+  -An encoding can be associated to only one character set.
+  -Character set associates a character to a code point.
+  -An encoding associates a code point to a binary code.
+  -For all encodings associated to a character set, the same code point in each encoding will map to the same character in the character set
+  -Different character sets can have the same code point, but encodings for two different character sets do not need to map the code point to the same character. That is why knowing the character set used is important for determing the encoding to use. 
+Main Success Scenario:
+  1. xxx:fill in 
