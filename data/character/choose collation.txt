@@ -1,0 +1,19 @@
+Choose Collation
+Note:
+  -ref@
+    -https://www.percona.com/blog/charset-and-collation-settings-impact-on-mysql-performance/
+  -Collation refers to a set of rules and conventions that dictate how character data is compared and sorted, playing a crucial role in determining the order in which data is retrieved from the database and how various string operations, such as searching and filtering, are performed. 
+  -Collation is closely intertwined with character sets, defining how characters within a specific character set are ordered. To ensure consistent results, it’s important to select compatible collations for your chosen character sets. 
+  -Incompatibilities between character sets and collations can lead to unexpected sorting and comparison outcomes, which could lead to issues in database operations and application functionality. 
+  -One or more collations can be associated to each character set
+  -Collation defines the sort that is used by an index
+  -If a collation is specified on-the-fly that does not match the collation that the index is based on, then the index will not be used during a filter, sort, join, or aggregation. 
+Main Success Scenario:
+  1. Case of letter characters searched for may not match the letter case in the searched data  
+  2. xxx
+Alternatives:
+  1a. Case of letter characters searched for will always match the letter case in the searched data  
+    1a1. Use a case sensitive collation
+    1a2. go to step 
+  xa. Search performance takes priority over sort performance
+    xa1. Use xxx
