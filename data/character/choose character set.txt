@@ -2,6 +2,8 @@ Choose Character Set
 Note:
   -ref@
     -https://www.percona.com/blog/charset-and-collation-settings-impact-on-mysql-performance/
+    -https://learn.microsoft.com/en-us/dotnet/standard/base-types/character-encoding-introduction
+  -code points in a character set have both base 10 (decimal) and base 16 (hex) values. 
 Main Success Scenario:
   1. xxx:fill in 
 
