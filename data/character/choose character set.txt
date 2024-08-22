@@ -20,6 +20,23 @@ Understand Associated Encodings
 Understand Associated Collations
 
 Understand Source Character Sets
+Main Success Scenario:
+  1. "Understand Source Column Character Sets"
+  2. "Understand Source Column Collations"
+
+Understand Soure Column Character Sets
+Note: 
+  -Column data type will deteremine what columns have a character set and collation
+  -Numeric and date column data types in a relational DB do not have character sets or collations
+Main Success Scenario:
+  1. xxx:Fill in 
+
+Understand Source Column Collations
+Note: 
+  -Column data type will deteremine what columns have a character set and collation
+  -Numeric and date column data types in a relational DB do not have character sets or collations
+Main Success Scenario:
+  1. xxx:Fill in 
 
 Understand Source Encoding Issues
 
