@@ -1,3 +1,21 @@
 See Character Set Used
 Main Success Scenario:
   1. xxx:fill in 
+
+
+See Relational Server Character Set
+
+See Relational DB Character Set
+
+See Relation DB Column Character Set
+
+See Relational DB Connection Character Set
+
+See Relational DB Client Character Set
+
+See Relational DB File System Character Set
+
+See Relational Server Collation
+
+
+
