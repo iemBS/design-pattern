@@ -1,0 +1,24 @@
+Choose Character Set
+Note:
+  -ref@
+    -https://www.percona.com/blog/charset-and-collation-settings-impact-on-mysql-performance/
+Main Success Scenario:
+  1. xxx:fill in 
+
+
+Understand Index Size Limit
+
+Understand Needed Sort Performance
+
+Understand Needed Search Performance
+
+Understand Associated Encodings
+
+Understand Associated Collations
+
+Understand Source Character Sets
+
+Understand Source Encoding Issues
+
+Understand Consumer Character Sets
+
