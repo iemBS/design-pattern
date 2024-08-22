@@ -2,6 +2,7 @@ Choose Collation
 Note:
   -ref@
     -https://www.percona.com/blog/charset-and-collation-settings-impact-on-mysql-performance/
+    -https://stackoverflow.com/questions/637148/how-does-mysql-use-collations-with-indexes
   -Collation refers to a set of rules and conventions that dictate how character data is compared and sorted, playing a crucial role in determining the order in which data is retrieved from the database and how various string operations, such as searching and filtering, are performed. 
   -Collation is closely intertwined with character sets, defining how characters within a specific character set are ordered. To ensure consistent results, it’s important to select compatible collations for your chosen character sets. 
   -Incompatibilities between character sets and collations can lead to unexpected sorting and comparison outcomes, which could lead to issues in database operations and application functionality. 
