@@ -2,5 +2,6 @@ Corrupt Index
 Note:
   -ref @
     -https://stackoverflow.com/questions/14242631/what-can-cause-a-lucene-index-to-be-corrupted
+    -https://community.atlassian.com/t5/Jira-questions/Indexes-are-frequently-corrupted/qaq-p/1895397
 Main Success Scenario:
   1. xxx:fill in 
