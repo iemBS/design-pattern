@@ -50,3 +50,18 @@ Main Success Scenario:
 Delay by Index Item Addition
 Main Success Scenario:
   1. xxx:fill in 
+
+
+Delay by Index Item Length
+Note:
+  -The larger the index item values, the more data that needs to be moved for each index item during a re-positioning
+Main Success Scenario:
+  1. xxx:fill in 
+
+
+Delay by Index Item Order
+Note:
+  -The more updates to the values that make up the index item, the more likely the index item will change position
+  -If an index is composite, the more value updates to the 1st part, the more likely the index item will change position. Value updates to the 2nd part, will mean it is less likely to change position or the position change will be shorter. This likeliness of a position change and the shortness of the position change reduces as you change the 3rd, 4th, etc part of the index item.
+Main Success Scenario:
+  1. xxx:Fill in 
