@@ -1,0 +1,7 @@
+Auto Index Selection
+Note:
+  -ref @
+    -https://www.red-gate.com/simple-talk/databases/sql-server/performance-sql-server/index-selection-and-the-query-optimizer/
+  -Auto choice to use an index or to choose one index among many can impact query duration.
+Main Success Scenario:
+  1. xxx:fill in 
