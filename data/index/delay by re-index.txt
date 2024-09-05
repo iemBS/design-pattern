@@ -1,4 +1,8 @@
 Delay by Re-index
+Note:
+  -ref
+    -https://dba.stackexchange.com/questions/165899/at-what-point-does-a-database-update-its-indexes-in-a-transaction
+  -Index may be updated first in the session that caused the re-index to update and then in the database in general.
 Main Success Scenario:
   1. "Delay by Index Item Value Change"
   2. "Delay by Index Item Re-Positioning"
@@ -7,6 +11,9 @@ Alternatives:
   1a. index item deleted
     1a1. "Delay by Index Item Deletion"
     1a2. go to step 2
+  1b. index item added
+    1b1. "Delay by Index Item Addition"
+    1b2. go to step 3
 
     
 Delay by Index Item Value Change
@@ -20,5 +27,10 @@ Main Success Scenario:
     
 
 Delay by Index Item Deletion
+Main Success Scenario:
+  1. xxx:fill in 
+
+
+Delay by Index Item Addition
 Main Success Scenario:
   1. xxx:fill in 
