@@ -1,0 +1,25 @@
+Fragment Index
+Main Success Scenario:
+  1. Add Data
+  2. xxx
+Alternatives:
+  1a. update data
+    1a1. "Update Data"
+  1b. delete data
+    1b1. "Delete Data"
+
+
+Add Data
+Main Success Scenario:
+  1. Add data
+  2. xxx
+
+
+Update Data
+Main Success Scenario:
+  1. 
+
+
+Delete DAta
+Main Success Scenario:
+  1. 
