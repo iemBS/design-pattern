@@ -2,6 +2,7 @@ Delay by Re-index
 Note:
   -ref
     -https://dba.stackexchange.com/questions/165899/at-what-point-does-a-database-update-its-indexes-in-a-transaction
+    -https://www.reddit.com/r/SQL/comments/krnf5r/indexing_performance_on_insert_update_and_delete/
   -Index may be updated first in the session that caused the re-index to update and then in the database in general.
 Main Success Scenario:
   1. "Delay by Index Item Value Change"
