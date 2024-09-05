@@ -30,15 +30,24 @@ Main Success Scenario:
 
 
 Allocation of Index Items to file storage
+Note:
+  -ref @
+    -https://www.site24x7.com/learn/resolve-sql-server-index-fragmentation.html
 Main Success Scenario:
   1. xxx:fill in 
 
 
 Allocation of Index Items to Memory Blocks
+Note:
+  -ref @
+    -https://www.site24x7.com/learn/resolve-sql-server-index-fragmentation.html
 Main Success Scenario:
   1. xxx:fill in 
 
 
 Order of Memory Blocks containing Index Items
+Note:
+  -ref @
+    -https://www.site24x7.com/learn/resolve-sql-server-index-fragmentation.html
 Main Success Scenario:
   1. xxx:fill in 
