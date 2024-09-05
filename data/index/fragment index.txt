@@ -1,4 +1,7 @@
 Fragment Index
+Note:
+  -ref @
+    -https://www.site24x7.com/learn/resolve-sql-server-index-fragmentation.html
 Main Success Scenario:
   1. Add Data
   2. xxx
@@ -11,8 +14,9 @@ Alternatives:
 
 Add Data
 Main Success Scenario:
-  1. Add data
-  2. xxx
+  1. Add data record
+  2. Associated index item not added to the ideal location in the index.
+  3. 
 
 
 Update Data
