@@ -22,8 +22,24 @@ Main Success Scenario:
     
 
 Delay by Index Item Re-Positioning
+Note:
+  -Defining indexes that will not have their values updated, will eliminate index item re-positioning due to updates
+  -Never deleting records, will eliminate index item re-positioning due to hard deletes
+  -Never inserting records, will eliminate index item re-positioning due to inserts
+  -Inserting new index items only at the end of an index, eliminates index item re-positining due to additions 
+    -Only possible if ordering defined for the index sees all new index items as having a greater value
+  -Duration of index item postition change depends on 
+    -how many index items are changing position
+    -index item data structure in storage
+    -hardware and network attributes where the index items are stored
 Main Success Scenario:
-  1. xxx:fill in 
+  1. Re-positioning of index item due to change of value within another item
+  2. End
+Alternatives:
+  1a. Re-positioning of index item due to change of value within another index item
+    1a1. go to step 2
+  1b. Re-positioning of index item due to removal of another index item
+    1b1. go to step 2
     
 
 Delay by Index Item Deletion
