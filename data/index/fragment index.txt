@@ -21,9 +21,24 @@ Main Success Scenario:
 
 Update Data
 Main Success Scenario:
-  1. 
+  1. xxx:fill in 
 
 
 Delete DAta
 Main Success Scenario:
-  1. 
+  1. xxx:fill in 
+
+
+Allocation of Index Items to file storage
+Main Success Scenario:
+  1. xxx:fill in 
+
+
+Allocation of Index Items to Memory Blocks
+Main Success Scenario:
+  1. xxx:fill in 
+
+
+Order of Memory Blocks containing Index Items
+Main Success Scenario:
+  1. xxx:fill in 
