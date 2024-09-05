@@ -5,3 +5,15 @@ Note:
     -https://community.atlassian.com/t5/Jira-questions/Indexes-are-frequently-corrupted/qaq-p/1895397
 Main Success Scenario:
   1. xxx:fill in 
+
+
+
+Record Not Associated to Index Item
+Note:
+  -ref @
+    -https://www.sqlservercentral.com/forums/topic/corrupted-index-find-out-what-caused-it
+Main Success Scenario:
+  1. xxx:fill in 
+
+
+
