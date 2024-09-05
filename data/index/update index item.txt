@@ -1,3 +1,23 @@
 Update Index Item
 Main Success Scenario:
-  1. xxx:Fill in 
+  1. New record added to database
+  2. Insert new index item in the position according to the defined index item ordering
+  3. End
+Alternatives:
+  1a. Fields in the record, not used in an index, are updated
+    1a1. No change to index
+    1a2. go to step 3
+  1b. Fields in the record, that are used in an index, are updated
+    1b1. "Update Index Item Position"
+    1b2. go to step 3
+  1c. Record is hard deleted
+    1c1. Remove index item from index
+
+
+Update Index Item Position
+Main Success Scenario:
+  1. Updated field value causes position of index item to change in index
+  2. End
+Alternatives:
+  1a. Updated field value does not cause the position of the index item to change in tbe index
+    1a1. go to step 2
