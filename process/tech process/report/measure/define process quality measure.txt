@@ -1,0 +1,13 @@
+Measure Process Quality
+Note:
+- Start Time
+- End Time
+- Duration
+- data moved (bytes)
+- CPU usage
+- rate of data movement
+- data movement dollar cost
+- CPU usage dollar cost
+- data access frequency
+Main Success Scenario:
+1. xxx
