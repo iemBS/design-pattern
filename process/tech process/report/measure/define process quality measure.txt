@@ -1,15 +1,27 @@
 Measure Process Quality
 Note:
-- Start Time
-- End Time
-- Duration
+measure
+- Start Time (UTC)
+- End Time (UTC)
+- Duration (ms, s)
+  - Total
+  - step
 - data moved (bytes)
 - CPU usage
-- rate of data movement
-- max achieved rate of data movement
-- max possible rate of data movement
+- rate of data movement (bytes / s)
+  - avg 
+  - min achieved
+  - max achieved 
+  - max possible 
 - data movement dollar cost
 - CPU usage dollar cost
-- data access frequency
+- data access frequency (cnt/s)
+  - avg
+  - min
+  - max
+perspective
+- paying dollars for process
+- supporting process
+- process supporting me
 Main Success Scenario:
 1. xxx
