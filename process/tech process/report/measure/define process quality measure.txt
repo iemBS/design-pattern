@@ -6,6 +6,8 @@ Note:
 - data moved (bytes)
 - CPU usage
 - rate of data movement
+- max achieved rate of data movement
+- max possible rate of data movement
 - data movement dollar cost
 - CPU usage dollar cost
 - data access frequency
