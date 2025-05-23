@@ -19,9 +19,15 @@ measure
   - avg
   - min
   - max
+- process fail rate
+- process success rate / success rate target
+- step fail rate
+- step success rate / success rate target
 perspective
 - paying dollars for process
 - supporting process
 - process supporting me
+- dollar cost per process result
+- process result per unit time
 Main Success Scenario:
 1. xxx
